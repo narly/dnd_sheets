@@ -124,10 +124,9 @@
             <statadd type="Ability" Level="1" not-wearing="armor:heavy" value="1" statlink="Intelligence" abilmod="true" charelem="4" />
             <statadd type="Defensive" Level="1" wearing="DEFENSIVE:" value="1" charelem="4" />
             <statadd type="Armor" Level="4" value="2" charelem="5" />
-            <statadd type="Shield" Level="4" requires="Shield Proficiency (Light)" value="1" statlink="Light Shield Defense Bonus" charelem="6" />
          </Stat>
 
-         <Stat value="15" >
+         <Stat value="16" >
             <alias name="Fortitude Defense" />
             <alias name="Fortitude" />
             <statadd Level="1" value="10" charelem="4" />
@@ -135,10 +134,11 @@
             <statadd type="Ability" Level="1" value="1" statlink="Strength" abilmod="true" charelem="4" />
             <statadd type="Ability" Level="1" value="1" statlink="Constitution" abilmod="true" charelem="4" />
             <statadd type="Class" Level="1" value="1" statlink="Fortitude Defense Class Bonus" charelem="4" />
-            <statadd type="Racial" Level="1" value="1" statlink="Human Defense Bonuses" charelem="7" />
+            <statadd type="Racial" Level="1" value="1" statlink="Human Defense Bonuses" charelem="6" />
+            <statadd type="Enhancement" Level="4" value="1" charelem="7" />
          </Stat>
 
-         <Stat value="15" >
+         <Stat value="16" >
             <alias name="Reflex Defense" />
             <alias name="Reflex" />
             <statadd Level="1" value="10" charelem="4" />
@@ -146,12 +146,12 @@
             <statadd type="Ability" Level="1" value="1" statlink="Dexterity" abilmod="true" charelem="4" />
             <statadd type="Ability" Level="1" value="1" statlink="Intelligence" abilmod="true" charelem="4" />
             <statadd type="Class" Level="1" value="1" statlink="Reflex Defense Class Bonus" charelem="4" />
-            <statadd type="Racial" Level="1" value="1" statlink="Human Defense Bonuses" charelem="7" />
+            <statadd type="Racial" Level="1" value="1" statlink="Human Defense Bonuses" charelem="6" />
             <statadd Level="4" requires="!Armor Proficiency (Leather)" value="-2" charelem="5" />
-            <statadd type="Shield" Level="4" requires="Shield Proficiency (Light)" value="1" statlink="Light Shield Defense Bonus" charelem="6" />
+            <statadd type="Enhancement" Level="4" value="1" charelem="7" />
          </Stat>
 
-         <Stat value="18" >
+         <Stat value="19" >
             <alias name="Will Defense" />
             <alias name="Will" />
             <statadd Level="1" value="10" charelem="4" />
@@ -159,7 +159,8 @@
             <statadd type="Ability" Level="1" value="1" statlink="Wisdom" abilmod="true" charelem="4" />
             <statadd type="Ability" Level="1" value="1" statlink="Charisma" abilmod="true" charelem="4" />
             <statadd type="Class" Level="1" value="1" statlink="Will Defense Class Bonus" charelem="4" />
-            <statadd type="Racial" Level="1" value="1" statlink="Human Defense Bonuses" charelem="7" />
+            <statadd type="Racial" Level="1" value="1" statlink="Human Defense Bonuses" charelem="6" />
+            <statadd type="Enhancement" Level="4" value="1" charelem="7" />
          </Stat>
 
          <Stat value="3" >
@@ -566,7 +567,7 @@
 
          <Stat value="1" >
             <alias name="Human Defense Bonuses" />
-            <statadd Level="1" value="1" charelem="7" />
+            <statadd Level="1" value="1" charelem="6" />
          </Stat>
 
          <Stat value="2" >
@@ -607,9 +608,9 @@
             <statadd String="d8" Level="4" value="0" />
          </Stat>
 
-         <Stat value="63" >
+         <Stat value="65" >
             <alias name="Weight" />
-            <statadd value="63" />
+            <statadd value="65" />
          </Stat>
 
          <Stat value="0" >
@@ -618,13 +619,8 @@
          </Stat>
 
          <Stat value="1" >
-            <alias name="Light Shield Defense Bonus" />
-            <statadd type="Light Shield Defense Bonus" Level="4" value="1" charelem="6" />
-         </Stat>
-
-         <Stat value="1" >
-            <alias name="Shield Bonus" />
-            <statadd type="Shield Contribution" Level="4" value="1" charelem="6" />
+            <alias name="ID_FMP_ITEM_SET_13 Set Count" />
+            <statadd type="Spidersilk Mantle" Level="4" value="1" charelem="7" />
          </Stat>
 
          <Stat value="0" >
@@ -640,13 +636,10 @@
       <RulesElementTally>
          <RulesElement name="1" type="Level" internal-id="ID_INTERNAL_LEVEL_1" charelem="4" legality="rules-legal" >
             <specific name="XP Needed" > 1000 </specific>
-         
          </RulesElement>
          <RulesElement name="Level1Rules" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_LEVEL1RULES" charelem="25" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="SkillRules" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_SKILLRULES" charelem="12" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Acrobatics" type="Skill" internal-id="ID_FMP_SKILL_1" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=1" charelem="26" legality="rules-legal" >
             <specific name="Key Ability" > Dexterity </specific>
@@ -717,7 +710,6 @@
          Make an Athletics check to attempt physical activities that rely on muscular strength, including climbing, escaping from a grab, jumping, and swimming.
          </RulesElement>
          <RulesElement name="Heroic" type="Tier" internal-id="ID_INTERNAL_TIER_HEROIC" charelem="43" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Melee Basic Attack" type="Power" internal-id="ID_INTERNAL_POWER_MELEE_BASIC_ATTACK" charelem="44" legality="rules-legal" >
             <specific name="Flavor" > You resort to the simple attack you learned when you first picked up a melee weapon. </specific>
@@ -730,7 +722,6 @@
             <specific name="Attack" > Strength vs. AC </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Strength modifier damage. </specific>
-         
          </RulesElement>
          <RulesElement name="Ranged Basic Attack" type="Power" internal-id="ID_INTERNAL_POWER_RANGED_BASIC_ATTACK" charelem="45" legality="rules-legal" >
             <specific name="Flavor" > You resort to the simple attack you learned when you first picked up a ranged weapon. </specific>
@@ -743,53 +734,37 @@
             <specific name="Attack" > Dexterity vs. AC </specific>
             <specific name="Hit" > 1[W] + Dexterity modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Dexterity modifier damage. </specific>
-         
          </RulesElement>
          <RulesElement name="DetailsRules" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_DETAILSRULES" charelem="46" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="male" type="Gender" internal-id="ID_INTERNAL_GENDER_MALE" charelem="47" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Unaligned" type="Alignment" internal-id="ID_FMP_ALIGNMENT_1" charelem="48" legality="rules-legal" >
-         
+         Unaligned creatures don&apos;t actively seek to harm others or wish them ill. But such creatures also don&apos;t go out of their way to put themselves at risk without some hope for reward. They support law and order when doing so benefits them. They value their own freedom, without worrying too much about protecting the freedom of others.	A few unaligned people, and most unaligned deities, aren&apos;t undecided about alignment. Rather, they&apos;ve chosen not to choose, either because they see the benefits of both good and evil or because they see themselves as above the concerns of morality. The Raven Queen and her devotees fall into the latter camp, believing that moral choices are irrelevant to their mission, since death comes to all creatures regardless of alignment.
          </RulesElement>
          <RulesElement name="Expansion1" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION1" charelem="49" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Dark Contract (Infernal)" type="Background" internal-id="ID_FMP_BACKGROUND_349" charelem="50" legality="rules-legal" >
-            <specific name="Type" />
             <specific name="Common Knowledge" > All deals are final, and whether entered into knowingly or tricked by fiendish bureaucracy, your immortal soul is held in custody by your infernal patron. What drove you to seal such a pact? Do you offer your patron the souls of others hoping it will release yours? Do you fear the torment that will follow in your death, or do you recklessly live for the present? </specific>
-            <specific name="Benefit" />
-            <specific name="Short Description" />
             <specific name="Campaign" > General </specific>
             <specific name="Associated Skills" > Intimidate, Religion </specific>
-            <specific name="Associated Languages" />
-         
          </RulesElement>
          <RulesElement name="Intimidate" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_INTIMIDATE" charelem="51" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Religion" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_RELIGION" charelem="52" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="53" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Religion class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_RELIGION_CLASS_SKILL" charelem="54" legality="rules-legal" >
          Add Religion to your list of class skills.
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="55" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="56" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Expansion4" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION4" charelem="57" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Expansion5" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION5" charelem="58" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Human" type="Race" internal-id="ID_FMP_RACE_7" url="http://www.wizards.com/dndinsider/compendium/race.aspx?id=7" charelem="20" legality="rules-legal" >
             <specific name="Flavor" > Ambitious explorers, driven leaders, eager to master the world </specific>
@@ -803,7 +778,6 @@
             <specific name="Average Weight" > 135-220 lb. </specific>
             <specific name="Ability Scores" > +2 to one ability score of your choice </specific>
             <specific name="Languages" > Common, choice of one other </specific>
-            <specific name="Skill Bonuses" />
             <specific name="Male Names" > Alain, Alek, Benn, Brandis, Donn, Drew, Erik, Gregg, Jonn, Kris, Marc, Mikal, Pieter, Quinn, Regdar, Samm, Thom, Wil. </specific>
             <specific name="Female Names" > Ana, Cassi, Gwenn, Jenn, Kat, Keira, Luusi, Mari, Mika, Miri, Shawna, Stasi, Zanne . </specific>
             <specific name="Short Description" > The most ambitious of races, humans count among their number the greatest heroes …and the greatest villains. </specific>
@@ -813,13 +787,10 @@
          </RulesElement>
          <RulesElement name="Human" type="Grants" internal-id="ID_INTERNAL_GRANTS_HUMAN" charelem="59" legality="rules-legal" >
             <specific name="_SupportsID" > ID_FMP_RACE_7 </specific>
-         
          </RulesElement>
          <RulesElement name="Medium" type="Size" internal-id="ID_INTERNAL_SIZE_MEDIUM" charelem="60" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Normal" type="Vision" internal-id="ID_INTERNAL_VISION_NORMAL" charelem="61" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Bonus Feat" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_29" charelem="62" legality="rules-legal" >
             <specific name="Short Description" > Choose an extra feat at 1st level. </specific>
@@ -829,12 +800,9 @@
          You gain a bonus feat at 1st level. You must meet the feat&apos;s prerequisites.
          </RulesElement>
          <RulesElement name="Arcane Familiar" type="Feat" internal-id="ID_FMP_FEAT_738" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=738" charelem="63" legality="rules-legal" >
-            <specific name="Tier" > Heroic </specific>
             <specific name="Short Description" > You gain a familiar </specific>
-            <specific name="Special" />
             <specific name="Type" > Familiar </specific>
-            <specific name="Associated Power Info" />
-            <specific name="Associated Powers" />
+            <specific name="Tier" > Heroic </specific>
          You gain a familiar. For each familiar feat you have beyond this one, your familiar gains a +1 bonus to its defenses.
          </RulesElement>
          <RulesElement name="Serpent" type="Familiar" internal-id="ID_FMP_FAMILIAR_21" charelem="15" legality="rules-legal" >
@@ -842,8 +810,6 @@
             <specific name="Speed" > 6 </specific>
             <specific name="Power" > Serpent&apos;s Startle: Once per encounter as a minor action, all creatures adjacent to your serpent familiar can&apos;t make opportunity attacks until the end of your next turn. </specific>
             <specific name="Constant Benefits" > * You gain a +2 bonus to Bluff checks.* When you shift, you can ignore 1 square of difficult terrain during that movement. </specific>
-            <specific name="Secondary Speed" />
-            <specific name="Senses" />
             <specific name="Tier" > Heroic Tier </specific>
          The serpent is a deceptive creature, and it offers its master the same mastery of guile and cunning.
          </RulesElement>
@@ -855,9 +821,8 @@
          You gain training in one additional skill from your class skills list.
          </RulesElement>
          <RulesElement name="Insight" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_INSIGHT" charelem="16" legality="rules-legal" >
-         
          </RulesElement>
-         <RulesElement name="Human Defense Bonuses" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_646" charelem="7" legality="rules-legal" >
+         <RulesElement name="Human Defense Bonuses" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_646" charelem="6" legality="rules-legal" >
             <specific name="Short Description" > +1 to Fortitude, Reflex, and Will. </specific>
             <specific name="Level" > 1 </specific>
             <specific name="_Tags" > Essentials </specific>
@@ -881,26 +846,22 @@
          <RulesElement name="Eyebite" type="Power" internal-id="ID_FMP_POWER_1456" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1456" charelem="67" legality="rules-legal" >
             <specific name="Flavor" > You glare at your enemy, and your eyes briefly gleam with brilliant colors. Your foe reels under your mental assault, and you vanish from his sight. </specific>
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Attack 1 </specific>
             <specific name="Keywords" > Arcane, Charm, Implement, Psychic </specific>
             <specific name="Action Type" > Standard Action </specific>
             <specific name="Attack Type" > Ranged 10 </specific>
             <specific name="Target" > One creature </specific>
             <specific name="Attack" > Charisma vs. Will </specific>
-            <specific name="Hit" > 1d6 + Charisma modifier psychic damage, and you are invisible to the target until the start of your next turn.Increase damage to 2d6 + Charisma modifier at 21st level. </specific>
-            <specific name="_Associated Feats" />
+            <specific name="Hit" > 1d6 + Charisma modifier psychic damage, and you are invisible to the target until the start of your next turn.	Level 21: 2d6 + Charisma modifier damage. </specific>
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_772 </specific>
-         
          </RulesElement>
          <RulesElement name="Common" type="Language" internal-id="ID_FMP_LANGUAGE_1" charelem="21" legality="rules-legal" >
          Common is a debased form of Supernal, in the way that humans and halflings heard the first language.
          </RulesElement>
          <RulesElement name="Charisma" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_CHARISMA" charelem="2" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Goblin" type="Language" internal-id="ID_FMP_LANGUAGE_20" charelem="22" legality="rules-legal" >
          Goblin is a debased form of Supernal, in the way that goblins heard the first language. Goblin is the only foundational language of the world that lacks its own script, owing to the brutal and barbaric nature of the goblin race.
@@ -922,24 +883,16 @@
             <specific name="Role" > Striker. Your attack powers are highly damaging and often weaken or hamper the target in some way. You can elude attacks by flying, teleporting, or turning invisible. </specific>
             <specific name="Power Source" > Arcane. You gain your magical power from a pact you forge with a powerful, supernatural force or an unnamed entity. </specific>
             <specific name="Creating" > The two basic builds of warlock are the deceptive warlock and the scourge warlock. Warlocks rely on Charisma, Constitution, and Intelligence. No warlock powers or class features depend on Strength, Dexterity, or Wisdom. </specific>
-            <specific name="Class Features" > You have the following class features. </specific>
-            <specific name="Supplemental" />
-            <specific name="Implement" > Warlocks make use of rods and wands to help channel and direct their arcane powers. A warlock wielding a magic rod or wand can add its enhancement bonus to attack rolls and damage rolls of warlock powers, as well as warlock paragon path powers, that have the implement keyword. Without a rod or a wand, a warlock can still use these powers, but he or she doesn&apos;t gain the bonus provided by the magic implement.	A pact blade, a special magic dagger, can also be used as an implement for warlock powers, as well as warlock paragon powers. These daggers are highly sought after by warlocks. </specific>
+            <specific name="Implement" > Warlocks make use of rods and wands to help channel and direct their arcane powers. A warlock wielding a magic rod or wand can add its enhancement bonus to the attack rolls and the damage rolls of warlock powers, as well as warlock paragon path powers, that have the implement keyword. Without a rod or a wand, a warlock can still use these powers, but he or she doesn&apos;t gain the bonus provided by the magic implement.	A pact blade, a special magic dagger, can also be used as an implement for warlock powers, as well as warlock paragon powers. These daggers are highly sought after by warlocks. </specific>
             <specific name="Powers" > Your powers are also known as spells. Each power is associated with one of the three eldritch pacts, but you aren&apos;t limited to choosing powers associated with your pact. In fact, most warlocks choose at least a few powers from outside their pact to give themselves a wider range of options.	Spells of the infernal pact use your Constitution score. The dark energy you wield is inherently harmful to the mortal body, and only through sheer physical resolve and discipline can you wield it safely. Fey pact spells rely on Charisma. Your force of will and your ability to bargain with the fey is key to spells of this type. Star pact spells require you to be physically inured to the rigors of otherworldly energy (Constitution), and also ambitious and driven enough to impose your willpower on the strands of fate (Charisma). </specific>
             <specific name="Power Name" > Spells </specific>
             <specific name="_RoleElement" > ID_FMP_ROLE_3 </specific>
             <specific name="_PowerSourceElement" > ID_FMP_POWER_SOURCE_2 </specific>
-            <specific name="_SecondaryPowerSourceElement" />
-            <specific name="Secondary Abilities" />
-            <specific name="Hybrid Talent Options" />
             <specific name="Short Description" > You draw on a pact formed with a greater power, using that alliance to vex your enemies. </specific>
-            <specific name="_ParentClass" />
-            <specific name="Trait Package" />
          Warlocks channel arcane might wrested from primeval entities. They commune with infernal intelligences and fey spirits, scour enemies with potent blasts of eldritch power, and bedevil foes with hexing curses. Armed with esoteric secrets and dangerous lore, warlocks are clever and resourceful foes.	However you came to your arcane knowledge, you need not accept the poor reputation warlocks sometimes endure. You could be a libram-toting scholar captivated by ominous lore, a foot-loose wanderer searching for elusive ultimate truths, a devil-touched hunter using infernal spells to eliminate evil, or even a black-clad mercenary who uses sinister trappings to discourage prying strangers and unwanted attention. On the other hand, you could be a true diabolist using your gifts to tyrannize the weak—some warlocks unfortunately are exactly that.	The pacts are complete. The rites have concluded. The signs are drawn in blood, and the seals are broken. Your destiny beckons.
          </RulesElement>
          <RulesElement name="Warlock" type="Grants" internal-id="ID_INTERNAL_GRANTS_WARLOCK" charelem="68" legality="rules-legal" >
             <specific name="_SupportsID" > ID_FMP_CLASS_7 </specific>
-         
          </RulesElement>
          <RulesElement name="Striker" type="Role" internal-id="ID_FMP_ROLE_3" charelem="69" legality="rules-legal" >
          Strikers specialize in dealing very high amounts of damage to a single target at a time. They have the most concentrated offense of any character in the game. Strikers rely on superior mobility, trickery, or magic to move around
@@ -948,100 +901,69 @@
          Drawing on magical energy that permeates the cosmos, the arcane power source can be used for a wide variety of effects, from fireballs to flight to invisibility. Warlocks and wizards, for example, use arcane magic. Each class is the representative of a different tradition of arcane study,and other traditions exist. Arcane powers are called spells.
          </RulesElement>
          <RulesElement name="Armor Proficiency (Cloth)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_ARMOR_PROFICIENCY_(CLOTH)" charelem="71" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Armor Proficiency (Leather)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_ARMOR_PROFICIENCY_(LEATHER)" charelem="72" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Simple Melee" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_MELEE" charelem="73" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Club)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLUB)" charelem="74" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Dagger)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DAGGER)" charelem="75" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Javelin)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(JAVELIN)" charelem="76" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Mace)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(MACE)" charelem="77" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Sickle)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SICKLE)" charelem="78" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Spear)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SPEAR)" charelem="79" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Greatclub)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GREATCLUB)" charelem="80" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Morningstar)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(MORNINGSTAR)" charelem="81" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Quarterstaff)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(QUARTERSTAFF)" charelem="82" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Scythe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCYTHE)" charelem="83" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Spiked gauntlet)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SPIKED_GAUNTLET)" charelem="84" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Talid)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TALID)" charelem="85" legality="rules-legal" >
-         
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Widow&apos;s Knife)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WIDOW&apos;S_KNIFE)" charelem="86" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Widow&apos;s knife)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WIDOW&apos;S_KNIFE)" charelem="86" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Wrist Razors)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WRIST_RAZORS)" charelem="87" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Wrist razors)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WRIST_RAZORS)" charelem="87" legality="rules-legal" >
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Claw Fighter Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLAW_FIGHTER_CLAW)" charelem="88" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Shadowblade)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHADOWBLADE)" charelem="89" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Climbing Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLIMBING_CLAW)" charelem="90" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Dragontooth Shield (heroic tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DRAGONTOOTH_SHIELD_(HEROIC_TIER))" charelem="91" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Fighting Shield (heroic tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FIGHTING_SHIELD_(HEROIC_TIER))" charelem="92" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Soul Shield (paragon tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SOUL_SHIELD_(PARAGON_TIER))" charelem="93" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Sun Shield (paragon tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SUN_SHIELD_(PARAGON_TIER))" charelem="94" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Rod of Seven Parts (Weapon))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(ROD_OF_SEVEN_PARTS_(WEAPON))" charelem="95" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Simple Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_RANGED" charelem="96" legality="rules-legal" >
-         
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Hand Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HAND_CROSSBOW)" charelem="97" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Hand crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HAND_CROSSBOW)" charelem="97" legality="rules-legal" >
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Sling)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SLING)" charelem="98" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CROSSBOW)" charelem="99" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Repeating crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(REPEATING_CROSSBOW)" charelem="100" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Dejada)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DEJADA)" charelem="101" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Eldritch Blast" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_606" charelem="102" legality="rules-legal" >
-            <specific name="Short Description" > Use eldritch blast as an at-will power and as a basic attack. </specific>
+            <specific name="Short Description" > Use eldritch blast as an at-will power and as a basic attack </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Powers" > ID_FMP_POWER_1333 </specific>
             <specific name="Type" > At-Will </specific>
@@ -1051,22 +973,19 @@
          <RulesElement name="Eldritch Blast" type="Power" internal-id="ID_FMP_POWER_1333" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1333" charelem="103" legality="rules-legal" >
             <specific name="Flavor" > You fire a bolt of dark, crackling eldritch energy at your foe. </specific>
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Attack 1 </specific>
             <specific name="Keywords" > Arcane, Implement </specific>
             <specific name="Action Type" > Standard Action </specific>
             <specific name="Attack Type" > Ranged 10 </specific>
             <specific name="Target" > One creature </specific>
             <specific name="Attack" > Charisma or Constitution vs. Reflex </specific>
-            <specific name="Hit" > 1d10 + Charisma or Constitution modifier damage.Increase damage to 2d10 + Charisma or Constitution modifier at 21st level. </specific>
+            <specific name="Hit" > 1d10 + Charisma modifier or Constitution modifier damage.Increase damage to 2d10 + Charisma modifier or Constitution modifier at 21st level. </specific>
             <specific name="Special" > At 1st level, you determine whether you use Charisma or Constitution to attack with this power. Once you make that choice, you can&apos;t change it later.	This power counts as a ranged basic attack. When a power allows you to make a ranged basic attack, you can use this power. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_606 </specific>
             <specific name="_BasicAttack" > Ranged </specific>
-         
          </RulesElement>
          <RulesElement name="Eldritch Blast Charisma" type="Class Feature" internal-id="ID_INTERNAL_CLASS_FEATURE_ELDRITCH_BLAST_CHARISMA" charelem="104" legality="rules-legal" >
             <specific name="Short Description" > Use CHA for Eldritch Blast </specific>
@@ -1078,7 +997,7 @@
             <specific name="Short Description" > Choose a pact, which determines an at-will spell, your pact boon, and bonuses to certain powers. </specific>
             <specific name="Level" > 1 </specific>
             <specific name="_PARSED_SUB_FEATURES" > ID_FMP_CLASS_FEATURE_772, ID_FMP_CLASS_FEATURE_773, ID_FMP_CLASS_FEATURE_774, ID_FMP_CLASS_FEATURE_804, ID_FMP_CLASS_FEATURE_1406, ID_FMP_CLASS_FEATURE_2895 </specific>
-         You have forged a pact with mysterious entities that grant you your arcane powers. Choose one pact.  The pacts presented in the Player&apos;s Handbook are the fey pact, the infernal pact, and the star pact. Other products present additional pacts. The pact you choose determines the following warlock abilities:	At-Will Spells: Your pact determines one of the at-will spells you know.	Pact Boon: Each pact includes a pact boon. The pact boon is a granted power you can use to further hex your enemies.	The pact you take also provides bonuses to certain warlock powers. Individual powers detail the effects (if any) your Eldritch Pact selection has on them.
+         You have forged a pact with mysterious entities that grant you your arcane powers. Choose one pact. The pacts presented in the Player&apos;s Handbook are the fey pact, the infernal pact, and the star pact. Other products present additional pacts. The pact you choose determines the following warlock abilities:	At-Will Spells: Your pact determines one of the at-will spells you know.	Pact Boon: Each pact includes a pact boon. The pact boon is a granted power you can use to further hex your enemies.	The pact you take also provides bonuses to certain warlock powers. Individual powers detail the effects (if any) your Eldritch Pact selection has on them.
          </RulesElement>
          <RulesElement name="Infernal Pact" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_773" charelem="106" legality="rules-legal" >
             <specific name="Short Description" > Hellish rebuke spell; Dark One&apos;s Blessing boon: When cursed foe is dropped to 0 hp, gain temporary hp equal to your level. </specific>
@@ -1092,25 +1011,22 @@
          <RulesElement name="Hellish Rebuke" type="Power" internal-id="ID_FMP_POWER_1458" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1458" charelem="107" legality="rules-legal" >
             <specific name="Flavor" > You point your finger, and your foe is scoured in hellish flames stoked by your own anger and pain. If you are injured, the flames burst into life one more time before they fade away. </specific>
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Attack 1 </specific>
             <specific name="Keywords" > Arcane, Fire, Implement </specific>
             <specific name="Action Type" > Standard Action </specific>
             <specific name="Attack Type" > Ranged 10 </specific>
             <specific name="Target" > One creature </specific>
             <specific name="Attack" > Constitution vs. Reflex </specific>
-            <specific name="Hit" > 1d6 + Constitution modifier fire damage. If you take damage before the end of your next turn, the target takes an extra 1d6 + Constitution modifier fire damage.Increase damage and extra damage to 2d6 + Constitution modifier at 21st level. </specific>
-            <specific name="_Associated Feats" > ID_FMP_FEAT_1231 </specific>
+            <specific name="Hit" > 1d6 + Constitution modifier fire damage. The first time you take damage before the end of your next turn, the target takes 1d6 + Constitution modifier fire damage.	Level 21: 2d6 + Constitution modifier damage and extra damage. </specific>
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
+            <specific name="_Associated Feats" > ID_FMP_FEAT_1231 </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_773 </specific>
-         
          </RulesElement>
          <RulesElement name="Dark One&apos;s Blessing" type="Power" internal-id="ID_FMP_POWER_2095" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=2095" charelem="108" legality="rules-legal" >
             <specific name="Flavor" > You instantly gain vitality from a cursed enemy when that enemy falls. </specific>
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Pact Boon 1 </specific>
             <specific name="Keywords" />
             <specific name="Action Type" > Free Action </specific>
@@ -1118,12 +1034,10 @@
             <specific name="Prerequisite" > Infernal Pact </specific>
             <specific name="Trigger" > An enemy under your Warlock&apos;s Curse is reduced to 0 hit points or fewer </specific>
             <specific name="Effect" > You immediately gain temporary hit points equal to your level. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Pact Boon </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_773 </specific>
-         
          </RulesElement>
          <RulesElement name="Prime Shot" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_603" charelem="23" legality="rules-legal" >
             <specific name="Short Description" > If no allies are closer to target than you, get +1 on ranged attacks against that target. </specific>
@@ -1134,7 +1048,7 @@
             <specific name="Short Description" > On your turn, if you move 3+ squares from starting square, gain concealment until end of your next turn </specific>
             <specific name="Level" > 1 </specific>
             <specific name="_CLASSNAME" > Binder </specific>
-         During your turn, if you move 3 or more squares away from where you started your turn, you gain partial concealment until the end of your next turn.
+         On your turn, if you move at least 3 squares away from where you started your turn, you gain concealment until the end of your next turn.
          </RulesElement>
          <RulesElement name="Warlock&apos;s Curse" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_605" charelem="24" legality="rules-legal" >
             <specific name="Short Description" > Once per turn (minor), curse nearest foe you can see; deal extra damage to cursed foes. </specific>
@@ -1142,76 +1056,59 @@
             <specific name="Powers" > ID_FMP_POWER_5597 </specific>
             <specific name="Type" > At-Will </specific>
             <specific name="Class" />
+            <specific name="Usage" > turn </specific>
             <specific name="_DisplayPowers" > ID_FMP_POWER_5597 </specific>
          Once per turn you can use the Warlock&apos;s Curse power.
          </RulesElement>
          <RulesElement name="Warlock&apos;s Curse" type="Power" internal-id="ID_FMP_POWER_5597" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5597" charelem="110" legality="rules-legal" >
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock&apos;s Curse  Power </specific>
             <specific name="Keywords" />
             <specific name="Action Type" > Minor Action </specific>
             <specific name="Attack Type" />
-            <specific name="Effect" > You can place a Warlock&apos;s Curse on the enemy nearest to you that you can see. A cursed enemy is more vulnerable to your attacks. If you hit a cursed enemy with an attack, you deal extra damage. You decide whether to apply the extra damage after making the damage roll. You can deal this extra damage once per round, so if you have dealt Warlock&apos;s Curse damage since the start of your turn, you cannot deal it again until the start of your next turn.	A Warlock&apos;s Curse remains in effect until the end of the encounter or until the cursed enemy is defeated.	You can place a Warlock&apos;s Curse on multiple targets over the course of an encounter; each curse requires the use of a minor action. You can&apos;t place a Warlock&apos;s Curse on a creature that is already affected by your or another character&apos;s Warlock&apos;s Curse.As you advance in level, your extra damage increases.&lt;table&gt;Level	Warlock&apos;s Curse Extra Damage1st–10th	+1d611th–20th	+2d621st–30th	+3d6&lt;/table&gt; </specific>
-            <specific name="_Associated Feats" />
+            <specific name="Effect" > Once per turn as a minor action, you can place a Warlock&apos;s Curse on the enemy nearest to you that you can see. A cursed enemy is more vulnerable to your attacks. If you hit a cursed enemy with an attack, you deal extra damage. You decide whether to apply the extra damage after making the damage roll. You can deal this extra damage only once per turn.	A Warlock&apos;s Curse remains in effect until the end of the encounter or until the cursed enemy drops to 0 hit points or fewer.	You can place a Warlock&apos;s Curse on multiple targets over the course of an encounter; each curse requires the use of a minor action. You can&apos;t place a Warlock&apos;s Curse on a creature that is already affected by your or another character&apos;s Warlock&apos;s Curse.	As you advance in level, your extra damage increases.&lt;table&gt;Level	Warlock&apos;s Curse Extra Damage1st–10th	+1d611th–20th	+2d621st–30th	+3d6&lt;/table&gt; </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_605,ID_FMP_CLASS_FEATURE_1533 </specific>
-         
          </RulesElement>
          <RulesElement name="Warlock Implements" type="Grants" internal-id="ID_INTERNAL_GRANTS_WARLOCK_IMPLEMENTS" charelem="111" legality="rules-legal" >
             <specific name="_SupportsID" > ID_FMP_CLASS_7 </specific>
-         
          </RulesElement>
          <RulesElement name="Implement Proficiency (Rod)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_IMPLEMENT_PROFICIENCY_(ROD)" charelem="112" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Implement Proficiency (Wand)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_IMPLEMENT_PROFICIENCY_(WAND)" charelem="113" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Arcana" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ARCANA" charelem="13" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Bluff" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_BLUFF" charelem="14" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Intimidate" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_INTIMIDATE" charelem="17" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Religion" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_RELIGION" charelem="19" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Alertness" type="Feat" internal-id="ID_FMP_FEAT_109" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=109" charelem="18" legality="rules-legal" >
             <specific name="Flavor" > The hair on the back of your neck might stand up, or perhaps your keenly honed senses detect an otherwise imperceptible change in your environment. Whatever the case, you&apos;re always ready for trouble. </specific>
-            <specific name="Tier" > Heroic </specific>
             <specific name="Short Description" > Cannot be surprised, +2 to Perception </specific>
-            <specific name="Special" />
-            <specific name="Type" />
-            <specific name="Associated Power Info" />
-            <specific name="Associated Powers" />
             <specific name="_Tags" > Essentials </specific>
+            <specific name="Tier" > Heroic </specific>
          You cannot be surprised.Also, you gain a +2 feat bonus to Perception checks.
          </RulesElement>
          <RulesElement name="Witchfire" type="Power" internal-id="ID_FMP_POWER_1459" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1459" charelem="114" legality="rules-legal" >
-            <specific name="Flavor" > From the mystic energies of the Feywild you summon a brilliant white flame and set it in your enemy&apos;s mind and body. Rivulets of argent fire stream up into the air from his eyes, his mouth, and his hands; agony disrupts his very thoughts. </specific>
+            <specific name="Flavor" > From the mystic energy of the Feywild, you draw a brilliant white flame and set it in your enemy&apos;s mind and body. Rivulets of argent fire stream up into the air from his eyes, mouth, and hands; agony disrupts his very thoughts. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Attack 1 </specific>
             <specific name="Keywords" > Arcane, Fire, Implement </specific>
             <specific name="Action Type" > Standard Action </specific>
             <specific name="Attack Type" > Ranged 10 </specific>
             <specific name="Target" > One creature </specific>
             <specific name="Attack" > Charisma vs. Reflex </specific>
-            <specific name="Hit" > 2d6 + Charisma modifier fire damage, and the target takes a –2 penalty to attack rolls until the end of your next turn. </specific>
+            <specific name="Hit" > 2d6 + Charisma modifier fire damage, and the target takes a -2 penalty to attack rolls until the end of your next turn. </specific>
             <specific name="	Fey Pact" > The penalty to attack rolls is equal to 2 + your Intelligence modifier. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-         
          </RulesElement>
          <RulesElement name="Dread Star" type="Power" internal-id="ID_FMP_POWER_1319" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1319" charelem="115" legality="rules-legal" >
             <specific name="Flavor" > You create a fist-sized orb of painful blue-white radiance that whirls around your enemy, searing him. Fierce rays shoot from it like jabbing daggers of light, fencing him in where he stands. </specific>
             <specific name="Power Usage" > Daily </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Attack 1 </specific>
             <specific name="Keywords" > Arcane, Fear, Implement, Radiant </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1219,12 +1116,11 @@
             <specific name="Target" > One creature </specific>
             <specific name="Attack" > Charisma vs. Will </specific>
             <specific name="Hit" > 3d6 + Charisma modifier radiant damage, and the target is immobilized until the end of your next turn. </specific>
-            <specific name="Effect" > The target takes a –2 penalty to Will defense (save ends). </specific>
-            <specific name="_Associated Feats" />
+            <specific name="Miss" > Half damage, and the target is slowed until the end of your next turn. </specific>
+            <specific name="Effect" > The target takes a -2 penalty to Will defense (save ends). </specific>
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-         
          </RulesElement>
          <RulesElement name="The Raven Queen" type="Deity" internal-id="ID_FMP_DEITY_10" charelem="116" legality="rules-legal" >
             <specific name="Alignment" > Unaligned </specific>
@@ -1243,7 +1139,6 @@
          </RulesElement>
          <RulesElement name="2" type="Level" internal-id="ID_INTERNAL_LEVEL_2" charelem="8" legality="rules-legal" >
             <specific name="XP Needed" > 1250 </specific>
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Short sword)" type="Feat" internal-id="ID_INTERNAL_FEAT_WEAPON_PROFICIENCY_(SHORT_SWORD)" charelem="120" legality="rules-legal" >
             <specific name="_SupportsID" > ID_FMP_FEAT_178 </specific>
@@ -1253,31 +1148,25 @@
          You gain proficiency with the Short sword.
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Short sword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHORT_SWORD)" charelem="121" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Ethereal Stride" type="Power" internal-id="ID_FMP_POWER_750" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=750" charelem="122" legality="rules-legal" >
             <specific name="Flavor" > You shift your body out of phase with the world for an instant, teleporting a short distance. When you reappear, you are still somewhat out of phase and difficult to harm or hinder for a short time. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Utility 2 </specific>
             <specific name="Keywords" > Arcane, Teleportation </specific>
             <specific name="Action Type" > Move Action </specific>
             <specific name="Attack Type" > Personal </specific>
             <specific name="Effect" > You can teleport 3 squares, and you gain a +2 power bonus to all defenses until the end of your next turn. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 2 </specific>
             <specific name="Power Type" > Utility </specific>
-         
          </RulesElement>
          <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="9" legality="rules-legal" >
             <specific name="XP Needed" > 1500 </specific>
-         
          </RulesElement>
          <RulesElement name="Fiery Bolt" type="Power" internal-id="ID_FMP_POWER_1341" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1341" charelem="123" legality="rules-legal" >
             <specific name="Flavor" > You call up a bolt of golden flame and hurl it at your foe. Anyone standing close to him is burned as well. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Attack 3 </specific>
             <specific name="Keywords" > Arcane, Fire, Implement </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1286,30 +1175,22 @@
             <specific name="Attack" > Constitution vs. Reflex </specific>
             <specific name="Hit" > 3d6 + Constitution modifier fire damage, and creatures adjacent to the target take 1d6 + Constitution modifier fire damage. </specific>
             <specific name="	Infernal Pact" > Creatures adjacent to the target take extra fire damage equal to your Intelligence modifier. </specific>
-            <specific name="_Associated Feats" > ID_FMP_FEAT_3427 </specific>
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 3 </specific>
             <specific name="Power Type" > Attack </specific>
-         
+            <specific name="_Associated Feats" > ID_FMP_FEAT_3427 </specific>
          </RulesElement>
          <RulesElement name="4" type="Level" internal-id="ID_INTERNAL_LEVEL_4" charelem="10" legality="rules-legal" >
             <specific name="XP Needed" > 1750 </specific>
-         
          </RulesElement>
          <RulesElement name="Killing Curse" type="Feat" internal-id="ID_FMP_FEAT_2764" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=2764" charelem="124" legality="rules-legal" >
             <specific name="Tier" > Heroic </specific>
             <specific name="Short Description" > Warlock&apos;s curse dice increase from d6 to d8 </specific>
-            <specific name="Special" />
-            <specific name="Type" />
-            <specific name="Associated Power Info" />
-            <specific name="Associated Powers" />
          The extra damage dice from your Warlock&apos;s Curse class feature increase from d6s to d8s.
          </RulesElement>
          <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="1" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Charisma" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CHARISMA" charelem="3" legality="rules-legal" >
-         
          </RulesElement>
       </RulesElementTally>
 
@@ -1324,21 +1205,18 @@
                <specific name="Level" > 3 </specific>
                <specific name="Gold" > 680 </specific>
                <specific name="Magic Item Type" > Rod </specific>
-               <specific name="Tier" />
-               <specific name="_Item_Set_ID" />
-               <specific name="Armor" />
-               <specific name="Weapon" />
-               <specific name="Item Slot" > Off-Hand </specific>
-               <specific name="Requirement" />
-               <specific name="Prerequisite" />
                <specific name="Critical" > +1d6 damage per plus </specific>
-               <specific name="Special" />
-               <specific name="Power" > Power (Daily): Free Action. Trigger: You hit an enemy with an attack power using this rod. Effect: The next time that enemy misses you with an attack during this encounter, you can shift 3 squares as an immediate reaction, and you gain concealment against that enemy until the end of your next turn. </specific>
                <specific name="_Rarity" > Uncommon </specific>
-               <specific name="_Monster" />
+               <specific name="_Bonus" > +1 </specific>
+               <specific name="_Enhancement" > Attack rolls and damage rolls </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Item Slot" > Off-Hand </specific>
+               <specific name="Implement" > Rod </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_147911 </specific>
+               <specific name="Power" > Power * Daily (Free Action)
+	Trigger: You hit an enemy with an attack power using this rod.
+	Effect: The next time that enemy misses you with an attack during this encounter, you can shift 3 squares as an immediate reaction, and you gain concealment against that enemy until the end of your next turn. </specific>
                <specific name="Enhancement" > +1 attack rolls and damage rolls </specific>
-               <specific name="Granted Powers" />
-            
             </RulesElement>
          </loot>
          <loot count="0" equip-count="0" ShowPowerCard="1" >
@@ -1346,11 +1224,15 @@
                <specific name="Full Text" > Leather ArmorDescription: Leather armor is sturdier than cloth armor. It protects vital areas with multiple layers of boiled-leather plates, while covering the limbs with supple leather that provides a small amount of protection.AC Bonus: +2Weight: 15 lb.Cost: 25 gp.Type: Leather </specific>
                <specific name="Weight" > 15 </specific>
                <specific name="Armor Bonus" > 2 </specific>
-               <specific name="Minimum Enhancement Bonus" />
                <specific name="Check" > - </specific>
                <specific name="Speed" > - </specific>
                <specific name="Gold" > 25 </specific>
-               <specific name="Special" />
+               <specific name="_BaseACPlus1" > 2 </specific>
+               <specific name="_BaseACPlus2" > 2 </specific>
+               <specific name="_BaseACPlus3" > 2 </specific>
+               <specific name="_BaseACPlus4" > 3 </specific>
+               <specific name="_BaseACPlus5" > 3 </specific>
+               <specific name="_BaseACPlus6" > 4 </specific>
                <specific name="Armor Type" > Light </specific>
                <specific name="Item Slot" > Body </specific>
                <specific name="Armor Category" > Leather </specific>
@@ -1361,22 +1243,18 @@
                <specific name="Level" > 2 </specific>
                <specific name="Gold" > 520 </specific>
                <specific name="Magic Item Type" > Armor </specific>
-               <specific name="Tier" />
-               <specific name="_Item_Set_ID" />
-               <specific name="Armor" > Cloth, leather </specific>
-               <specific name="Weapon" />
-               <specific name="Item Slot" />
-               <specific name="Requirement" />
-               <specific name="Prerequisite" />
-               <specific name="Critical" />
-               <specific name="Special" />
-               <specific name="Power" > Power (Daily * Augmentable): Immediate Reaction. Trigger: You are immobilized by an attack. Effect: You are no longer immobilized, and you shift 1 square. Augment 1: The number of squares you shift equals half your speed. </specific>
                <specific name="_Rarity" > Uncommon </specific>
-               <specific name="_Monster" />
-               <specific name="Enhancement" > +1 AC </specific>
-               <specific name="Granted Powers" />
+               <specific name="_Bonus" > +1 </specific>
+               <specific name="_Enhancement" > AC </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Armor" > Cloth, leather </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_147553 </specific>
                <specific name="Property" > You gain a +2 bonus to escape checks. </specific>
-            
+               <specific name="Power" > Power (Augmentable) * Daily (Immediate Reaction Action)
+	Trigger: You are immobilized by an attack.
+	Effect: You are no longer immobilized, and you shift 1 square.
+	Augment 1: The number of squares you shift equals half your speed. </specific>
+               <specific name="Enhancement" > +1 AC </specific>
             </RulesElement>
          </loot>
          <loot count="0" equip-count="0" ShowPowerCard="1" >
@@ -1385,22 +1263,14 @@
                <specific name="Level" > 1 </specific>
                <specific name="Gold" > 360 </specific>
                <specific name="Magic Item Type" > Neck Slot Item </specific>
-               <specific name="Tier" />
-               <specific name="_Item_Set_ID" />
-               <specific name="Armor" />
-               <specific name="Weapon" />
                <specific name="Item Slot" > Neck </specific>
-               <specific name="Requirement" />
-               <specific name="Prerequisite" />
-               <specific name="Critical" />
-               <specific name="Special" />
-               <specific name="Power" />
                <specific name="_Rarity" > Common </specific>
-               <specific name="_Monster" />
-               <specific name="Enhancement" > +1 Fortitude, Reflex, and Will </specific>
-               <specific name="Granted Powers" />
+               <specific name="_Bonus" > +1 </specific>
+               <specific name="_Enhancement" > Fortitude, Reflex, and Will </specific>
+               <specific name="_AssociatedMonsters" />
                <specific name="_Tags" > Essentials </specific>
-            
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_146850 </specific>
+               <specific name="Enhancement" > +1 Fortitude, Reflex, and Will </specific>
             </RulesElement>
          </loot>
          <loot count="1" equip-count="1" ShowPowerCard="1" >
@@ -1408,11 +1278,15 @@
                <specific name="Full Text" > Leather ArmorDescription: Leather armor is sturdier than cloth armor. It protects vital areas with multiple layers of boiled-leather plates, while covering the limbs with supple leather that provides a small amount of protection.AC Bonus: +2Weight: 15 lb.Cost: 25 gp.Type: Leather </specific>
                <specific name="Weight" > 15 </specific>
                <specific name="Armor Bonus" > 2 </specific>
-               <specific name="Minimum Enhancement Bonus" />
                <specific name="Check" > - </specific>
                <specific name="Speed" > - </specific>
                <specific name="Gold" > 25 </specific>
-               <specific name="Special" />
+               <specific name="_BaseACPlus1" > 2 </specific>
+               <specific name="_BaseACPlus2" > 2 </specific>
+               <specific name="_BaseACPlus3" > 2 </specific>
+               <specific name="_BaseACPlus4" > 3 </specific>
+               <specific name="_BaseACPlus5" > 3 </specific>
+               <specific name="_BaseACPlus6" > 4 </specific>
                <specific name="Armor Type" > Light </specific>
                <specific name="Item Slot" > Body </specific>
                <specific name="Armor Category" > Leather </specific>
@@ -1424,26 +1298,18 @@
                <specific name="Full Text" > Adventurer&apos;s KitCategory: GearPrice: 15 gp Weight: 33 lbDescription: This kit includes a backpack, a bedroll, flint and steel, a belt pouch, two sunrods, ten days&apos; worth of trail rations, 50 feet of hempen rope, and a waterskin. </specific>
                <specific name="Weight" > 33 </specific>
                <specific name="Gold" > 15 </specific>
-               <specific name="Silver" />
-               <specific name="Copper" />
                <specific name="Category" > Gear </specific>
-               <specific name="_RelatedElement" />
                <specific name="count" > 1 </specific>
-               <specific name="_Monster" />
             This kit includes a backpack, a bedroll, flint and steel, a belt pouch, two sunrods, ten days&apos; worth of trail rations, 50 feet of hempen rope, and a waterskin.
             </RulesElement>
          </loot>
-         <loot count="0" equip-count="0" ShowPowerCard="1" >
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="130" legality="rules-legal" >
                <specific name="Full Text" > Rod ImplementCategory: GearPrice: 12 gp Weight: 2 lbDescription: Using a nonmagical implement confers no benefit. You can purchase a magic implement to gain an enhancement bonus to attack rolls and damage rolls with your arcane powers. </specific>
                <specific name="Weight" > 2 </specific>
                <specific name="Gold" > 12 </specific>
-               <specific name="Silver" />
-               <specific name="Copper" />
                <specific name="Category" > Gear </specific>
-               <specific name="_RelatedElement" />
                <specific name="count" > 1 </specific>
-               <specific name="_Monster" />
                <specific name="Item Slot" > Off-Hand </specific>
             Using a nonmagical implement confers no benefit. You can purchase a magic implement to gain an enhancement bonus to attack rolls and damage rolls with your arcane powers.
             </RulesElement>
@@ -1452,33 +1318,33 @@
             <RulesElement name="Cloth Armor (Basic Clothing)" type="Armor" internal-id="ID_FMP_ARMOR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=2" charelem="131" legality="rules-legal" >
                <specific name="Full Text" > Cloth Armor (Basic Clothing)Description: Jackets, mantles, woven robes, and padded vests don&apos;t, by themselves, provide any significant protection. However, you can imbue them with protective magic. Cloth armor doesn&apos;t slow you down or hinder your movement at all. All characters have proficiency with cloth armor.Weight: 4 lb.Cost: 1 gp.Type: Cloth </specific>
                <specific name="Weight" > 4 </specific>
-               <specific name="Armor Bonus" />
-               <specific name="Minimum Enhancement Bonus" />
                <specific name="Check" > - </specific>
                <specific name="Speed" > - </specific>
                <specific name="Gold" > 1 </specific>
-               <specific name="Special" />
+               <specific name="_BaseACPlus1" > 0 </specific>
+               <specific name="_BaseACPlus2" > 0 </specific>
+               <specific name="_BaseACPlus3" > 0 </specific>
+               <specific name="_BaseACPlus4" > 1 </specific>
+               <specific name="_BaseACPlus5" > 1 </specific>
+               <specific name="_BaseACPlus6" > 2 </specific>
                <specific name="Armor Type" > Light </specific>
                <specific name="Item Slot" > Body </specific>
                <specific name="Armor Category" > Cloth </specific>
             Jackets, mantles, woven robes, and padded vests don&apos;t, by themselves, provide any significant protection. However, you can imbue them with protective magic. Cloth armor doesn&apos;t slow you down or hinder your movement at all. All characters have proficiency with cloth armor.
             </RulesElement>
          </loot>
-         <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <loot count="1" equip-count="1" ShowPowerCard="1" >
             <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="132" legality="rules-legal" >
                <specific name="Full Text" > Short swordMilitary one-handed melee weaponCost: 10 gpDamage: 1d6Proficient: +3Weight: 2 lb.Properties: Off-Hand (An off-hand weapon is light enough that you can hold it and attack effectively with it while holding a weapon in your main hand. You can&apos;t attack with both weapons in the same turn, unless you have a power that lets you do so, but you can attack with either weapon.).Group: Light blade (Light blades reward accuracy as much as force. Pinpoint attacks, lunges, and agile defenses are the strong points of these weapons.). </specific>
                <specific name="Weight" > 2 </specific>
                <specific name="Gold" > 10 </specific>
-               <specific name="Range" />
                <specific name="Damage" > 1d6 </specific>
                <specific name="Proficiency Bonus" > 3 </specific>
-               <specific name="_Primary End" />
                <specific name="Weapon Category" > Military Melee </specific>
                <specific name="Hands Required" > One-Handed </specific>
                <specific name="Item Slot" > Off-Hand </specific>
                <specific name="Group" > Light blade </specific>
                <specific name="Properties" > Off-Hand </specific>
-            
             </RulesElement>
          </loot>
          <loot count="0" equip-count="0" ShowPowerCard="1" >
@@ -1486,13 +1352,8 @@
                <specific name="Full Text" > Backpack (empty)Category: GearPrice: 2 gp Weight: 2 lb </specific>
                <specific name="Weight" > 2 </specific>
                <specific name="Gold" > 2 </specific>
-               <specific name="Silver" />
-               <specific name="Copper" />
                <specific name="Category" > Gear </specific>
-               <specific name="_RelatedElement" />
                <specific name="count" > 1 </specific>
-               <specific name="_Monster" />
-            
             </RulesElement>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
@@ -1500,64 +1361,48 @@
                <specific name="Full Text" > Everburning TorchCategory: GearPrice: 50 gp Weight: 1 lbDescription: This torch never stops burning. It casts bright light to a radius of 5 squares but sheds no heat, so you can stow it in a bag or a pouch. You can&apos;t set fire to anything with it. </specific>
                <specific name="Weight" > 1 </specific>
                <specific name="Gold" > 50 </specific>
-               <specific name="Silver" />
-               <specific name="Copper" />
                <specific name="Category" > Gear </specific>
-               <specific name="_RelatedElement" />
                <specific name="count" > 1 </specific>
-               <specific name="_Monster" />
             This torch never stops burning. It casts bright light to a radius of 5 squares but sheds no heat, so you can stow it in a bag or a pouch. You can&apos;t set fire to anything with it.
             </RulesElement>
          </loot>
-         <loot count="1" equip-count="1" ShowPowerCard="1" >
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="135" legality="rules-legal" >
                <specific name="Full Text" > Short swordMilitary one-handed melee weaponCost: 10 gpDamage: 1d6Proficient: +3Weight: 2 lb.Properties: Off-Hand (An off-hand weapon is light enough that you can hold it and attack effectively with it while holding a weapon in your main hand. You can&apos;t attack with both weapons in the same turn, unless you have a power that lets you do so, but you can attack with either weapon.).Group: Light blade (Light blades reward accuracy as much as force. Pinpoint attacks, lunges, and agile defenses are the strong points of these weapons.). </specific>
                <specific name="Weight" > 2 </specific>
                <specific name="Gold" > 10 </specific>
-               <specific name="Range" />
                <specific name="Damage" > 1d6 </specific>
                <specific name="Proficiency Bonus" > 3 </specific>
-               <specific name="_Primary End" />
                <specific name="Weapon Category" > Military Melee </specific>
                <specific name="Hands Required" > One-Handed </specific>
                <specific name="Item Slot" > Off-Hand </specific>
                <specific name="Group" > Light blade </specific>
                <specific name="Properties" > Off-Hand </specific>
-            
             </RulesElement>
             <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="136" legality="rules-legal" >
                <specific name="Flavor" > Some wielders claim this weapon takes pleasure in dealing pain. </specific>
                <specific name="Level" > 2 </specific>
                <specific name="Gold" > 520 </specific>
                <specific name="Magic Item Type" > Weapon </specific>
-               <specific name="Tier" />
-               <specific name="_Item_Set_ID" />
-               <specific name="Armor" />
-               <specific name="Weapon" > Any </specific>
-               <specific name="Item Slot" />
-               <specific name="Requirement" />
-               <specific name="Prerequisite" />
-               <specific name="Critical" > +1d12 damage </specific>
-               <specific name="Special" />
-               <specific name="Power" />
+               <specific name="Critical" > +1d12 damage per plus </specific>
                <specific name="_Rarity" > Common </specific>
-               <specific name="_Monster" />
-               <specific name="Enhancement" > +1 attack rolls and damage rolls </specific>
-               <specific name="Granted Powers" />
+               <specific name="_Bonus" > +1 </specific>
+               <specific name="_Enhancement" > Attack rolls and damage rolls </specific>
+               <specific name="_AssociatedMonsters" />
                <specific name="_Tags" > Essentials </specific>
-            
+               <specific name="Weapon" > Any </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_149347 </specific>
+               <specific name="Enhancement" > +1 attack rolls and damage rolls </specific>
             </RulesElement>
          </loot>
-         <loot count="1" equip-count="1" ShowPowerCard="1" >
-            <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="6" legality="rules-legal" >
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
+            <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="137" legality="rules-legal" >
                <specific name="Full Text" > Light ShieldDescription: While you&apos;re using a light shield, you can use your shield hand to hold another item, to climb, and the like, but you can&apos;t make attacks with that hand or with anything in it.AC Bonus: +1Weight: 6 lb.Cost: 5 gp.Type: Light Shields </specific>
                <specific name="Weight" > 6 </specific>
                <specific name="Armor Bonus" > 1 </specific>
-               <specific name="Minimum Enhancement Bonus" />
                <specific name="Check" > - </specific>
                <specific name="Speed" > - </specific>
                <specific name="Gold" > 5 </specific>
-               <specific name="Special" />
                <specific name="Armor Type" > Shield </specific>
                <specific name="Item Slot" > Off-Hand </specific>
                <specific name="Armor Category" > Light Shields </specific>
@@ -1565,26 +1410,109 @@
             </RulesElement>
          </loot>
          <loot count="2" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Potion of Healing (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="137" legality="rules-legal" >
+            <RulesElement name="Potion of Healing" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="138" legality="rules-legal" >
                <specific name="Flavor" > This simple potion draws on the body&apos;s natural healing ability to cure your wounds. </specific>
                <specific name="Level" > 5 </specific>
                <specific name="Gold" > 50 </specific>
-               <specific name="Magic Item Type" > Potion </specific>
-               <specific name="Tier" />
-               <specific name="_Item_Set_ID" />
-               <specific name="Armor" />
-               <specific name="Weapon" />
-               <specific name="Item Slot" />
-               <specific name="Requirement" />
-               <specific name="Prerequisite" />
-               <specific name="Critical" />
-               <specific name="Special" />
-               <specific name="Power" > Power (Consumable * Healing): Minor Action. Drink this potion and spend a healing surge. Instead of the hit points you would normally regain, you regain 10 hit points. </specific>
+               <specific name="Magic Item Type" > Consumable </specific>
+               <specific name="Consumable" > Potion </specific>
                <specific name="_Rarity" > Common </specific>
-               <specific name="_Monster" />
-               <specific name="Granted Powers" />
+               <specific name="_Bonus" > +0 </specific>
+               <specific name="_AssociatedMonsters" />
                <specific name="_Tags" > Essentials </specific>
-            
+               <specific name="Power" > Power (Healing) * Consumable (Minor Action)
+Drink this potion and spend a healing surge. Instead of the hit points you would normally regain, you regain 10 hit points. </specific>
+            </RulesElement>
+         </loot>
+         <loot count="0" equip-count="0" ShowPowerCard="1" >
+            <RulesElement name="Rod of Reaving +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_893" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=893&amp;ftype=1" charelem="139" legality="rules-legal" >
+               <specific name="Flavor" > This rod enhances the damage dealt to those suffering your Warlock&apos;s Curse. </specific>
+               <specific name="Level" > 5 </specific>
+               <specific name="Gold" > 1000 </specific>
+               <specific name="Magic Item Type" > Rod </specific>
+               <specific name="Critical" > +1d8 damage per plus </specific>
+               <specific name="_Rarity" > Uncommon </specific>
+               <specific name="_Bonus" > +1 </specific>
+               <specific name="_Enhancement" > Attack rolls and damage rolls </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Item Slot" > Off-Hand </specific>
+               <specific name="Implement" > Rod </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_148676 </specific>
+               <specific name="Property" > When you place your Warlock&apos;s Curse on a nonminion target, the creature takes damage equal to the rod&apos;s enhancement bonus. </specific>
+               <specific name="Enhancement" > +1 attack rolls and damage rolls </specific>
+            </RulesElement>
+         </loot>
+         <loot count="0" equip-count="0" ShowPowerCard="1" >
+            <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="140" legality="rules-legal" >
+               <specific name="Full Text" > Leather ArmorDescription: Leather armor is sturdier than cloth armor. It protects vital areas with multiple layers of boiled-leather plates, while covering the limbs with supple leather that provides a small amount of protection.AC Bonus: +2Weight: 15 lb.Cost: 25 gp.Type: Leather </specific>
+               <specific name="Weight" > 15 </specific>
+               <specific name="Armor Bonus" > 2 </specific>
+               <specific name="Check" > - </specific>
+               <specific name="Speed" > - </specific>
+               <specific name="Gold" > 25 </specific>
+               <specific name="_BaseACPlus1" > 2 </specific>
+               <specific name="_BaseACPlus2" > 2 </specific>
+               <specific name="_BaseACPlus3" > 2 </specific>
+               <specific name="_BaseACPlus4" > 3 </specific>
+               <specific name="_BaseACPlus5" > 3 </specific>
+               <specific name="_BaseACPlus6" > 4 </specific>
+               <specific name="Armor Type" > Light </specific>
+               <specific name="Item Slot" > Body </specific>
+               <specific name="Armor Category" > Leather </specific>
+            Leather armor is sturdier than cloth armor. It protects vital areas with multiple layers of boiled-leather plates, while covering the limbs with supple leather that provides a small amount of protection.
+            </RulesElement>
+            <RulesElement name="Genasi Soul Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_7741" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7741&amp;ftype=1" charelem="141" legality="rules-legal" >
+               <specific name="Flavor" > Elemental energies ripple through this armor, said to contain the life energy of a genasi. </specific>
+               <specific name="Level" > 4 </specific>
+               <specific name="Gold" > 840 </specific>
+               <specific name="Magic Item Type" > Armor </specific>
+               <specific name="_Rarity" > Uncommon </specific>
+               <specific name="_Bonus" > +1 </specific>
+               <specific name="_Enhancement" > AC </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Armor" > Leather, Hide </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_147748 </specific>
+               <specific name="Property" > This armor is attuned to one genasi elemental manifestation (FORGOTTEN REALMS Player&apos;s Guide, page 10) chosen at the time the armor is created. </specific>
+               <specific name="Power" > Power * Daily (Minor Action)
+Until the end of the encounter, you can use the racial encounter power associated with the armor&apos;s elemental manifestation. If you already have that racial power, you can use it a second time during this encounter. </specific>
+               <specific name="Enhancement" > +1 AC </specific>
+            </RulesElement>
+         </loot>
+         <loot count="0" equip-count="1" ShowPowerCard="1" >
+            <RulesElement name="Spidersilk Mantle +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_7392" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7392&amp;ftype=1" charelem="7" legality="rules-legal" >
+               <specific name="Flavor" > Spun from the silk of a demonweb terror, this mantle grants you a spider&apos;s effortless ability to climb. </specific>
+               <specific name="Level" > 3 </specific>
+               <specific name="Gold" > 680 </specific>
+               <specific name="Magic Item Type" > Neck Slot Item </specific>
+               <specific name="Item Slot" > Neck </specific>
+               <specific name="_Item_Set_ID" > ID_FMP_ITEM_SET_13 </specific>
+               <specific name="_Rarity" > Uncommon </specific>
+               <specific name="_Bonus" > +1 </specific>
+               <specific name="_Enhancement" > Fortitude, Reflex, and Will </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_148938 </specific>
+               <specific name="Power" > Power * Encounter (Minor Action)
+You gain a climb (spider climb) speed equal to your speed until the end of your turn. </specific>
+               <specific name="Enhancement" > +1 Fortitude, Reflex, and Will </specific>
+               <specific name="_SupportsID" > ID_FMP_ITEM_SET_13 </specific>
+            </RulesElement>
+         </loot>
+         <loot count="1" equip-count="1" ShowPowerCard="1" >
+            <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="142" legality="rules-legal" >
+               <specific name="Flavor" > This rod demands to strike first in any battle. </specific>
+               <specific name="Level" > 8 </specific>
+               <specific name="Gold" > 3400 </specific>
+               <specific name="Magic Item Type" > Rod </specific>
+               <specific name="Critical" > +1d6 damage per plus, +1d8 damage per plus against creatures that have maximum hit points. </specific>
+               <specific name="_Rarity" > Uncommon </specific>
+               <specific name="_Bonus" > +2 </specific>
+               <specific name="_Enhancement" > Attack rolls and damage rolls </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Item Slot" > Off-Hand </specific>
+               <specific name="Implement" > Rod </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_148667 </specific>
+               <specific name="Property" > When you hit a creature that has maximum hit points with an attack using this rod, deal 1d8 extra damage. </specific>
+               <specific name="Enhancement" > +2 attack rolls and damage rolls </specific>
             </RulesElement>
          </loot>
       </LootTally>
@@ -1607,6 +1535,24 @@
             <specific name="Attack" > Strength vs. AC </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Strength modifier damage. </specific>
+            <Weapon name="Short sword" >
+               <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="132" legality="rules-legal" />
+               <AttackBonus> 5 </AttackBonus>
+               <Damage> 1d6 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +0 Strength modifier.
++2 half your level.
++3 proficiency bonus.
+
+               </HitComponents>
+               <DamageComponents> +0 Strength modifier.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)               </Conditions>
+               <CritDamage> 6 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Vicious Short sword +1" >
                <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="135" legality="rules-legal" />
                <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="136" legality="rules-legal" />
@@ -1624,23 +1570,11 @@
 +1 enhancement bonus.
 
                </DamageComponents>
-               <Conditions> +1d8 to damage once per round (Warlock&apos;s Curse)               </Conditions>
-            </Weapon>
-            <Weapon name="Short sword" >
-               <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="132" legality="rules-legal" />
-               <AttackBonus> 5 </AttackBonus>
-               <Damage> 1d6 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +0 Strength modifier.
-+2 half your level.
-+3 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +0 Strength modifier.
-
-               </DamageComponents>
-               <Conditions> +1d8 to damage once per round (Warlock&apos;s Curse)               </Conditions>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)               </Conditions>
+               <CritDamage> 7+1d12 </CritDamage>
+               <CritComponents> +1d12 weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 2 </AttackBonus>
@@ -1654,7 +1588,9 @@
                <DamageComponents> +0 Strength modifier.
 
                </DamageComponents>
-               <Conditions> +1d8 to damage once per round (Warlock&apos;s Curse)               </Conditions>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)               </Conditions>
+               <CritDamage> 4 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
@@ -1681,27 +1617,69 @@
                <DamageComponents> +1 Dexterity modifier.
 
                </DamageComponents>
-               <Conditions> +1d8 to damage once per round (Warlock&apos;s Curse)
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
 +1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 5 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
          <Power name="Eyebite" >
             <specific name="Flavor" > You glare at your enemy, and your eyes briefly gleam with brilliant colors. Your foe reels under your mental assault, and you vanish from his sight. </specific>
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Attack 1 </specific>
             <specific name="Keywords" > Arcane, Charm, Implement, Psychic </specific>
             <specific name="Action Type" > Standard Action </specific>
             <specific name="Attack Type" > Ranged 10 </specific>
             <specific name="Target" > One creature </specific>
             <specific name="Attack" > Charisma vs. Will </specific>
-            <specific name="Hit" > 1d6 + Charisma modifier psychic damage, and you are invisible to the target until the start of your next turn.Increase damage to 2d6 + Charisma modifier at 21st level. </specific>
-            <specific name="_Associated Feats" />
+            <specific name="Hit" > 1d6 + Charisma modifier psychic damage, and you are invisible to the target until the start of your next turn.	Level 21: 2d6 + Charisma modifier damage. </specific>
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_772 </specific>
+            <Weapon name="Rod of First Blood +2" >
+               <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="142" legality="rules-legal" />
+               <AttackBonus> 8 </AttackBonus>
+               <Damage> 1d6+6 </Damage>
+               <DamageType> Psychic </DamageType>
+               <AttackStat> Charisma </AttackStat>
+               <Defense> Will </Defense>
+               <HitComponents> +4 Charisma modifier.
++2 half your level.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +4 Charisma modifier.
++2 enhancement bonus.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
++1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 12+2d6, +1d8 damage per plus against creatures that have maximum hit points. </CritDamage>
+               <CritComponents> +2d6, +1d8 damage per plus against creatures that have maximum hit points. weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Rod Implement" >
+               <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="130" legality="rules-legal" />
+               <AttackBonus> 6 </AttackBonus>
+               <Damage> 1d6+4 </Damage>
+               <DamageType> Psychic </DamageType>
+               <AttackStat> Charisma </AttackStat>
+               <Defense> Will </Defense>
+               <HitComponents> +4 Charisma modifier.
++2 half your level.
+
+               </HitComponents>
+               <DamageComponents> +4 Charisma modifier.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
++1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 10 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 6 </AttackBonus>
                <Damage> 1d6+4 </Damage>
@@ -1715,29 +1693,69 @@
                <DamageComponents> +4 Charisma modifier.
 
                </DamageComponents>
-               <Conditions> +1d8 to damage once per round (Warlock&apos;s Curse)
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
 +1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 10 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
          <Power name="Eldritch Blast" >
             <specific name="Flavor" > You fire a bolt of dark, crackling eldritch energy at your foe. </specific>
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Attack 1 </specific>
             <specific name="Keywords" > Arcane, Implement </specific>
             <specific name="Action Type" > Standard Action </specific>
             <specific name="Attack Type" > Ranged 10 </specific>
             <specific name="Target" > One creature </specific>
             <specific name="Attack" > Charisma or Constitution vs. Reflex </specific>
-            <specific name="Hit" > 1d10 + Charisma or Constitution modifier damage.Increase damage to 2d10 + Charisma or Constitution modifier at 21st level. </specific>
+            <specific name="Hit" > 1d10 + Charisma modifier or Constitution modifier damage.Increase damage to 2d10 + Charisma modifier or Constitution modifier at 21st level. </specific>
             <specific name="Special" > At 1st level, you determine whether you use Charisma or Constitution to attack with this power. Once you make that choice, you can&apos;t change it later.	This power counts as a ranged basic attack. When a power allows you to make a ranged basic attack, you can use this power. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_606 </specific>
             <specific name="_BasicAttack" > Ranged </specific>
+            <Weapon name="Rod of First Blood +2" >
+               <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="142" legality="rules-legal" />
+               <AttackBonus> 8 </AttackBonus>
+               <Damage> 1d10+6 </Damage>
+               <AttackStat> Charisma </AttackStat>
+               <Defense> Reflex </Defense>
+               <HitComponents> +4 Charisma modifier.
++2 half your level.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +4 Charisma modifier.
++2 enhancement bonus.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
++1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 16+2d6, +1d8 damage per plus against creatures that have maximum hit points. </CritDamage>
+               <CritComponents> +2d6, +1d8 damage per plus against creatures that have maximum hit points. weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Rod Implement" >
+               <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="130" legality="rules-legal" />
+               <AttackBonus> 6 </AttackBonus>
+               <Damage> 1d10+4 </Damage>
+               <AttackStat> Charisma </AttackStat>
+               <Defense> Reflex </Defense>
+               <HitComponents> +4 Charisma modifier.
++2 half your level.
+
+               </HitComponents>
+               <DamageComponents> +4 Charisma modifier.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
++1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 14 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 6 </AttackBonus>
                <Damage> 1d10+4 </Damage>
@@ -1750,27 +1768,70 @@
                <DamageComponents> +4 Charisma modifier.
 
                </DamageComponents>
-               <Conditions> +1d8 to damage once per round (Warlock&apos;s Curse)
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
 +1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 14 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
          <Power name="Hellish Rebuke" >
             <specific name="Flavor" > You point your finger, and your foe is scoured in hellish flames stoked by your own anger and pain. If you are injured, the flames burst into life one more time before they fade away. </specific>
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Attack 1 </specific>
             <specific name="Keywords" > Arcane, Fire, Implement </specific>
             <specific name="Action Type" > Standard Action </specific>
             <specific name="Attack Type" > Ranged 10 </specific>
             <specific name="Target" > One creature </specific>
             <specific name="Attack" > Constitution vs. Reflex </specific>
-            <specific name="Hit" > 1d6 + Constitution modifier fire damage. If you take damage before the end of your next turn, the target takes an extra 1d6 + Constitution modifier fire damage.Increase damage and extra damage to 2d6 + Constitution modifier at 21st level. </specific>
-            <specific name="_Associated Feats" > ID_FMP_FEAT_1231 </specific>
+            <specific name="Hit" > 1d6 + Constitution modifier fire damage. The first time you take damage before the end of your next turn, the target takes 1d6 + Constitution modifier fire damage.	Level 21: 2d6 + Constitution modifier damage and extra damage. </specific>
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
+            <specific name="_Associated Feats" > ID_FMP_FEAT_1231 </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_773 </specific>
+            <Weapon name="Rod of First Blood +2" >
+               <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="142" legality="rules-legal" />
+               <AttackBonus> 6 </AttackBonus>
+               <Damage> 1d6+4 </Damage>
+               <DamageType> Fire </DamageType>
+               <AttackStat> Constitution </AttackStat>
+               <Defense> Reflex </Defense>
+               <HitComponents> +2 Constitution modifier.
++2 half your level.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +2 Constitution modifier.
++2 enhancement bonus.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
++1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 10+2d6, +1d8 damage per plus against creatures that have maximum hit points. </CritDamage>
+               <CritComponents> +2d6, +1d8 damage per plus against creatures that have maximum hit points. weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Rod Implement" >
+               <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="130" legality="rules-legal" />
+               <AttackBonus> 4 </AttackBonus>
+               <Damage> 1d6+2 </Damage>
+               <DamageType> Fire </DamageType>
+               <AttackStat> Constitution </AttackStat>
+               <Defense> Reflex </Defense>
+               <HitComponents> +2 Constitution modifier.
++2 half your level.
+
+               </HitComponents>
+               <DamageComponents> +2 Constitution modifier.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
++1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 8 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 4 </AttackBonus>
                <Damage> 1d6+2 </Damage>
@@ -1784,15 +1845,16 @@
                <DamageComponents> +2 Constitution modifier.
 
                </DamageComponents>
-               <Conditions> +1d8 to damage once per round (Warlock&apos;s Curse)
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
 +1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 8 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
          <Power name="Dark One&apos;s Blessing" >
             <specific name="Flavor" > You instantly gain vitality from a cursed enemy when that enemy falls. </specific>
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Pact Boon 1 </specific>
             <specific name="Keywords" />
             <specific name="Action Type" > Free Action </specific>
@@ -1800,7 +1862,6 @@
             <specific name="Prerequisite" > Infernal Pact </specific>
             <specific name="Trigger" > An enemy under your Warlock&apos;s Curse is reduced to 0 hit points or fewer </specific>
             <specific name="Effect" > You immediately gain temporary hit points equal to your level. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Pact Boon </specific>
@@ -1809,32 +1870,70 @@
 
          <Power name="Warlock&apos;s Curse" >
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock&apos;s Curse  Power </specific>
             <specific name="Keywords" />
             <specific name="Action Type" > Minor Action </specific>
             <specific name="Attack Type" />
-            <specific name="Effect" > You can place a Warlock&apos;s Curse on the enemy nearest to you that you can see. A cursed enemy is more vulnerable to your attacks. If you hit a cursed enemy with an attack, you deal extra damage. You decide whether to apply the extra damage after making the damage roll. You can deal this extra damage once per round, so if you have dealt Warlock&apos;s Curse damage since the start of your turn, you cannot deal it again until the start of your next turn.	A Warlock&apos;s Curse remains in effect until the end of the encounter or until the cursed enemy is defeated.	You can place a Warlock&apos;s Curse on multiple targets over the course of an encounter; each curse requires the use of a minor action. You can&apos;t place a Warlock&apos;s Curse on a creature that is already affected by your or another character&apos;s Warlock&apos;s Curse.As you advance in level, your extra damage increases.&lt;table&gt;Level	Warlock&apos;s Curse Extra Damage1st–10th	+1d611th–20th	+2d621st–30th	+3d6&lt;/table&gt; </specific>
-            <specific name="_Associated Feats" />
+            <specific name="Effect" > Once per turn as a minor action, you can place a Warlock&apos;s Curse on the enemy nearest to you that you can see. A cursed enemy is more vulnerable to your attacks. If you hit a cursed enemy with an attack, you deal extra damage. You decide whether to apply the extra damage after making the damage roll. You can deal this extra damage only once per turn.	A Warlock&apos;s Curse remains in effect until the end of the encounter or until the cursed enemy drops to 0 hit points or fewer.	You can place a Warlock&apos;s Curse on multiple targets over the course of an encounter; each curse requires the use of a minor action. You can&apos;t place a Warlock&apos;s Curse on a creature that is already affected by your or another character&apos;s Warlock&apos;s Curse.	As you advance in level, your extra damage increases.&lt;table&gt;Level	Warlock&apos;s Curse Extra Damage1st–10th	+1d611th–20th	+2d621st–30th	+3d6&lt;/table&gt; </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_605,ID_FMP_CLASS_FEATURE_1533 </specific>
          </Power>
 
          <Power name="Witchfire" >
-            <specific name="Flavor" > From the mystic energies of the Feywild you summon a brilliant white flame and set it in your enemy&apos;s mind and body. Rivulets of argent fire stream up into the air from his eyes, his mouth, and his hands; agony disrupts his very thoughts. </specific>
+            <specific name="Flavor" > From the mystic energy of the Feywild, you draw a brilliant white flame and set it in your enemy&apos;s mind and body. Rivulets of argent fire stream up into the air from his eyes, mouth, and hands; agony disrupts his very thoughts. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Attack 1 </specific>
             <specific name="Keywords" > Arcane, Fire, Implement </specific>
             <specific name="Action Type" > Standard Action </specific>
             <specific name="Attack Type" > Ranged 10 </specific>
             <specific name="Target" > One creature </specific>
             <specific name="Attack" > Charisma vs. Reflex </specific>
-            <specific name="Hit" > 2d6 + Charisma modifier fire damage, and the target takes a –2 penalty to attack rolls until the end of your next turn. </specific>
+            <specific name="Hit" > 2d6 + Charisma modifier fire damage, and the target takes a -2 penalty to attack rolls until the end of your next turn. </specific>
             <specific name="	Fey Pact" > The penalty to attack rolls is equal to 2 + your Intelligence modifier. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
+            <Weapon name="Rod of First Blood +2" >
+               <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="142" legality="rules-legal" />
+               <AttackBonus> 8 </AttackBonus>
+               <Damage> 2d6+6 </Damage>
+               <DamageType> Fire </DamageType>
+               <AttackStat> Charisma </AttackStat>
+               <Defense> Reflex </Defense>
+               <HitComponents> +4 Charisma modifier.
++2 half your level.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +4 Charisma modifier.
++2 enhancement bonus.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
++1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 18+2d6, +1d8 damage per plus against creatures that have maximum hit points. </CritDamage>
+               <CritComponents> +2d6, +1d8 damage per plus against creatures that have maximum hit points. weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Rod Implement" >
+               <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="130" legality="rules-legal" />
+               <AttackBonus> 6 </AttackBonus>
+               <Damage> 2d6+4 </Damage>
+               <DamageType> Fire </DamageType>
+               <AttackStat> Charisma </AttackStat>
+               <Defense> Reflex </Defense>
+               <HitComponents> +4 Charisma modifier.
++2 half your level.
+
+               </HitComponents>
+               <DamageComponents> +4 Charisma modifier.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
++1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 16 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 6 </AttackBonus>
                <Damage> 2d6+4 </Damage>
@@ -1848,15 +1947,16 @@
                <DamageComponents> +4 Charisma modifier.
 
                </DamageComponents>
-               <Conditions> +1d8 to damage once per round (Warlock&apos;s Curse)
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
 +1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 16 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
          <Power name="Dread Star" >
             <specific name="Flavor" > You create a fist-sized orb of painful blue-white radiance that whirls around your enemy, searing him. Fierce rays shoot from it like jabbing daggers of light, fencing him in where he stands. </specific>
             <specific name="Power Usage" > Daily </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Attack 1 </specific>
             <specific name="Keywords" > Arcane, Fear, Implement, Radiant </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1864,11 +1964,53 @@
             <specific name="Target" > One creature </specific>
             <specific name="Attack" > Charisma vs. Will </specific>
             <specific name="Hit" > 3d6 + Charisma modifier radiant damage, and the target is immobilized until the end of your next turn. </specific>
-            <specific name="Effect" > The target takes a –2 penalty to Will defense (save ends). </specific>
-            <specific name="_Associated Feats" />
+            <specific name="Miss" > Half damage, and the target is slowed until the end of your next turn. </specific>
+            <specific name="Effect" > The target takes a -2 penalty to Will defense (save ends). </specific>
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
+            <Weapon name="Rod of First Blood +2" >
+               <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="142" legality="rules-legal" />
+               <AttackBonus> 8 </AttackBonus>
+               <Damage> 3d6+6 </Damage>
+               <DamageType> Radiant </DamageType>
+               <AttackStat> Charisma </AttackStat>
+               <Defense> Will </Defense>
+               <HitComponents> +4 Charisma modifier.
++2 half your level.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +4 Charisma modifier.
++2 enhancement bonus.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
++1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 24+2d6, +1d8 damage per plus against creatures that have maximum hit points. </CritDamage>
+               <CritComponents> +2d6, +1d8 damage per plus against creatures that have maximum hit points. weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Rod Implement" >
+               <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="130" legality="rules-legal" />
+               <AttackBonus> 6 </AttackBonus>
+               <Damage> 3d6+4 </Damage>
+               <DamageType> Radiant </DamageType>
+               <AttackStat> Charisma </AttackStat>
+               <Defense> Will </Defense>
+               <HitComponents> +4 Charisma modifier.
++2 half your level.
+
+               </HitComponents>
+               <DamageComponents> +4 Charisma modifier.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
++1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 22 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 6 </AttackBonus>
                <Damage> 3d6+4 </Damage>
@@ -1882,21 +2024,21 @@
                <DamageComponents> +4 Charisma modifier.
 
                </DamageComponents>
-               <Conditions> +1d8 to damage once per round (Warlock&apos;s Curse)
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
 +1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 22 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
          <Power name="Ethereal Stride" >
             <specific name="Flavor" > You shift your body out of phase with the world for an instant, teleporting a short distance. When you reappear, you are still somewhat out of phase and difficult to harm or hinder for a short time. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Utility 2 </specific>
             <specific name="Keywords" > Arcane, Teleportation </specific>
             <specific name="Action Type" > Move Action </specific>
             <specific name="Attack Type" > Personal </specific>
             <specific name="Effect" > You can teleport 3 squares, and you gain a +2 power bonus to all defenses until the end of your next turn. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 2 </specific>
             <specific name="Power Type" > Utility </specific>
@@ -1905,7 +2047,6 @@
          <Power name="Fiery Bolt" >
             <specific name="Flavor" > You call up a bolt of golden flame and hurl it at your foe. Anyone standing close to him is burned as well. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Warlock Attack 3 </specific>
             <specific name="Keywords" > Arcane, Fire, Implement </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1914,10 +2055,52 @@
             <specific name="Attack" > Constitution vs. Reflex </specific>
             <specific name="Hit" > 3d6 + Constitution modifier fire damage, and creatures adjacent to the target take 1d6 + Constitution modifier fire damage. </specific>
             <specific name="	Infernal Pact" > Creatures adjacent to the target take extra fire damage equal to your Intelligence modifier. </specific>
-            <specific name="_Associated Feats" > ID_FMP_FEAT_3427 </specific>
             <specific name="Class" > ID_FMP_CLASS_7 </specific>
             <specific name="Level" > 3 </specific>
             <specific name="Power Type" > Attack </specific>
+            <specific name="_Associated Feats" > ID_FMP_FEAT_3427 </specific>
+            <Weapon name="Rod of First Blood +2" >
+               <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="142" legality="rules-legal" />
+               <AttackBonus> 6 </AttackBonus>
+               <Damage> 3d6+4 </Damage>
+               <DamageType> Fire </DamageType>
+               <AttackStat> Constitution </AttackStat>
+               <Defense> Reflex </Defense>
+               <HitComponents> +2 Constitution modifier.
++2 half your level.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +2 Constitution modifier.
++2 enhancement bonus.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
++1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 22+2d6, +1d8 damage per plus against creatures that have maximum hit points. </CritDamage>
+               <CritComponents> +2d6, +1d8 damage per plus against creatures that have maximum hit points. weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Rod Implement" >
+               <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="130" legality="rules-legal" />
+               <AttackBonus> 4 </AttackBonus>
+               <Damage> 3d6+2 </Damage>
+               <DamageType> Fire </DamageType>
+               <AttackStat> Constitution </AttackStat>
+               <Defense> Reflex </Defense>
+               <HitComponents> +2 Constitution modifier.
++2 half your level.
+
+               </HitComponents>
+               <DamageComponents> +2 Constitution modifier.
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
++1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 20 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 4 </AttackBonus>
                <Damage> 3d6+2 </Damage>
@@ -1931,8 +2114,10 @@
                <DamageComponents> +2 Constitution modifier.
 
                </DamageComponents>
-               <Conditions> +1d8 to damage once per round (Warlock&apos;s Curse)
+               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)
 +1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 20 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
@@ -2005,14 +2190,14 @@
             <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="53" legality="rules-legal" >
                <RulesElement name="Religion class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_RELIGION_CLASS_SKILL" charelem="54" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="" type="" charelem="138" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="139" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="140" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="141" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="142" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="143" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="144" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="145" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="146" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="147" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="55" legality="rules-legal" >
-            <RulesElement name="" type="" charelem="143" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="148" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="56" legality="rules-legal" />
          <RulesElement name="Expansion4" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION4" charelem="57" legality="rules-legal" />
@@ -2029,7 +2214,7 @@
                <RulesElement name="Bonus Skill" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_34" charelem="64" legality="rules-legal" >
                   <RulesElement name="Insight" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_INSIGHT" charelem="16" legality="rules-legal" />
                </RulesElement>
-               <RulesElement name="Human Defense Bonuses" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_646" charelem="7" legality="rules-legal" />
+               <RulesElement name="Human Defense Bonuses" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_646" charelem="6" legality="rules-legal" />
                <RulesElement name="Human Power Selection" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_2966" charelem="65" legality="rules-legal" >
                   <RulesElement name="Bonus At-Will Power" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_356" charelem="66" legality="rules-legal" >
                      <RulesElement name="Eyebite" type="Power" internal-id="ID_FMP_POWER_1456" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1456" charelem="67" legality="rules-legal" />
@@ -2059,8 +2244,8 @@
                   <RulesElement name="Weapon Proficiency (Scythe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCYTHE)" charelem="83" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Spiked gauntlet)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SPIKED_GAUNTLET)" charelem="84" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Talid)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TALID)" charelem="85" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Widow&apos;s Knife)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WIDOW&apos;S_KNIFE)" charelem="86" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Wrist Razors)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WRIST_RAZORS)" charelem="87" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Widow&apos;s knife)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WIDOW&apos;S_KNIFE)" charelem="86" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Wrist razors)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WRIST_RAZORS)" charelem="87" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Claw Fighter Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLAW_FIGHTER_CLAW)" charelem="88" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Shadowblade)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHADOWBLADE)" charelem="89" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Climbing Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLIMBING_CLAW)" charelem="90" legality="rules-legal" />
@@ -2071,7 +2256,7 @@
                   <RulesElement name="Weapon Proficiency (Rod of Seven Parts (Weapon))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(ROD_OF_SEVEN_PARTS_(WEAPON))" charelem="95" legality="rules-legal" />
                </RulesElement>
                <RulesElement name="Simple Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_RANGED" charelem="96" legality="rules-legal" >
-                  <RulesElement name="Weapon Proficiency (Hand Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HAND_CROSSBOW)" charelem="97" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Hand crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HAND_CROSSBOW)" charelem="97" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Sling)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SLING)" charelem="98" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CROSSBOW)" charelem="99" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Repeating crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(REPEATING_CROSSBOW)" charelem="100" legality="rules-legal" />
@@ -2098,7 +2283,7 @@
                   <RulesElement name="Implement Proficiency (Wand)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_IMPLEMENT_PROFICIENCY_(WAND)" charelem="113" legality="rules-legal" />
                </RulesElement>
             </RulesElement>
-            <RulesElement name="" type="" charelem="144" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="149" legality="rules-legal" />
             <RulesElement name="Arcana" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ARCANA" charelem="13" legality="rules-legal" />
             <RulesElement name="Bluff" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_BLUFF" charelem="14" legality="rules-legal" />
             <RulesElement name="Intimidate" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_INTIMIDATE" charelem="17" legality="rules-legal" />
@@ -2120,54 +2305,54 @@
             <RulesElement name="Weapon Proficiency (Short sword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHORT_SWORD)" charelem="121" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Ethereal Stride" type="Power" internal-id="ID_FMP_POWER_750" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=750" charelem="122" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="145" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="150" legality="rules-legal" />
       </RulesElement>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Hexer&apos;s Rod +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6407" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6407&amp;ftype=1" charelem="146" legality="rules-legal" />
+         <RulesElement name="Hexer&apos;s Rod +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6407" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6407&amp;ftype=1" charelem="151" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="147" legality="rules-legal" />
-         <RulesElement name="Elusive Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_8556" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8556&amp;ftype=1" charelem="148" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="152" legality="rules-legal" />
+         <RulesElement name="Elusive Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_8556" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8556&amp;ftype=1" charelem="153" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Amulet of Protection +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1047" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1047&amp;ftype=1" charelem="149" legality="rules-legal" />
+         <RulesElement name="Amulet of Protection +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1047" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1047&amp;ftype=1" charelem="154" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="150" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="155" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="151" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="156" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="152" legality="rules-legal" />
+         <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="157" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Cloth Armor (Basic Clothing)" type="Armor" internal-id="ID_FMP_ARMOR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=2" charelem="153" legality="rules-legal" />
+         <RulesElement name="Cloth Armor (Basic Clothing)" type="Armor" internal-id="ID_FMP_ARMOR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=2" charelem="158" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="154" legality="rules-legal" />
+         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="159" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="9" legality="rules-legal" >
          <RulesElement name="Fiery Bolt" type="Power" internal-id="ID_FMP_POWER_1341" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1341" charelem="123" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="155" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="160" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="156" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="161" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Backpack (empty)" type="Gear" internal-id="ID_FMP_GEAR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=4" charelem="157" legality="rules-legal" />
+         <RulesElement name="Backpack (empty)" type="Gear" internal-id="ID_FMP_GEAR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=4" charelem="162" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="158" legality="rules-legal" />
+         <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="163" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="159" legality="rules-legal" />
-         <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="160" legality="rules-legal" />
+         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="164" legality="rules-legal" />
+         <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="165" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="161" legality="rules-legal" />
+         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="166" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
@@ -2175,20 +2360,39 @@
          <RulesElement name="Killing Curse" type="Feat" internal-id="ID_FMP_FEAT_2764" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=2764" charelem="124" legality="rules-legal" />
          <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="1" legality="rules-legal" />
          <RulesElement name="Charisma" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CHARISMA" charelem="3" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="162" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="167" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="163" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="168" legality="rules-legal" />
       </loot>
-      <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="164" legality="rules-legal" />
+      <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="169" legality="rules-legal" />
       </loot>
-      <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="165" legality="rules-legal" />
-         <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="166" legality="rules-legal" />
+      <loot count="0" equip-count="-1" ShowPowerCard="1" >
+         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="170" legality="rules-legal" />
+         <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="171" legality="rules-legal" />
       </loot>
       <loot count="2" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Potion of Healing (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="167" legality="rules-legal" />
+         <RulesElement name="Potion of Healing" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="172" legality="rules-legal" />
+      </loot>
+      <loot count="0" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Rod of Reaving +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_893" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=893&amp;ftype=1" charelem="173" legality="rules-legal" />
+      </loot>
+      <loot count="0" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="174" legality="rules-legal" />
+         <RulesElement name="Genasi Soul Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_7741" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7741&amp;ftype=1" charelem="175" legality="rules-legal" />
+      </loot>
+      <loot count="0" equip-count="1" ShowPowerCard="1" >
+         <RulesElement name="Spidersilk Mantle +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_7392" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7392&amp;ftype=1" charelem="176" legality="rules-legal" />
+      </loot>
+      <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="177" legality="rules-legal" />
+      </loot>
+      <loot count="1" equip-count="1" ShowPowerCard="1" >
+         <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="178" legality="rules-legal" />
+      </loot>
+      <loot count="0" equip-count="1" ShowPowerCard="1" >
+         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="179" legality="rules-legal" />
       </loot>
    </Level>
 
@@ -2240,10 +2444,10 @@
       20
    </textstring>
    <textstring name="_INTERNAL_MainHandWeapon" >
-      Light Shield
+      Rod of First Blood +2
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmpEF2B.tmp
+      C:\Windows\TEMP\tmp1707.tmp
    </textstring>
    <textstring name="Player Name" >
       Bryan
