@@ -608,9 +608,9 @@
             <statadd String="d8" Level="4" value="0" />
          </Stat>
 
-         <Stat value="65" >
+         <Stat value="63" >
             <alias name="Weight" />
-            <statadd value="65" />
+            <statadd value="63" />
          </Stat>
 
          <Stat value="0" >
@@ -1333,7 +1333,7 @@
             Jackets, mantles, woven robes, and padded vests don&apos;t, by themselves, provide any significant protection. However, you can imbue them with protective magic. Cloth armor doesn&apos;t slow you down or hinder your movement at all. All characters have proficiency with cloth armor.
             </RulesElement>
          </loot>
-         <loot count="1" equip-count="1" ShowPowerCard="1" >
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="132" legality="rules-legal" >
                <specific name="Full Text" > Short swordMilitary one-handed melee weaponCost: 10 gpDamage: 1d6Proficient: +3Weight: 2 lb.Properties: Off-Hand (An off-hand weapon is light enough that you can hold it and attack effectively with it while holding a weapon in your main hand. You can&apos;t attack with both weapons in the same turn, unless you have a power that lets you do so, but you can attack with either weapon.).Group: Light blade (Light blades reward accuracy as much as force. Pinpoint attacks, lunges, and agile defenses are the strong points of these weapons.). </specific>
                <specific name="Weight" > 2 </specific>
@@ -1366,7 +1366,7 @@
             This torch never stops burning. It casts bright light to a radius of 5 squares but sheds no heat, so you can stow it in a bag or a pouch. You can&apos;t set fire to anything with it.
             </RulesElement>
          </loot>
-         <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <loot count="0" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="135" legality="rules-legal" >
                <specific name="Full Text" > Short swordMilitary one-handed melee weaponCost: 10 gpDamage: 1d6Proficient: +3Weight: 2 lb.Properties: Off-Hand (An off-hand weapon is light enough that you can hold it and attack effectively with it while holding a weapon in your main hand. You can&apos;t attack with both weapons in the same turn, unless you have a power that lets you do so, but you can attack with either weapon.).Group: Light blade (Light blades reward accuracy as much as force. Pinpoint attacks, lunges, and agile defenses are the strong points of these weapons.). </specific>
                <specific name="Weight" > 2 </specific>
@@ -1551,29 +1551,6 @@ You gain a climb (spider climb) speed equal to your speed until the end of your 
                </DamageComponents>
                <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)               </Conditions>
                <CritDamage> 6 </CritDamage>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Vicious Short sword +1" >
-               <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="135" legality="rules-legal" />
-               <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="136" legality="rules-legal" />
-               <AttackBonus> 6 </AttackBonus>
-               <Damage> 1d6+1 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +0 Strength modifier.
-+2 half your level.
-+3 proficiency bonus.
-+1 enhancement bonus.
-
-               </HitComponents>
-               <DamageComponents> +0 Strength modifier.
-+1 enhancement bonus.
-
-               </DamageComponents>
-               <Conditions> +1d8 to damage once per turn (Warlock&apos;s Curse)               </Conditions>
-               <CritDamage> 7+1d12 </CritDamage>
-               <CritComponents> +1d12 weapon critical bonus.
-               </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
@@ -2368,7 +2345,7 @@ You gain a climb (spider climb) speed equal to your speed until the end of your 
       <loot count="1" equip-count="0" ShowPowerCard="1" >
          <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="169" legality="rules-legal" />
       </loot>
-      <loot count="0" equip-count="-1" ShowPowerCard="1" >
+      <loot count="-1" equip-count="-1" ShowPowerCard="1" >
          <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="170" legality="rules-legal" />
          <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="171" legality="rules-legal" />
       </loot>
@@ -2391,7 +2368,7 @@ You gain a climb (spider climb) speed equal to your speed until the end of your 
       <loot count="1" equip-count="1" ShowPowerCard="1" >
          <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="178" legality="rules-legal" />
       </loot>
-      <loot count="0" equip-count="1" ShowPowerCard="1" >
+      <loot count="0" equip-count="0" ShowPowerCard="1" >
          <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="179" legality="rules-legal" />
       </loot>
    </Level>
@@ -2447,7 +2424,7 @@ You gain a climb (spider climb) speed equal to your speed until the end of your 
       Rod of First Blood +2
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp1707.tmp
+      C:\Windows\TEMP\tmp7E19.tmp
    </textstring>
    <textstring name="Player Name" >
       Bryan
