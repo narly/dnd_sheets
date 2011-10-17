@@ -1294,6 +1294,21 @@ Play a Minotaur if you want ...
             Wielding this metal pry bar gives you a +2 bonus to Strength checks to break open locked doors or containers.
             </RulesElement>
          </loot>
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
+            <RulesElement name="Potion of Healing" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="155" legality="rules-legal" >
+               <specific name="Flavor" > This simple potion draws on the body&apos;s natural healing ability to cure your wounds. </specific>
+               <specific name="Level" > 5 </specific>
+               <specific name="Gold" > 50 </specific>
+               <specific name="Magic Item Type" > Consumable </specific>
+               <specific name="Consumable" > Potion </specific>
+               <specific name="_Rarity" > Common </specific>
+               <specific name="_Bonus" > +0 </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="_Tags" > Essentials </specific>
+               <specific name="Power" > Power (Healing) * Consumable (Minor Action)
+Drink this potion and spend a healing surge. Instead of the hit points you would normally regain, you regain 10 hit points. </specific>
+            </RulesElement>
+         </loot>
       </LootTally>
 
       <!--
@@ -1832,14 +1847,14 @@ Play a Minotaur if you want ...
             <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="52" legality="rules-legal" >
                <RulesElement name="Insight class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_INSIGHT_CLASS_SKILL" charelem="53" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="" type="" charelem="155" legality="rules-legal" />
             <RulesElement name="" type="" charelem="156" legality="rules-legal" />
             <RulesElement name="" type="" charelem="157" legality="rules-legal" />
             <RulesElement name="" type="" charelem="158" legality="rules-legal" />
             <RulesElement name="" type="" charelem="159" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="160" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="54" legality="rules-legal" >
-            <RulesElement name="" type="" charelem="160" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="161" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="55" legality="rules-legal" />
          <RulesElement name="Expansion4" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION4" charelem="56" legality="rules-legal" />
@@ -1935,7 +1950,7 @@ Play a Minotaur if you want ...
                   </RulesElement>
                </RulesElement>
                <RulesElement name="Rage Strike" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_1052" charelem="130" legality="rules-legal" >
-                  <RulesElement name="Rage Strike" type="Power" internal-id="ID_FMP_POWER_4807" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=4807" charelem="161" legality="rules-legal" />
+                  <RulesElement name="Rage Strike" type="Power" internal-id="ID_FMP_POWER_4807" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=4807" charelem="162" legality="rules-legal" />
                </RulesElement>
                <RulesElement name="Rampage" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_1053" charelem="131" legality="rules-legal" />
                <RulesElement name="Barbarian Implements" type="Grants" internal-id="ID_INTERNAL_GRANTS_BARBARIAN_IMPLEMENTS" charelem="132" legality="rules-legal" />
@@ -1963,13 +1978,13 @@ Play a Minotaur if you want ...
       <RulesElement name="2" type="Level" internal-id="ID_INTERNAL_LEVEL_2" charelem="9" legality="rules-legal" >
          <RulesElement name="Opportunity Gore" type="Feat" internal-id="ID_FMP_FEAT_1063" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=1063" charelem="144" legality="rules-legal" />
          <RulesElement name="Combat Sprint" type="Power" internal-id="ID_FMP_POWER_4937" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=4937" charelem="145" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="162" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="163" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="10" legality="rules-legal" >
          <RulesElement name="Blade Sweep" type="Power" internal-id="ID_FMP_POWER_4829" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=4829" charelem="146" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="163" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="164" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
@@ -1977,34 +1992,37 @@ Play a Minotaur if you want ...
          <RulesElement name="Targeted Assault" type="Feat" internal-id="ID_FMP_FEAT_1879" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=1879" charelem="23" legality="rules-legal" />
          <RulesElement name="Strength" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_STRENGTH" charelem="2" legality="rules-legal" />
          <RulesElement name="Constitution" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CONSTITUTION" charelem="4" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="164" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="165" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="165" legality="rules-legal" />
+         <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="166" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="166" legality="rules-legal" />
+         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="167" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="167" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="168" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Chain (10 ft.)" type="Gear" internal-id="ID_FMP_GEAR_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=4" charelem="168" legality="rules-legal" />
+         <RulesElement name="Chain (10 ft.)" type="Gear" internal-id="ID_FMP_GEAR_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=4" charelem="169" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Climber&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=4" charelem="169" legality="rules-legal" />
+         <RulesElement name="Climber&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=4" charelem="170" legality="rules-legal" />
       </loot>
       <loot count="2" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="170" legality="rules-legal" />
+         <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="171" legality="rules-legal" />
       </loot>
       <loot count="3" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Oil (1 pint)" type="Gear" internal-id="ID_FMP_GEAR_52" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=52&amp;ftype=4" charelem="171" legality="rules-legal" />
+         <RulesElement name="Oil (1 pint)" type="Gear" internal-id="ID_FMP_GEAR_52" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=52&amp;ftype=4" charelem="172" legality="rules-legal" />
       </loot>
       <loot count="2" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="172" legality="rules-legal" />
+         <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="173" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Crowbar" type="Gear" internal-id="ID_FMP_GEAR_96" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=96&amp;ftype=4" charelem="173" legality="rules-legal" />
+         <RulesElement name="Crowbar" type="Gear" internal-id="ID_FMP_GEAR_96" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=96&amp;ftype=4" charelem="174" legality="rules-legal" />
+      </loot>
+      <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Potion of Healing" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="175" legality="rules-legal" />
       </loot>
    </Level>
 
@@ -2068,7 +2086,7 @@ Play a Minotaur if you want ...
       Grumpy just doesn&apos;t cut it. This creature has a chip on its shoulder the size of a tree.
    </textstring>
    <textstring name="Companions and Allies" >
-      Allies? What are these &quot;Allies&quot; of which you speak? Cowman NEEDS no allies!
+      Allies? What are these &quot;Allies&quot; of which you speak? Oloril NEEDS no allies!
    </textstring>
    <textstring name="Adventuring Comapny" >
       Heroes of Winterhaven
@@ -2077,7 +2095,7 @@ Play a Minotaur if you want ...
       Adrian
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp499D.tmp
+      C:\Windows\TEMP\tmp9A39.tmp
    </textstring>
 
 

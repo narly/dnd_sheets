@@ -1258,7 +1258,7 @@
                <specific name="Enhancement" > +1 attack rolls and damage rolls </specific>
             </RulesElement>
          </loot>
-         <loot count="0" equip-count="0" ShowPowerCard="1" >
+         <loot count="20" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Shuriken" type="Weapon" internal-id="ID_FMP_WEAPON_41" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=41&amp;ftype=3" charelem="105" legality="rules-legal" >
                <specific name="Full Text" > ShurikenSuperior one-handed ranged weaponCost: .2 gpDamage: 1d4Proficient: +3Range: 6/12Weight: 0.1 lb.Properties: Light Thrown (A basic attack with a light thrown weapon uses your Dexterity. Light thrown weapons don&apos;t deal as much damage as heavy thrown weapons, but some powers let you hurl several of them at once or in rapid succession.).Group: Light blade (Light blades reward accuracy as much as force. Pinpoint attacks, lunges, and agile defenses are the strong points of these weapons.). </specific>
                <specific name="Weight" > 0.1 </specific>
@@ -1272,6 +1272,21 @@
                <specific name="Group" > Light blade </specific>
                <specific name="Properties" > Light Thrown </specific>
                <specific name="Silver" > 2 </specific>
+            </RulesElement>
+         </loot>
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
+            <RulesElement name="Potion of Healing" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="106" legality="rules-legal" >
+               <specific name="Flavor" > This simple potion draws on the body&apos;s natural healing ability to cure your wounds. </specific>
+               <specific name="Level" > 5 </specific>
+               <specific name="Gold" > 50 </specific>
+               <specific name="Magic Item Type" > Consumable </specific>
+               <specific name="Consumable" > Potion </specific>
+               <specific name="_Rarity" > Common </specific>
+               <specific name="_Bonus" > +0 </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="_Tags" > Essentials </specific>
+               <specific name="Power" > Power (Healing) * Consumable (Minor Action)
+Drink this potion and spend a healing surge. Instead of the hit points you would normally regain, you regain 10 hit points. </specific>
             </RulesElement>
          </loot>
       </LootTally>
@@ -1422,6 +1437,24 @@
                <CritDamage> 8 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
+            <Weapon name="Shuriken" >
+               <RulesElement name="Shuriken" type="Weapon" internal-id="ID_FMP_WEAPON_41" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=41&amp;ftype=3" charelem="105" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 1d6+4 </Damage>
+               <AttackStat> Dexterity </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +4 Dexterity modifier.
++2 half your level.
++3 proficiency bonus.
+
+               </HitComponents>
+               <DamageComponents> +4 Dexterity modifier.
+
+               </DamageComponents>
+               <Conditions> +2d8 to damage once per turn (Sneak Attack)               </Conditions>
+               <CritDamage> 10 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 6 </AttackBonus>
                <Damage> 1d4+4 </Damage>
@@ -1528,6 +1561,24 @@
                <Conditions> +2d8 to damage once per turn (Sneak Attack)
 +4 to damage rolls against surprised enemies - Dirty Fighting.               </Conditions>
                <CritDamage> 8 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Shuriken" >
+               <RulesElement name="Shuriken" type="Weapon" internal-id="ID_FMP_WEAPON_41" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=41&amp;ftype=3" charelem="105" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 1d6+4 </Damage>
+               <AttackStat> Dexterity </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +4 Dexterity modifier.
++2 half your level.
++3 proficiency bonus.
+
+               </HitComponents>
+               <DamageComponents> +4 Dexterity modifier.
+
+               </DamageComponents>
+               <Conditions> +2d8 to damage once per turn (Sneak Attack)               </Conditions>
+               <CritDamage> 10 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
@@ -1766,6 +1817,24 @@
                <CritDamage> 12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
+            <Weapon name="Shuriken" >
+               <RulesElement name="Shuriken" type="Weapon" internal-id="ID_FMP_WEAPON_41" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=41&amp;ftype=3" charelem="105" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 2d6+4 </Damage>
+               <AttackStat> Dexterity </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +4 Dexterity modifier.
++2 half your level.
++3 proficiency bonus.
+
+               </HitComponents>
+               <DamageComponents> +4 Dexterity modifier.
+
+               </DamageComponents>
+               <Conditions> +2d8 to damage once per turn (Sneak Attack)               </Conditions>
+               <CritDamage> 16 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
          </Power>
 
          <Power name="Tumble" >
@@ -1918,18 +1987,18 @@
             <RulesElement name="Unaligned" type="Alignment" internal-id="ID_FMP_ALIGNMENT_1" charelem="52" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion1" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION1" charelem="53" legality="rules-legal" >
-            <RulesElement name="" type="" charelem="106" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="107" legality="rules-legal" />
             <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="54" legality="rules-legal" >
-               <RulesElement name="" type="" charelem="107" legality="rules-legal" />
+               <RulesElement name="" type="" charelem="108" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="" type="" charelem="108" legality="rules-legal" />
             <RulesElement name="" type="" charelem="109" legality="rules-legal" />
             <RulesElement name="" type="" charelem="110" legality="rules-legal" />
             <RulesElement name="" type="" charelem="111" legality="rules-legal" />
             <RulesElement name="" type="" charelem="112" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="113" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="55" legality="rules-legal" >
-            <RulesElement name="" type="" charelem="113" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="114" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="56" legality="rules-legal" />
          <RulesElement name="Expansion4" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION4" charelem="57" legality="rules-legal" />
@@ -1957,7 +2026,7 @@
                <RulesElement name="History Bonus" type="Racial Trait" internal-id="ID_INTERNAL_RACIAL_TRAIT_HISTORY_BONUS" charelem="18" legality="rules-legal" />
             </RulesElement>
             <RulesElement name="Dexterity" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_DEXTERITY" charelem="1" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="114" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="115" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Rogue" type="Class" internal-id="ID_FMP_CLASS_6" url="http://www.wizards.com/dndinsider/compendium/class.aspx?id=6" charelem="12" legality="rules-legal" >
             <RulesElement name="Rogue" type="Grants" internal-id="ID_INTERNAL_GRANTS_ROGUE" charelem="69" legality="rules-legal" >
@@ -1982,7 +2051,7 @@
             </RulesElement>
             <RulesElement name="Deft Strike" type="Power" internal-id="ID_FMP_POWER_971" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=971" charelem="82" legality="rules-legal" />
             <RulesElement name="Piercing Strike" type="Power" internal-id="ID_FMP_POWER_704" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=704" charelem="83" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="115" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="116" legality="rules-legal" />
             <RulesElement name="Acrobatics" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ACROBATICS" charelem="14" legality="rules-legal" />
             <RulesElement name="Athletics" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ATHLETICS" charelem="22" legality="rules-legal" />
             <RulesElement name="Bluff" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_BLUFF" charelem="17" legality="rules-legal" />
@@ -1991,35 +2060,35 @@
          <RulesElement name="Backstabber" type="Feat" internal-id="ID_FMP_FEAT_185" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=185" charelem="84" legality="rules-legal" />
          <RulesElement name="Dazing Strike" type="Power" internal-id="ID_FMP_POWER_1382" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1382" charelem="85" legality="rules-legal" />
          <RulesElement name="Easy Target" type="Power" internal-id="ID_FMP_POWER_1422" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1422" charelem="86" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="116" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="117" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="2" type="Level" internal-id="ID_INTERNAL_LEVEL_2" charelem="9" legality="rules-legal" >
          <RulesElement name="Dirty Fighting" type="Feat" internal-id="ID_FMP_FEAT_407" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=407" charelem="28" legality="rules-legal" />
          <RulesElement name="Tumble" type="Power" internal-id="ID_FMP_POWER_1395" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1395" charelem="87" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="117" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="118" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="118" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="119" legality="rules-legal" />
       </loot>
       <loot count="4" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Dagger" type="Weapon" internal-id="ID_FMP_WEAPON_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=3" charelem="119" legality="rules-legal" />
+         <RulesElement name="Dagger" type="Weapon" internal-id="ID_FMP_WEAPON_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=3" charelem="120" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Thieves&apos; Tools" type="Gear" internal-id="ID_FMP_GEAR_35" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=35&amp;ftype=4" charelem="120" legality="rules-legal" />
+         <RulesElement name="Thieves&apos; Tools" type="Gear" internal-id="ID_FMP_GEAR_35" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=35&amp;ftype=4" charelem="121" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Cloth Armor (Basic Clothing)" type="Armor" internal-id="ID_FMP_ARMOR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=2" charelem="121" legality="rules-legal" />
+         <RulesElement name="Cloth Armor (Basic Clothing)" type="Armor" internal-id="ID_FMP_ARMOR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=2" charelem="122" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Club" type="Weapon" internal-id="ID_FMP_WEAPON_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=3" charelem="122" legality="rules-legal" />
+         <RulesElement name="Club" type="Weapon" internal-id="ID_FMP_WEAPON_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=3" charelem="123" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="10" legality="rules-legal" >
          <RulesElement name="Bait and Switch" type="Power" internal-id="ID_FMP_POWER_1480" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1480" charelem="88" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="123" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="124" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
@@ -2027,7 +2096,7 @@
          <RulesElement name="Versatile Duelist" type="Feat" internal-id="ID_FMP_FEAT_2078" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=2078" charelem="89" legality="rules-legal" >
             <RulesElement name="One-Handed Military Heavy Blade" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_ONE-HANDED_MILITARY_HEAVY_BLADE" charelem="90" legality="rules-legal" >
                <RulesElement name="Weapon Proficiency (Scimitar)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCIMITAR)" charelem="91" legality="rules-legal" />
-               <RulesElement name="Weapon Proficiency (Longsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGSWORD)" charelem="124" legality="rules-legal" />
+               <RulesElement name="Weapon Proficiency (Longsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGSWORD)" charelem="125" legality="rules-legal" />
                <RulesElement name="Weapon Proficiency (Broadsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BROADSWORD)" charelem="92" legality="rules-legal" />
                <RulesElement name="Weapon Proficiency (Khopesh)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(KHOPESH)" charelem="93" legality="rules-legal" />
                <RulesElement name="Weapon Proficiency (Blade of Annihilation)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLADE_OF_ANNIHILATION)" charelem="94" legality="rules-legal" />
@@ -2038,20 +2107,23 @@
          </RulesElement>
          <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="2" legality="rules-legal" />
          <RulesElement name="Charisma" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CHARISMA" charelem="4" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="125" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="126" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="126" legality="rules-legal" />
+         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="127" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Dagger" type="Weapon" internal-id="ID_FMP_WEAPON_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=3" charelem="127" legality="rules-legal" />
+         <RulesElement name="Dagger" type="Weapon" internal-id="ID_FMP_WEAPON_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=3" charelem="128" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="128" legality="rules-legal" />
-         <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="129" legality="rules-legal" />
+         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="129" legality="rules-legal" />
+         <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="130" legality="rules-legal" />
       </loot>
-      <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Shuriken" type="Weapon" internal-id="ID_FMP_WEAPON_41" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=41&amp;ftype=3" charelem="130" legality="rules-legal" />
+      <loot count="20" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Shuriken" type="Weapon" internal-id="ID_FMP_WEAPON_41" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=41&amp;ftype=3" charelem="131" legality="rules-legal" />
+      </loot>
+      <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Potion of Healing" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="132" legality="rules-legal" />
       </loot>
    </Level>
 
@@ -2103,7 +2175,7 @@
       20
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmpAD98.tmp
+      C:\Windows\TEMP\tmpAC5E.tmp
    </textstring>
    <textstring name="_INTERNAL_MainHandWeapon" >
       Vicious Short sword +1

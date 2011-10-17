@@ -746,6 +746,7 @@
          <RulesElement name="female" type="Gender" internal-id="ID_INTERNAL_GENDER_FEMALE" charelem="51" legality="rules-legal" >
          </RulesElement>
          <RulesElement name="Unaligned" type="Alignment" internal-id="ID_FMP_ALIGNMENT_1" charelem="52" legality="rules-legal" >
+         Unaligned creatures don&apos;t actively seek to harm others or wish them ill. But such creatures also don&apos;t go out of their way to put themselves at risk without some hope for reward. They support law and order when doing so benefits them. They value their own freedom, without worrying too much about protecting the freedom of others.	A few unaligned people, and most unaligned deities, aren&apos;t undecided about alignment. Rather, they&apos;ve chosen not to choose, either because they see the benefits of both good and evil or because they see themselves as above the concerns of morality. The Raven Queen and her devotees fall into the latter camp, believing that moral choices are irrelevant to their mission, since death comes to all creatures regardless of alignment.
          </RulesElement>
          <RulesElement name="Expansion1" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION1" charelem="53" legality="rules-legal" >
          </RulesElement>
@@ -1271,6 +1272,12 @@
                <specific name="Check" > - </specific>
                <specific name="Speed" > - </specific>
                <specific name="Gold" > 25 </specific>
+               <specific name="_BaseACPlus1" > 2 </specific>
+               <specific name="_BaseACPlus2" > 2 </specific>
+               <specific name="_BaseACPlus3" > 2 </specific>
+               <specific name="_BaseACPlus4" > 3 </specific>
+               <specific name="_BaseACPlus5" > 3 </specific>
+               <specific name="_BaseACPlus6" > 4 </specific>
                <specific name="Armor Type" > Light </specific>
                <specific name="Item Slot" > Body </specific>
                <specific name="Armor Category" > Leather </specific>
@@ -1324,6 +1331,21 @@
                <specific name="Category" > Component </specific>
                <specific name="count" > 1 </specific>
             Valuable components must be expended to perform a ritual. Restoration rituals use mystic salves, dabbed or painted on the creatures to be healed. These salves come in small jars and include blessed oils and unguents made from rare spices.Components are needed by ritual casters. You purchase as many gold pieces worth of components as you need or can afford. You can use the components associated with a key skill for any ritual that uses that skill. Ritual components are not interchangeable; you can&apos;t use alchemical reagents to perform a ritual requiring sanctified incense, for example. But you can use residuum for any ritual.You can buy ritual components at some shops, your allies can provide them (sharing the cost of a ritual with you), or you might find them as treasure. However you acquire components, record their value on your character sheet. When you perform a ritual, mark off the ritual&apos;s cost from the appropriate components.
+            </RulesElement>
+         </loot>
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
+            <RulesElement name="Potion of Healing" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="164" legality="rules-legal" >
+               <specific name="Flavor" > This simple potion draws on the body&apos;s natural healing ability to cure your wounds. </specific>
+               <specific name="Level" > 5 </specific>
+               <specific name="Gold" > 50 </specific>
+               <specific name="Magic Item Type" > Consumable </specific>
+               <specific name="Consumable" > Potion </specific>
+               <specific name="_Rarity" > Common </specific>
+               <specific name="_Bonus" > +0 </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="_Tags" > Essentials </specific>
+               <specific name="Power" > Power (Healing) * Consumable (Minor Action)
+Drink this potion and spend a healing surge. Instead of the hit points you would normally regain, you regain 10 hit points. </specific>
             </RulesElement>
          </loot>
       </LootTally>
@@ -1546,7 +1568,7 @@
             <Weapon name="Shortbow" >
                <RulesElement name="Shortbow" type="Weapon" internal-id="ID_FMP_WEAPON_39" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=39&amp;ftype=3" charelem="158" legality="rules-legal" />
                <AttackBonus> 10 </AttackBonus>
-               <Damage> 2d8+5 </Damage>
+               <Damage> 1d8+5 </Damage>
                <AttackStat> Dexterity </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +2 power modifier.
@@ -1561,13 +1583,13 @@
                </DamageComponents>
                <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)
 +1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
-               <CritDamage> 21 </CritDamage>
+               <CritDamage> 13 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Dagger" >
                <RulesElement name="Dagger" type="Weapon" internal-id="ID_FMP_WEAPON_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=3" charelem="157" legality="rules-legal" />
                <AttackBonus> 8 </AttackBonus>
-               <Damage> 2d4+4 </Damage>
+               <Damage> 1d4+1 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +2 power modifier.
@@ -1576,11 +1598,11 @@
 +3 proficiency bonus.
 
                </HitComponents>
-               <DamageComponents> +4 Dexterity modifier.
+               <DamageComponents> +1 Strength modifier.
 
                </DamageComponents>
                <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
-               <CritDamage> 12 </CritDamage>
+               <CritDamage> 5 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
@@ -1853,14 +1875,14 @@
             <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="55" legality="rules-legal" >
                <RulesElement name="Detective Benefit" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_DETECTIVE_BENEFIT" charelem="17" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="" type="" charelem="164" legality="rules-legal" />
             <RulesElement name="" type="" charelem="165" legality="rules-legal" />
             <RulesElement name="" type="" charelem="166" legality="rules-legal" />
             <RulesElement name="" type="" charelem="167" legality="rules-legal" />
             <RulesElement name="" type="" charelem="168" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="169" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="56" legality="rules-legal" >
-            <RulesElement name="" type="" charelem="169" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="170" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="57" legality="rules-legal" />
          <RulesElement name="Expansion4" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION4" charelem="58" legality="rules-legal" />
@@ -2003,31 +2025,31 @@
    <Level>
       <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="10" legality="rules-legal" >
          <RulesElement name="Disruptive Strike" type="Power" internal-id="ID_FMP_POWER_1416" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1416" charelem="155" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="170" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="171" legality="rules-legal" />
       </RulesElement>
       <loot count="3" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Dagger" type="Weapon" internal-id="ID_FMP_WEAPON_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=3" charelem="171" legality="rules-legal" />
+         <RulesElement name="Dagger" type="Weapon" internal-id="ID_FMP_WEAPON_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=3" charelem="172" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Shortbow" type="Weapon" internal-id="ID_FMP_WEAPON_39" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=39&amp;ftype=3" charelem="172" legality="rules-legal" />
+         <RulesElement name="Shortbow" type="Weapon" internal-id="ID_FMP_WEAPON_39" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=39&amp;ftype=3" charelem="173" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="173" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="174" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="174" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="175" legality="rules-legal" />
       </loot>
       <loot count="3" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Arrows" type="Gear" internal-id="ID_FMP_GEAR_11" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=11&amp;ftype=4" charelem="175" legality="rules-legal" />
+         <RulesElement name="Arrows" type="Gear" internal-id="ID_FMP_GEAR_11" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=11&amp;ftype=4" charelem="176" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="176" legality="rules-legal" />
+         <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="177" legality="rules-legal" />
       </loot>
       <loot count="3" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Oil (1 pint)" type="Gear" internal-id="ID_FMP_GEAR_52" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=52&amp;ftype=4" charelem="177" legality="rules-legal" />
+         <RulesElement name="Oil (1 pint)" type="Gear" internal-id="ID_FMP_GEAR_52" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=52&amp;ftype=4" charelem="178" legality="rules-legal" />
       </loot>
       <loot count="2" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Mystic Salves (Heal)" type="Gear" internal-id="ID_FMP_GEAR_54" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=54&amp;ftype=4" charelem="178" legality="rules-legal" />
+         <RulesElement name="Mystic Salves (Heal)" type="Gear" internal-id="ID_FMP_GEAR_54" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=54&amp;ftype=4" charelem="179" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
@@ -2035,8 +2057,11 @@
          <RulesElement name="Lethal Hunter" type="Feat" internal-id="ID_FMP_FEAT_273" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=273" charelem="156" legality="rules-legal" />
          <RulesElement name="Strength" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_STRENGTH" charelem="1" legality="rules-legal" />
          <RulesElement name="Intelligence" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_INTELLIGENCE" charelem="4" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="179" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="180" legality="rules-legal" />
       </RulesElement>
+      <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Potion of Healing" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="181" legality="rules-legal" />
+      </loot>
    </Level>
 
 
@@ -2102,7 +2127,7 @@
       Andrea
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp803B.tmp
+      C:\Windows\TEMP\tmpDC45.tmp
    </textstring>
    <textstring name="_PER_LEVEL_4_Carried Money" >
       5 pp; 19 gp
