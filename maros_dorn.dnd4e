@@ -18,7 +18,7 @@
          <Alignment>  </Alignment>
          <Company>  </Company>
          <Portrait>  </Portrait>
-         <Experience> 3750 </Experience>
+         <Experience> 5400 </Experience>
          <CarriedMoney> 680 gp </CarriedMoney>
          <StoredMoney>  </StoredMoney>
          <Traits>  </Traits>
@@ -191,7 +191,7 @@
          <Stat value="7" >
             <alias name="Healing Surges" />
             <statadd type="Level 1" Level="1" requires="!NoConToHealingSurges" value="1" statlink="Constitution" abilmod="true" charelem="5" />
-            <statadd Level="1" value="6" charelem="12" />
+            <statadd type="Class" Level="1" value="6" charelem="12" />
          </Stat>
 
          <Stat value="2" >
@@ -637,13 +637,10 @@
       <RulesElementTally>
          <RulesElement name="1" type="Level" internal-id="ID_INTERNAL_LEVEL_1" charelem="5" legality="rules-legal" >
             <specific name="XP Needed" > 1000 </specific>
-         
          </RulesElement>
          <RulesElement name="Level1Rules" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_LEVEL1RULES" charelem="28" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="SkillRules" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_SKILLRULES" charelem="13" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Acrobatics" type="Skill" internal-id="ID_FMP_SKILL_1" url="http://www.wizards.com/dndinsider/compendium/skill.aspx?id=1" charelem="29" legality="rules-legal" >
             <specific name="Key Ability" > Dexterity </specific>
@@ -714,7 +711,6 @@
          Make an Athletics check to attempt physical activities that rely on muscular strength, including climbing, escaping from a grab, jumping, and swimming.
          </RulesElement>
          <RulesElement name="Heroic" type="Tier" internal-id="ID_INTERNAL_TIER_HEROIC" charelem="46" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Melee Basic Attack" type="Power" internal-id="ID_INTERNAL_POWER_MELEE_BASIC_ATTACK" charelem="47" legality="rules-legal" >
             <specific name="Flavor" > You resort to the simple attack you learned when you first picked up a melee weapon. </specific>
@@ -727,7 +723,6 @@
             <specific name="Attack" > Strength vs. AC </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Strength modifier damage. </specific>
-         
          </RulesElement>
          <RulesElement name="Ranged Basic Attack" type="Power" internal-id="ID_INTERNAL_POWER_RANGED_BASIC_ATTACK" charelem="48" legality="rules-legal" >
             <specific name="Flavor" > You resort to the simple attack you learned when you first picked up a ranged weapon. </specific>
@@ -740,53 +735,38 @@
             <specific name="Attack" > Dexterity vs. AC </specific>
             <specific name="Hit" > 1[W] + Dexterity modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Dexterity modifier damage. </specific>
-         
          </RulesElement>
          <RulesElement name="DetailsRules" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_DETAILSRULES" charelem="49" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="male" type="Gender" internal-id="ID_INTERNAL_GENDER_MALE" charelem="50" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Unaligned" type="Alignment" internal-id="ID_FMP_ALIGNMENT_1" charelem="51" legality="rules-legal" >
-         
+         Unaligned creatures don&apos;t actively seek to harm others or wish them ill. But such creatures also don&apos;t go out of their way to put themselves at risk without some hope for reward. They support law and order when doing so benefits them. They value their own freedom, without worrying too much about protecting the freedom of others.	A few unaligned people, and most unaligned deities, aren&apos;t undecided about alignment. Rather, they&apos;ve chosen not to choose, either because they see the benefits of both good and evil or because they see themselves as above the concerns of morality. The Raven Queen and her devotees fall into the latter camp, believing that moral choices are irrelevant to their mission, since death comes to all creatures regardless of alignment.
          </RulesElement>
          <RulesElement name="Expansion1" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION1" charelem="52" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Half-Orc - Stormtouched" type="Background" internal-id="ID_FMP_BACKGROUND_127" charelem="53" legality="rules-legal" >
             <specific name="Type" > Racial </specific>
             <specific name="Common Knowledge" > Many half-orcs hold Kord in particular respect, even if they don&apos;t acknowledge him as the creator of their race. You had a brush with a storm; perhaps you were born during a thunderstorm, or maybe you were struck by lightning as a young adult. Now Kord&apos;s touch is on you, and it&apos;s clear that he has some particular destiny in mind for you. But what is it? </specific>
-            <specific name="Benefit" />
-            <specific name="Short Description" />
             <specific name="Campaign" > General </specific>
             <specific name="Associated Skills" > Nature, Religion </specific>
-            <specific name="Associated Languages" />
-         
          </RulesElement>
          <RulesElement name="Nature" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_NATURE" charelem="54" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Religion" type="Background Association" internal-id="ID_INTERNAL_BACKGROUND_ASSOCIATION_RELIGION" charelem="55" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="56" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Nature class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_NATURE_CLASS_SKILL" charelem="57" legality="rules-legal" >
          Add Nature to your list of class skills.
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="58" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="59" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Expansion4" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION4" charelem="60" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Expansion5" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION5" charelem="61" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Half-Orc" type="Race" internal-id="ID_FMP_RACE_36" url="http://www.wizards.com/dndinsider/compendium/race.aspx?id=36" charelem="21" legality="rules-legal" >
             <specific name="Flavor" > Fierce warriors who combine human resolve with orc savagery </specific>
@@ -809,13 +789,10 @@
          </RulesElement>
          <RulesElement name="Half-Orc" type="Grants" internal-id="ID_INTERNAL_GRANTS_HALF-ORC" charelem="62" legality="rules-legal" >
             <specific name="_SupportsID" > ID_FMP_RACE_36 </specific>
-         
          </RulesElement>
          <RulesElement name="Medium" type="Size" internal-id="ID_INTERNAL_SIZE_MEDIUM" charelem="63" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Low-light" type="Vision" internal-id="ID_INTERNAL_VISION_LOW-LIGHT" charelem="64" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Furious Assault" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_1146" charelem="65" legality="rules-legal" >
             <specific name="Short Description" > Have the furious assault power </specific>
@@ -829,17 +806,14 @@
          <RulesElement name="Furious Assault" type="Power" internal-id="ID_FMP_POWER_6189" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=6189" charelem="66" legality="rules-legal" >
             <specific name="Flavor" > Your monstrous wrath burns inside you, giving strength to your attack. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Half-Orc Racial Power </specific>
             <specific name="Keywords" />
             <specific name="Action Type" > Free Action </specific>
             <specific name="Attack Type" > Personal </specific>
             <specific name="Trigger" > You hit an enemy with an attack. </specific>
             <specific name="Effect" > The attack deals 1[W] extra damage if it&apos;s a weapon attack or 1d8 extra damage if it is not a weapon attack. </specific>
-            <specific name="_Associated Feats" />
             <specific name="_ParentFeature" > ID_FMP_RACIAL_TRAIT_1146 </specific>
             <specific name="Class" > ID_FMP_RACE_36 </specific>
-         
          </RulesElement>
          <RulesElement name="Half-Orc Resilience" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_1147" charelem="67" legality="rules-legal" >
             <specific name="Short Description" > Gain 5 temporary hp (10 at 11th, 15 at 21st) the first time you&apos;re bloodied during an encounter </specific>
@@ -854,7 +828,6 @@
          You gain a +2 bonus to speed when charging.
          </RulesElement>
          <RulesElement name="Dexterity" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_DEXTERITY" charelem="2" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Common" type="Language" internal-id="ID_FMP_LANGUAGE_1" charelem="23" legality="rules-legal" >
          Common is a debased form of Supernal, in the way that humans and halflings heard the first language.
@@ -863,20 +836,18 @@
          The titans and giants adopted a debased version of Primordial for their own tongue.
          </RulesElement>
          <RulesElement name="Endurance Bonus" type="Racial Trait" internal-id="ID_INTERNAL_RACIAL_TRAIT_ENDURANCE_BONUS" charelem="17" legality="rules-legal" >
-            <specific name="InternalOnly" > 1 </specific>
+            <specific name="_CS_ShortDescription" > @ </specific>
          Gain a +2 racial bonus to Endurance.
          </RulesElement>
          <RulesElement name="Intimidate Bonus" type="Racial Trait" internal-id="ID_INTERNAL_RACIAL_TRAIT_INTIMIDATE_BONUS" charelem="18" legality="rules-legal" >
-            <specific name="InternalOnly" > 1 </specific>
+            <specific name="_CS_ShortDescription" > @ </specific>
          Gain a +2 racial bonus to Intimidate.
          </RulesElement>
          <RulesElement name="Strength" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_STRENGTH" charelem="1" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Ranger" type="Class" internal-id="ID_FMP_CLASS_5" url="http://www.wizards.com/dndinsider/compendium/class.aspx?id=5" charelem="12" legality="rules-legal" >
             <specific name="Flavor" > “I&apos;ll get the one in the back. That&apos;s one hobgoblin who&apos;ll regret ever lifting a bow.” </specific>
             <specific name="Key Abilities" > Strength, Dexterity, Wisdom </specific>
-            <specific name="Implements" />
             <specific name="Armor Proficiencies" > Cloth, leather, hide </specific>
             <specific name="Weapon Proficiencies" > Simple melee, military melee, simple ranged, military ranged </specific>
             <specific name="Bonus to Defense" > +1 Fortitude, +1 Reflex </specific>
@@ -891,23 +862,15 @@
             <specific name="Power Source" > Martial. Your talents depend on extensive training and practice, inner confidence, and natural proficiency. </specific>
             <specific name="Creating" > Rangers depend on Strength, Dexterity, and Wisdom for most of their powers. Constitution is also useful, since it helps them stand up to damage. The three ranger builds presented here are the archer ranger, the beastmaster ranger and the melee ranger. </specific>
             <specific name="Class Features" > Your class features depend largely on the build and fighting style you choose. </specific>
-            <specific name="Supplemental" />
-            <specific name="Implement" />
             <specific name="Powers" > Your powers are bold exploits derived from your relentless training in archery and swordplay. At higher levels, you have access to special stance powers. </specific>
             <specific name="Power Name" > Exploits </specific>
             <specific name="_RoleElement" > ID_FMP_ROLE_3 </specific>
             <specific name="_PowerSourceElement" > ID_FMP_POWER_SOURCE_1 </specific>
-            <specific name="_SecondaryPowerSourceElement" />
-            <specific name="Secondary Abilities" />
-            <specific name="Hybrid Talent Options" />
             <specific name="Short Description" > A master of bow and blade, you excel at hit-and-run tactics and avoiding danger. </specific>
-            <specific name="_ParentClass" />
-            <specific name="Trait Package" />
          Rangers are watchful warriors who roam past the horizon to safeguard a region, a principle, or a way of life. Masters of bow and blade, rangers excel at hit-and-run assaults and can quickly and silently eliminate foes. Rangers lay superb ambushes and excel at avoiding danger.	As a ranger, you possess almost supernaturally keen senses and a deep appreciation for untamed wilderness. With your knowledge of the natural world, you are able to track enemies through nearly any landscape, using the smallest clue to set your course, even sometimes the calls and songs of beasts and birds. Your severe demeanor promises a deadly conclusion to any enemy you hunt.	When you catch sight of your quarry, will the transgressor perish by swift bow shots from a distance, or by the twofold blades that glint and glitter in each of your battle-scarred hands?
          </RulesElement>
          <RulesElement name="Ranger" type="Grants" internal-id="ID_INTERNAL_GRANTS_RANGER" charelem="68" legality="rules-legal" >
             <specific name="_SupportsID" > ID_FMP_CLASS_5 </specific>
-         
          </RulesElement>
          <RulesElement name="Striker" type="Role" internal-id="ID_FMP_ROLE_3" charelem="69" legality="rules-legal" >
          Strikers specialize in dealing very high amounts of damage to a single target at a time. They have the most concentrated offense of any character in the game. Strikers rely on superior mobility, trickery, or magic to move around
@@ -916,238 +879,171 @@
          Martial powers are not magic in the traditional sense, although some martial powers stand well beyond the capabilities of ordinary mortals. Martial characters use their own strength and willpower to vanquish their enemies. Training and dedication replace arcane formulas and prayers to grant fighters, rangers, rogues, and warlords, among others, their power. Martial powers are called exploits.
          </RulesElement>
          <RulesElement name="Armor Proficiency (Cloth)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_ARMOR_PROFICIENCY_(CLOTH)" charelem="71" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Armor Proficiency (Leather)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_ARMOR_PROFICIENCY_(LEATHER)" charelem="72" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Armor Proficiency (Hide)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_ARMOR_PROFICIENCY_(HIDE)" charelem="73" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Simple Melee" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_MELEE" charelem="74" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Club)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLUB)" charelem="75" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Dagger)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DAGGER)" charelem="76" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Javelin)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(JAVELIN)" charelem="77" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Mace)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(MACE)" charelem="78" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Sickle)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SICKLE)" charelem="79" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Spear)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SPEAR)" charelem="80" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Greatclub)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GREATCLUB)" charelem="81" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Morningstar)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(MORNINGSTAR)" charelem="82" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Quarterstaff)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(QUARTERSTAFF)" charelem="83" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Scythe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCYTHE)" charelem="84" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Spiked gauntlet)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SPIKED_GAUNTLET)" charelem="85" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Talid)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TALID)" charelem="86" legality="rules-legal" >
-         
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Widow&apos;s Knife)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WIDOW&apos;S_KNIFE)" charelem="87" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Widow&apos;s knife)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WIDOW&apos;S_KNIFE)" charelem="87" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Wrist Razors)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WRIST_RAZORS)" charelem="88" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Wrist razors)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WRIST_RAZORS)" charelem="88" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Claw Fighter Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLAW_FIGHTER_CLAW)" charelem="89" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Light mace)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LIGHT_MACE)" charelem="89" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Shadowblade)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHADOWBLADE)" charelem="90" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Short spear)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHORT_SPEAR)" charelem="90" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Climbing Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLIMBING_CLAW)" charelem="91" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Claw Fighter Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLAW_FIGHTER_CLAW)" charelem="91" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Dragontooth Shield (heroic tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DRAGONTOOTH_SHIELD_(HEROIC_TIER))" charelem="92" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Shadowblade)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHADOWBLADE)" charelem="92" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Fighting Shield (heroic tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FIGHTING_SHIELD_(HEROIC_TIER))" charelem="93" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Climbing Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLIMBING_CLAW)" charelem="93" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Soul Shield (paragon tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SOUL_SHIELD_(PARAGON_TIER))" charelem="94" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Dragontooth Shield (Heroic Tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DRAGONTOOTH_SHIELD_(HEROIC_TIER))" charelem="94" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Sun Shield (paragon tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SUN_SHIELD_(PARAGON_TIER))" charelem="95" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Fighting Shield (Heroic Tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FIGHTING_SHIELD_(HEROIC_TIER))" charelem="95" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Rod of Seven Parts (Weapon))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(ROD_OF_SEVEN_PARTS_(WEAPON))" charelem="96" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Soul Shield (Paragon Tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SOUL_SHIELD_(PARAGON_TIER))" charelem="96" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Military Melee" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_MILITARY_MELEE" charelem="97" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Sun Shield (Paragon Tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SUN_SHIELD_(PARAGON_TIER))" charelem="97" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Battleaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BATTLEAXE)" charelem="98" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Rod of Seven Parts (Weapon))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(ROD_OF_SEVEN_PARTS_(WEAPON))" charelem="98" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Handaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HANDAXE)" charelem="99" legality="rules-legal" >
-         
+         <RulesElement name="Military Melee" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_MILITARY_MELEE" charelem="99" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Flail)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FLAIL)" charelem="100" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Battleaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BATTLEAXE)" charelem="100" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Throwing hammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(THROWING_HAMMER)" charelem="101" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Handaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HANDAXE)" charelem="101" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Warhammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WARHAMMER)" charelem="102" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Flail)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FLAIL)" charelem="102" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (War Pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WAR_PICK)" charelem="103" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Throwing hammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(THROWING_HAMMER)" charelem="103" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Scimitar)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCIMITAR)" charelem="104" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Warhammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WARHAMMER)" charelem="104" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Longsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGSWORD)" charelem="105" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (War Pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WAR_PICK)" charelem="105" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Short sword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHORT_SWORD)" charelem="106" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Scimitar)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCIMITAR)" charelem="106" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Greataxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GREATAXE)" charelem="107" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Longsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGSWORD)" charelem="107" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Heavy flail)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HEAVY_FLAIL)" charelem="108" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Short sword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHORT_SWORD)" charelem="108" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Glaive)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GLAIVE)" charelem="109" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Greataxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GREATAXE)" charelem="109" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Halberd)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HALBERD)" charelem="110" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Heavy flail)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HEAVY_FLAIL)" charelem="110" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Maul)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(MAUL)" charelem="111" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Glaive)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GLAIVE)" charelem="111" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Longspear)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGSPEAR)" charelem="112" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Halberd)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HALBERD)" charelem="112" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Greatsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GREATSWORD)" charelem="113" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Maul)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(MAUL)" charelem="113" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Rapier)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(RAPIER)" charelem="114" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Longspear)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGSPEAR)" charelem="114" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Falchion)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FALCHION)" charelem="115" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Greatsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GREATSWORD)" charelem="115" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Broadsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BROADSWORD)" charelem="116" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Rapier)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(RAPIER)" charelem="116" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Khopesh)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(KHOPESH)" charelem="117" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Falchion)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FALCHION)" charelem="117" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Light war pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LIGHT_WAR_PICK)" charelem="118" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Broadsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BROADSWORD)" charelem="118" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Scourge)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCOURGE)" charelem="119" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Khopesh)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(KHOPESH)" charelem="119" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Trident)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TRIDENT)" charelem="120" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Light war pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LIGHT_WAR_PICK)" charelem="120" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Heavy war pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HEAVY_WAR_PICK)" charelem="121" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Scourge)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCOURGE)" charelem="121" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Alhulak)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(ALHULAK)" charelem="122" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Trident)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TRIDENT)" charelem="122" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Carrikal)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CARRIKAL)" charelem="123" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Heavy war pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HEAVY_WAR_PICK)" charelem="123" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Trikal)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TRIKAL)" charelem="124" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Alhulak)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(ALHULAK)" charelem="124" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Blade of Winter&apos;s Mourning)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLADE_OF_WINTER&apos;S_MOURNING)" charelem="125" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Carrikal)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CARRIKAL)" charelem="125" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Blade of Annihilation)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLADE_OF_ANNIHILATION)" charelem="126" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Trikal)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TRIKAL)" charelem="126" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Starshadow Blade)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(STARSHADOW_BLADE)" charelem="127" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Blade of Winter&apos;s Mourning)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLADE_OF_WINTER&apos;S_MOURNING)" charelem="127" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Sword of the White Well)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SWORD_OF_THE_WHITE_WELL)" charelem="128" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Blade of Annihilation)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLADE_OF_ANNIHILATION)" charelem="128" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Scourge of Exquisite Agony)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCOURGE_OF_EXQUISITE_AGONY)" charelem="129" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Starshadow Blade)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(STARSHADOW_BLADE)" charelem="129" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Feral Armor Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FERAL_ARMOR_CLAW)" charelem="130" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Sword of the White Well)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SWORD_OF_THE_WHITE_WELL)" charelem="130" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Simple Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_RANGED" charelem="131" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Scourge of Exquisite Agony)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCOURGE_OF_EXQUISITE_AGONY)" charelem="131" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Hand Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HAND_CROSSBOW)" charelem="132" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Lance)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LANCE)" charelem="132" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Sling)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SLING)" charelem="133" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Pike)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(PIKE)" charelem="133" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CROSSBOW)" charelem="134" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Feral Armor Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FERAL_ARMOR_CLAW)" charelem="134" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Repeating crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(REPEATING_CROSSBOW)" charelem="135" legality="rules-legal" >
-         
+         <RulesElement name="Simple Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_RANGED" charelem="135" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Dejada)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DEJADA)" charelem="136" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Hand crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HAND_CROSSBOW)" charelem="136" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Military Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_MILITARY_RANGED" charelem="137" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Sling)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SLING)" charelem="137" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Shortbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHORTBOW)" charelem="138" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CROSSBOW)" charelem="138" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Longbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGBOW)" charelem="139" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Repeating crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(REPEATING_CROSSBOW)" charelem="139" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Chatkcha)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CHATKCHA)" charelem="140" legality="rules-legal" >
-         
+         <RulesElement name="Weapon Proficiency (Dejada)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DEJADA)" charelem="140" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Fighting Style" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_321" charelem="141" legality="rules-legal" >
+         <RulesElement name="Military Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_MILITARY_RANGED" charelem="141" legality="rules-legal" >
+         </RulesElement>
+         <RulesElement name="Weapon Proficiency (Shortbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHORTBOW)" charelem="142" legality="rules-legal" >
+         </RulesElement>
+         <RulesElement name="Weapon Proficiency (Longbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGBOW)" charelem="143" legality="rules-legal" >
+         </RulesElement>
+         <RulesElement name="Weapon Proficiency (Chatkcha)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CHATKCHA)" charelem="144" legality="rules-legal" >
+         </RulesElement>
+         <RulesElement name="Fighting Style" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_321" charelem="145" legality="rules-legal" >
             <specific name="Short Description" > Choose Archer Fighting Style, Two-Blade Fighting Style, Beast Mastery, Marauder Fighting Style,  Hunter Fighting Style. </specific>
             <specific name="Level" > 1 </specific>
             <specific name="_PARSED_SUB_FEATURES" > ID_FMP_CLASS_FEATURE_778, ID_FMP_CLASS_FEATURE_779, ID_FMP_CLASS_FEATURE_1030, ID_FMP_CLASS_FEATURE_2208, ID_FMP_CLASS_FEATURE_2210 </specific>
          Choose one of the following fighting styles and gain its benefit: Archer Fighting Style, Beast Mastery, Two-Blade Fighting Style, Marauder Fighting Style, Hunter Fighting Style.
          </RulesElement>
-         <RulesElement name="Two-Blade Fighting Style" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_779" charelem="142" legality="rules-legal" >
+         <RulesElement name="Two-Blade Fighting Style" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_779" charelem="146" legality="rules-legal" >
             <specific name="Short Description" > Wield one-handed weapon as off-hand weapon; gain Toughness as a bonus feat. </specific>
             <specific name="Level" > 1 </specific>
          Because of your focus on two-weapon melee attacks, you can wield a one-handed weapon in your off hand as if it were an off-hand weapon. (Make sure to designate on your character sheet which weapon is main and which is off-hand.) In addition, you gain Toughness as a bonus feat.
          </RulesElement>
-         <RulesElement name="Ambidextrous" type="Internal" internal-id="ID_INTERNAL_INTERNAL_AMBIDEXTROUS" charelem="143" legality="rules-legal" >
-         
+         <RulesElement name="Ambidextrous" type="Internal" internal-id="ID_INTERNAL_INTERNAL_AMBIDEXTROUS" charelem="147" legality="rules-legal" >
          </RulesElement>
          <RulesElement name="Toughness" type="Feat" internal-id="ID_FMP_FEAT_171" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=171" charelem="11" legality="rules-legal" >
             <specific name="Flavor" > Through a combination of physical durability, mental focus, and tenacity, you are more difficult to bring down than the typical adventurer. </specific>
-            <specific name="Tier" > Heroic </specific>
             <specific name="Short Description" > Gain 5 additional hit points, 10 at 11th, 15 at 21st </specific>
-            <specific name="Special" />
-            <specific name="Type" />
-            <specific name="Associated Power Info" />
-            <specific name="Associated Powers" />
             <specific name="_Tags" > Essentials </specific>
+            <specific name="Tier" > Heroic </specific>
          You gain 5 additional hit points. These additional hit points increase to 10 at 11th level and 15 at 21st level.
          </RulesElement>
          <RulesElement name="Hunter&apos;s Quarry" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_602" charelem="25" legality="rules-legal" >
@@ -1159,31 +1055,26 @@
             <specific name="_DisplayPowers" > ID_FMP_POWER_5598 </specific>
          Once per turn, you can use your Hunter&apos;s Quarry power.
          </RulesElement>
-         <RulesElement name="Hunter&apos;s Quarry" type="Power" internal-id="ID_FMP_POWER_5598" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5598" charelem="144" legality="rules-legal" >
+         <RulesElement name="Hunter&apos;s Quarry" type="Power" internal-id="ID_FMP_POWER_5598" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5598" charelem="148" legality="rules-legal" >
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Hunter&apos;s Quarry  Power </specific>
             <specific name="Keywords" />
             <specific name="Action Type" > Minor Action </specific>
             <specific name="Attack Type" />
             <specific name="Effect" > You can designate the nearest enemy to you that you can see as your quarry.Once per round, when you hit your quarry with an attack, the attack deals extra damage based on your level. If you can make multiple attacks in a round, you decide which attack to apply the extra damage to after all the attacks are rolled. If you have dealt Hunter&apos;s Quarry damage since the start of your turn, you cannot deal it again until the start of your next turn.The hunter&apos;s quarry effect remains active until the end of the encounter, until the quarry is defeated, or until you designate a different target as your quarry.You can designate one enemy as your quarry at a time.&lt;table&gt;Level	Hunter&apos;s Quarry Extra Damage1st–10th	+1d611th–20th	+2d621st–30th	+3d6&lt;/table&gt; </specific>
-            <specific name="_Associated Feats" />
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_602,ID_FMP_CLASS_FEATURE_1530 </specific>
-         
          </RulesElement>
          <RulesElement name="Prime Shot" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_603" charelem="26" legality="rules-legal" >
             <specific name="Short Description" > If no allies are closer to target than you, get +1 on ranged attacks against that target. </specific>
             <specific name="Level" > 1 </specific>
          If none of your allies are nearer to your target than you are, you receive a +1 bonus to ranged attack rolls against that target. You do not gain this feature if you choose the Beast Mastery fighting style.
          </RulesElement>
-         <RulesElement name="Ranger Implements" type="Grants" internal-id="ID_INTERNAL_GRANTS_RANGER_IMPLEMENTS" charelem="145" legality="rules-legal" >
+         <RulesElement name="Ranger Implements" type="Grants" internal-id="ID_INTERNAL_GRANTS_RANGER_IMPLEMENTS" charelem="149" legality="rules-legal" >
             <specific name="_SupportsID" > ID_FMP_CLASS_5 </specific>
-         
          </RulesElement>
-         <RulesElement name="Hit and Run" type="Power" internal-id="ID_FMP_POWER_1505" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1505" charelem="146" legality="rules-legal" >
+         <RulesElement name="Hit and Run" type="Power" internal-id="ID_FMP_POWER_1505" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1505" charelem="150" legality="rules-legal" >
             <specific name="Flavor" > Let the fighter stand toe to toe with the monster. You prefer to make your attack, then withdraw to safer ground. </specific>
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Ranger Attack 1 </specific>
             <specific name="Keywords" > Martial, Weapon </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1192,16 +1083,14 @@
             <specific name="Attack" > Strength vs. AC </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage.Increase damage to 2[W] + Strength modifier at 21st level. </specific>
             <specific name="Effect" > If you move in the same turn after this attack, leaving the first square adjacent to the target does not provoke an opportunity attack from the target. </specific>
-            <specific name="_Associated Feats" > ID_FMP_FEAT_980, ID_FMP_FEAT_988, ID_FMP_FEAT_2347, ID_FMP_FEAT_2371, ID_FMP_FEAT_2382, ID_FMP_FEAT_3246 </specific>
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-         
+            <specific name="_Associated Feats" > ID_FMP_FEAT_980, ID_FMP_FEAT_988, ID_FMP_FEAT_2347, ID_FMP_FEAT_2371, ID_FMP_FEAT_2382, ID_FMP_FEAT_3246 </specific>
          </RulesElement>
-         <RulesElement name="Twin Strike" type="Power" internal-id="ID_FMP_POWER_87" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=87" charelem="147" legality="rules-legal" >
+         <RulesElement name="Twin Strike" type="Power" internal-id="ID_FMP_POWER_87" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=87" charelem="151" legality="rules-legal" >
             <specific name="Flavor" > If the first attack doesn&apos;t kill it, the second one might. </specific>
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Ranger Attack 1 </specific>
             <specific name="Keywords" > Martial, Weapon </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1210,13 +1099,12 @@
             <specific name="Targets" > One or two creatures </specific>
             <specific name="Attack" > Strength vs. AC (melee; main weapon and off-hand weapon) or Dexterity vs. AC (ranged), two attacks </specific>
             <specific name="Hit" > 1[W] damage per attack.Increase damage to 2[W] at 21st level. </specific>
-            <specific name="_Associated Feats" > ID_FMP_FEAT_974, ID_FMP_FEAT_977, ID_FMP_FEAT_978, ID_FMP_FEAT_985, ID_FMP_FEAT_989, ID_FMP_FEAT_992 </specific>
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-         
+            <specific name="_Associated Feats" > ID_FMP_FEAT_974, ID_FMP_FEAT_977, ID_FMP_FEAT_978, ID_FMP_FEAT_985, ID_FMP_FEAT_989, ID_FMP_FEAT_992 </specific>
          </RulesElement>
-         <RulesElement name="Two-Blade Ranger" type="Build" internal-id="ID_FMP_BUILD_19" charelem="148" legality="rules-legal" >
+         <RulesElement name="Two-Blade Ranger" type="Build" internal-id="ID_FMP_BUILD_19" charelem="152" legality="rules-legal" >
             <specific name="Suggested" > Feat: Lethal Hunter (Human feat: Action Surge)Skills: Acrobatics, Dungeoneering, Endurance, Heal, PerceptionAt-Will Powers: hit and run, twin strikeEncounter Power: dire wolverine strikeDaily Power: jaws of the wolf </specific>
             <specific name="Key Abilities" > Str, Dex, Wis </specific>
             <specific name="_SUGGESTED_FEATS" > ID_FMP_FEAT_273, ID_FMP_FEAT_215, ID_FMP_FEAT_233, ID_FMP_FEAT_280, ID_FMP_FEAT_217, ID_FMP_FEAT_272 </specific>
@@ -1224,40 +1112,29 @@
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
          You like to get up close and rely on the ranger&apos;s famous two-weapon fighting style. Naturally, you prefer melee attack powers, and that means Strength should be your highest ability score. For your second ability, Dexterity is a good choice because it improves your AC. Make Wisdom your third choice, since it adds to your Will defense and provides a bonus to many of your powers. Choose powers that reflect your preference for fighting with two melee weapons.
          </RulesElement>
-         <RulesElement name="Two-Blade Ranger" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_TWO-BLADE_RANGER" charelem="149" legality="rules-legal" >
+         <RulesElement name="Two-Blade Ranger" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_TWO-BLADE_RANGER" charelem="153" legality="rules-legal" >
             <specific name="_SupportsID" > ID_FMP_BUILD_19 </specific>
-         
          </RulesElement>
          <RulesElement name="Dungeoneering" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_DUNGEONEERING" charelem="15" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Endurance" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ENDURANCE" charelem="16" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Stealth" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_STEALTH" charelem="19" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Acrobatics" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ACROBATICS" charelem="14" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Athletics" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ATHLETICS" charelem="20" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Two-Weapon Fighting" type="Feat" internal-id="ID_FMP_FEAT_173" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=173" charelem="27" legality="rules-legal" >
             <specific name="Flavor" > Your two weapons form a deadly combination. You slash and stab with both in unison, delivering punishing strikes as you press the attack. </specific>
-            <specific name="Tier" > Heroic </specific>
             <specific name="Short Description" > +1 damage while holding a melee weapon in each hand </specific>
-            <specific name="Special" />
-            <specific name="Type" />
-            <specific name="Associated Power Info" />
-            <specific name="Associated Powers" />
             <specific name="_Tags" > Essentials </specific>
+            <specific name="Tier" > Heroic </specific>
          While wielding a melee weapon in each hand, you gain a +1 bonus to the damage rolls of weapon attacks that you make with a melee weapon.
          </RulesElement>
-         <RulesElement name="Dire Wolverine Strike" type="Power" internal-id="ID_FMP_POWER_1510" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1510" charelem="150" legality="rules-legal" >
+         <RulesElement name="Dire Wolverine Strike" type="Power" internal-id="ID_FMP_POWER_1510" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1510" charelem="154" legality="rules-legal" >
             <specific name="Flavor" > Enemies surround you—much to their chagrin, as you slash them to pieces with the ferocity of a wounded dire wolverine. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Ranger Attack 1 </specific>
             <specific name="Keywords" > Martial, Weapon </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1266,16 +1143,13 @@
             <specific name="Target" > Each enemy in the burst you can see </specific>
             <specific name="Attack" > Strength vs. AC </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-         
          </RulesElement>
-         <RulesElement name="Sudden Strike" type="Power" internal-id="ID_FMP_POWER_393" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=393" charelem="151" legality="rules-legal" >
+         <RulesElement name="Sudden Strike" type="Power" internal-id="ID_FMP_POWER_393" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=393" charelem="155" legality="rules-legal" >
             <specific name="Flavor" > You hold your weapons blade-down and slash your foe across the face with one of them. As he spins away and drops his guard, you roll to one side, spring to your feet, and plunge your other blade into his back. </specific>
             <specific name="Power Usage" > Daily </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Ranger Attack 1 </specific>
             <specific name="Keywords" > Martial, Weapon </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1287,66 +1161,54 @@
             <specific name="Effect" > You shift 1 square and make a secondary attack against the target. </specific>
             <specific name="	Secondary Attack" > Strength vs. AC (main weapon) </specific>
             <specific name="	Hit" > 2[W] + Strength modifier damage (main weapon), and the target is weakened until the end of your next turn. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-         
          </RulesElement>
-         <RulesElement name="Kord" type="Deity" internal-id="ID_FMP_DEITY_6" charelem="152" legality="rules-legal" >
+         <RulesElement name="Kord" type="Deity" internal-id="ID_FMP_DEITY_6" charelem="156" legality="rules-legal" >
             <specific name="Alignment" > Unaligned </specific>
             <specific name="Domains" > ID_FMP_DOMAIN_23, ID_FMP_DOMAIN_24, ID_FMP_DOMAIN_32 </specific>
             <specific name="_Tags" > Essentials </specific>
          Kord is the storm god and the lord of battle. He revels in strength, battlefield prowess, and thunder. Fighters and athletes revere him. He is a mercurial god, unbridled and wild, who summons storms over land and sea; those who hope for better weather appease him with prayers and spirited toasts. He gives few commands:* Be strong, but do not use your strength for wanton destruction.* Be brave and scorn cowardice in any form.* Prove your might in battle to win glory and renown.
          </RulesElement>
-         <RulesElement name="Storm" type="Domain" internal-id="ID_FMP_DOMAIN_23" charelem="153" legality="rules-legal" >
+         <RulesElement name="Storm" type="Domain" internal-id="ID_FMP_DOMAIN_23" charelem="157" legality="rules-legal" >
          Slashing rain, roaring winds, brooding clouds, punishing hail—these are moods of Kord. People hear his laughter in thunder and fear the lightning of his fierce smile. Sailors seeking calm winds and farmers who hope for gentle rain beg Kord to vent his fury elsewhere. They engage in contests of strength and raise toasts in Kord&apos;s name to let him know they have neither forgotten his power nor taken his clemency for granted.Like Kord, another god of storms is likely a deity of raging passions. A good god of storms might be thought of as scouring the world of evil, while a malignant deity of the domain would inflict storms simply out of cruelty.
          </RulesElement>
-         <RulesElement name="Strength" type="Domain" internal-id="ID_FMP_DOMAIN_24" charelem="154" legality="rules-legal" >
+         <RulesElement name="Strength" type="Domain" internal-id="ID_FMP_DOMAIN_24" charelem="158" legality="rules-legal" >
          Popular among barbaric peoples, the gods of strength are patrons to warriors and hunters. Violent and short-tempered, these deities act rather than reflect.Blood-spattered Gruumsh glories in the slaughter of weaker foes, disdaining strategy and skill. He believes that the world belongs to those who can crush skulls in their fists or break bones with a bite. Strength is the license to do as you please, and it pleases Gruumsh when his followers use their might to destroy.Kord acts as patron of strength to all who seek to avoid the wanton destruction urged by Gruumsh. Athletes, soldiers, laborers, and others who prize the power of the body pray to Kord, and so do those of weakness who are willing to act against the strong.A strength god need not be so impulsive, and such a deity could be aligned with good. Perhaps your campaign has room for a god of strength and knowledge, patron of athletes and an asceticism seeking physical perfection. A strength god could instead be aligned with justice and promote the use of might for what is right.
          </RulesElement>
-         <RulesElement name="War" type="Domain" internal-id="ID_FMP_DOMAIN_32" charelem="155" legality="rules-legal" >
+         <RulesElement name="War" type="Domain" internal-id="ID_FMP_DOMAIN_32" charelem="159" legality="rules-legal" >
          War is a powerful force in the world, the ultimate test of martial fitness. A war god can be an honorable champion who delights in demonstrations of courage, a cruel conqueror who revels in bloody triumph, or a harsh judge who measures mortals by how they meet their hour of doom.Bane commands the domain of war for its aspects of conquest and strict military structures. Ordered battle plans and improvised strategies please Bane, as do masses of troops and tiny tactical units. Bane embraces every aspect of war and sees it as an end in its own right, an outlook shared by many of those devoted to him.Kord sees war as the testing ground for strength. He values it as a storm of blood—a passion that rages in the heart of true warriors. Kord has little patience for strategizing and deception, and those who carry his standard into battle try simply to pit strength against strength, or they look to another power—such as Ioun, Bahamut, or even Bane—for the tactics they need to win.If you are a devotee of a god of war, you regard battle as the principal test of your worth and devotion. And sometimes a fist in the face says more than a thousand honeyed words.
          </RulesElement>
          <RulesElement name="2" type="Level" internal-id="ID_INTERNAL_LEVEL_2" charelem="8" legality="rules-legal" >
             <specific name="XP Needed" > 1250 </specific>
-         
          </RulesElement>
          <RulesElement name="Two-Weapon Defense" type="Feat" internal-id="ID_FMP_FEAT_172" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=172" charelem="6" legality="rules-legal" >
             <specific name="Flavor" > With two weapons in hand, you use one to parry and feint and the other for attacks. </specific>
-            <specific name="Tier" > Heroic </specific>
             <specific name="Short Description" > +1 to AC and Reflex while holding a weapon in each hand </specific>
-            <specific name="Special" />
-            <specific name="Type" />
-            <specific name="Associated Power Info" />
-            <specific name="Associated Powers" />
             <specific name="_Tags" > Essentials </specific>
+            <specific name="Tier" > Heroic </specific>
          While wielding a melee weapon in each hand, you gain a +1 shield bonus to AC and Reflex.
          </RulesElement>
-         <RulesElement name="Yield Ground" type="Power" internal-id="ID_FMP_POWER_749" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=749" charelem="156" legality="rules-legal" >
+         <RulesElement name="Yield Ground" type="Power" internal-id="ID_FMP_POWER_749" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=749" charelem="160" legality="rules-legal" >
             <specific name="Flavor" > Even as your foe connects, you leap backward, out of the way of further harm. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Ranger Utility 2 </specific>
             <specific name="Keywords" > Martial </specific>
             <specific name="Action Type" > Immediate Reaction </specific>
             <specific name="Attack Type" > Personal </specific>
             <specific name="Trigger" > An enemy damages you with a melee attack </specific>
             <specific name="Effect" > You can shift a number of squares equal to your Wisdom modifier. Gain a +2 power bonus to all defenses until the end of your next turn. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 2 </specific>
             <specific name="Power Type" > Utility </specific>
-         
          </RulesElement>
          <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="9" legality="rules-legal" >
             <specific name="XP Needed" > 1500 </specific>
-         
          </RulesElement>
-         <RulesElement name="Cut and Run" type="Power" internal-id="ID_FMP_POWER_978" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=978" charelem="157" legality="rules-legal" >
+         <RulesElement name="Cut and Run" type="Power" internal-id="ID_FMP_POWER_978" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=978" charelem="161" legality="rules-legal" >
             <specific name="Flavor" > You attack twice while maneuvering yourself into the most advantageous position possible. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Ranger Attack 3 </specific>
             <specific name="Keywords" > Martial, Weapon </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1356,30 +1218,21 @@
             <specific name="Attack" > Strength vs. AC (melee; main weapon and off-hand weapon) or Dexterity vs. AC (ranged), two attacks </specific>
             <specific name="Special" > After the first or the second attack, you can shift a number of squares equal to 1 + your Wisdom modifier. </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage (melee) or 1[W] + Dexterity modifier damage (ranged) per attack. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 3 </specific>
             <specific name="Power Type" > Attack </specific>
-         
          </RulesElement>
          <RulesElement name="4" type="Level" internal-id="ID_INTERNAL_LEVEL_4" charelem="10" legality="rules-legal" >
             <specific name="XP Needed" > 1750 </specific>
-         
          </RulesElement>
-         <RulesElement name="Lethal Hunter" type="Feat" internal-id="ID_FMP_FEAT_273" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=273" charelem="158" legality="rules-legal" >
+         <RulesElement name="Lethal Hunter" type="Feat" internal-id="ID_FMP_FEAT_273" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=273" charelem="162" legality="rules-legal" >
             <specific name="Tier" > Heroic </specific>
             <specific name="Short Description" > Hunter&apos;s Quarry damage dice increase to d8s </specific>
-            <specific name="Special" />
-            <specific name="Type" />
-            <specific name="Associated Power Info" />
-            <specific name="Associated Powers" />
          The extra damage dice from your Hunter&apos;s Quarry class feature increase from d6s to d8s.
          </RulesElement>
          <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="3" legality="rules-legal" >
-         
          </RulesElement>
          <RulesElement name="Wisdom" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_WISDOM" charelem="4" legality="rules-legal" >
-         
          </RulesElement>
       </RulesElementTally>
 
@@ -1389,115 +1242,107 @@
       -->
       <LootTally>
          <loot count="0" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="159" legality="rules-legal" >
+            <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="163" legality="rules-legal" >
                <specific name="Full Text" > LongswordMilitary one-handed melee weaponCost: 15 gpDamage: 1d8Proficient: +3Weight: 4 lb.Properties: Versatile (Versatile weapons are one-handed, but you can use them two-handed. If you do, you deal an extra 1 point of damage when you roll damage for the weapon.A Small character such as a halfling must use a versatile weapon two-handed, and doesn&apos;t deal extra damage.).Group: Heavy blade (Blades are balanced edged weapons. Heavy blades share some of the precision of light blades and some of the mass of axes. Heavy blades are used primarily for slashing cuts rather than stabs and thrusts.). </specific>
                <specific name="Weight" > 4 </specific>
                <specific name="Gold" > 15 </specific>
-               <specific name="Range" />
                <specific name="Damage" > 1d8 </specific>
                <specific name="Proficiency Bonus" > 3 </specific>
-               <specific name="_Primary End" />
                <specific name="Weapon Category" > Military Melee </specific>
                <specific name="Hands Required" > One-Handed </specific>
                <specific name="Item Slot" > One-hand </specific>
                <specific name="Group" > Heavy Blade </specific>
                <specific name="Properties" > Versatile </specific>
-            
             </RulesElement>
-            <RulesElement name="Blood Obsidian Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_9307" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=9307&amp;ftype=1" charelem="160" legality="rules-legal" >
+            <RulesElement name="Blood Obsidian Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_9307" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=9307&amp;ftype=1" charelem="164" legality="rules-legal" >
                <specific name="Flavor" > Powerful defiling magic denudes the land and sometimes rends it asunder. When the magma that boils up from these vents cools, it forms veins of obsidian infused with the essence of death. </specific>
                <specific name="Level" > 5 </specific>
                <specific name="Gold" > 1000 </specific>
                <specific name="Magic Item Type" > Weapon </specific>
-               <specific name="Tier" />
-               <specific name="_Item_Set_ID" />
-               <specific name="Armor" />
-               <specific name="Weapon" > Axe, Heavy blade, Light blade, Spear </specific>
-               <specific name="Item Slot" />
-               <specific name="Requirement" />
-               <specific name="Prerequisite" />
-               <specific name="Critical" > +1d6 necrotic damage </specific>
-               <specific name="Special" />
-               <specific name="Power" > Power (Daily * Necrotic): Free Action. Trigger: You hit an enemy with an attack using this weapon. Effect: That enemy takes necrotic damage equal to twice the weapon&apos;s enhancement bonus. In addition, you regain the use of your lowest-level arcane encounter attack power. </specific>
+               <specific name="Critical" > +1d6 necrotic damage per plus </specific>
                <specific name="_Rarity" > Uncommon </specific>
-               <specific name="_Monster" />
-               <specific name="Enhancement" > +1 attack rolls and damage rolls </specific>
-               <specific name="Granted Powers" />
+               <specific name="_Bonus" > +1 </specific>
+               <specific name="_Enhancement" > Attack rolls and damage rolls </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Weapon" > Axe, Heavy Blade, Light blade, Spear </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_147049 </specific>
                <specific name="Property" > When you use the arcane defiling power, you gain a +2 item bonus to the rerolled attack roll. </specific>
-            
+               <specific name="Power" > Power (Necrotic) * Daily (Free Action)
+	Trigger: You hit an enemy with an attack using this weapon.
+	Effect: That enemy takes necrotic damage equal to twice the weapon&apos;s enhancement bonus. In addition, you regain the use of your lowest-level arcane encounter attack power. </specific>
+               <specific name="Enhancement" > +1 attack rolls and damage rolls </specific>
             </RulesElement>
          </loot>
          <loot count="0" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="161" legality="rules-legal" >
+            <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="165" legality="rules-legal" >
                <specific name="Full Text" > Hide ArmorDescription: Thicker and heavier than leather, hide armor is composed of skin from any creature that has a tough hide, such as a bear, a griffon, or a dragon. Hide armor can bind and slightly hinder your precision, but it&apos;s light enough that it doesn&apos;t affect your speed.AC Bonus: +3Check: -1Weight: 25 lb.Cost: 30 gp.Type: Hide </specific>
                <specific name="Weight" > 25 </specific>
                <specific name="Armor Bonus" > 3 </specific>
-               <specific name="Minimum Enhancement Bonus" />
                <specific name="Check" > -1 </specific>
                <specific name="Speed" > - </specific>
                <specific name="Gold" > 30 </specific>
-               <specific name="Special" />
+               <specific name="_BaseACPlus1" > 3 </specific>
+               <specific name="_BaseACPlus2" > 3 </specific>
+               <specific name="_BaseACPlus3" > 3 </specific>
+               <specific name="_BaseACPlus4" > 4 </specific>
+               <specific name="_BaseACPlus5" > 4 </specific>
+               <specific name="_BaseACPlus6" > 5 </specific>
                <specific name="Armor Type" > Light </specific>
                <specific name="Item Slot" > Body </specific>
                <specific name="Armor Category" > Hide </specific>
             Thicker and heavier than leather, hide armor is composed of skin from any creature that has a tough hide, such as a bear, a griffon, or a dragon. Hide armor can bind and slightly hinder your precision, but it&apos;s light enough that it doesn&apos;t affect your speed.
             </RulesElement>
-            <RulesElement name="Ectoplasmic Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_8545" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8545&amp;ftype=1" charelem="162" legality="rules-legal" >
+            <RulesElement name="Ectoplasmic Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_8545" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8545&amp;ftype=1" charelem="166" legality="rules-legal" >
                <specific name="Flavor" > This armor, covered in mottled patterns that shift with your mood, lets you take on the form of a spirit. </specific>
                <specific name="Level" > 4 </specific>
                <specific name="Gold" > 840 </specific>
                <specific name="Magic Item Type" > Armor </specific>
-               <specific name="Tier" />
-               <specific name="_Item_Set_ID" />
-               <specific name="Armor" > Leather, Hide </specific>
-               <specific name="Weapon" />
-               <specific name="Item Slot" />
-               <specific name="Requirement" />
-               <specific name="Prerequisite" />
-               <specific name="Critical" />
-               <specific name="Special" />
-               <specific name="Power" > Power (Daily * Augmentable): Immediate Interrupt. Trigger: An enemy hits you. Effect: You are insubstantial until the end of your next turn. Augment 1: You are also phasing until the end of your next turn. </specific>
                <specific name="_Rarity" > Uncommon </specific>
-               <specific name="_Monster" />
-               <specific name="Enhancement" > +1 AC </specific>
-               <specific name="Granted Powers" />
+               <specific name="_Bonus" > +1 </specific>
+               <specific name="_Enhancement" > AC </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Armor" > Leather, Hide </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_147530 </specific>
                <specific name="Property" > You gain resist 5 psychic. </specific>
-            
+               <specific name="Power" > Power (Augmentable) * Daily (Immediate Interrupt)
+	Trigger: An enemy hits you.
+	Effect: You are insubstantial until the end of your next turn.
+	Augment 1: You are also phasing until the end of your next turn. </specific>
+               <specific name="Enhancement" > +1 AC </specific>
             </RulesElement>
          </loot>
          <loot count="0" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Amulet of Warding +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6873" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6873&amp;ftype=1" charelem="163" legality="rules-legal" >
+            <RulesElement name="Amulet of Warding +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6873" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6873&amp;ftype=1" charelem="167" legality="rules-legal" >
                <specific name="Flavor" > Polished to a mirror finish, this bronze disk reflects light upon those closest to you, warding them against danger. </specific>
                <specific name="Level" > 3 </specific>
                <specific name="Gold" > 680 </specific>
                <specific name="Magic Item Type" > Neck Slot Item </specific>
-               <specific name="Tier" />
-               <specific name="_Item_Set_ID" />
-               <specific name="Armor" />
-               <specific name="Weapon" />
                <specific name="Item Slot" > Neck </specific>
-               <specific name="Requirement" />
-               <specific name="Prerequisite" />
-               <specific name="Critical" />
-               <specific name="Special" />
-               <specific name="Power" > Power (Daily): Immediate Interrupt. Trigger: An ally adjacent to you is hit by an attack. Effect: The ally gains a power bonus to all defenses equal to the amulet&apos;s enhancement bonus until the start of your next turn. </specific>
                <specific name="_Rarity" > Uncommon </specific>
-               <specific name="_Monster" />
+               <specific name="_Bonus" > +1 </specific>
+               <specific name="_Enhancement" > Fortitude, Reflex, and Will </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_146856 </specific>
+               <specific name="Power" > Power * Daily (Immediate Interrupt)
+	Trigger: An ally adjacent to you is hit by an attack.
+	Effect: The ally gains a power bonus to all defenses equal to the amulet&apos;s enhancement bonus until the start of your next turn. </specific>
                <specific name="Enhancement" > +1 Fortitude, Reflex, and Will </specific>
-               <specific name="Granted Powers" />
-            
             </RulesElement>
          </loot>
          <loot count="0" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="164" legality="rules-legal" >
+            <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="168" legality="rules-legal" >
                <specific name="Full Text" > Hide ArmorDescription: Thicker and heavier than leather, hide armor is composed of skin from any creature that has a tough hide, such as a bear, a griffon, or a dragon. Hide armor can bind and slightly hinder your precision, but it&apos;s light enough that it doesn&apos;t affect your speed.AC Bonus: +3Check: -1Weight: 25 lb.Cost: 30 gp.Type: Hide </specific>
                <specific name="Weight" > 25 </specific>
                <specific name="Armor Bonus" > 3 </specific>
-               <specific name="Minimum Enhancement Bonus" />
                <specific name="Check" > -1 </specific>
                <specific name="Speed" > - </specific>
                <specific name="Gold" > 30 </specific>
-               <specific name="Special" />
+               <specific name="_BaseACPlus1" > 3 </specific>
+               <specific name="_BaseACPlus2" > 3 </specific>
+               <specific name="_BaseACPlus3" > 3 </specific>
+               <specific name="_BaseACPlus4" > 4 </specific>
+               <specific name="_BaseACPlus5" > 4 </specific>
+               <specific name="_BaseACPlus6" > 5 </specific>
                <specific name="Armor Type" > Light </specific>
                <specific name="Item Slot" > Body </specific>
                <specific name="Armor Category" > Hide </specific>
@@ -1505,64 +1350,52 @@
             </RulesElement>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="165" legality="rules-legal" >
+            <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="169" legality="rules-legal" >
                <specific name="Full Text" > Adventurer&apos;s KitCategory: GearPrice: 15 gp Weight: 33 lbDescription: This kit includes a backpack, a bedroll, flint and steel, a belt pouch, two sunrods, ten days&apos; worth of trail rations, 50 feet of hempen rope, and a waterskin. </specific>
                <specific name="Weight" > 33 </specific>
                <specific name="Gold" > 15 </specific>
-               <specific name="Silver" />
-               <specific name="Copper" />
                <specific name="Category" > Gear </specific>
-               <specific name="_RelatedElement" />
                <specific name="count" > 1 </specific>
-               <specific name="_Monster" />
             This kit includes a backpack, a bedroll, flint and steel, a belt pouch, two sunrods, ten days&apos; worth of trail rations, 50 feet of hempen rope, and a waterskin.
             </RulesElement>
          </loot>
          <loot count="2" equip-count="2" ShowPowerCard="1" >
-            <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="166" legality="rules-legal" >
+            <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="170" legality="rules-legal" >
                <specific name="Full Text" > LongswordMilitary one-handed melee weaponCost: 15 gpDamage: 1d8Proficient: +3Weight: 4 lb.Properties: Versatile (Versatile weapons are one-handed, but you can use them two-handed. If you do, you deal an extra 1 point of damage when you roll damage for the weapon.A Small character such as a halfling must use a versatile weapon two-handed, and doesn&apos;t deal extra damage.).Group: Heavy blade (Blades are balanced edged weapons. Heavy blades share some of the precision of light blades and some of the mass of axes. Heavy blades are used primarily for slashing cuts rather than stabs and thrusts.). </specific>
                <specific name="Weight" > 4 </specific>
                <specific name="Gold" > 15 </specific>
-               <specific name="Range" />
                <specific name="Damage" > 1d8 </specific>
                <specific name="Proficiency Bonus" > 3 </specific>
-               <specific name="_Primary End" />
                <specific name="Weapon Category" > Military Melee </specific>
                <specific name="Hands Required" > One-Handed </specific>
                <specific name="Item Slot" > One-hand </specific>
                <specific name="Group" > Heavy Blade </specific>
                <specific name="Properties" > Versatile </specific>
-            
             </RulesElement>
          </loot>
          <loot count="0" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Longbow" type="Weapon" internal-id="ID_FMP_WEAPON_40" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=40&amp;ftype=3" charelem="167" legality="rules-legal" >
+            <RulesElement name="Longbow" type="Weapon" internal-id="ID_FMP_WEAPON_40" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=40&amp;ftype=3" charelem="171" legality="rules-legal" >
                <specific name="Full Text" > LongbowMilitary two-handed ranged weaponCost: 30 gpDamage: 1d10Proficient: +2Range: 20/40Weight: 3 lb.Properties: Load Free (Ranged weapons that loose projectiles, including bows, crossbows, and slings, take some time to load. When a weapon shows “load free” on the ranged weapons table, that means you draw and load ammunition as a free action, effectively part of the action used to attack with the weapon. Any weapon that has the load property requires two hands to load, even if you can use only one hand to attack with it. (The sling, for example, is a one-handed weapon, but you need a free hand to load it.) The crossbow is “load minor,” which means it requires a minor action to load a bolt into the weapon. If a power allows you to hit multiple targets, the additional load time is accounted for in the power.).Group: Bow (A bow is a shaft of strong, supple material with a string stretched between its two ends. It&apos;s a projectile weapon that you use to fire arrows. Bows take training to use effectively, and they can be extremely deadly in expert hands.). </specific>
                <specific name="Weight" > 3 </specific>
                <specific name="Gold" > 30 </specific>
                <specific name="Range" > 20/40 </specific>
                <specific name="Damage" > 1d10 </specific>
                <specific name="Proficiency Bonus" > 2 </specific>
-               <specific name="_Primary End" />
                <specific name="Weapon Category" > Military Ranged </specific>
                <specific name="Hands Required" > Two-Handed </specific>
                <specific name="Item Slot" > Two-Hands </specific>
                <specific name="Group" > Bow </specific>
                <specific name="Properties" > Load Free </specific>
-            
             </RulesElement>
          </loot>
          <loot count="0" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Arrows" type="Gear" internal-id="ID_FMP_GEAR_11" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=11&amp;ftype=4" charelem="168" legality="rules-legal" >
+            <RulesElement name="Arrows" type="Gear" internal-id="ID_FMP_GEAR_11" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=11&amp;ftype=4" charelem="172" legality="rules-legal" >
                <specific name="Full Text" > Arrows (30)Category: AmmunitionPrice: 1 gp Weight: 3 lbDescription: Arrows come in a quiver that holds thirty arrows. Ammunition is  used up when you fire it from a projectile weapon. </specific>
                <specific name="Weight" > 3 </specific>
                <specific name="Gold" > 1 </specific>
-               <specific name="Silver" />
-               <specific name="Copper" />
                <specific name="Category" > Ammunition </specific>
                <specific name="_RelatedElement" > ID_FMP_GEAR_58 </specific>
                <specific name="count" > 30 </specific>
-               <specific name="_Monster" />
             Arrows come in a quiver that holds thirty arrows. Ammunition is  used up when you fire it from a projectile weapon.
             </RulesElement>
          </loot>
@@ -1571,11 +1404,15 @@
                <specific name="Full Text" > Leather ArmorDescription: Leather armor is sturdier than cloth armor. It protects vital areas with multiple layers of boiled-leather plates, while covering the limbs with supple leather that provides a small amount of protection.AC Bonus: +2Weight: 15 lb.Cost: 25 gp.Type: Leather </specific>
                <specific name="Weight" > 15 </specific>
                <specific name="Armor Bonus" > 2 </specific>
-               <specific name="Minimum Enhancement Bonus" />
                <specific name="Check" > - </specific>
                <specific name="Speed" > - </specific>
                <specific name="Gold" > 25 </specific>
-               <specific name="Special" />
+               <specific name="_BaseACPlus1" > 2 </specific>
+               <specific name="_BaseACPlus2" > 2 </specific>
+               <specific name="_BaseACPlus3" > 2 </specific>
+               <specific name="_BaseACPlus4" > 3 </specific>
+               <specific name="_BaseACPlus5" > 3 </specific>
+               <specific name="_BaseACPlus6" > 4 </specific>
                <specific name="Armor Type" > Light </specific>
                <specific name="Item Slot" > Body </specific>
                <specific name="Armor Category" > Leather </specific>
@@ -1603,7 +1440,7 @@
             <specific name="Hit" > 1[W] + Strength modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Strength modifier damage. </specific>
             <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="166" legality="rules-legal" />
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="170" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
                <Damage> 1d8+5 </Damage>
                <AttackStat> Strength </AttackStat>
@@ -1618,6 +1455,8 @@
 
                </DamageComponents>
                <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 13 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 6 </AttackBonus>
@@ -1632,6 +1471,8 @@
 
                </DamageComponents>
                <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 8 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
@@ -1660,40 +1501,37 @@
                </DamageComponents>
                <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)
 +1 to attack rolls if none of your allies are closer to the target - Prime Shot.               </Conditions>
+               <CritDamage> 7 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
          <Power name="Furious Assault" >
             <specific name="Flavor" > Your monstrous wrath burns inside you, giving strength to your attack. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Half-Orc Racial Power </specific>
             <specific name="Keywords" />
             <specific name="Action Type" > Free Action </specific>
             <specific name="Attack Type" > Personal </specific>
             <specific name="Trigger" > You hit an enemy with an attack. </specific>
             <specific name="Effect" > The attack deals 1[W] extra damage if it&apos;s a weapon attack or 1d8 extra damage if it is not a weapon attack. </specific>
-            <specific name="_Associated Feats" />
             <specific name="_ParentFeature" > ID_FMP_RACIAL_TRAIT_1146 </specific>
             <specific name="Class" > ID_FMP_RACE_36 </specific>
          </Power>
 
          <Power name="Hunter&apos;s Quarry" >
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Hunter&apos;s Quarry  Power </specific>
             <specific name="Keywords" />
             <specific name="Action Type" > Minor Action </specific>
             <specific name="Attack Type" />
             <specific name="Effect" > You can designate the nearest enemy to you that you can see as your quarry.Once per round, when you hit your quarry with an attack, the attack deals extra damage based on your level. If you can make multiple attacks in a round, you decide which attack to apply the extra damage to after all the attacks are rolled. If you have dealt Hunter&apos;s Quarry damage since the start of your turn, you cannot deal it again until the start of your next turn.The hunter&apos;s quarry effect remains active until the end of the encounter, until the quarry is defeated, or until you designate a different target as your quarry.You can designate one enemy as your quarry at a time.&lt;table&gt;Level	Hunter&apos;s Quarry Extra Damage1st–10th	+1d611th–20th	+2d621st–30th	+3d6&lt;/table&gt; </specific>
-            <specific name="_Associated Feats" />
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_602,ID_FMP_CLASS_FEATURE_1530 </specific>
          </Power>
 
          <Power name="Hit and Run" >
             <specific name="Flavor" > Let the fighter stand toe to toe with the monster. You prefer to make your attack, then withdraw to safer ground. </specific>
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Ranger Attack 1 </specific>
             <specific name="Keywords" > Martial, Weapon </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1702,12 +1540,12 @@
             <specific name="Attack" > Strength vs. AC </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage.Increase damage to 2[W] + Strength modifier at 21st level. </specific>
             <specific name="Effect" > If you move in the same turn after this attack, leaving the first square adjacent to the target does not provoke an opportunity attack from the target. </specific>
-            <specific name="_Associated Feats" > ID_FMP_FEAT_980, ID_FMP_FEAT_988, ID_FMP_FEAT_2347, ID_FMP_FEAT_2371, ID_FMP_FEAT_2382, ID_FMP_FEAT_3246 </specific>
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
+            <specific name="_Associated Feats" > ID_FMP_FEAT_980, ID_FMP_FEAT_988, ID_FMP_FEAT_2347, ID_FMP_FEAT_2371, ID_FMP_FEAT_2382, ID_FMP_FEAT_3246 </specific>
             <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="166" legality="rules-legal" />
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="170" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
                <Damage> 1d8+5 </Damage>
                <AttackStat> Strength </AttackStat>
@@ -1722,6 +1560,8 @@
 
                </DamageComponents>
                <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 13 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 6 </AttackBonus>
@@ -1736,13 +1576,14 @@
 
                </DamageComponents>
                <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 8 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
          <Power name="Twin Strike" >
             <specific name="Flavor" > If the first attack doesn&apos;t kill it, the second one might. </specific>
             <specific name="Power Usage" > At-Will </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Ranger Attack 1 </specific>
             <specific name="Keywords" > Martial, Weapon </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1751,12 +1592,12 @@
             <specific name="Targets" > One or two creatures </specific>
             <specific name="Attack" > Strength vs. AC (melee; main weapon and off-hand weapon) or Dexterity vs. AC (ranged), two attacks </specific>
             <specific name="Hit" > 1[W] damage per attack.Increase damage to 2[W] at 21st level. </specific>
-            <specific name="_Associated Feats" > ID_FMP_FEAT_974, ID_FMP_FEAT_977, ID_FMP_FEAT_978, ID_FMP_FEAT_985, ID_FMP_FEAT_989, ID_FMP_FEAT_992 </specific>
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
+            <specific name="_Associated Feats" > ID_FMP_FEAT_974, ID_FMP_FEAT_977, ID_FMP_FEAT_978, ID_FMP_FEAT_985, ID_FMP_FEAT_989, ID_FMP_FEAT_992 </specific>
             <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="166" legality="rules-legal" />
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="170" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
                <Damage> 1d8+1 </Damage>
                <AttackStat> Strength </AttackStat>
@@ -1770,13 +1611,14 @@
 
                </DamageComponents>
                <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 9 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
          <Power name="Dire Wolverine Strike" >
             <specific name="Flavor" > Enemies surround you—much to their chagrin, as you slash them to pieces with the ferocity of a wounded dire wolverine. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Ranger Attack 1 </specific>
             <specific name="Keywords" > Martial, Weapon </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1785,12 +1627,11 @@
             <specific name="Target" > Each enemy in the burst you can see </specific>
             <specific name="Attack" > Strength vs. AC </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
             <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="166" legality="rules-legal" />
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="170" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
                <Damage> 1d8+5 </Damage>
                <AttackStat> Strength </AttackStat>
@@ -1805,13 +1646,14 @@
 
                </DamageComponents>
                <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 13 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
          <Power name="Sudden Strike" >
             <specific name="Flavor" > You hold your weapons blade-down and slash your foe across the face with one of them. As he spins away and drops his guard, you roll to one side, spring to your feet, and plunge your other blade into his back. </specific>
             <specific name="Power Usage" > Daily </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Ranger Attack 1 </specific>
             <specific name="Keywords" > Martial, Weapon </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1823,12 +1665,11 @@
             <specific name="Effect" > You shift 1 square and make a secondary attack against the target. </specific>
             <specific name="	Secondary Attack" > Strength vs. AC (main weapon) </specific>
             <specific name="	Hit" > 2[W] + Strength modifier damage (main weapon), and the target is weakened until the end of your next turn. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
             <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="166" legality="rules-legal" />
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="170" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
                <Damage> 1d8+1 </Damage>
                <AttackStat> Strength </AttackStat>
@@ -1842,20 +1683,20 @@
 
                </DamageComponents>
                <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 9 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
          <Power name="Yield Ground" >
             <specific name="Flavor" > Even as your foe connects, you leap backward, out of the way of further harm. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Ranger Utility 2 </specific>
             <specific name="Keywords" > Martial </specific>
             <specific name="Action Type" > Immediate Reaction </specific>
             <specific name="Attack Type" > Personal </specific>
             <specific name="Trigger" > An enemy damages you with a melee attack </specific>
             <specific name="Effect" > You can shift a number of squares equal to your Wisdom modifier. Gain a +2 power bonus to all defenses until the end of your next turn. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 2 </specific>
             <specific name="Power Type" > Utility </specific>
@@ -1864,7 +1705,6 @@
          <Power name="Cut and Run" >
             <specific name="Flavor" > You attack twice while maneuvering yourself into the most advantageous position possible. </specific>
             <specific name="Power Usage" > Encounter </specific>
-            <specific name="_SkillPower" />
             <specific name="Display" > Ranger Attack 3 </specific>
             <specific name="Keywords" > Martial, Weapon </specific>
             <specific name="Action Type" > Standard Action </specific>
@@ -1874,12 +1714,11 @@
             <specific name="Attack" > Strength vs. AC (melee; main weapon and off-hand weapon) or Dexterity vs. AC (ranged), two attacks </specific>
             <specific name="Special" > After the first or the second attack, you can shift a number of squares equal to 1 + your Wisdom modifier. </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage (melee) or 1[W] + Dexterity modifier damage (ranged) per attack. </specific>
-            <specific name="_Associated Feats" />
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 3 </specific>
             <specific name="Power Type" > Attack </specific>
             <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="166" legality="rules-legal" />
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="170" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
                <Damage> 1d8+5 </Damage>
                <AttackStat> Strength </AttackStat>
@@ -1894,6 +1733,8 @@
 
                </DamageComponents>
                <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 13 </CritDamage>
+               <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
 
@@ -1958,14 +1799,14 @@
             <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="56" legality="rules-legal" >
                <RulesElement name="Nature class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_NATURE_CLASS_SKILL" charelem="57" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="" type="" charelem="169" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="170" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="171" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="172" legality="rules-legal" />
             <RulesElement name="" type="" charelem="173" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="174" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="175" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="176" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="177" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="58" legality="rules-legal" >
-            <RulesElement name="" type="" charelem="174" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="178" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="59" legality="rules-legal" />
          <RulesElement name="Expansion4" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION4" charelem="60" legality="rules-legal" />
@@ -2007,80 +1848,84 @@
                   <RulesElement name="Weapon Proficiency (Scythe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCYTHE)" charelem="84" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Spiked gauntlet)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SPIKED_GAUNTLET)" charelem="85" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Talid)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TALID)" charelem="86" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Widow&apos;s Knife)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WIDOW&apos;S_KNIFE)" charelem="87" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Wrist Razors)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WRIST_RAZORS)" charelem="88" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Claw Fighter Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLAW_FIGHTER_CLAW)" charelem="89" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Shadowblade)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHADOWBLADE)" charelem="90" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Climbing Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLIMBING_CLAW)" charelem="91" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Dragontooth Shield (heroic tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DRAGONTOOTH_SHIELD_(HEROIC_TIER))" charelem="92" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Fighting Shield (heroic tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FIGHTING_SHIELD_(HEROIC_TIER))" charelem="93" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Soul Shield (paragon tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SOUL_SHIELD_(PARAGON_TIER))" charelem="94" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Sun Shield (paragon tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SUN_SHIELD_(PARAGON_TIER))" charelem="95" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Rod of Seven Parts (Weapon))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(ROD_OF_SEVEN_PARTS_(WEAPON))" charelem="96" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Widow&apos;s knife)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WIDOW&apos;S_KNIFE)" charelem="87" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Wrist razors)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WRIST_RAZORS)" charelem="88" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Light mace)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LIGHT_MACE)" charelem="89" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Short spear)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHORT_SPEAR)" charelem="90" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Claw Fighter Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLAW_FIGHTER_CLAW)" charelem="91" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Shadowblade)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHADOWBLADE)" charelem="92" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Climbing Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLIMBING_CLAW)" charelem="93" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Dragontooth Shield (Heroic Tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DRAGONTOOTH_SHIELD_(HEROIC_TIER))" charelem="94" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Fighting Shield (Heroic Tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FIGHTING_SHIELD_(HEROIC_TIER))" charelem="95" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Soul Shield (Paragon Tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SOUL_SHIELD_(PARAGON_TIER))" charelem="96" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Sun Shield (Paragon Tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SUN_SHIELD_(PARAGON_TIER))" charelem="97" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Rod of Seven Parts (Weapon))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(ROD_OF_SEVEN_PARTS_(WEAPON))" charelem="98" legality="rules-legal" />
                </RulesElement>
-               <RulesElement name="Military Melee" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_MILITARY_MELEE" charelem="97" legality="rules-legal" >
-                  <RulesElement name="Weapon Proficiency (Battleaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BATTLEAXE)" charelem="98" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Handaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HANDAXE)" charelem="99" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Flail)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FLAIL)" charelem="100" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Throwing hammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(THROWING_HAMMER)" charelem="101" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Warhammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WARHAMMER)" charelem="102" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (War Pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WAR_PICK)" charelem="103" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Scimitar)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCIMITAR)" charelem="104" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Longsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGSWORD)" charelem="105" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Short sword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHORT_SWORD)" charelem="106" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Greataxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GREATAXE)" charelem="107" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Heavy flail)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HEAVY_FLAIL)" charelem="108" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Glaive)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GLAIVE)" charelem="109" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Halberd)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HALBERD)" charelem="110" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Maul)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(MAUL)" charelem="111" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Longspear)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGSPEAR)" charelem="112" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Greatsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GREATSWORD)" charelem="113" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Rapier)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(RAPIER)" charelem="114" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Falchion)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FALCHION)" charelem="115" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Broadsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BROADSWORD)" charelem="116" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Khopesh)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(KHOPESH)" charelem="117" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Light war pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LIGHT_WAR_PICK)" charelem="118" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Scourge)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCOURGE)" charelem="119" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Trident)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TRIDENT)" charelem="120" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Heavy war pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HEAVY_WAR_PICK)" charelem="121" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Alhulak)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(ALHULAK)" charelem="122" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Carrikal)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CARRIKAL)" charelem="123" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Trikal)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TRIKAL)" charelem="124" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Blade of Winter&apos;s Mourning)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLADE_OF_WINTER&apos;S_MOURNING)" charelem="125" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Blade of Annihilation)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLADE_OF_ANNIHILATION)" charelem="126" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Starshadow Blade)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(STARSHADOW_BLADE)" charelem="127" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Sword of the White Well)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SWORD_OF_THE_WHITE_WELL)" charelem="128" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Scourge of Exquisite Agony)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCOURGE_OF_EXQUISITE_AGONY)" charelem="129" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Feral Armor Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FERAL_ARMOR_CLAW)" charelem="130" legality="rules-legal" />
+               <RulesElement name="Military Melee" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_MILITARY_MELEE" charelem="99" legality="rules-legal" >
+                  <RulesElement name="Weapon Proficiency (Battleaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BATTLEAXE)" charelem="100" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Handaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HANDAXE)" charelem="101" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Flail)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FLAIL)" charelem="102" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Throwing hammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(THROWING_HAMMER)" charelem="103" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Warhammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WARHAMMER)" charelem="104" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (War Pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WAR_PICK)" charelem="105" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Scimitar)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCIMITAR)" charelem="106" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Longsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGSWORD)" charelem="107" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Short sword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHORT_SWORD)" charelem="108" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Greataxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GREATAXE)" charelem="109" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Heavy flail)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HEAVY_FLAIL)" charelem="110" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Glaive)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GLAIVE)" charelem="111" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Halberd)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HALBERD)" charelem="112" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Maul)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(MAUL)" charelem="113" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Longspear)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGSPEAR)" charelem="114" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Greatsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GREATSWORD)" charelem="115" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Rapier)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(RAPIER)" charelem="116" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Falchion)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FALCHION)" charelem="117" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Broadsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BROADSWORD)" charelem="118" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Khopesh)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(KHOPESH)" charelem="119" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Light war pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LIGHT_WAR_PICK)" charelem="120" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Scourge)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCOURGE)" charelem="121" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Trident)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TRIDENT)" charelem="122" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Heavy war pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HEAVY_WAR_PICK)" charelem="123" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Alhulak)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(ALHULAK)" charelem="124" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Carrikal)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CARRIKAL)" charelem="125" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Trikal)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TRIKAL)" charelem="126" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Blade of Winter&apos;s Mourning)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLADE_OF_WINTER&apos;S_MOURNING)" charelem="127" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Blade of Annihilation)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLADE_OF_ANNIHILATION)" charelem="128" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Starshadow Blade)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(STARSHADOW_BLADE)" charelem="129" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Sword of the White Well)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SWORD_OF_THE_WHITE_WELL)" charelem="130" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Scourge of Exquisite Agony)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCOURGE_OF_EXQUISITE_AGONY)" charelem="131" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Lance)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LANCE)" charelem="132" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Pike)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(PIKE)" charelem="133" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Feral Armor Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FERAL_ARMOR_CLAW)" charelem="134" legality="rules-legal" />
                </RulesElement>
-               <RulesElement name="Simple Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_RANGED" charelem="131" legality="rules-legal" >
-                  <RulesElement name="Weapon Proficiency (Hand Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HAND_CROSSBOW)" charelem="132" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Sling)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SLING)" charelem="133" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CROSSBOW)" charelem="134" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Repeating crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(REPEATING_CROSSBOW)" charelem="135" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Dejada)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DEJADA)" charelem="136" legality="rules-legal" />
+               <RulesElement name="Simple Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_RANGED" charelem="135" legality="rules-legal" >
+                  <RulesElement name="Weapon Proficiency (Hand crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HAND_CROSSBOW)" charelem="136" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Sling)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SLING)" charelem="137" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CROSSBOW)" charelem="138" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Repeating crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(REPEATING_CROSSBOW)" charelem="139" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Dejada)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DEJADA)" charelem="140" legality="rules-legal" />
                </RulesElement>
-               <RulesElement name="Military Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_MILITARY_RANGED" charelem="137" legality="rules-legal" >
-                  <RulesElement name="Weapon Proficiency (Shortbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHORTBOW)" charelem="138" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Longbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGBOW)" charelem="139" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Chatkcha)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CHATKCHA)" charelem="140" legality="rules-legal" />
+               <RulesElement name="Military Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_MILITARY_RANGED" charelem="141" legality="rules-legal" >
+                  <RulesElement name="Weapon Proficiency (Shortbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SHORTBOW)" charelem="142" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Longbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGBOW)" charelem="143" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Chatkcha)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CHATKCHA)" charelem="144" legality="rules-legal" />
                </RulesElement>
-               <RulesElement name="Fighting Style" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_321" charelem="141" legality="rules-legal" >
-                  <RulesElement name="Two-Blade Fighting Style" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_779" charelem="142" legality="rules-legal" >
-                     <RulesElement name="Ambidextrous" type="Internal" internal-id="ID_INTERNAL_INTERNAL_AMBIDEXTROUS" charelem="143" legality="rules-legal" />
+               <RulesElement name="Fighting Style" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_321" charelem="145" legality="rules-legal" >
+                  <RulesElement name="Two-Blade Fighting Style" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_779" charelem="146" legality="rules-legal" >
+                     <RulesElement name="Ambidextrous" type="Internal" internal-id="ID_INTERNAL_INTERNAL_AMBIDEXTROUS" charelem="147" legality="rules-legal" />
                      <RulesElement name="Toughness" type="Feat" internal-id="ID_FMP_FEAT_171" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=171" charelem="11" legality="rules-legal" />
                   </RulesElement>
                </RulesElement>
                <RulesElement name="Hunter&apos;s Quarry" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_602" charelem="25" legality="rules-legal" >
-                  <RulesElement name="Hunter&apos;s Quarry" type="Power" internal-id="ID_FMP_POWER_5598" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5598" charelem="144" legality="rules-legal" />
+                  <RulesElement name="Hunter&apos;s Quarry" type="Power" internal-id="ID_FMP_POWER_5598" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5598" charelem="148" legality="rules-legal" />
                </RulesElement>
                <RulesElement name="Prime Shot" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_603" charelem="26" legality="rules-legal" />
-               <RulesElement name="Ranger Implements" type="Grants" internal-id="ID_INTERNAL_GRANTS_RANGER_IMPLEMENTS" charelem="145" legality="rules-legal" />
+               <RulesElement name="Ranger Implements" type="Grants" internal-id="ID_INTERNAL_GRANTS_RANGER_IMPLEMENTS" charelem="149" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="Hit and Run" type="Power" internal-id="ID_FMP_POWER_1505" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1505" charelem="146" legality="rules-legal" />
-            <RulesElement name="Twin Strike" type="Power" internal-id="ID_FMP_POWER_87" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=87" charelem="147" legality="rules-legal" />
-            <RulesElement name="Two-Blade Ranger" type="Build" internal-id="ID_FMP_BUILD_19" charelem="148" legality="rules-legal" >
-               <RulesElement name="Two-Blade Ranger" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_TWO-BLADE_RANGER" charelem="149" legality="rules-legal" />
+            <RulesElement name="Hit and Run" type="Power" internal-id="ID_FMP_POWER_1505" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1505" charelem="150" legality="rules-legal" />
+            <RulesElement name="Twin Strike" type="Power" internal-id="ID_FMP_POWER_87" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=87" charelem="151" legality="rules-legal" />
+            <RulesElement name="Two-Blade Ranger" type="Build" internal-id="ID_FMP_BUILD_19" charelem="152" legality="rules-legal" >
+               <RulesElement name="Two-Blade Ranger" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_TWO-BLADE_RANGER" charelem="153" legality="rules-legal" />
             </RulesElement>
             <RulesElement name="Dungeoneering" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_DUNGEONEERING" charelem="15" legality="rules-legal" />
             <RulesElement name="Endurance" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ENDURANCE" charelem="16" legality="rules-legal" />
@@ -2089,63 +1934,63 @@
             <RulesElement name="Athletics" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ATHLETICS" charelem="20" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Two-Weapon Fighting" type="Feat" internal-id="ID_FMP_FEAT_173" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=173" charelem="27" legality="rules-legal" />
-         <RulesElement name="Dire Wolverine Strike" type="Power" internal-id="ID_FMP_POWER_1510" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1510" charelem="150" legality="rules-legal" />
-         <RulesElement name="Sudden Strike" type="Power" internal-id="ID_FMP_POWER_393" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=393" charelem="151" legality="rules-legal" />
-         <RulesElement name="Kord" type="Deity" internal-id="ID_FMP_DEITY_6" charelem="152" legality="rules-legal" >
-            <RulesElement name="Storm" type="Domain" internal-id="ID_FMP_DOMAIN_23" charelem="153" legality="rules-legal" />
-            <RulesElement name="Strength" type="Domain" internal-id="ID_FMP_DOMAIN_24" charelem="154" legality="rules-legal" />
-            <RulesElement name="War" type="Domain" internal-id="ID_FMP_DOMAIN_32" charelem="155" legality="rules-legal" />
+         <RulesElement name="Dire Wolverine Strike" type="Power" internal-id="ID_FMP_POWER_1510" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1510" charelem="154" legality="rules-legal" />
+         <RulesElement name="Sudden Strike" type="Power" internal-id="ID_FMP_POWER_393" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=393" charelem="155" legality="rules-legal" />
+         <RulesElement name="Kord" type="Deity" internal-id="ID_FMP_DEITY_6" charelem="156" legality="rules-legal" >
+            <RulesElement name="Storm" type="Domain" internal-id="ID_FMP_DOMAIN_23" charelem="157" legality="rules-legal" />
+            <RulesElement name="Strength" type="Domain" internal-id="ID_FMP_DOMAIN_24" charelem="158" legality="rules-legal" />
+            <RulesElement name="War" type="Domain" internal-id="ID_FMP_DOMAIN_32" charelem="159" legality="rules-legal" />
          </RulesElement>
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="2" type="Level" internal-id="ID_INTERNAL_LEVEL_2" charelem="8" legality="rules-legal" >
          <RulesElement name="Two-Weapon Defense" type="Feat" internal-id="ID_FMP_FEAT_172" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=172" charelem="6" legality="rules-legal" />
-         <RulesElement name="Yield Ground" type="Power" internal-id="ID_FMP_POWER_749" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=749" charelem="156" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="175" legality="rules-legal" />
+         <RulesElement name="Yield Ground" type="Power" internal-id="ID_FMP_POWER_749" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=749" charelem="160" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="179" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="9" legality="rules-legal" >
-         <RulesElement name="Cut and Run" type="Power" internal-id="ID_FMP_POWER_978" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=978" charelem="157" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="176" legality="rules-legal" />
+         <RulesElement name="Cut and Run" type="Power" internal-id="ID_FMP_POWER_978" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=978" charelem="161" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="180" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="4" type="Level" internal-id="ID_INTERNAL_LEVEL_4" charelem="10" legality="rules-legal" >
-         <RulesElement name="Lethal Hunter" type="Feat" internal-id="ID_FMP_FEAT_273" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=273" charelem="158" legality="rules-legal" />
+         <RulesElement name="Lethal Hunter" type="Feat" internal-id="ID_FMP_FEAT_273" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=273" charelem="162" legality="rules-legal" />
          <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="3" legality="rules-legal" />
          <RulesElement name="Wisdom" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_WISDOM" charelem="4" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="177" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="181" legality="rules-legal" />
       </RulesElement>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="178" legality="rules-legal" />
-         <RulesElement name="Blood Obsidian Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_9307" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=9307&amp;ftype=1" charelem="179" legality="rules-legal" />
+         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="182" legality="rules-legal" />
+         <RulesElement name="Blood Obsidian Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_9307" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=9307&amp;ftype=1" charelem="183" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="180" legality="rules-legal" />
-         <RulesElement name="Ectoplasmic Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_8545" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8545&amp;ftype=1" charelem="181" legality="rules-legal" />
+         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="184" legality="rules-legal" />
+         <RulesElement name="Ectoplasmic Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_8545" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8545&amp;ftype=1" charelem="185" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Amulet of Warding +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6873" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6873&amp;ftype=1" charelem="182" legality="rules-legal" />
+         <RulesElement name="Amulet of Warding +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6873" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6873&amp;ftype=1" charelem="186" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="183" legality="rules-legal" />
+         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="187" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="184" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="188" legality="rules-legal" />
       </loot>
       <loot count="2" equip-count="2" ShowPowerCard="1" >
-         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="185" legality="rules-legal" />
+         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="189" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Longbow" type="Weapon" internal-id="ID_FMP_WEAPON_40" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=40&amp;ftype=3" charelem="186" legality="rules-legal" />
+         <RulesElement name="Longbow" type="Weapon" internal-id="ID_FMP_WEAPON_40" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=40&amp;ftype=3" charelem="190" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Arrows" type="Gear" internal-id="ID_FMP_GEAR_11" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=11&amp;ftype=4" charelem="187" legality="rules-legal" />
+         <RulesElement name="Arrows" type="Gear" internal-id="ID_FMP_GEAR_11" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=11&amp;ftype=4" charelem="191" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="188" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="192" legality="rules-legal" />
       </loot>
    </Level>
 
@@ -2167,7 +2012,7 @@
       &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;ContentIdentifier xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/WotC.ContentVault&quot;&gt;&lt;ContentID&gt;2&lt;/ContentID&gt;&lt;Official&gt;true&lt;/Official&gt;&lt;OfficialTypeID i:nil=&quot;true&quot; /&gt;&lt;ScratchID i:nil=&quot;true&quot; /&gt;&lt;TypeID&gt;1&lt;/TypeID&gt;&lt;/ContentIdentifier&gt;
    </textstring>
    <textstring name="Experience Points" >
-      3750
+      5400
    </textstring>
    <textstring name="_PER_LEVEL_2Carried Money" >
       100 gp
@@ -2185,7 +2030,7 @@
       680 gp
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp890F.tmp
+      C:\Windows\TEMP\tmp4C4C.tmp
    </textstring>
    <textstring name="PortraitID" >
       &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;ContentIdentifier xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/WotC.ContentVault&quot;&gt;&lt;ContentID&gt;10020315&lt;/ContentID&gt;&lt;Official&gt;true&lt;/Official&gt;&lt;OfficialTypeID i:nil=&quot;true&quot; /&gt;&lt;ScratchID i:nil=&quot;true&quot; /&gt;&lt;TypeID&gt;2&lt;/TypeID&gt;&lt;/ContentIdentifier&gt;

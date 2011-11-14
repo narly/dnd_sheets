@@ -18,7 +18,7 @@
          <Alignment>  </Alignment>
          <Company>  </Company>
          <Portrait>  </Portrait>
-         <Experience> 3750 </Experience>
+         <Experience> 5400 </Experience>
          <CarriedMoney>  </CarriedMoney>
          <StoredMoney>  </StoredMoney>
          <Traits>  </Traits>
@@ -191,7 +191,7 @@
          <Stat value="9" >
             <alias name="Healing Surges" />
             <statadd type="Level 1" Level="1" requires="!NoConToHealingSurges" value="1" statlink="Constitution" abilmod="true" charelem="4" />
-            <statadd Level="1" value="6" charelem="11" />
+            <statadd type="Class" Level="1" value="6" charelem="11" />
             <statadd Level="1" value="2" charelem="12" />
          </Stat>
 
@@ -900,7 +900,7 @@
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" />
             <specific name="Power Type" > Utility </specific>
-            <specific name="_Tags" > Essentials </specific>
+            <specific name="_Tags" > Essentials,Cantrip </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_2870,ID_FMP_CLASS_FEATURE_4036 </specific>
             <specific name="_Subclasses" > ID_FMP_CLASS_722,ID_FMP_CLASS_883 </specific>
          Useful for creating diversions both in and out of combat, ghost sound can help you distract other creatures with mysterious footsteps, the sound of a brawl coming from around a corner, or any other sound you can imagine.
@@ -917,7 +917,7 @@
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" />
             <specific name="Power Type" > Utility </specific>
-            <specific name="_Tags" > Essentials </specific>
+            <specific name="_Tags" > Essentials,Cantrip </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_2870,ID_FMP_CLASS_FEATURE_4036 </specific>
             <specific name="_Subclasses" > ID_FMP_CLASS_722,ID_FMP_CLASS_883 </specific>
          With a light cantrip at your disposal, you need never worry about carrying torches, lanterns, or oil.
@@ -937,7 +937,7 @@
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" />
             <specific name="Power Type" > Utility </specific>
-            <specific name="_Tags" > Essentials </specific>
+            <specific name="_Tags" > Essentials,Cantrip </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_2870,ID_FMP_CLASS_FEATURE_4036 </specific>
             <specific name="_Subclasses" > ID_FMP_CLASS_722,ID_FMP_CLASS_883 </specific>
          When you first took up the often-dangerous study of alchemy, mage hand allowed you to mix reagents and volatile components from a safe distance. In lost ruins or the throne rooms of dukes and kings, this minor magic has even more uses.
@@ -954,7 +954,7 @@
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" />
             <specific name="Power Type" > Utility </specific>
-            <specific name="_Tags" > Essentials </specific>
+            <specific name="_Tags" > Essentials,Cantrip </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_2870,ID_FMP_CLASS_FEATURE_4036 </specific>
             <specific name="_Subclasses" > ID_FMP_CLASS_722,ID_FMP_CLASS_883 </specific>
          This catch-all cantrip is a mage&apos;s best friend. The mundane chores and tasks you were burdened with as an apprentice were made easier by this beginner&apos;s magic, but prestidigitation continues to make itself useful to you as you begin your adventuring career.
@@ -1436,7 +1436,7 @@ Drink this potion and spend a healing surge. Instead of the hit points you would
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" />
             <specific name="Power Type" > Utility </specific>
-            <specific name="_Tags" > Essentials </specific>
+            <specific name="_Tags" > Essentials,Cantrip </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_2870,ID_FMP_CLASS_FEATURE_4036 </specific>
             <specific name="_Subclasses" > ID_FMP_CLASS_722,ID_FMP_CLASS_883 </specific>
          </Power>
@@ -1453,7 +1453,7 @@ Drink this potion and spend a healing surge. Instead of the hit points you would
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" />
             <specific name="Power Type" > Utility </specific>
-            <specific name="_Tags" > Essentials </specific>
+            <specific name="_Tags" > Essentials,Cantrip </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_2870,ID_FMP_CLASS_FEATURE_4036 </specific>
             <specific name="_Subclasses" > ID_FMP_CLASS_722,ID_FMP_CLASS_883 </specific>
          </Power>
@@ -1473,7 +1473,7 @@ Drink this potion and spend a healing surge. Instead of the hit points you would
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" />
             <specific name="Power Type" > Utility </specific>
-            <specific name="_Tags" > Essentials </specific>
+            <specific name="_Tags" > Essentials,Cantrip </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_2870,ID_FMP_CLASS_FEATURE_4036 </specific>
             <specific name="_Subclasses" > ID_FMP_CLASS_722,ID_FMP_CLASS_883 </specific>
          </Power>
@@ -1490,7 +1490,7 @@ Drink this potion and spend a healing surge. Instead of the hit points you would
             <specific name="Class" > ID_FMP_CLASS_9 </specific>
             <specific name="Level" />
             <specific name="Power Type" > Utility </specific>
-            <specific name="_Tags" > Essentials </specific>
+            <specific name="_Tags" > Essentials,Cantrip </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_2870,ID_FMP_CLASS_FEATURE_4036 </specific>
             <specific name="_Subclasses" > ID_FMP_CLASS_722,ID_FMP_CLASS_883 </specific>
          </Power>
@@ -2263,7 +2263,7 @@ Drink this potion and spend a healing surge. Instead of the hit points you would
       &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;ContentIdentifier xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/WotC.ContentVault&quot;&gt;&lt;ContentID&gt;2&lt;/ContentID&gt;&lt;Official&gt;true&lt;/Official&gt;&lt;OfficialTypeID i:nil=&quot;true&quot; /&gt;&lt;ScratchID i:nil=&quot;true&quot; /&gt;&lt;TypeID&gt;1&lt;/TypeID&gt;&lt;/ContentIdentifier&gt;
    </textstring>
    <textstring name="Experience Points" >
-      3750
+      5400
    </textstring>
    <textstring name="_PER_LEVEL_2_Carried Money" >
       100 gp
@@ -2314,7 +2314,7 @@ Drink this potion and spend a healing surge. Instead of the hit points you would
       Peter
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp48EF.tmp
+      C:\Windows\TEMP\tmp2F2.tmp
    </textstring>
    <textstring name="_PER_LEVEL_4Carried Money" >
       100 gp
