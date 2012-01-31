@@ -19,7 +19,7 @@
          <Company>  </Company>
          <Portrait>  </Portrait>
          <Experience> 5500 </Experience>
-         <CarriedMoney> 680 gp </CarriedMoney>
+         <CarriedMoney> 6 pp; 95 gp </CarriedMoney>
          <StoredMoney>  </StoredMoney>
          <Traits>  </Traits>
          <Appearance>  </Appearance>
@@ -599,9 +599,9 @@
             <statadd Level="4" requires="Epic Tier" value="5" charelem="13" />
          </Stat>
 
-         <Stat value="102" >
+         <Stat value="92" >
             <alias name="Weight" />
-            <statadd value="102" />
+            <statadd value="92" />
          </Stat>
 
          <Stat value="0" >
@@ -1155,17 +1155,20 @@ Play a Minotaur if you want ...
             <specific name="Short Description" > Use goring charge power in place of opportunity attacks </specific>
          Whenever you make an opportunity attack, instead of making the usual melee basic attack, you can use your goring charge racial power without expending it, even if you have used it this encounter. When you do so, you ignore the power&apos;s requirement and action type, and your target is the creature that triggered the opportunity attack.
          </RulesElement>
-         <RulesElement name="Combat Sprint" type="Power" internal-id="ID_FMP_POWER_4937" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=4937" charelem="150" legality="rules-legal" >
-            <specific name="Flavor" > Having saved a bit of strength for just this moment, you burst across the battlefield. </specific>
-            <specific name="Power Usage" > Encounter </specific>
-            <specific name="Display" > Barbarian Utility 2 </specific>
-            <specific name="Keywords" > Primal </specific>
-            <specific name="Action Type" > Move Action </specific>
-            <specific name="Attack Type" > Personal </specific>
-            <specific name="Effect" > You move your speed + 4. You gain a +4 bonus to all defenses against any opportunity attack you provoke with this movement. </specific>
-            <specific name="Class" > ID_FMP_CLASS_148 </specific>
-            <specific name="Level" > 2 </specific>
+         <RulesElement name="Inspiring Fortitude" type="Power" internal-id="ID_FMP_POWER_9315" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=9315" charelem="150" legality="rules-legal" >
+            <specific name="Flavor" > Inspired by your resilience, your allies find the will to overcome challenges. </specific>
+            <specific name="Power Usage" > Daily </specific>
+            <specific name="_SkillPower" > ID_FMP_SKILL_8 </specific>
             <specific name="Power Type" > Utility </specific>
+            <specific name="Level" > 2 </specific>
+            <specific name="Display" > Endurance Utility 2 </specific>
+            <specific name="Keywords" />
+            <specific name="Action Type" > Standard Action </specific>
+            <specific name="Attack Type" > Close burst 5 </specific>
+            <specific name="Requirement" > Your second wind must be available for you to use </specific>
+            <specific name="Target" > Each ally in the burst </specific>
+            <specific name="Effect" > You use your second wind, and each target gains temporary hit points equal to 10 + your Constitution modifier. </specific>
+            <specific name="Prerequisite" > You must be trained in Endurance. </specific>
          </RulesElement>
          <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="10" legality="rules-legal" >
             <specific name="XP Needed" > 1500 </specific>
@@ -1326,7 +1329,7 @@ Play a Minotaur if you want ...
                <specific name="count" > 1 </specific>
             </RulesElement>
          </loot>
-         <loot count="2" equip-count="0" ShowPowerCard="1" >
+         <loot count="0" equip-count="-2" ShowPowerCard="1" >
             <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" >
                <specific name="Full Text" > WarhammerMilitary one-handed melee weaponCost: 15 gpDamage: 1d10Proficient: +2Weight: 5 lb.Properties: Versatile (Versatile weapons are one-handed, but you can use them two-handed. If you do, you deal an extra 1 point of damage when you roll damage for the weapon.A Small character such as a halfling must use a versatile weapon two-handed, and doesn&apos;t deal extra damage.).Group: Hammer (A hammer has a blunt, heavy head with one or more flat striking surfaces attached to a haft.). </specific>
                <specific name="Weight" > 5 </specific>
@@ -1385,23 +1388,6 @@ Play a Minotaur if you want ...
 
                </DamageComponents>
                <CritDamage> 17+1d12 </CritDamage>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Warhammer" >
-               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
-               <AttackBonus> 9 </AttackBonus>
-               <Damage> 1d10+5 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +5 Strength modifier.
-+2 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +5 Strength modifier.
-
-               </DamageComponents>
-               <CritDamage> 15 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
@@ -1527,23 +1513,6 @@ Play a Minotaur if you want ...
                <CritDamage> 17+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
-            <Weapon name="Warhammer" >
-               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
-               <AttackBonus> 9 </AttackBonus>
-               <Damage> 1d10+5 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +5 Strength modifier.
-+2 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +5 Strength modifier.
-
-               </DamageComponents>
-               <CritDamage> 15 </CritDamage>
-               <CritRange> 20 </CritRange>
-            </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 7 </AttackBonus>
                <Damage> 1d4+5 </Damage>
@@ -1627,24 +1596,6 @@ Play a Minotaur if you want ...
                <CritDamage> 44+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
-            <Weapon name="Warhammer" >
-               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
-               <AttackBonus> 9 </AttackBonus>
-               <Damage> 3d10+8 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +5 Strength modifier.
-+2 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +5 Strength modifier.
-+3 Constitution modifier.
-
-               </DamageComponents>
-               <CritDamage> 38 </CritDamage>
-               <CritRange> 20 </CritRange>
-            </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 7 </AttackBonus>
                <Damage> 3d4+8 </Damage>
@@ -1695,23 +1646,6 @@ Play a Minotaur if you want ...
                <CritDamage> 41+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
-            <Weapon name="Warhammer" >
-               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
-               <AttackBonus> 9 </AttackBonus>
-               <Damage> 3d10+5 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +5 Strength modifier.
-+2 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +5 Strength modifier.
-
-               </DamageComponents>
-               <CritDamage> 35 </CritDamage>
-               <CritRange> 20 </CritRange>
-            </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 7 </AttackBonus>
                <Damage> 3d4+5 </Damage>
@@ -1729,17 +1663,20 @@ Play a Minotaur if you want ...
             </Weapon>
          </Power>
 
-         <Power name="Combat Sprint" >
-            <specific name="Flavor" > Having saved a bit of strength for just this moment, you burst across the battlefield. </specific>
-            <specific name="Power Usage" > Encounter </specific>
-            <specific name="Display" > Barbarian Utility 2 </specific>
-            <specific name="Keywords" > Primal </specific>
-            <specific name="Action Type" > Move Action </specific>
-            <specific name="Attack Type" > Personal </specific>
-            <specific name="Effect" > You move your speed + 4. You gain a +4 bonus to all defenses against any opportunity attack you provoke with this movement. </specific>
-            <specific name="Class" > ID_FMP_CLASS_148 </specific>
-            <specific name="Level" > 2 </specific>
+         <Power name="Inspiring Fortitude" >
+            <specific name="Flavor" > Inspired by your resilience, your allies find the will to overcome challenges. </specific>
+            <specific name="Power Usage" > Daily </specific>
+            <specific name="_SkillPower" > ID_FMP_SKILL_8 </specific>
             <specific name="Power Type" > Utility </specific>
+            <specific name="Level" > 2 </specific>
+            <specific name="Display" > Endurance Utility 2 </specific>
+            <specific name="Keywords" />
+            <specific name="Action Type" > Standard Action </specific>
+            <specific name="Attack Type" > Close burst 5 </specific>
+            <specific name="Requirement" > Your second wind must be available for you to use </specific>
+            <specific name="Target" > Each ally in the burst </specific>
+            <specific name="Effect" > You use your second wind, and each target gains temporary hit points equal to 10 + your Constitution modifier. </specific>
+            <specific name="Prerequisite" > You must be trained in Endurance. </specific>
          </Power>
 
          <Power name="Blade Sweep" >
@@ -1771,23 +1708,6 @@ Play a Minotaur if you want ...
 
                </DamageComponents>
                <CritDamage> 29+1d12 </CritDamage>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Warhammer" >
-               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
-               <AttackBonus> 9 </AttackBonus>
-               <Damage> 2d10+5 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +5 Strength modifier.
-+2 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +5 Strength modifier.
-
-               </DamageComponents>
-               <CritDamage> 25 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
@@ -1839,23 +1759,6 @@ Play a Minotaur if you want ...
                <CritDamage> 41+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
-            <Weapon name="Warhammer" >
-               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
-               <AttackBonus> 9 </AttackBonus>
-               <Damage> 3d10+5 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +5 Strength modifier.
-+2 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +5 Strength modifier.
-
-               </DamageComponents>
-               <CritDamage> 35 </CritDamage>
-               <CritRange> 20 </CritRange>
-            </Weapon>
             <Weapon name="Unarmed" >
                <AttackBonus> 7 </AttackBonus>
                <Damage> 3d4+5 </Damage>
@@ -1905,22 +1808,6 @@ Play a Minotaur if you want ...
                <DamageComponents> 
                </DamageComponents>
                <CritDamage> 0As Above+1d12 </CritDamage>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Warhammer" >
-               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
-               <AttackBonus> 9 </AttackBonus>
-               <Damage> As Above </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +5 Strength modifier.
-+2 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> 
-               </DamageComponents>
-               <CritDamage> 0As Above </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
@@ -2134,7 +2021,7 @@ Play a Minotaur if you want ...
    <Level>
       <RulesElement name="2" type="Level" internal-id="ID_INTERNAL_LEVEL_2" charelem="9" legality="rules-legal" >
          <RulesElement name="Opportunity Gore" type="Feat" internal-id="ID_FMP_FEAT_1063" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=1063" charelem="149" legality="rules-legal" />
-         <RulesElement name="Combat Sprint" type="Power" internal-id="ID_FMP_POWER_4937" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=4937" charelem="150" legality="rules-legal" />
+         <RulesElement name="Inspiring Fortitude" type="Power" internal-id="ID_FMP_POWER_9315" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=9315" charelem="150" legality="rules-legal" />
          <RulesElement name="" type="" charelem="168" legality="rules-legal" />
       </RulesElement>
    </Level>
@@ -2184,6 +2071,9 @@ Play a Minotaur if you want ...
          <RulesElement name="Earthquake Dragon&apos;s Rage" type="Power" internal-id="ID_FMP_POWER_10066" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=10066" charelem="152" legality="rules-legal" />
          <RulesElement name="" type="" charelem="180" legality="rules-legal" />
       </RulesElement>
+      <loot count="-2" equip-count="-2" ShowPowerCard="1" >
+         <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="181" legality="rules-legal" />
+      </loot>
    </Level>
 
 
@@ -2255,13 +2145,13 @@ Play a Minotaur if you want ...
       Adrian
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp5DF2.tmp
+      C:\Windows\TEMP\tmp3E73.tmp
    </textstring>
    <textstring name="_PER_LEVEL_5_Stored Money" >
       
    </textstring>
    <textstring name="_PER_LEVEL_5_Carried Money" >
-      680 gp
+      6 pp; 95 gp
    </textstring>
 
 
