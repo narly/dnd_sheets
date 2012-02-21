@@ -18,8 +18,8 @@
          <Alignment>  </Alignment>
          <Company>  </Company>
          <Portrait>  </Portrait>
-         <Experience> 5500 </Experience>
-         <CarriedMoney> 6 pp; 95 gp </CarriedMoney>
+         <Experience> 6000 </Experience>
+         <CarriedMoney> 680 gp </CarriedMoney>
          <StoredMoney>  </StoredMoney>
          <Traits>  </Traits>
          <Appearance>  </Appearance>
@@ -599,9 +599,9 @@
             <statadd Level="4" requires="Epic Tier" value="5" charelem="13" />
          </Stat>
 
-         <Stat value="92" >
+         <Stat value="114" >
             <alias name="Weight" />
-            <statadd value="92" />
+            <statadd value="114" />
          </Stat>
 
          <Stat value="0" >
@@ -1155,20 +1155,17 @@ Play a Minotaur if you want ...
             <specific name="Short Description" > Use goring charge power in place of opportunity attacks </specific>
          Whenever you make an opportunity attack, instead of making the usual melee basic attack, you can use your goring charge racial power without expending it, even if you have used it this encounter. When you do so, you ignore the power&apos;s requirement and action type, and your target is the creature that triggered the opportunity attack.
          </RulesElement>
-         <RulesElement name="Inspiring Fortitude" type="Power" internal-id="ID_FMP_POWER_9315" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=9315" charelem="150" legality="rules-legal" >
-            <specific name="Flavor" > Inspired by your resilience, your allies find the will to overcome challenges. </specific>
-            <specific name="Power Usage" > Daily </specific>
-            <specific name="_SkillPower" > ID_FMP_SKILL_8 </specific>
-            <specific name="Power Type" > Utility </specific>
+         <RulesElement name="Combat Sprint" type="Power" internal-id="ID_FMP_POWER_4937" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=4937" charelem="150" legality="rules-legal" >
+            <specific name="Flavor" > Having saved a bit of strength for just this moment, you burst across the battlefield. </specific>
+            <specific name="Power Usage" > Encounter </specific>
+            <specific name="Display" > Barbarian Utility 2 </specific>
+            <specific name="Keywords" > Primal </specific>
+            <specific name="Action Type" > Move Action </specific>
+            <specific name="Attack Type" > Personal </specific>
+            <specific name="Effect" > You move your speed + 4. You gain a +4 bonus to all defenses against any opportunity attack you provoke with this movement. </specific>
+            <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 2 </specific>
-            <specific name="Display" > Endurance Utility 2 </specific>
-            <specific name="Keywords" />
-            <specific name="Action Type" > Standard Action </specific>
-            <specific name="Attack Type" > Close burst 5 </specific>
-            <specific name="Requirement" > Your second wind must be available for you to use </specific>
-            <specific name="Target" > Each ally in the burst </specific>
-            <specific name="Effect" > You use your second wind, and each target gains temporary hit points equal to 10 + your Constitution modifier. </specific>
-            <specific name="Prerequisite" > You must be trained in Endurance. </specific>
+            <specific name="Power Type" > Utility </specific>
          </RulesElement>
          <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="10" legality="rules-legal" >
             <specific name="XP Needed" > 1500 </specific>
@@ -1247,7 +1244,7 @@ Play a Minotaur if you want ...
          The tally of the character&apos;s loot
       -->
       <LootTally>
-         <loot count="1" equip-count="1" ShowPowerCard="1" >
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="154" legality="rules-legal" >
                <specific name="Full Text" > GreataxeMilitary two-handed melee weaponCost: 30 gpDamage: 1d12Proficient: +2Weight: 12 lb.Properties: High Crit (A high crit weapon deals more damage when you score a critical hit with it. A critical hit deals maximum weapon damage and an extra 1[W] at 1st–10th levels, an extra 2[W] at 11th–20th levels, and an extra 3[W] at 21st–30th levels. This extra damage is in addition to any critical damage the weapon supplies if it is a magic weapon.).Group: Axe (Axes are weapons that have bladed, heavy heads and deal vicious cuts. An axe&apos;s weight makes it fine for delivering crushing blows.). </specific>
                <specific name="Weight" > 12 </specific>
@@ -1329,7 +1326,7 @@ Play a Minotaur if you want ...
                <specific name="count" > 1 </specific>
             </RulesElement>
          </loot>
-         <loot count="0" equip-count="-2" ShowPowerCard="1" >
+         <loot count="2" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" >
                <specific name="Full Text" > WarhammerMilitary one-handed melee weaponCost: 15 gpDamage: 1d10Proficient: +2Weight: 5 lb.Properties: Versatile (Versatile weapons are one-handed, but you can use them two-handed. If you do, you deal an extra 1 point of damage when you roll damage for the weapon.A Small character such as a halfling must use a versatile weapon two-handed, and doesn&apos;t deal extra damage.).Group: Hammer (A hammer has a blunt, heavy head with one or more flat striking surfaces attached to a haft.). </specific>
                <specific name="Weight" > 5 </specific>
@@ -1353,6 +1350,37 @@ Play a Minotaur if you want ...
             Wielding this metal pry bar gives you a +2 bonus to Strength checks to break open locked doors or containers.
             </RulesElement>
          </loot>
+         <loot count="1" equip-count="1" ShowPowerCard="1" >
+            <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="162" legality="rules-legal" >
+               <specific name="Full Text" > MaulMilitary two-handed melee weaponCost: 30 gpDamage: 2d6Proficient: +2Weight: 12 lb.Group: Hammer (A hammer has a blunt, heavy head with one or more flat striking surfaces attached to a haft.). </specific>
+               <specific name="Weight" > 12 </specific>
+               <specific name="Gold" > 30 </specific>
+               <specific name="Damage" > 2d6 </specific>
+               <specific name="Proficiency Bonus" > 2 </specific>
+               <specific name="Weapon Category" > Military Melee </specific>
+               <specific name="Hands Required" > Two-Handed </specific>
+               <specific name="Item Slot" > Two-Hands </specific>
+               <specific name="Group" > Hammer </specific>
+            </RulesElement>
+            <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="163" legality="rules-legal" >
+               <specific name="Flavor" > You can will this weapon to burst into flame. </specific>
+               <specific name="Level" > 10 </specific>
+               <specific name="Gold" > 5000 </specific>
+               <specific name="Magic Item Type" > Weapon </specific>
+               <specific name="Critical" > +1d6 fire damage per plus </specific>
+               <specific name="_Rarity" > Uncommon </specific>
+               <specific name="_Bonus" > +2 </specific>
+               <specific name="_Enhancement" > Attack rolls and damage rolls </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Weapon" > Any </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_147661 </specific>
+               <specific name="Power" > Power (Fire) *  (Free Action)
+All untyped damage dealt by this weapon changes to fire damage. Another free action returns the damage to normal. </specific>
+               <specific name="Power" > Power (Fire) *  (Free Action)
+All untyped damage dealt by this weapon changes to fire damage. Another free action returns the damage to normal. </specific>
+               <specific name="Enhancement" > +2 attack rolls and damage rolls </specific>
+            </RulesElement>
+         </loot>
       </LootTally>
 
       <!--
@@ -1373,6 +1401,45 @@ Play a Minotaur if you want ...
             <specific name="Attack" > Strength vs. AC </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Strength modifier damage. </specific>
+            <Weapon name="Flaming Maul +2" >
+               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="162" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="163" legality="rules-legal" />
+               <AttackBonus> 11 </AttackBonus>
+               <Damage> 2d6+7 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
++2 enhancement bonus.
+
+               </DamageComponents>
+               <CritDamage> 19+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Warhammer" >
+               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 1d10+5 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
+
+               </DamageComponents>
+               <CritDamage> 15 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Greataxe" >
                <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="154" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1496,6 +1563,45 @@ Play a Minotaur if you want ...
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
+            <Weapon name="Flaming Maul +2" >
+               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="162" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="163" legality="rules-legal" />
+               <AttackBonus> 11 </AttackBonus>
+               <Damage> 2d6+7 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
++2 enhancement bonus.
+
+               </DamageComponents>
+               <CritDamage> 19+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Warhammer" >
+               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 1d10+5 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
+
+               </DamageComponents>
+               <CritDamage> 15 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Greataxe" >
                <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="154" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1544,6 +1650,28 @@ Play a Minotaur if you want ...
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
+            <Weapon name="Flaming Maul +2" >
+               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="162" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="163" legality="rules-legal" />
+               <AttackBonus> 11 </AttackBonus>
+               <Damage> 2d6+7 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
++2 enhancement bonus.
+
+               </DamageComponents>
+               <CritDamage> 19+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Greataxe" >
                <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="154" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1578,6 +1706,47 @@ Play a Minotaur if you want ...
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
+            <Weapon name="Flaming Maul +2" >
+               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="162" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="163" legality="rules-legal" />
+               <AttackBonus> 11 </AttackBonus>
+               <Damage> 6d6+10 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
++2 enhancement bonus.
++3 Constitution modifier.
+
+               </DamageComponents>
+               <CritDamage> 46+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Warhammer" >
+               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 3d10+8 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
++3 Constitution modifier.
+
+               </DamageComponents>
+               <CritDamage> 38 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Greataxe" >
                <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="154" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1629,6 +1798,45 @@ Play a Minotaur if you want ...
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
+            <Weapon name="Flaming Maul +2" >
+               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="162" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="163" legality="rules-legal" />
+               <AttackBonus> 11 </AttackBonus>
+               <Damage> 6d6+7 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
++2 enhancement bonus.
+
+               </DamageComponents>
+               <CritDamage> 43+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Warhammer" >
+               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 3d10+5 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
+
+               </DamageComponents>
+               <CritDamage> 35 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Greataxe" >
                <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="154" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1663,20 +1871,17 @@ Play a Minotaur if you want ...
             </Weapon>
          </Power>
 
-         <Power name="Inspiring Fortitude" >
-            <specific name="Flavor" > Inspired by your resilience, your allies find the will to overcome challenges. </specific>
-            <specific name="Power Usage" > Daily </specific>
-            <specific name="_SkillPower" > ID_FMP_SKILL_8 </specific>
-            <specific name="Power Type" > Utility </specific>
+         <Power name="Combat Sprint" >
+            <specific name="Flavor" > Having saved a bit of strength for just this moment, you burst across the battlefield. </specific>
+            <specific name="Power Usage" > Encounter </specific>
+            <specific name="Display" > Barbarian Utility 2 </specific>
+            <specific name="Keywords" > Primal </specific>
+            <specific name="Action Type" > Move Action </specific>
+            <specific name="Attack Type" > Personal </specific>
+            <specific name="Effect" > You move your speed + 4. You gain a +4 bonus to all defenses against any opportunity attack you provoke with this movement. </specific>
+            <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 2 </specific>
-            <specific name="Display" > Endurance Utility 2 </specific>
-            <specific name="Keywords" />
-            <specific name="Action Type" > Standard Action </specific>
-            <specific name="Attack Type" > Close burst 5 </specific>
-            <specific name="Requirement" > Your second wind must be available for you to use </specific>
-            <specific name="Target" > Each ally in the burst </specific>
-            <specific name="Effect" > You use your second wind, and each target gains temporary hit points equal to 10 + your Constitution modifier. </specific>
-            <specific name="Prerequisite" > You must be trained in Endurance. </specific>
+            <specific name="Power Type" > Utility </specific>
          </Power>
 
          <Power name="Blade Sweep" >
@@ -1693,6 +1898,45 @@ Play a Minotaur if you want ...
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 3 </specific>
             <specific name="Power Type" > Attack </specific>
+            <Weapon name="Flaming Maul +2" >
+               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="162" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="163" legality="rules-legal" />
+               <AttackBonus> 11 </AttackBonus>
+               <Damage> 4d6+7 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
++2 enhancement bonus.
+
+               </DamageComponents>
+               <CritDamage> 31+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Warhammer" >
+               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 2d10+5 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
+
+               </DamageComponents>
+               <CritDamage> 25 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Greataxe" >
                <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="154" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1742,6 +1986,45 @@ Play a Minotaur if you want ...
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 5 </specific>
             <specific name="Power Type" > Attack </specific>
+            <Weapon name="Flaming Maul +2" >
+               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="162" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="163" legality="rules-legal" />
+               <AttackBonus> 11 </AttackBonus>
+               <Damage> 6d6+7 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
++2 enhancement bonus.
+
+               </DamageComponents>
+               <CritDamage> 43+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Warhammer" >
+               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 3d10+5 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
+
+               </HitComponents>
+               <DamageComponents> +5 Strength modifier.
+
+               </DamageComponents>
+               <CritDamage> 35 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Greataxe" >
                <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="154" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1794,6 +2077,42 @@ Play a Minotaur if you want ...
             <specific name="Power Type" > Feature </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_1052 </specific>
             <specific name="_ADDITIONAL_USES" > 1 </specific>
+            <Weapon name="Flaming Maul +2" >
+               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="162" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="163" legality="rules-legal" />
+               <AttackBonus> 11 </AttackBonus>
+               <Damage> As Above </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++2 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> 
+               </DamageComponents>
+               <CritDamage> 0As Above+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Warhammer" >
+               <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="160" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> As Above </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +5 Strength modifier.
++2 half your level.
++2 proficiency bonus.
+
+               </HitComponents>
+               <DamageComponents> 
+               </DamageComponents>
+               <CritDamage> 0As Above </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Greataxe" >
                <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="154" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1887,14 +2206,14 @@ Play a Minotaur if you want ...
             <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="53" legality="rules-legal" >
                <RulesElement name="Insight class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_INSIGHT_CLASS_SKILL" charelem="54" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="" type="" charelem="162" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="163" legality="rules-legal" />
             <RulesElement name="" type="" charelem="164" legality="rules-legal" />
             <RulesElement name="" type="" charelem="165" legality="rules-legal" />
             <RulesElement name="" type="" charelem="166" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="167" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="168" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="55" legality="rules-legal" >
-            <RulesElement name="" type="" charelem="167" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="169" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="56" legality="rules-legal" />
          <RulesElement name="Expansion4" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION4" charelem="57" legality="rules-legal" />
@@ -2021,14 +2340,14 @@ Play a Minotaur if you want ...
    <Level>
       <RulesElement name="2" type="Level" internal-id="ID_INTERNAL_LEVEL_2" charelem="9" legality="rules-legal" >
          <RulesElement name="Opportunity Gore" type="Feat" internal-id="ID_FMP_FEAT_1063" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=1063" charelem="149" legality="rules-legal" />
-         <RulesElement name="Inspiring Fortitude" type="Power" internal-id="ID_FMP_POWER_9315" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=9315" charelem="150" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="168" legality="rules-legal" />
+         <RulesElement name="Combat Sprint" type="Power" internal-id="ID_FMP_POWER_4937" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=4937" charelem="150" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="170" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="10" legality="rules-legal" >
          <RulesElement name="Blade Sweep" type="Power" internal-id="ID_FMP_POWER_4829" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=4829" charelem="151" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="169" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="171" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
@@ -2036,43 +2355,47 @@ Play a Minotaur if you want ...
          <RulesElement name="Toughness" type="Feat" internal-id="ID_FMP_FEAT_171" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=171" charelem="13" legality="rules-legal" />
          <RulesElement name="Strength" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_STRENGTH" charelem="2" legality="rules-legal" />
          <RulesElement name="Constitution" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CONSTITUTION" charelem="4" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="170" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="172" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="171" legality="rules-legal" />
+         <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="173" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="172" legality="rules-legal" />
+         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="174" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="173" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="175" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Chain (10 ft.)" type="Gear" internal-id="ID_FMP_GEAR_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=4" charelem="174" legality="rules-legal" />
+         <RulesElement name="Chain (10 ft.)" type="Gear" internal-id="ID_FMP_GEAR_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=4" charelem="176" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Climber&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=4" charelem="175" legality="rules-legal" />
+         <RulesElement name="Climber&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=4" charelem="177" legality="rules-legal" />
       </loot>
       <loot count="2" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="176" legality="rules-legal" />
+         <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="178" legality="rules-legal" />
       </loot>
       <loot count="3" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Oil (1 pint)" type="Gear" internal-id="ID_FMP_GEAR_52" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=52&amp;ftype=4" charelem="177" legality="rules-legal" />
+         <RulesElement name="Oil (1 pint)" type="Gear" internal-id="ID_FMP_GEAR_52" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=52&amp;ftype=4" charelem="179" legality="rules-legal" />
       </loot>
       <loot count="2" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="178" legality="rules-legal" />
+         <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="180" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Crowbar" type="Gear" internal-id="ID_FMP_GEAR_96" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=96&amp;ftype=4" charelem="179" legality="rules-legal" />
+         <RulesElement name="Crowbar" type="Gear" internal-id="ID_FMP_GEAR_96" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=96&amp;ftype=4" charelem="181" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="5" type="Level" internal-id="ID_INTERNAL_LEVEL_5" charelem="12" legality="rules-legal" >
          <RulesElement name="Earthquake Dragon&apos;s Rage" type="Power" internal-id="ID_FMP_POWER_10066" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=10066" charelem="152" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="180" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="182" legality="rules-legal" />
       </RulesElement>
-      <loot count="-2" equip-count="-2" ShowPowerCard="1" >
-         <RulesElement name="Warhammer" type="Weapon" internal-id="ID_FMP_WEAPON_16" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=16&amp;ftype=3" charelem="181" legality="rules-legal" />
+      <loot count="1" equip-count="1" ShowPowerCard="1" >
+         <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="183" legality="rules-legal" />
+         <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="184" legality="rules-legal" />
+      </loot>
+      <loot count="0" equip-count="-1" ShowPowerCard="1" >
+         <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="185" legality="rules-legal" />
       </loot>
    </Level>
 
@@ -2094,7 +2417,7 @@ Play a Minotaur if you want ...
       &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;ContentIdentifier xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/WotC.ContentVault&quot;&gt;&lt;ContentID&gt;1&lt;/ContentID&gt;&lt;Official&gt;true&lt;/Official&gt;&lt;OfficialTypeID i:nil=&quot;true&quot; /&gt;&lt;ScratchID i:nil=&quot;true&quot; /&gt;&lt;TypeID&gt;1&lt;/TypeID&gt;&lt;/ContentIdentifier&gt;
    </textstring>
    <textstring name="Experience Points" >
-      5500
+      6000
    </textstring>
    <textstring name="_PER_LEVEL_2Carried Money" >
       100 gp
@@ -2136,7 +2459,7 @@ Play a Minotaur if you want ...
       Grumpy just doesn&apos;t cut it. This creature has a chip on its shoulder the size of a tree.
    </textstring>
    <textstring name="Companions and Allies" >
-      Allies? What are these &quot;Allies&quot; of which you speak? Cowman NEEDS no allies!
+      Allies? What are these &quot;Allies&quot; of which you speak? Oloril NEEDS no allies!
    </textstring>
    <textstring name="Adventuring Comapny" >
       Heroes of Winterhaven
@@ -2145,13 +2468,19 @@ Play a Minotaur if you want ...
       Adrian
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp3E73.tmp
+      C:\Windows\TEMP\tmpF28.tmp
    </textstring>
    <textstring name="_PER_LEVEL_5_Stored Money" >
       
    </textstring>
    <textstring name="_PER_LEVEL_5_Carried Money" >
-      6 pp; 95 gp
+      680 gp
+   </textstring>
+   <textstring name="_ItemsShowOnPowerCards_" >
+      Flaming Maul +2~Greataxe
+   </textstring>
+   <textstring name="_INTERNAL_VersatileUsedTwoHanded" >
+      0
    </textstring>
 
 

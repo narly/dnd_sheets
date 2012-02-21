@@ -617,14 +617,18 @@
             <statadd String="d8" Level="4" value="0" />
          </Stat>
 
-         <Stat value="56" >
+         <Stat value="60" >
             <alias name="Weight" />
-            <statadd value="56" />
+            <statadd value="60" />
          </Stat>
 
          <Stat value="0" >
             <alias name="attack rolls" />
             <statadd Level="5" requires="!Armor Proficiency (Leather)" value="-2" charelem="7" />
+         </Stat>
+
+         <Stat value="0" >
+            <alias name="Hunter&apos;s Quarry" />
          </Stat>
 
       </StatBlock>
@@ -1381,7 +1385,7 @@
             This kit includes a backpack, a bedroll, flint and steel, a belt pouch, two sunrods, ten days&apos; worth of trail rations, 50 feet of hempen rope, and a waterskin.
             </RulesElement>
          </loot>
-         <loot count="2" equip-count="2" ShowPowerCard="1" >
+         <loot count="2" equip-count="1" ShowPowerCard="1" >
             <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="172" legality="rules-legal" >
                <specific name="Full Text" > LongswordMilitary one-handed melee weaponCost: 15 gpDamage: 1d8Proficient: +3Weight: 4 lb.Properties: Versatile (Versatile weapons are one-handed, but you can use them two-handed. If you do, you deal an extra 1 point of damage when you roll damage for the weapon.A Small character such as a halfling must use a versatile weapon two-handed, and doesn&apos;t deal extra damage.).Group: Heavy blade (Blades are balanced edged weapons. Heavy blades share some of the precision of light blades and some of the mass of axes. Heavy blades are used primarily for slashing cuts rather than stabs and thrusts.). </specific>
                <specific name="Weight" > 4 </specific>
@@ -1441,6 +1445,35 @@
             Leather armor is sturdier than cloth armor. It protects vital areas with multiple layers of boiled-leather plates, while covering the limbs with supple leather that provides a small amount of protection.
             </RulesElement>
          </loot>
+         <loot count="1" equip-count="1" ShowPowerCard="1" >
+            <RulesElement name="Scimitar" type="Weapon" internal-id="ID_FMP_WEAPON_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=3" charelem="175" legality="rules-legal" >
+               <specific name="Full Text" > ScimitarMilitary one-handed melee weaponCost: 10 gpDamage: 1d8Proficient: +2Weight: 4 lb.Properties: High Crit (A high crit weapon deals more damage when you score a critical hit with it. A critical hit deals maximum weapon damage and an extra 1[W] at 1st–10th levels, an extra 2[W] at 11th–20th levels, and an extra 3[W] at 21st–30th levels. This extra damage is in addition to any critical damage the weapon supplies if it is a magic weapon.).Group: Heavy blade (Blades are balanced edged weapons. Heavy blades share some of the precision of light blades and some of the mass of axes. Heavy blades are used primarily for slashing cuts rather than stabs and thrusts.). </specific>
+               <specific name="Weight" > 4 </specific>
+               <specific name="Gold" > 10 </specific>
+               <specific name="Damage" > 1d8 </specific>
+               <specific name="Proficiency Bonus" > 2 </specific>
+               <specific name="Weapon Category" > Military Melee </specific>
+               <specific name="Hands Required" > One-Handed </specific>
+               <specific name="Item Slot" > One-hand </specific>
+               <specific name="Group" > Heavy Blade </specific>
+               <specific name="Properties" > High Crit </specific>
+            </RulesElement>
+            <RulesElement name="Lifedrinker Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_718" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=718&amp;ftype=1" charelem="176" legality="rules-legal" >
+               <specific name="Flavor" > This weapon transfers an enemy&apos;s vitality to you. </specific>
+               <specific name="Level" > 5 </specific>
+               <specific name="Gold" > 1000 </specific>
+               <specific name="Magic Item Type" > Weapon </specific>
+               <specific name="Critical" > +1d6 necrotic damage per plus </specific>
+               <specific name="_Rarity" > Uncommon </specific>
+               <specific name="_Bonus" > +1 </specific>
+               <specific name="_Enhancement" > Attack rolls and damage rolls </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Weapon" > Any melee </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_148087 </specific>
+               <specific name="Property" > Whenever you drop an enemy to 0 hit points with a melee attack made with this weapon, you gain 5 temporary hit points. </specific>
+               <specific name="Enhancement" > +1 attack rolls and damage rolls </specific>
+            </RulesElement>
+         </loot>
       </LootTally>
 
       <!--
@@ -1461,6 +1494,30 @@
             <specific name="Attack" > Strength vs. AC </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Strength modifier damage. </specific>
+            <Weapon name="Lifedrinker Scimitar +1" >
+               <RulesElement name="Scimitar" type="Weapon" internal-id="ID_FMP_WEAPON_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Lifedrinker Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_718" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=718&amp;ftype=1" charelem="176" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 1d8+6 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +4 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++1 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +4 Strength modifier.
++1 enhancement bonus.
++1 bonus - Two-Weapon Fighting
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 14+1d6 necrotic damage per plus+1d8 </CritDamage>
+               <CritComponents> +1d6 necrotic damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Longsword" >
                <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="172" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1566,6 +1623,30 @@
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
             <specific name="_Associated Feats" > ID_FMP_FEAT_980, ID_FMP_FEAT_988, ID_FMP_FEAT_2347, ID_FMP_FEAT_2371, ID_FMP_FEAT_2382, ID_FMP_FEAT_3246 </specific>
+            <Weapon name="Lifedrinker Scimitar +1" >
+               <RulesElement name="Scimitar" type="Weapon" internal-id="ID_FMP_WEAPON_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Lifedrinker Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_718" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=718&amp;ftype=1" charelem="176" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 1d8+6 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +4 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++1 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +4 Strength modifier.
++1 enhancement bonus.
++1 bonus - Two-Weapon Fighting
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 14+1d6 necrotic damage per plus+1d8 </CritDamage>
+               <CritComponents> +1d6 necrotic damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Longsword" >
                <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="172" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1618,6 +1699,29 @@
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
             <specific name="_Associated Feats" > ID_FMP_FEAT_974, ID_FMP_FEAT_977, ID_FMP_FEAT_978, ID_FMP_FEAT_985, ID_FMP_FEAT_989, ID_FMP_FEAT_992 </specific>
+            <Weapon name="Lifedrinker Scimitar +1" >
+               <RulesElement name="Scimitar" type="Weapon" internal-id="ID_FMP_WEAPON_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Lifedrinker Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_718" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=718&amp;ftype=1" charelem="176" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 1d8+2 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +4 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++1 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +1 enhancement bonus.
++1 bonus - Two-Weapon Fighting
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 10+1d6 necrotic damage per plus+1d8 </CritDamage>
+               <CritComponents> +1d6 necrotic damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Longsword" >
                <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="172" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1652,6 +1756,30 @@
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
+            <Weapon name="Lifedrinker Scimitar +1" >
+               <RulesElement name="Scimitar" type="Weapon" internal-id="ID_FMP_WEAPON_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Lifedrinker Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_718" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=718&amp;ftype=1" charelem="176" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 1d8+6 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +4 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++1 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +4 Strength modifier.
++1 enhancement bonus.
++1 bonus - Two-Weapon Fighting
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 14+1d6 necrotic damage per plus+1d8 </CritDamage>
+               <CritComponents> +1d6 necrotic damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Longsword" >
                <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="172" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1690,8 +1818,9 @@
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-            <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="172" legality="rules-legal" />
+            <Weapon name="Lifedrinker Scimitar +1" >
+               <RulesElement name="Scimitar" type="Weapon" internal-id="ID_FMP_WEAPON_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Lifedrinker Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_718" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=718&amp;ftype=1" charelem="176" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
                <Damage> 1d8+1 </Damage>
                <AttackStat> Strength </AttackStat>
@@ -1706,6 +1835,28 @@
                </DamageComponents>
                <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
                <CritDamage> 9 </CritDamage>
+               <CritRange> 20 </CritRange>
+            </Weapon>
+            <Weapon name="Longsword" >
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="172" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 1d8+2 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +4 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++1 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +1 enhancement bonus.
++1 bonus - Two-Weapon Fighting
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 10+1d6 necrotic damage per plus+1d8 </CritDamage>
+               <CritComponents> +1d6 necrotic damage per plus weapon critical bonus.
+               </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
@@ -1739,6 +1890,30 @@
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 3 </specific>
             <specific name="Power Type" > Attack </specific>
+            <Weapon name="Lifedrinker Scimitar +1" >
+               <RulesElement name="Scimitar" type="Weapon" internal-id="ID_FMP_WEAPON_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Lifedrinker Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_718" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=718&amp;ftype=1" charelem="176" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 1d8+6 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +4 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++1 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +4 Strength modifier.
++1 enhancement bonus.
++1 bonus - Two-Weapon Fighting
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 14+1d6 necrotic damage per plus+1d8 </CritDamage>
+               <CritComponents> +1d6 necrotic damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Longsword" >
                <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="172" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1779,6 +1954,30 @@
             <specific name="Class" > ID_FMP_CLASS_5 </specific>
             <specific name="Level" > 5 </specific>
             <specific name="Power Type" > Attack </specific>
+            <Weapon name="Lifedrinker Scimitar +1" >
+               <RulesElement name="Scimitar" type="Weapon" internal-id="ID_FMP_WEAPON_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Lifedrinker Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_718" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=718&amp;ftype=1" charelem="176" legality="rules-legal" />
+               <AttackBonus> 9 </AttackBonus>
+               <Damage> 2d8+6 </Damage>
+               <AttackStat> Strength </AttackStat>
+               <Defense> AC </Defense>
+               <HitComponents> +4 Strength modifier.
++2 half your level.
++2 proficiency bonus.
++1 enhancement bonus.
+
+               </HitComponents>
+               <DamageComponents> +4 Strength modifier.
++1 enhancement bonus.
++1 bonus - Two-Weapon Fighting
+
+               </DamageComponents>
+               <Conditions> +1d8 to damage once per round (Hunter&apos;s Quarry)               </Conditions>
+               <CritDamage> 22+1d6 necrotic damage per plus+1d8 </CritDamage>
+               <CritComponents> +1d6 necrotic damage per plus weapon critical bonus.
+               </CritComponents>
+               <CritRange> 20 </CritRange>
+            </Weapon>
             <Weapon name="Longsword" >
                <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="172" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
@@ -1861,14 +2060,14 @@
             <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="57" legality="rules-legal" >
                <RulesElement name="Nature class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_NATURE_CLASS_SKILL" charelem="58" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="" type="" charelem="175" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="176" legality="rules-legal" />
             <RulesElement name="" type="" charelem="177" legality="rules-legal" />
             <RulesElement name="" type="" charelem="178" legality="rules-legal" />
             <RulesElement name="" type="" charelem="179" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="180" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="181" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="59" legality="rules-legal" >
-            <RulesElement name="" type="" charelem="180" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="182" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="60" legality="rules-legal" />
          <RulesElement name="Expansion4" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION4" charelem="61" legality="rules-legal" />
@@ -2009,13 +2208,13 @@
       <RulesElement name="2" type="Level" internal-id="ID_INTERNAL_LEVEL_2" charelem="8" legality="rules-legal" >
          <RulesElement name="Two-Weapon Defense" type="Feat" internal-id="ID_FMP_FEAT_172" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=172" charelem="6" legality="rules-legal" />
          <RulesElement name="Yield Ground" type="Power" internal-id="ID_FMP_POWER_749" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=749" charelem="161" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="181" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="183" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="9" legality="rules-legal" >
          <RulesElement name="Cut and Run" type="Power" internal-id="ID_FMP_POWER_978" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=978" charelem="162" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="182" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="184" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
@@ -2023,43 +2222,50 @@
          <RulesElement name="Lethal Hunter" type="Feat" internal-id="ID_FMP_FEAT_273" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=273" charelem="163" legality="rules-legal" />
          <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="3" legality="rules-legal" />
          <RulesElement name="Wisdom" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_WISDOM" charelem="4" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="183" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="185" legality="rules-legal" />
       </RulesElement>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="184" legality="rules-legal" />
-         <RulesElement name="Blood Obsidian Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_9307" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=9307&amp;ftype=1" charelem="185" legality="rules-legal" />
+         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="186" legality="rules-legal" />
+         <RulesElement name="Blood Obsidian Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_9307" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=9307&amp;ftype=1" charelem="187" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="186" legality="rules-legal" />
-         <RulesElement name="Ectoplasmic Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_8545" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8545&amp;ftype=1" charelem="187" legality="rules-legal" />
+         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="188" legality="rules-legal" />
+         <RulesElement name="Ectoplasmic Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_8545" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8545&amp;ftype=1" charelem="189" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Amulet of Warding +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6873" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6873&amp;ftype=1" charelem="188" legality="rules-legal" />
+         <RulesElement name="Amulet of Warding +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6873" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6873&amp;ftype=1" charelem="190" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="189" legality="rules-legal" />
+         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="191" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="190" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="192" legality="rules-legal" />
       </loot>
       <loot count="2" equip-count="2" ShowPowerCard="1" >
-         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="191" legality="rules-legal" />
+         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="193" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Longbow" type="Weapon" internal-id="ID_FMP_WEAPON_40" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=40&amp;ftype=3" charelem="192" legality="rules-legal" />
+         <RulesElement name="Longbow" type="Weapon" internal-id="ID_FMP_WEAPON_40" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=40&amp;ftype=3" charelem="194" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Arrows" type="Gear" internal-id="ID_FMP_GEAR_11" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=11&amp;ftype=4" charelem="193" legality="rules-legal" />
+         <RulesElement name="Arrows" type="Gear" internal-id="ID_FMP_GEAR_11" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=11&amp;ftype=4" charelem="195" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="194" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="196" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="5" type="Level" internal-id="ID_INTERNAL_LEVEL_5" charelem="11" legality="rules-legal" >
          <RulesElement name="Two-Wolf Pounce" type="Power" internal-id="ID_FMP_POWER_86" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=86" charelem="164" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="195" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="197" legality="rules-legal" />
       </RulesElement>
+      <loot count="1" equip-count="1" ShowPowerCard="1" >
+         <RulesElement name="Scimitar" type="Weapon" internal-id="ID_FMP_WEAPON_18" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=18&amp;ftype=3" charelem="198" legality="rules-legal" />
+         <RulesElement name="Lifedrinker Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_718" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=718&amp;ftype=1" charelem="199" legality="rules-legal" />
+      </loot>
+      <loot count="0" equip-count="-1" ShowPowerCard="1" >
+         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="200" legality="rules-legal" />
+      </loot>
    </Level>
 
 
@@ -2098,7 +2304,7 @@
       680 gp
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp2050.tmp
+      C:\Windows\TEMP\tmp3144.tmp
    </textstring>
    <textstring name="PortraitID" >
       &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;ContentIdentifier xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/WotC.ContentVault&quot;&gt;&lt;ContentID&gt;10020315&lt;/ContentID&gt;&lt;Official&gt;true&lt;/Official&gt;&lt;OfficialTypeID i:nil=&quot;true&quot; /&gt;&lt;ScratchID i:nil=&quot;true&quot; /&gt;&lt;TypeID&gt;2&lt;/TypeID&gt;&lt;/ContentIdentifier&gt;
@@ -2122,7 +2328,7 @@
       Darek Leather Armour, hair tied back.
    </textstring>
    <textstring name="_INTERNAL_MainHandWeapon" >
-      Longsword
+      Lifedrinker Scimitar +1
    </textstring>
    <textstring name="Adventuring Comapny" >
       Heroes of Winterhaven
@@ -2138,6 +2344,9 @@
    </textstring>
    <textstring name="_PER_LEVEL_5_Carried Money" >
       680 gp
+   </textstring>
+   <textstring name="_INTERNAL_VersatileUsedTwoHanded" >
+      0
    </textstring>
 
 
