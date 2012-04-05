@@ -601,9 +601,9 @@
             <statadd Level="1" value="2" charelem="16" />
          </Stat>
 
-         <Stat value="113" >
+         <Stat value="119" >
             <alias name="Weight" />
-            <statadd value="113" />
+            <statadd value="119" />
          </Stat>
 
          <Stat value="0" >
@@ -1068,19 +1068,21 @@
          </RulesElement>
          <RulesElement name="Weapon Proficiency (Feral Armor Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FERAL_ARMOR_CLAW)" charelem="145" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Simple Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_RANGED" charelem="146" legality="rules-legal" >
+         <RulesElement name="Weapon Proficiency (Blade of Chaos)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLADE_OF_CHAOS)" charelem="146" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Hand crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HAND_CROSSBOW)" charelem="147" legality="rules-legal" >
+         <RulesElement name="Simple Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_RANGED" charelem="147" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Sling)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SLING)" charelem="148" legality="rules-legal" >
+         <RulesElement name="Weapon Proficiency (Hand crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HAND_CROSSBOW)" charelem="148" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CROSSBOW)" charelem="149" legality="rules-legal" >
+         <RulesElement name="Weapon Proficiency (Sling)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SLING)" charelem="149" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Repeating crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(REPEATING_CROSSBOW)" charelem="150" legality="rules-legal" >
+         <RulesElement name="Weapon Proficiency (Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CROSSBOW)" charelem="150" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Weapon Proficiency (Dejada)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DEJADA)" charelem="151" legality="rules-legal" >
+         <RulesElement name="Weapon Proficiency (Repeating crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(REPEATING_CROSSBOW)" charelem="151" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Channel Divinity" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_324" charelem="152" legality="rules-legal" >
+         <RulesElement name="Weapon Proficiency (Dejada)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DEJADA)" charelem="152" legality="rules-legal" >
+         </RulesElement>
+         <RulesElement name="Channel Divinity" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_324" charelem="153" legality="rules-legal" >
             <specific name="Flavor" > Once per encounter you can invoke divine power, filling yourself with the might of your patron deity. With the divine might you invoke, you can wield special powers such as divine fortune and turn undead. Some clerics learn other uses for this ability by choosing feats that grant additional channel divinity powers. </specific>
             <specific name="Short Description" > Invoke a channel divinity class feature or other power; encounter. </specific>
             <specific name="Level" > 1 </specific>
@@ -1090,7 +1092,7 @@
             <specific name="_DisplayPowers" > ID_FMP_POWER_1746,ID_FMP_POWER_1747,ID_FMP_POWER_5330,ID_FMP_POWER_5331,ID_FMP_POWER_5186 </specific>
          Once per encounter you can invoke divine power, filling yourself with the might of your patron deity. With the divine might you invoke you can wield special powers. You can also learn other uses for this feature; for instance, the divinity feats grant characters with access to the Channel Divinity class feature the ability to use additional special powers.	Regardless of how many different uses for Channel Divinity you know, you can use only one such ability per encounter. The special ability or power you invoke works just like your other powers.
          </RulesElement>
-         <RulesElement name="Divine Challenge" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_72" charelem="153" legality="rules-legal" >
+         <RulesElement name="Divine Challenge" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_72" charelem="154" legality="rules-legal" >
             <specific name="Short Description" > Use divine challenge as an at-will power; minor action. </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Powers" > ID_FMP_POWER_805 </specific>
@@ -1099,7 +1101,7 @@
             <specific name="_DisplayPowers" > ID_FMP_POWER_805 </specific>
          The challenge of a paladin is filled with divine menace. You can use the divine challenge power to mark an enemy of your choice.
          </RulesElement>
-         <RulesElement name="Divine Challenge" type="Power" internal-id="ID_FMP_POWER_805" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=805" charelem="154" legality="rules-legal" >
+         <RulesElement name="Divine Challenge" type="Power" internal-id="ID_FMP_POWER_805" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=805" charelem="155" legality="rules-legal" >
             <specific name="Flavor" > You boldly confront a nearby enemy, searing it with divine light if it ignores your challenge. </specific>
             <specific name="Power Usage" > At-Will </specific>
             <specific name="Display" > Paladin Feature </specific>
@@ -1114,7 +1116,7 @@
             <specific name="Power Type" > Feature </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_72,ID_FMP_CLASS_FEATURE_473 </specific>
          </RulesElement>
-         <RulesElement name="Lay on Hands" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_434" charelem="155" legality="rules-legal" >
+         <RulesElement name="Lay on Hands" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_434" charelem="156" legality="rules-legal" >
             <specific name="Short Description" > Use lay on hands as an at-will (special) power; minor. </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Powers" > ID_FMP_POWER_1566 </specific>
@@ -1139,12 +1141,12 @@
          </RulesElement>
          <RulesElement name="Religion" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_RELIGION" charelem="21" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Paladin Implements" type="Grants" internal-id="ID_INTERNAL_GRANTS_PALADIN_IMPLEMENTS" charelem="156" legality="rules-legal" >
+         <RulesElement name="Paladin Implements" type="Grants" internal-id="ID_INTERNAL_GRANTS_PALADIN_IMPLEMENTS" charelem="157" legality="rules-legal" >
             <specific name="_SupportsID" > ID_FMP_CLASS_4 </specific>
          </RulesElement>
-         <RulesElement name="Implement Proficiency (Holy Symbol)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_IMPLEMENT_PROFICIENCY_(HOLY_SYMBOL)" charelem="157" legality="rules-legal" >
+         <RulesElement name="Implement Proficiency (Holy Symbol)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_IMPLEMENT_PROFICIENCY_(HOLY_SYMBOL)" charelem="158" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Ardent Strike" type="Power" internal-id="ID_FMP_POWER_7241" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=7241" charelem="158" legality="rules-legal" >
+         <RulesElement name="Ardent Strike" type="Power" internal-id="ID_FMP_POWER_7241" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=7241" charelem="159" legality="rules-legal" >
             <specific name="Flavor" > You attack your enemy and make it the focus of your god&apos;s anger. </specific>
             <specific name="Power Usage" > At-Will </specific>
             <specific name="Display" > Paladin Attack 1 </specific>
@@ -1160,7 +1162,7 @@
             <specific name="Power Type" > Attack </specific>
             <specific name="_Associated Feats" > ID_FMP_FEAT_1429, ID_FMP_FEAT_1433, ID_FMP_FEAT_1467, ID_FMP_FEAT_1471 </specific>
          </RulesElement>
-         <RulesElement name="Virtuous Strike" type="Power" internal-id="ID_FMP_POWER_3687" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3687" charelem="159" legality="rules-legal" >
+         <RulesElement name="Virtuous Strike" type="Power" internal-id="ID_FMP_POWER_3687" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3687" charelem="160" legality="rules-legal" >
             <specific name="Flavor" > The clean light of your weapon pierces your enemies and fills you with resolve. </specific>
             <specific name="Power Usage" > At-Will </specific>
             <specific name="Display" > Paladin Attack 1 </specific>
@@ -1177,12 +1179,12 @@
             <specific name="_Associated Feats" > ID_FMP_FEAT_1363, ID_FMP_FEAT_1424, ID_FMP_FEAT_1443, ID_FMP_FEAT_1447, ID_FMP_FEAT_1459, ID_FMP_FEAT_1469 </specific>
             <specific name="_BasicAttack" > Melee </specific>
          </RulesElement>
-         <RulesElement name="Virtuous Paladin" type="Build" internal-id="ID_FMP_BUILD_79" charelem="160" legality="rules-legal" >
+         <RulesElement name="Virtuous Paladin" type="Build" internal-id="ID_FMP_BUILD_79" charelem="161" legality="rules-legal" >
             <specific name="Suggested" > Class Feature: virtue&apos;s touchFeat: Virtuous RecoverySkills: Endurance, Heal, Insight, ReligionAt-Will Powers: bolstering strike, virtuous strikeEncounter Power: valorous smiteDaily Power: majestic halo </specific>
             <specific name="Class" > ID_FMP_CLASS_4 </specific>
          You are a tower of faith; enchantments and dreadful powers wielded by your foes can find little purchase in your devoted heart. Like the protecting paladin, you shield your companions, but you do so while protecting yourself so that you can stay in the fight. No matter how your enemies attack you, you excel at resisting conditions that would impede others. As a warrior of exceptional piety, you also make more use of your holy symbol than other paladins do. You have several options for engaging enemies at range, so that even foes beyond your weapon&apos;s reach cannot escape your challenge.Your highest ability score should be Charisma. Choose Wisdom for your second-best score, since a good Wisdom enhances the effects of many of your powers. Strength should be your third-best score. First choose powers that let you make extra saving throws or use healing surges, then powers that bolster your allies or deal high damage. You should wield a shield and a one-handed weapon, since having high defenses is a goal of this build.
          </RulesElement>
-         <RulesElement name="Virtuous Paladin" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_VIRTUOUS_PALADIN" charelem="161" legality="rules-legal" >
+         <RulesElement name="Virtuous Paladin" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_VIRTUOUS_PALADIN" charelem="162" legality="rules-legal" >
             <specific name="_SupportsID" > ID_FMP_BUILD_79 </specific>
          </RulesElement>
          <RulesElement name="Insight" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_INSIGHT" charelem="17" legality="rules-legal" >
@@ -1196,7 +1198,7 @@
             <specific name="Short Description" > +2 feat bonus to Diplomacy and Intimidate </specific>
          You gain a +2 feat bonus to Diplomacy and Intimidate.
          </RulesElement>
-         <RulesElement name="Guardian Light" type="Power" internal-id="ID_FMP_POWER_3247" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3247" charelem="162" legality="rules-legal" >
+         <RulesElement name="Guardian Light" type="Power" internal-id="ID_FMP_POWER_3247" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3247" charelem="163" legality="rules-legal" >
             <specific name="Flavor" > As you attack, a faint glow envelops your weapon and bolsters your defenses for a time. </specific>
             <specific name="Power Usage" > Encounter </specific>
             <specific name="Display" > Paladin Attack 1 </specific>
@@ -1210,7 +1212,7 @@
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
          </RulesElement>
-         <RulesElement name="Glorious Charge" type="Power" internal-id="ID_FMP_POWER_3261" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3261" charelem="163" legality="rules-legal" >
+         <RulesElement name="Glorious Charge" type="Power" internal-id="ID_FMP_POWER_3261" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3261" charelem="164" legality="rules-legal" >
             <specific name="Flavor" > You wade into battle and urge your allies to greater heights. </specific>
             <specific name="Power Usage" > Daily </specific>
             <specific name="Display" > Paladin Attack 1 </specific>
@@ -1226,22 +1228,22 @@
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
          </RulesElement>
-         <RulesElement name="Erathis" type="Deity" internal-id="ID_FMP_DEITY_4" charelem="164" legality="rules-legal" >
+         <RulesElement name="Erathis" type="Deity" internal-id="ID_FMP_DEITY_4" charelem="165" legality="rules-legal" >
             <specific name="Alignment" > Unaligned </specific>
             <specific name="Domains" > ID_FMP_DOMAIN_3, ID_FMP_DOMAIN_4, ID_FMP_DOMAIN_12 </specific>
             <specific name="_Tags" > Essentials </specific>
          Erathis is the god of civilization. She is the muse of great invention, founder of cities, and author of laws. Rulers, judges, pioneers, and devoted citizens revere her, and her temples hold prominent places in most of the world&apos;s major cities. Her laws are many, but their purpose is straightforward:* Work with others to achieve your goals. Community and order are always stronger than the disjointed efforts of lone individuals.* Tame the wilderness to make it fit for habitation and defend the light of civilization against the encroaching darkness.* Seek out new ideas, new inventions, new lands to inhabit, new wilderness to conquer. Build machines, build cities, build empires.
          </RulesElement>
-         <RulesElement name="Civilization" type="Domain" internal-id="ID_FMP_DOMAIN_3" charelem="165" legality="rules-legal" >
+         <RulesElement name="Civilization" type="Domain" internal-id="ID_FMP_DOMAIN_3" charelem="166" legality="rules-legal" >
          Both Erathis and Asmodeus prize civilization as the most important force for greatness, but they seize upon the concept in different ways.Erathis sees civilization as the means of bringing order and illumination to a dark and chaotic cosmos. For her, any culture of laws advances society better than the wild aspirations of individuals. Large and stable communities give people the chance to create the inventions that further propel the ascendancy of civilization as a whole.Asmodeus understands civilization as a means of gaining power. Confused rabble roaming the wilderness make for easy conquests, but conquering them means bringing them under control. The laws, technologies, and structures of civil society provide the tools to pinion the weak beneath the boots of the mighty.A good god of civilization might view it as the best way for people to help one another. The laws and shared responsibilities of societies give people the opportunities to show their better selves. In a world where cities are separated by vast areas of peril, expanding the reach of civilization can be a heroic task indeed.
          </RulesElement>
-         <RulesElement name="Creation" type="Domain" internal-id="ID_FMP_DOMAIN_4" charelem="166" legality="rules-legal" >
+         <RulesElement name="Creation" type="Domain" internal-id="ID_FMP_DOMAIN_4" charelem="167" legality="rules-legal" >
          Erathis and Moradin both claim the domain of creation, and their followers share an appreciation for works of craft. Yet each god places different emphasis on what they inspire their worshipers to create. Erathis values creations that advance civilization. Faster ships to speed trade, great roads carved through mountains, new cities where no person had thought they might live—these bring Erathis joy. Even an invention as small as a new kind of hinge receives Erathis&apos;s sanction.Moradin encourages others to bring works into being that will see generations of use. He was intimately involved in hammering the raw creation of the primordials into a durable and refined world that mortals could thrive in. Now that the work of original creation is done, his followers focus on the lasting works of hammer and forge, chisel and stone. Other gods of creation likely make their own marks on the domain. A deity of creation and magic might focus on the invention of new spells or magic items. A god of creation and war might value inventions only for their destructive potential.
          </RulesElement>
-         <RulesElement name="Justice" type="Domain" internal-id="ID_FMP_DOMAIN_12" charelem="167" legality="rules-legal" >
+         <RulesElement name="Justice" type="Domain" internal-id="ID_FMP_DOMAIN_12" charelem="168" legality="rules-legal" >
          Justice lives differently in the mind of each person, and laws change with each ruler, but ideals of integrity and fairness exist in most societies—even among those who see such ideals as weaknesses. Two gods take up the banner of justice, placing it among their highest virtues.Bahamut sees justice as the tool of good intentions. Laws and honor exist to protect those who cannot protect themselves and to prevent those who wield power from taking the path of evil.Erathis views justice as the driving force behind civilization. Without law—without the shared understanding of what should and should not be—society dissolves into chaos.Other gods of justice would place their own perspectives on the concept. A deity of justice and death might be concerned only with providing the proper rewards and punishments to souls. An evil deity of justice might be an unforgiving judge who cleaves to the letter of the law, relishing in the technicalities that entrap decent souls.
          </RulesElement>
-         <RulesElement name="Divine Mettle" type="Power" internal-id="ID_FMP_POWER_1746" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1746" charelem="168" legality="rules-legal" >
+         <RulesElement name="Divine Mettle" type="Power" internal-id="ID_FMP_POWER_1746" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1746" charelem="169" legality="rules-legal" >
             <specific name="Flavor" > Your unswerving faith in your deity empowers a nearby creature to resist a debilitating affliction. </specific>
             <specific name="Power Usage" > Encounter </specific>
             <specific name="Display" > Paladin Feature </specific>
@@ -1256,7 +1258,7 @@
             <specific name="Power Type" > Feature </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_324 </specific>
          </RulesElement>
-         <RulesElement name="Divine Strength" type="Power" internal-id="ID_FMP_POWER_1747" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1747" charelem="169" legality="rules-legal" >
+         <RulesElement name="Divine Strength" type="Power" internal-id="ID_FMP_POWER_1747" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1747" charelem="170" legality="rules-legal" >
             <specific name="Flavor" > You petition your deity for the divine strength to lay low your enemies. </specific>
             <specific name="Power Usage" > Encounter </specific>
             <specific name="Display" > Paladin Feature </specific>
@@ -1273,12 +1275,12 @@
          <RulesElement name="2" type="Level" internal-id="ID_INTERNAL_LEVEL_2" charelem="8" legality="rules-legal" >
             <specific name="XP Needed" > 1250 </specific>
          </RulesElement>
-         <RulesElement name="Divine Perseverance" type="Feat" internal-id="ID_FMP_FEAT_1516" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=1516" charelem="170" legality="rules-legal" >
+         <RulesElement name="Divine Perseverance" type="Feat" internal-id="ID_FMP_FEAT_1516" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=1516" charelem="171" legality="rules-legal" >
             <specific name="Tier" > Heroic </specific>
             <specific name="Short Description" > You gain +2 on your next attack after you succeed on a save </specific>
          When you succeed on a saving throw, you gain a +2 bonus to your next attack roll made before the end of your next turn.
          </RulesElement>
-         <RulesElement name="Guardian&apos;s Defense" type="Power" internal-id="ID_FMP_POWER_14151" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=14151" charelem="171" legality="rules-legal" >
+         <RulesElement name="Guardian&apos;s Defense" type="Power" internal-id="ID_FMP_POWER_14151" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=14151" charelem="172" legality="rules-legal" >
             <specific name="Flavor" > Fighting side by side with an ally, you guard his or her back. </specific>
             <specific name="Power Usage" > Encounter </specific>
             <specific name="Display" > Guardian Utility 2 </specific>
@@ -1297,7 +1299,7 @@
          <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="9" legality="rules-legal" >
             <specific name="XP Needed" > 1500 </specific>
          </RulesElement>
-         <RulesElement name="Invigorating Smite" type="Power" internal-id="ID_FMP_POWER_1568" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1568" charelem="172" legality="rules-legal" >
+         <RulesElement name="Invigorating Smite" type="Power" internal-id="ID_FMP_POWER_1568" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1568" charelem="173" legality="rules-legal" >
             <specific name="Flavor" > When you hit an enemy with your weapon, you and your allies suddenly feel invigorated by the divine power of your faith. </specific>
             <specific name="Power Usage" > Encounter </specific>
             <specific name="Display" > Paladin Attack 3 </specific>
@@ -1314,7 +1316,7 @@
          <RulesElement name="4" type="Level" internal-id="ID_INTERNAL_LEVEL_4" charelem="10" legality="rules-legal" >
             <specific name="XP Needed" > 1750 </specific>
          </RulesElement>
-         <RulesElement name="Mercy&apos;s Reward" type="Feat" internal-id="ID_FMP_FEAT_3089" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=3089" charelem="173" legality="rules-legal" >
+         <RulesElement name="Mercy&apos;s Reward" type="Feat" internal-id="ID_FMP_FEAT_3089" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=3089" charelem="174" legality="rules-legal" >
             <specific name="Tier" > Heroic </specific>
             <specific name="Short Description" > Reduce critical hit to normal: self/adjacent ally may spend healing surge, +10 hit points </specific>
          When you score a critical hit, you can choose to reduce it to a normal hit instead. If you do, you or one ally adjacent to you can spend a healing surge and regain 10 additional hit points.
@@ -1326,7 +1328,7 @@
          <RulesElement name="5" type="Level" internal-id="ID_INTERNAL_LEVEL_5" charelem="11" legality="rules-legal" >
             <specific name="XP Needed" > 2000 </specific>
          </RulesElement>
-         <RulesElement name="Name of Might" type="Power" internal-id="ID_FMP_POWER_3730" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3730" charelem="174" legality="rules-legal" >
+         <RulesElement name="Name of Might" type="Power" internal-id="ID_FMP_POWER_3730" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3730" charelem="175" legality="rules-legal" >
             <specific name="Flavor" > You shout an ancient angelic name of thunderous power that slows your foes. </specific>
             <specific name="Power Usage" > Daily </specific>
             <specific name="Display" > Paladin Attack 5 </specific>
@@ -1356,7 +1358,7 @@
       -->
       <LootTally>
          <loot count="1" equip-count="1" ShowPowerCard="1" >
-            <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="175" legality="rules-legal" >
+            <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="176" legality="rules-legal" >
                <specific name="Full Text" > BroadswordMilitary one-handed melee weaponCost: 20 gpDamage: 1d10Proficient: +2Range: -Weight: 5 lb.Compared to a longsword, a broadsword has a heavier blade more suited to brutal tactics than to quick maneuvers.Properties: Versatile (Versatile weapons are one-handed, but you can use them two-handed. If you do, you deal an extra 1 point of damage when you roll damage for the weapon.A Small character such as a halfling must use a versatile weapon two-handed, and doesn&apos;t deal extra damage.).Group: Heavy blade (Blades are balanced edged weapons. Heavy blades share some of the precision of light blades and some of the mass of axes. Heavy blades are used primarily for slashing cuts rather than stabs and thrusts.). </specific>
                <specific name="Weight" > 5 </specific>
                <specific name="Gold" > 20 </specific>
@@ -1406,7 +1408,7 @@
             </RulesElement>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="176" legality="rules-legal" >
+            <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="177" legality="rules-legal" >
                <specific name="Full Text" > Adventurer&apos;s KitCategory: GearPrice: 15 gp Weight: 33 lbDescription: This kit includes a backpack, a bedroll, flint and steel, a belt pouch, two sunrods, ten days&apos; worth of trail rations, 50 feet of hempen rope, and a waterskin. </specific>
                <specific name="Weight" > 33 </specific>
                <specific name="Gold" > 15 </specific>
@@ -1416,7 +1418,7 @@
             </RulesElement>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="177" legality="rules-legal" >
+            <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="178" legality="rules-legal" >
                <specific name="Full Text" > Everburning TorchCategory: GearPrice: 50 gp Weight: 1 lbDescription: This torch never stops burning. It casts bright light to a radius of 5 squares but sheds no heat, so you can stow it in a bag or a pouch. You can&apos;t set fire to anything with it. </specific>
                <specific name="Weight" > 1 </specific>
                <specific name="Gold" > 50 </specific>
@@ -1426,7 +1428,7 @@
             </RulesElement>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Hand crossbow" type="Weapon" internal-id="ID_FMP_WEAPON_36" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=36&amp;ftype=3" charelem="178" legality="rules-legal" >
+            <RulesElement name="Hand crossbow" type="Weapon" internal-id="ID_FMP_WEAPON_36" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=36&amp;ftype=3" charelem="179" legality="rules-legal" >
                <specific name="Full Text" > Hand crossbowSimple one-handed ranged weaponCost: 25 gpDamage: 1d6Proficient: +2Range: 10/20Weight: 2 lb.Properties: Load Free (Ranged weapons that loose projectiles, including bows, crossbows, and slings, take some time to load. When a weapon shows “load free” on the ranged weapons table, that means you draw and load ammunition as a free action, effectively part of the action used to attack with the weapon. Any weapon that has the load property requires two hands to load, even if you can use only one hand to attack with it. (The sling, for example, is a one-handed weapon, but you need a free hand to load it.) The crossbow is “load minor,” which means it requires a minor action to load a bolt into the weapon. If a power allows you to hit multiple targets, the additional load time is accounted for in the power.).Group: Crossbow (Essentially a small metal bow mounted on a stock and equipped with a mechanical trigger, a crossbow is a point-and-shoot projectile weapon. Crossbows are popular because they require little training to master, yet the heavy pull of the metal bow gives them substantial power.). </specific>
                <specific name="Weight" > 2 </specific>
                <specific name="Gold" > 25 </specific>
@@ -1441,7 +1443,7 @@
             </RulesElement>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Crossbow Bolts" type="Gear" internal-id="ID_FMP_GEAR_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=4" charelem="179" legality="rules-legal" >
+            <RulesElement name="Crossbow Bolts" type="Gear" internal-id="ID_FMP_GEAR_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=4" charelem="180" legality="rules-legal" >
                <specific name="Full Text" > Crossbow Bolts (20)Category: AmmunitionPrice: 1 gp Weight: 2 lbDescription: Crossbow bolts come in a case that holds twenty. Ammunition is used up when you fire it from a projectile weapon. </specific>
                <specific name="Weight" > 2 </specific>
                <specific name="Gold" > 1 </specific>
@@ -1452,7 +1454,7 @@
             </RulesElement>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Holy Symbol" type="Gear" internal-id="ID_FMP_GEAR_27" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=27&amp;ftype=4" charelem="180" legality="rules-legal" >
+            <RulesElement name="Holy Symbol" type="Gear" internal-id="ID_FMP_GEAR_27" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=27&amp;ftype=4" charelem="181" legality="rules-legal" >
                <specific name="Full Text" > Holy SymbolCategory: GearPrice: 10 gp Weight: 1 lbDescription: This is a finely crafted, nonmagical symbol of precious metal that characters who worship gods might carry as a representation of their deity. </specific>
                <specific name="Weight" > 1 </specific>
                <specific name="Gold" > 10 </specific>
@@ -1463,7 +1465,7 @@
             </RulesElement>
          </loot>
          <loot count="1" equip-count="0" ShowPowerCard="1" >
-            <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="181" legality="rules-legal" >
+            <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="182" legality="rules-legal" >
                <specific name="Full Text" > LongswordMilitary one-handed melee weaponCost: 15 gpDamage: 1d8Proficient: +3Weight: 4 lb.Properties: Versatile (Versatile weapons are one-handed, but you can use them two-handed. If you do, you deal an extra 1 point of damage when you roll damage for the weapon.A Small character such as a halfling must use a versatile weapon two-handed, and doesn&apos;t deal extra damage.).Group: Heavy blade (Blades are balanced edged weapons. Heavy blades share some of the precision of light blades and some of the mass of axes. Heavy blades are used primarily for slashing cuts rather than stabs and thrusts.). </specific>
                <specific name="Weight" > 4 </specific>
                <specific name="Gold" > 15 </specific>
@@ -1477,7 +1479,7 @@
             </RulesElement>
          </loot>
          <loot count="1" equip-count="1" ShowPowerCard="1" >
-            <RulesElement name="Dwarven Greaves" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_993" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=993&amp;ftype=1" charelem="182" legality="rules-legal" >
+            <RulesElement name="Dwarven Greaves" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_993" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=993&amp;ftype=1" charelem="183" legality="rules-legal" >
                <specific name="Flavor" > This enchanted leg armor, crafted in the dwarven tradition, can be activated to negate a pull, a push, or a slide effect. </specific>
                <specific name="Level" > 7 </specific>
                <specific name="Gold" > 2600 </specific>
@@ -1488,6 +1490,34 @@
                <specific name="_AssociatedMonsters" />
                <specific name="Power" > Power * Daily (Immediate Interrupt)
 You can use this power when you are hit by a power that has a pull, a push, or a slide effect. You negate the forced movement. </specific>
+            </RulesElement>
+         </loot>
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
+            <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="184" legality="rules-legal" >
+               <specific name="Full Text" > Light ShieldDescription: While you&apos;re using a light shield, you can use your shield hand to hold another item, to climb, and the like, but you can&apos;t make attacks with that hand or with anything in it.AC Bonus: +1Weight: 6 lb.Cost: 5 gp.Type: Light Shields </specific>
+               <specific name="Weight" > 6 </specific>
+               <specific name="Armor Bonus" > 1 </specific>
+               <specific name="Check" > - </specific>
+               <specific name="Speed" > - </specific>
+               <specific name="Gold" > 5 </specific>
+               <specific name="Armor Type" > Shield </specific>
+               <specific name="Item Slot" > Off-Hand </specific>
+               <specific name="Armor Category" > Light Shields </specific>
+            While you&apos;re using a light shield, you can use your shield hand to hold another item, to climb, and the like, but you can&apos;t make attacks with that hand or with anything in it.
+            </RulesElement>
+            <RulesElement name="Shield of Protection (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_980" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=980&amp;ftype=1" charelem="185" legality="rules-legal" >
+               <specific name="Flavor" > This enchanted shield can be activated to provide you and an ally with magical protection for a short time. </specific>
+               <specific name="Level" > 3 </specific>
+               <specific name="Gold" > 680 </specific>
+               <specific name="Magic Item Type" > Arms Slot Item </specific>
+               <specific name="Shield" > Any </specific>
+               <specific name="Item Slot" > Arms </specific>
+               <specific name="_Rarity" > Uncommon </specific>
+               <specific name="_Bonus" > +0 </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_148835 </specific>
+               <specific name="Power" > Power * Daily (Standard Action)
+You and an adjacent ally gain resist 10 to all damage until the end of your next turn. </specific>
             </RulesElement>
          </loot>
       </LootTally>
@@ -1511,7 +1541,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
             <specific name="Hit" > 1[W] + Strength modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Strength modifier damage. </specific>
             <Weapon name="Broadsword" >
-               <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="176" legality="rules-legal" />
                <AttackBonus> 4 </AttackBonus>
                <Damage> 1d10 </Damage>
                <AttackStat> Strength </AttackStat>
@@ -1528,7 +1558,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="181" legality="rules-legal" />
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="182" legality="rules-legal" />
                <AttackBonus> 5 </AttackBonus>
                <Damage> 1d8 </Damage>
                <AttackStat> Strength </AttackStat>
@@ -1573,7 +1603,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
             <specific name="Hit" > 1[W] + Dexterity modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Dexterity modifier damage. </specific>
             <Weapon name="Hand crossbow" >
-               <RulesElement name="Hand crossbow" type="Weapon" internal-id="ID_FMP_WEAPON_36" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=36&amp;ftype=3" charelem="178" legality="rules-legal" />
+               <RulesElement name="Hand crossbow" type="Weapon" internal-id="ID_FMP_WEAPON_36" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=36&amp;ftype=3" charelem="179" legality="rules-legal" />
                <AttackBonus> 4 </AttackBonus>
                <Damage> 1d6 </Damage>
                <AttackStat> Dexterity </AttackStat>
@@ -1695,7 +1725,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
             <specific name="Power Type" > Attack </specific>
             <specific name="_Associated Feats" > ID_FMP_FEAT_1429, ID_FMP_FEAT_1433, ID_FMP_FEAT_1467, ID_FMP_FEAT_1471 </specific>
             <Weapon name="Broadsword" >
-               <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="176" legality="rules-legal" />
                <AttackBonus> 8 </AttackBonus>
                <Damage> 1d10+4 </Damage>
                <AttackStat> Charisma </AttackStat>
@@ -1712,7 +1742,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="181" legality="rules-legal" />
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="182" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
                <Damage> 1d8+4 </Damage>
                <AttackStat> Charisma </AttackStat>
@@ -1762,7 +1792,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
             <specific name="_Associated Feats" > ID_FMP_FEAT_1363, ID_FMP_FEAT_1424, ID_FMP_FEAT_1443, ID_FMP_FEAT_1447, ID_FMP_FEAT_1459, ID_FMP_FEAT_1469 </specific>
             <specific name="_BasicAttack" > Melee </specific>
             <Weapon name="Broadsword" >
-               <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="176" legality="rules-legal" />
                <AttackBonus> 8 </AttackBonus>
                <Damage> 1d10+4 </Damage>
                <DamageType> Radiant </DamageType>
@@ -1780,7 +1810,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="181" legality="rules-legal" />
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="182" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
                <Damage> 1d8+4 </Damage>
                <DamageType> Radiant </DamageType>
@@ -1829,7 +1859,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
             <Weapon name="Broadsword" >
-               <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="176" legality="rules-legal" />
                <AttackBonus> 8 </AttackBonus>
                <Damage> 1d10+4 </Damage>
                <AttackStat> Charisma </AttackStat>
@@ -1846,7 +1876,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="181" legality="rules-legal" />
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="182" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
                <Damage> 1d8+4 </Damage>
                <AttackStat> Charisma </AttackStat>
@@ -1895,7 +1925,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
             <Weapon name="Broadsword" >
-               <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="176" legality="rules-legal" />
                <AttackBonus> 8 </AttackBonus>
                <Damage> 2d10+4 </Damage>
                <AttackStat> Charisma </AttackStat>
@@ -1912,7 +1942,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="181" legality="rules-legal" />
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="182" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
                <Damage> 2d8+4 </Damage>
                <AttackStat> Charisma </AttackStat>
@@ -2006,7 +2036,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
             <specific name="Level" > 3 </specific>
             <specific name="Power Type" > Attack </specific>
             <Weapon name="Broadsword" >
-               <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="175" legality="rules-legal" />
+               <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="176" legality="rules-legal" />
                <AttackBonus> 8 </AttackBonus>
                <Damage> 2d10+4 </Damage>
                <AttackStat> Charisma </AttackStat>
@@ -2023,7 +2053,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Longsword" >
-               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="181" legality="rules-legal" />
+               <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="182" legality="rules-legal" />
                <AttackBonus> 9 </AttackBonus>
                <Damage> 2d8+4 </Damage>
                <AttackStat> Charisma </AttackStat>
@@ -2071,7 +2101,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
             <specific name="Level" > 5 </specific>
             <specific name="Power Type" > Attack </specific>
             <Weapon name="Holy Symbol" >
-               <RulesElement name="Holy Symbol" type="Gear" internal-id="ID_FMP_GEAR_27" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=27&amp;ftype=4" charelem="180" legality="rules-legal" />
+               <RulesElement name="Holy Symbol" type="Gear" internal-id="ID_FMP_GEAR_27" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=27&amp;ftype=4" charelem="181" legality="rules-legal" />
                <AttackBonus> 6 </AttackBonus>
                <Damage> 3d8+4 </Damage>
                <DamageType> Thunder </DamageType>
@@ -2166,11 +2196,11 @@ You can use this power when you are hit by a power that has a pull, a push, or a
             <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="56" legality="rules-legal" >
                <RulesElement name="+2 to Religion" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_RELIGION" charelem="22" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="" type="" charelem="183" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="184" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="185" legality="rules-legal" />
             <RulesElement name="" type="" charelem="186" legality="rules-legal" />
             <RulesElement name="" type="" charelem="187" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="188" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="189" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="190" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="57" legality="rules-legal" >
             <RulesElement name="Guardian" type="Theme" internal-id="ID_FMP_THEME_857" charelem="58" legality="rules-legal" >
@@ -2178,7 +2208,7 @@ You can use this power when you are hit by a power that has a pull, a push, or a
                   <RulesElement name="Guardian&apos;s Counter" type="Power" internal-id="ID_FMP_POWER_14149" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=14149" charelem="60" legality="rules-legal" />
                </RulesElement>
                <RulesElement name="Guardian Level 5 Feature" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3892" charelem="19" legality="rules-legal" />
-               <RulesElement name="Guardian Level 10 Feature" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3893" charelem="188" legality="rules-legal" />
+               <RulesElement name="Guardian Level 10 Feature" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3893" charelem="191" legality="rules-legal" />
             </RulesElement>
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="61" legality="rules-legal" />
@@ -2281,109 +2311,117 @@ You can use this power when you are hit by a power that has a pull, a push, or a
                   <RulesElement name="Weapon Proficiency (Lance)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LANCE)" charelem="143" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Pike)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(PIKE)" charelem="144" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Feral Armor Claw)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FERAL_ARMOR_CLAW)" charelem="145" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Blade of Chaos)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BLADE_OF_CHAOS)" charelem="146" legality="rules-legal" />
                </RulesElement>
-               <RulesElement name="Simple Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_RANGED" charelem="146" legality="rules-legal" >
-                  <RulesElement name="Weapon Proficiency (Hand crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HAND_CROSSBOW)" charelem="147" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Sling)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SLING)" charelem="148" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CROSSBOW)" charelem="149" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Repeating crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(REPEATING_CROSSBOW)" charelem="150" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Dejada)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DEJADA)" charelem="151" legality="rules-legal" />
+               <RulesElement name="Simple Ranged" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_RANGED" charelem="147" legality="rules-legal" >
+                  <RulesElement name="Weapon Proficiency (Hand crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HAND_CROSSBOW)" charelem="148" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Sling)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SLING)" charelem="149" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CROSSBOW)" charelem="150" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Repeating crossbow)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(REPEATING_CROSSBOW)" charelem="151" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Dejada)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DEJADA)" charelem="152" legality="rules-legal" />
                </RulesElement>
-               <RulesElement name="Channel Divinity" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_324" charelem="152" legality="rules-legal" >
-                  <RulesElement name="" type="" charelem="189" legality="rules-legal" />
-                  <RulesElement name="" type="" charelem="190" legality="rules-legal" />
-                  <RulesElement name="Divine Mettle" type="Power" internal-id="ID_FMP_POWER_1746" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1746" charelem="168" legality="rules-legal" />
-                  <RulesElement name="Divine Strength" type="Power" internal-id="ID_FMP_POWER_1747" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1747" charelem="169" legality="rules-legal" />
-                  <RulesElement name="Abjure Undead" type="Power" internal-id="ID_FMP_POWER_5330" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5330" charelem="191" legality="rules-legal" />
-                  <RulesElement name="Divine Guidance" type="Power" internal-id="ID_FMP_POWER_5331" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5331" charelem="192" legality="rules-legal" />
-                  <RulesElement name="Rebuke Undead" type="Power" internal-id="ID_FMP_POWER_5186" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5186" charelem="193" legality="rules-legal" />
+               <RulesElement name="Channel Divinity" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_324" charelem="153" legality="rules-legal" >
+                  <RulesElement name="" type="" charelem="192" legality="rules-legal" />
+                  <RulesElement name="" type="" charelem="193" legality="rules-legal" />
+                  <RulesElement name="Divine Mettle" type="Power" internal-id="ID_FMP_POWER_1746" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1746" charelem="169" legality="rules-legal" />
+                  <RulesElement name="Divine Strength" type="Power" internal-id="ID_FMP_POWER_1747" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1747" charelem="170" legality="rules-legal" />
+                  <RulesElement name="Abjure Undead" type="Power" internal-id="ID_FMP_POWER_5330" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5330" charelem="194" legality="rules-legal" />
+                  <RulesElement name="Divine Guidance" type="Power" internal-id="ID_FMP_POWER_5331" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5331" charelem="195" legality="rules-legal" />
+                  <RulesElement name="Rebuke Undead" type="Power" internal-id="ID_FMP_POWER_5186" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=5186" charelem="196" legality="rules-legal" />
                </RulesElement>
-               <RulesElement name="Divine Challenge" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_72" charelem="153" legality="rules-legal" >
-                  <RulesElement name="Divine Challenge" type="Power" internal-id="ID_FMP_POWER_805" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=805" charelem="154" legality="rules-legal" />
+               <RulesElement name="Divine Challenge" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_72" charelem="154" legality="rules-legal" >
+                  <RulesElement name="Divine Challenge" type="Power" internal-id="ID_FMP_POWER_805" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=805" charelem="155" legality="rules-legal" />
                </RulesElement>
-               <RulesElement name="Lay on Hands" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_434" charelem="155" legality="rules-legal" >
+               <RulesElement name="Lay on Hands" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_434" charelem="156" legality="rules-legal" >
                   <RulesElement name="Lay on Hands" type="Power" internal-id="ID_FMP_POWER_1566" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1566" charelem="27" legality="rules-legal" />
                </RulesElement>
                <RulesElement name="Religion" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_RELIGION" charelem="21" legality="rules-legal" />
-               <RulesElement name="Paladin Implements" type="Grants" internal-id="ID_INTERNAL_GRANTS_PALADIN_IMPLEMENTS" charelem="156" legality="rules-legal" >
-                  <RulesElement name="Implement Proficiency (Holy Symbol)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_IMPLEMENT_PROFICIENCY_(HOLY_SYMBOL)" charelem="157" legality="rules-legal" />
+               <RulesElement name="Paladin Implements" type="Grants" internal-id="ID_INTERNAL_GRANTS_PALADIN_IMPLEMENTS" charelem="157" legality="rules-legal" >
+                  <RulesElement name="Implement Proficiency (Holy Symbol)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_IMPLEMENT_PROFICIENCY_(HOLY_SYMBOL)" charelem="158" legality="rules-legal" />
                </RulesElement>
             </RulesElement>
-            <RulesElement name="Ardent Strike" type="Power" internal-id="ID_FMP_POWER_7241" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=7241" charelem="158" legality="rules-legal" />
-            <RulesElement name="Virtuous Strike" type="Power" internal-id="ID_FMP_POWER_3687" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3687" charelem="159" legality="rules-legal" />
-            <RulesElement name="Virtuous Paladin" type="Build" internal-id="ID_FMP_BUILD_79" charelem="160" legality="rules-legal" >
-               <RulesElement name="Virtuous Paladin" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_VIRTUOUS_PALADIN" charelem="161" legality="rules-legal" />
+            <RulesElement name="Ardent Strike" type="Power" internal-id="ID_FMP_POWER_7241" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=7241" charelem="159" legality="rules-legal" />
+            <RulesElement name="Virtuous Strike" type="Power" internal-id="ID_FMP_POWER_3687" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3687" charelem="160" legality="rules-legal" />
+            <RulesElement name="Virtuous Paladin" type="Build" internal-id="ID_FMP_BUILD_79" charelem="161" legality="rules-legal" >
+               <RulesElement name="Virtuous Paladin" type="Build Suggestions" internal-id="ID_INTERNAL_BUILD_SUGGESTIONS_VIRTUOUS_PALADIN" charelem="162" legality="rules-legal" />
             </RulesElement>
             <RulesElement name="Insight" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_INSIGHT" charelem="17" legality="rules-legal" />
             <RulesElement name="Diplomacy" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_DIPLOMACY" charelem="14" legality="rules-legal" />
             <RulesElement name="Intimidate" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_INTIMIDATE" charelem="20" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Knightly Bearing" type="Feat" internal-id="ID_FMP_FEAT_3087" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=3087" charelem="16" legality="rules-legal" />
-         <RulesElement name="Guardian Light" type="Power" internal-id="ID_FMP_POWER_3247" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3247" charelem="162" legality="rules-legal" />
-         <RulesElement name="Glorious Charge" type="Power" internal-id="ID_FMP_POWER_3261" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3261" charelem="163" legality="rules-legal" />
-         <RulesElement name="Erathis" type="Deity" internal-id="ID_FMP_DEITY_4" charelem="164" legality="rules-legal" >
-            <RulesElement name="Civilization" type="Domain" internal-id="ID_FMP_DOMAIN_3" charelem="165" legality="rules-legal" />
-            <RulesElement name="Creation" type="Domain" internal-id="ID_FMP_DOMAIN_4" charelem="166" legality="rules-legal" />
-            <RulesElement name="Justice" type="Domain" internal-id="ID_FMP_DOMAIN_12" charelem="167" legality="rules-legal" />
+         <RulesElement name="Guardian Light" type="Power" internal-id="ID_FMP_POWER_3247" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3247" charelem="163" legality="rules-legal" />
+         <RulesElement name="Glorious Charge" type="Power" internal-id="ID_FMP_POWER_3261" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3261" charelem="164" legality="rules-legal" />
+         <RulesElement name="Erathis" type="Deity" internal-id="ID_FMP_DEITY_4" charelem="165" legality="rules-legal" >
+            <RulesElement name="Civilization" type="Domain" internal-id="ID_FMP_DOMAIN_3" charelem="166" legality="rules-legal" />
+            <RulesElement name="Creation" type="Domain" internal-id="ID_FMP_DOMAIN_4" charelem="167" legality="rules-legal" />
+            <RulesElement name="Justice" type="Domain" internal-id="ID_FMP_DOMAIN_12" charelem="168" legality="rules-legal" />
          </RulesElement>
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="2" type="Level" internal-id="ID_INTERNAL_LEVEL_2" charelem="8" legality="rules-legal" >
-         <RulesElement name="Divine Perseverance" type="Feat" internal-id="ID_FMP_FEAT_1516" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=1516" charelem="170" legality="rules-legal" />
-         <RulesElement name="Guardian&apos;s Defense" type="Power" internal-id="ID_FMP_POWER_14151" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=14151" charelem="171" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="194" legality="rules-legal" />
+         <RulesElement name="Divine Perseverance" type="Feat" internal-id="ID_FMP_FEAT_1516" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=1516" charelem="171" legality="rules-legal" />
+         <RulesElement name="Guardian&apos;s Defense" type="Power" internal-id="ID_FMP_POWER_14151" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=14151" charelem="172" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="197" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="9" legality="rules-legal" >
-         <RulesElement name="Invigorating Smite" type="Power" internal-id="ID_FMP_POWER_1568" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1568" charelem="172" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="195" legality="rules-legal" />
+         <RulesElement name="Invigorating Smite" type="Power" internal-id="ID_FMP_POWER_1568" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1568" charelem="173" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="198" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="4" type="Level" internal-id="ID_INTERNAL_LEVEL_4" charelem="10" legality="rules-legal" >
-         <RulesElement name="Mercy&apos;s Reward" type="Feat" internal-id="ID_FMP_FEAT_3089" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=3089" charelem="173" legality="rules-legal" />
+         <RulesElement name="Mercy&apos;s Reward" type="Feat" internal-id="ID_FMP_FEAT_3089" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=3089" charelem="174" legality="rules-legal" />
          <RulesElement name="Charisma" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CHARISMA" charelem="4" legality="rules-legal" />
          <RulesElement name="Constitution" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CONSTITUTION" charelem="2" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="196" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="199" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="197" legality="rules-legal" />
+         <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="200" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Plate Armor" type="Armor" internal-id="ID_FMP_ARMOR_6" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6&amp;ftype=2" charelem="198" legality="rules-legal" />
+         <RulesElement name="Plate Armor" type="Armor" internal-id="ID_FMP_ARMOR_6" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6&amp;ftype=2" charelem="201" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Heavy Shield" type="Armor" internal-id="ID_FMP_ARMOR_8" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8&amp;ftype=2" charelem="199" legality="rules-legal" />
+         <RulesElement name="Heavy Shield" type="Armor" internal-id="ID_FMP_ARMOR_8" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8&amp;ftype=2" charelem="202" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="200" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="203" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="201" legality="rules-legal" />
+         <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="204" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Hand crossbow" type="Weapon" internal-id="ID_FMP_WEAPON_36" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=36&amp;ftype=3" charelem="202" legality="rules-legal" />
+         <RulesElement name="Hand crossbow" type="Weapon" internal-id="ID_FMP_WEAPON_36" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=36&amp;ftype=3" charelem="205" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Crossbow Bolts" type="Gear" internal-id="ID_FMP_GEAR_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=4" charelem="203" legality="rules-legal" />
+         <RulesElement name="Crossbow Bolts" type="Gear" internal-id="ID_FMP_GEAR_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=4" charelem="206" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Holy Symbol" type="Gear" internal-id="ID_FMP_GEAR_27" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=27&amp;ftype=4" charelem="204" legality="rules-legal" />
+         <RulesElement name="Holy Symbol" type="Gear" internal-id="ID_FMP_GEAR_27" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=27&amp;ftype=4" charelem="207" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="205" legality="rules-legal" />
+         <RulesElement name="Longsword" type="Weapon" internal-id="ID_FMP_WEAPON_19" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=19&amp;ftype=3" charelem="208" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Dwarven Greaves" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_993" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=993&amp;ftype=1" charelem="206" legality="rules-legal" />
+         <RulesElement name="Dwarven Greaves" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_993" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=993&amp;ftype=1" charelem="209" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="5" type="Level" internal-id="ID_INTERNAL_LEVEL_5" charelem="11" legality="rules-legal" >
-         <RulesElement name="Name of Might" type="Power" internal-id="ID_FMP_POWER_3730" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3730" charelem="174" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="207" legality="rules-legal" />
+         <RulesElement name="Name of Might" type="Power" internal-id="ID_FMP_POWER_3730" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=3730" charelem="175" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="210" legality="rules-legal" />
       </RulesElement>
+      <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="211" legality="rules-legal" />
+         <RulesElement name="Shield of Protection (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_980" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=980&amp;ftype=1" charelem="212" legality="rules-legal" />
+      </loot>
+      <loot count="0" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Broadsword" type="Weapon" internal-id="ID_FMP_WEAPON_49" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=49&amp;ftype=3" charelem="213" legality="rules-legal" />
+      </loot>
    </Level>
 
 
@@ -2452,13 +2490,13 @@ You can use this power when you are hit by a power that has a pull, a push, or a
       0
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmpD405.tmp
+      C:\Windows\TEMP\tmpED17.tmp
    </textstring>
    <textstring name="_ItemsShowOnPowerCards_" >
       Broadsword~Hand crossbow~Holy Symbol~Longsword
    </textstring>
    <textstring name="_INTERNAL_MainHandWeapon" >
-      Heavy Shield
+      Shield of Protection Light Shield (heroic tier)
    </textstring>
    <textstring name="_INTERNAL_EquippedSymbol" >
       Holy Symbol
