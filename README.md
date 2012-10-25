@@ -1,4 +1,4 @@
-# This is a dump of the Characters playing in the D&D campaign I'm playing in.
+### This is a dump of the Characters playing in the D&D campaign I'm playing in.
 
 * Adrik is a Dwarven Fighter (Weaponmaster)
 * Braun is a Half-Elf Paladin
@@ -9,7 +9,7 @@
 * Oloril is a Minotaur Barbarian
 * Paela is a Halfling Ranger
 
-## There are also a few archived characters, no longer being played
+#### There are also a few archived characters, no longer being played
 
 * Aragwen, an Elven Cleric
 * Azazael, a Tiefling Warlord
