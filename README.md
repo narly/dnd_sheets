@@ -1,4 +1,4 @@
-### This is a dump of the Characters playing in the D&D campaign I'm playing in.
+### This is a dump of the Characters taking part in the D&D campaign I'm playing in.
 
 * Adrik is a Dwarven Fighter (Weaponmaster)
 * Braun is a Half-Elf Paladin
