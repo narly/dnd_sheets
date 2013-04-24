@@ -32,10 +32,10 @@
       -->
       <AbilityScores legality="rules-legal" >
          <Strength score="16" />
-         <Constitution score="12" />
+         <Constitution score="13" />
          <Dexterity score="14" />
          <Intelligence score="11" />
-         <Wisdom score="13" />
+         <Wisdom score="12" />
          <Charisma score="10" />
       </AbilityScores>
 
@@ -53,18 +53,19 @@
             <statadd Level="1" value="2" charelem="1" />
          </Stat>
 
-         <Stat value="12" >
+         <Stat value="14" >
             <alias name="Constitution" />
             <alias name="con" />
-            <statadd value="12" />
+            <statadd value="13" />
+            <statadd Level="4" value="1" charelem="2" />
          </Stat>
 
          <Stat value="17" >
             <alias name="Dexterity" />
             <alias name="DEX" />
             <statadd value="14" />
-            <statadd Level="1" value="2" charelem="2" />
-            <statadd Level="4" value="1" charelem="3" />
+            <statadd Level="1" value="2" charelem="3" />
+            <statadd Level="4" value="1" charelem="4" />
          </Stat>
 
          <Stat value="11" >
@@ -73,11 +74,10 @@
             <statadd value="11" />
          </Stat>
 
-         <Stat value="14" >
+         <Stat value="12" >
             <alias name="Wisdom" />
             <alias name="WIS" />
-            <statadd value="13" />
-            <statadd Level="4" value="1" charelem="4" />
+            <statadd value="12" />
          </Stat>
 
          <Stat value="10" >
@@ -96,7 +96,7 @@
             <statadd Level="1" value="1" statlink="Dexterity" abilmod="true" charelem="5" />
          </Stat>
 
-         <Stat value="1" >
+         <Stat value="2" >
             <alias name="Constitution modifier" />
             <statadd Level="1" value="1" statlink="Constitution" abilmod="true" charelem="5" />
          </Stat>
@@ -106,7 +106,7 @@
             <statadd Level="1" value="1" statlink="Intelligence" abilmod="true" charelem="5" />
          </Stat>
 
-         <Stat value="2" >
+         <Stat value="1" >
             <alias name="Wisdom modifier" />
             <statadd Level="1" value="1" statlink="Wisdom" abilmod="true" charelem="5" />
          </Stat>
@@ -155,7 +155,7 @@
             <statadd type="Enhancement" Level="7" value="2" charelem="9" />
          </Stat>
 
-         <Stat value="17" >
+         <Stat value="16" >
             <alias name="Will Defense" />
             <alias name="Will" />
             <statadd Level="1" value="10" charelem="5" />
@@ -183,7 +183,7 @@
             <statadd Level="7" value="1" charelem="15" />
          </Stat>
 
-         <Stat value="59" >
+         <Stat value="61" >
             <alias name="Hit Points" />
             <statadd type="Level 1" Level="1" value="1" statlink="Constitution" charelem="5" />
             <statadd Level="1" value="1" statlink="_LEVEL-ONE-HPS" charelem="5" />
@@ -201,7 +201,7 @@
             <statadd Level="1" value="12" charelem="17" />
          </Stat>
 
-         <Stat value="8" >
+         <Stat value="9" >
             <alias name="Healing Surges" />
             <statadd type="Level 1" Level="1" requires="!NoConToHealingSurges" value="1" statlink="Constitution" abilmod="true" charelem="5" />
             <statadd type="Class" Level="1" value="6" charelem="17" />
@@ -332,7 +332,7 @@
             <alias name="Diplomacy Misc" />
          </Stat>
 
-         <Stat value="10" >
+         <Stat value="9" >
             <alias name="Dungeoneering" />
             <statadd Level="1" value="1" statlink="HALF-LEVEL" charelem="19" />
             <statadd type="Ability" Level="1" value="1" statlink="Wisdom" abilmod="true" charelem="19" />
@@ -349,7 +349,7 @@
             <alias name="Dungeoneering Misc" />
          </Stat>
 
-         <Stat value="11" >
+         <Stat value="12" >
             <alias name="Endurance" />
             <statadd Level="1" value="1" statlink="HALF-LEVEL" charelem="19" />
             <statadd type="Ability" Level="1" value="1" statlink="Constitution" abilmod="true" charelem="19" />
@@ -368,7 +368,7 @@
             <statadd type="Racial" Level="1" value="2" charelem="23" />
          </Stat>
 
-         <Stat value="5" >
+         <Stat value="4" >
             <alias name="Heal" />
             <statadd Level="1" value="1" statlink="HALF-LEVEL" charelem="19" />
             <statadd type="Ability" Level="1" value="1" statlink="Wisdom" abilmod="true" charelem="19" />
@@ -400,7 +400,7 @@
             <alias name="History Misc" />
          </Stat>
 
-         <Stat value="5" >
+         <Stat value="4" >
             <alias name="Insight" />
             <statadd Level="1" value="1" statlink="HALF-LEVEL" charelem="19" />
             <statadd type="Ability" Level="1" value="1" statlink="Wisdom" abilmod="true" charelem="19" />
@@ -434,7 +434,7 @@
             <statadd type="Power" Level="5" value="2" charelem="25" />
          </Stat>
 
-         <Stat value="5" >
+         <Stat value="4" >
             <alias name="Nature" />
             <statadd Level="1" value="1" statlink="HALF-LEVEL" charelem="19" />
             <statadd type="Ability" Level="1" value="1" statlink="Wisdom" abilmod="true" charelem="19" />
@@ -450,7 +450,7 @@
             <alias name="Nature Misc" />
          </Stat>
 
-         <Stat value="5" >
+         <Stat value="4" >
             <alias name="Perception" />
             <statadd Level="1" value="1" statlink="HALF-LEVEL" charelem="19" />
             <statadd type="Ability" Level="1" value="1" statlink="Wisdom" abilmod="true" charelem="19" />
@@ -552,13 +552,13 @@
             <alias name="Athletics Misc" />
          </Stat>
 
-         <Stat value="15" >
+         <Stat value="14" >
             <alias name="Passive Perception" />
             <statadd Level="1" value="1" statlink="Perception" charelem="19" />
             <statadd Level="1" value="10" charelem="19" />
          </Stat>
 
-         <Stat value="15" >
+         <Stat value="14" >
             <alias name="Passive Insight" />
             <statadd Level="1" value="1" statlink="Insight" charelem="19" />
             <statadd Level="1" value="10" charelem="19" />
@@ -908,7 +908,7 @@
             <specific name="Class" > ID_FMP_RACE_36 </specific>
          You gain a +2 bonus to speed when charging.
          </RulesElement>
-         <RulesElement name="Dexterity" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_DEXTERITY" charelem="2" legality="rules-legal" >
+         <RulesElement name="Dexterity" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_DEXTERITY" charelem="3" legality="rules-legal" >
          </RulesElement>
          <RulesElement name="Common" type="Language" internal-id="ID_FMP_LANGUAGE_1" charelem="30" legality="rules-legal" >
          Common is a debased form of Supernal, in the way that humans and halflings heard the first language.
@@ -1315,9 +1315,9 @@
             <specific name="Short Description" > Hunter&apos;s Quarry damage dice increase to d8s </specific>
          The extra damage dice from your Hunter&apos;s Quarry class feature increase from d6s to d8s.
          </RulesElement>
-         <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="3" legality="rules-legal" >
+         <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="4" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Wisdom" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_WISDOM" charelem="4" legality="rules-legal" >
+         <RulesElement name="Constitution" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CONSTITUTION" charelem="2" legality="rules-legal" >
          </RulesElement>
          <RulesElement name="5" type="Level" internal-id="ID_INTERNAL_LEVEL_5" charelem="13" legality="rules-legal" >
             <specific name="XP Needed" > 2000 </specific>
@@ -2474,7 +2474,7 @@ All damage dealt by this weapon is radiant damage. Another free action returns t
                </RulesElement>
                <RulesElement name="Half-Orc Resilience" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_1147" charelem="77" legality="rules-legal" />
                <RulesElement name="Swift Charge" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_1148" charelem="29" legality="rules-legal" />
-               <RulesElement name="Dexterity" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_DEXTERITY" charelem="2" legality="rules-legal" />
+               <RulesElement name="Dexterity" type="Race Ability Bonus" internal-id="ID_INTERNAL_RACE_ABILITY_BONUS_DEXTERITY" charelem="3" legality="rules-legal" />
                <RulesElement name="Common" type="Language" internal-id="ID_FMP_LANGUAGE_1" charelem="30" legality="rules-legal" />
                <RulesElement name="Giant" type="Language" internal-id="ID_FMP_LANGUAGE_19" charelem="31" legality="rules-legal" />
                <RulesElement name="Endurance Bonus" type="Racial Trait" internal-id="ID_INTERNAL_RACIAL_TRAIT_ENDURANCE_BONUS" charelem="23" legality="rules-legal" />
@@ -2614,8 +2614,8 @@ All damage dealt by this weapon is radiant damage. Another free action returns t
    <Level>
       <RulesElement name="4" type="Level" internal-id="ID_INTERNAL_LEVEL_4" charelem="12" legality="rules-legal" >
          <RulesElement name="Lethal Hunter" type="Feat" internal-id="ID_FMP_FEAT_273" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=273" charelem="173" legality="rules-legal" />
-         <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="3" legality="rules-legal" />
-         <RulesElement name="Wisdom" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_WISDOM" charelem="4" legality="rules-legal" />
+         <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="4" legality="rules-legal" />
+         <RulesElement name="Constitution" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CONSTITUTION" charelem="2" legality="rules-legal" />
          <RulesElement name="" type="" charelem="202" legality="rules-legal" />
       </RulesElement>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
@@ -2744,7 +2744,7 @@ All damage dealt by this weapon is radiant damage. Another free action returns t
       680 gp
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp35B1.tmp
+      C:\Windows\TEMP\tmpCB98.tmp
    </textstring>
    <textstring name="PortraitID" >
       &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;ContentIdentifier xmlns:i=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://schemas.datacontract.org/2004/07/WotC.ContentVault&quot;&gt;&lt;ContentID&gt;10020315&lt;/ContentID&gt;&lt;Official&gt;true&lt;/Official&gt;&lt;OfficialTypeID i:nil=&quot;true&quot; /&gt;&lt;ScratchID i:nil=&quot;true&quot; /&gt;&lt;TypeID&gt;2&lt;/TypeID&gt;&lt;/ContentIdentifier&gt;
@@ -2765,7 +2765,7 @@ All damage dealt by this weapon is radiant damage. Another free action returns t
       20
    </textstring>
    <textstring name="Mannerisms and Appearance" >
-      Darek Leather Armour, hair tied back.
+      Dark Leather Armour, hair tied back.
    </textstring>
    <textstring name="_INTERNAL_MainHandWeapon" >
       Sunblade Longsword +2
