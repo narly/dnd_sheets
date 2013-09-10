@@ -52,24 +52,24 @@
             <statadd value="10" />
          </Stat>
 
-         <Stat value="15" >
+         <Stat value="14" >
             <alias name="Constitution" />
             <alias name="con" />
             <statadd value="14" />
-            <statadd Level="8" value="1" charelem="1" />
          </Stat>
 
          <Stat value="13" >
             <alias name="Dexterity" />
             <alias name="DEX" />
             <statadd value="12" />
-            <statadd Level="4" value="1" charelem="2" />
+            <statadd Level="4" value="1" charelem="1" />
          </Stat>
 
-         <Stat value="13" >
+         <Stat value="14" >
             <alias name="Intelligence" />
             <alias name="INT" />
             <statadd value="13" />
+            <statadd Level="8" value="1" charelem="2" />
          </Stat>
 
          <Stat value="11" >
@@ -102,7 +102,7 @@
             <statadd Level="1" value="1" statlink="Constitution" abilmod="true" charelem="6" />
          </Stat>
 
-         <Stat value="1" >
+         <Stat value="2" >
             <alias name="Intelligence modifier" />
             <statadd Level="1" value="1" statlink="Intelligence" abilmod="true" charelem="6" />
          </Stat>
@@ -117,7 +117,7 @@
             <statadd Level="1" value="1" statlink="Charisma" abilmod="true" charelem="6" />
          </Stat>
 
-         <Stat value="19" >
+         <Stat value="20" >
             <alias name="AC" />
             <alias name="Armor Class" />
             <statadd Level="1" value="10" charelem="6" />
@@ -141,7 +141,7 @@
             <statadd type="Enhancement" Level="8" value="2" charelem="10" />
          </Stat>
 
-         <Stat value="19" >
+         <Stat value="20" >
             <alias name="Reflex Defense" />
             <alias name="Reflex" />
             <statadd Level="1" value="10" charelem="6" />
@@ -183,7 +183,7 @@
             <statadd Level="8" value="1" charelem="17" />
          </Stat>
 
-         <Stat value="62" >
+         <Stat value="61" >
             <alias name="Hit Points" />
             <statadd type="Level 1" Level="1" value="1" statlink="Constitution" charelem="6" />
             <statadd Level="1" value="1" statlink="_LEVEL-ONE-HPS" charelem="6" />
@@ -283,7 +283,7 @@
             <alias name="Armor Penalty" />
          </Stat>
 
-         <Stat value="10" >
+         <Stat value="11" >
             <alias name="Arcana" />
             <statadd Level="1" value="1" statlink="HALF-LEVEL" charelem="19" />
             <statadd type="Ability" Level="1" value="1" statlink="Intelligence" abilmod="true" charelem="19" />
@@ -384,7 +384,7 @@
             <alias name="Heal Misc" />
          </Stat>
 
-         <Stat value="5" >
+         <Stat value="6" >
             <alias name="History" />
             <statadd Level="1" value="1" statlink="HALF-LEVEL" charelem="19" />
             <statadd type="Ability" Level="1" value="1" statlink="Intelligence" abilmod="true" charelem="19" />
@@ -469,7 +469,7 @@
             <statadd type="Feat" Level="1" value="2" charelem="26" />
          </Stat>
 
-         <Stat value="10" >
+         <Stat value="11" >
             <alias name="Religion" />
             <statadd Level="1" value="1" statlink="HALF-LEVEL" charelem="19" />
             <statadd type="Ability" Level="1" value="1" statlink="Intelligence" abilmod="true" charelem="19" />
@@ -1257,7 +1257,7 @@
             <specific name="Short Description" > Warlock&apos;s curse dice increase from d6 to d8 </specific>
          The extra damage dice from your Warlock&apos;s Curse class feature increase from d6s to d8s.
          </RulesElement>
-         <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="2" legality="rules-legal" >
+         <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="1" legality="rules-legal" >
          </RulesElement>
          <RulesElement name="Charisma" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CHARISMA" charelem="4" legality="rules-legal" >
          </RulesElement>
@@ -1339,7 +1339,7 @@
          </RulesElement>
          <RulesElement name="Charisma" type="Ability Increase (Level 8)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_8)_CHARISMA" charelem="5" legality="rules-legal" >
          </RulesElement>
-         <RulesElement name="Constitution" type="Ability Increase (Level 8)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_8)_CONSTITUTION" charelem="1" legality="rules-legal" >
+         <RulesElement name="Intelligence" type="Ability Increase (Level 8)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_8)_INTELLIGENCE" charelem="2" legality="rules-legal" >
          </RulesElement>
       </RulesElementTally>
 
@@ -2766,7 +2766,7 @@ You can use this power when an enemy hits you with a melee attack. Deal 1d10 + C
    <Level>
       <RulesElement name="4" type="Level" internal-id="ID_INTERNAL_LEVEL_4" charelem="13" legality="rules-legal" >
          <RulesElement name="Killing Curse" type="Feat" internal-id="ID_FMP_FEAT_2764" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=2764" charelem="138" legality="rules-legal" />
-         <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="2" legality="rules-legal" />
+         <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="1" legality="rules-legal" />
          <RulesElement name="Charisma" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CHARISMA" charelem="4" legality="rules-legal" />
          <RulesElement name="" type="" charelem="190" legality="rules-legal" />
       </RulesElement>
@@ -2856,7 +2856,7 @@ You can use this power when an enemy hits you with a melee attack. Deal 1d10 + C
       <RulesElement name="8" type="Level" internal-id="ID_INTERNAL_LEVEL_8" charelem="17" legality="rules-legal" >
          <RulesElement name="Implement Focus (Rod)" type="Feat" internal-id="ID_INTERNAL_FEAT_IMPLEMENT_FOCUS_(ROD)" charelem="34" legality="rules-legal" />
          <RulesElement name="Charisma" type="Ability Increase (Level 8)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_8)_CHARISMA" charelem="5" legality="rules-legal" />
-         <RulesElement name="Constitution" type="Ability Increase (Level 8)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_8)_CONSTITUTION" charelem="1" legality="rules-legal" />
+         <RulesElement name="Intelligence" type="Ability Increase (Level 8)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_8)_INTELLIGENCE" charelem="2" legality="rules-legal" />
          <RulesElement name="" type="" charelem="218" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
@@ -2915,7 +2915,7 @@ You can use this power when an enemy hits you with a melee attack. Deal 1d10 + C
       Rod of First Blood +2
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp3D35.tmp
+      C:\Windows\TEMP\tmp66F2.tmp
    </textstring>
    <textstring name="Player Name" >
       Bryan
