@@ -19,7 +19,7 @@
          <Company>  </Company>
          <Portrait>  </Portrait>
          <Experience> 13175 </Experience>
-         <CarriedMoney> 100 gp </CarriedMoney>
+         <CarriedMoney> 2,285 gp </CarriedMoney>
          <StoredMoney> 0 gp </StoredMoney>
          <Traits>  </Traits>
          <Appearance>  </Appearance>
@@ -657,9 +657,9 @@
             <statadd Level="6" requires="Epic Tier" value="1" charelem="13" />
          </Stat>
 
-         <Stat value="99" >
+         <Stat value="97" >
             <alias name="Weight" />
-            <statadd value="98" />
+            <statadd value="96" />
             <statadd Level="8" value="1" charelem="41" />
          </Stat>
 
@@ -1457,7 +1457,7 @@
             This kit includes a backpack, a bedroll, flint and steel, a belt pouch, two sunrods, ten days&apos; worth of trail rations, 50 feet of hempen rope, and a waterskin.
             </RulesElement>
          </loot>
-         <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <loot count="0" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Hammer" type="Gear" internal-id="ID_FMP_GEAR_22" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=22&amp;ftype=4" charelem="200" legality="rules-legal" >
                <specific name="Full Text" > HammerCategory: GearPrice: 5 sp Weight: 2 lb </specific>
                <specific name="Weight" > 2 </specific>
@@ -1500,7 +1500,7 @@
             While you&apos;re using a light shield, you can use your shield hand to hold another item, to climb, and the like, but you can&apos;t make attacks with that hand or with anything in it.
             </RulesElement>
          </loot>
-         <loot count="1" equip-count="1" ShowPowerCard="1" >
+         <loot count="0" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="203" legality="rules-legal" >
                <specific name="Full Text" > BattleaxeMilitary one-handed melee weaponCost: 15 gpDamage: 1d10Proficient: +2Weight: 6 lb.Properties: Versatile (Versatile weapons are one-handed, but you can use them two-handed. If you do, you deal an extra 1 point of damage when you roll damage for the weapon.A Small character such as a halfling must use a versatile weapon two-handed, and doesn&apos;t deal extra damage.).Group: Axe (Axes are weapons that have bladed, heavy heads and deal vicious cuts. An axe&apos;s weight makes it fine for delivering crushing blows.). </specific>
                <specific name="Weight" > 6 </specific>
@@ -1795,7 +1795,7 @@ You regain hit points as if you had spent a healing surge. </specific>
                <specific name="Enhancement" > +1 attack rolls and damage rolls </specific>
             </RulesElement>
          </loot>
-         <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <loot count="0" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="217" legality="rules-legal" >
                <specific name="Full Text" > Throwing hammerMilitary one-handed melee weaponCost: 5 gpDamage: 1d6Proficient: +2Range: 5/10Weight: 2 lb.Properties: Off-Hand (An off-hand weapon is light enough that you can hold it and attack effectively with it while holding a weapon in your main hand. You can&apos;t attack with both weapons in the same turn, unless you have a power that lets you do so, but you can attack with either weapon.).Heavy Thrown (You hurl a thrown weapon from your hand, rather than using it to loose a projectile. A basic attack with a heavy thrown weapon uses your Strength.).Group: Hammer (A hammer has a blunt, heavy head with one or more flat striking surfaces attached to a haft.). </specific>
                <specific name="Weight" > 2 </specific>
@@ -1825,6 +1825,85 @@ You regain hit points as if you had spent a healing surge. </specific>
                <specific name="Enhancement" > +1 attack rolls and damage rolls </specific>
             </RulesElement>
          </loot>
+         <loot count="1" equip-count="1" ShowPowerCard="1" >
+            <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="219" legality="rules-legal" >
+               <specific name="Full Text" > BattleaxeMilitary one-handed melee weaponCost: 15 gpDamage: 1d10Proficient: +2Weight: 6 lb.Properties: Versatile (Versatile weapons are one-handed, but you can use them two-handed. If you do, you deal an extra 1 point of damage when you roll damage for the weapon.A Small character such as a halfling must use a versatile weapon two-handed, and doesn&apos;t deal extra damage.).Group: Axe (Axes are weapons that have bladed, heavy heads and deal vicious cuts. An axe&apos;s weight makes it fine for delivering crushing blows.). </specific>
+               <specific name="Weight" > 6 </specific>
+               <specific name="Gold" > 15 </specific>
+               <specific name="Damage" > 1d10 </specific>
+               <specific name="Proficiency Bonus" > 2 </specific>
+               <specific name="Weapon Category" > Military Melee </specific>
+               <specific name="Hands Required" > One-Handed </specific>
+               <specific name="Item Slot" > One-hand </specific>
+               <specific name="Group" > Axe </specific>
+               <specific name="Properties" > Versatile </specific>
+            </RulesElement>
+            <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="220" legality="rules-legal" >
+               <specific name="Flavor" > You can will this weapon to burst into flame. </specific>
+               <specific name="Level" > 10 </specific>
+               <specific name="Gold" > 5000 </specific>
+               <specific name="Magic Item Type" > Weapon </specific>
+               <specific name="Critical" > +1d6 fire damage per plus </specific>
+               <specific name="_Rarity" > Uncommon </specific>
+               <specific name="_Bonus" > +2 </specific>
+               <specific name="_Enhancement" > Attack rolls and damage rolls </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Weapon" > Any </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_147661 </specific>
+               <specific name="Power" > Power (Fire) *  (Free Action)
+All untyped damage dealt by this weapon changes to fire damage. Another free action returns the damage to normal. </specific>
+               <specific name="Power" > Power (Fire) *  (Free Action)
+All untyped damage dealt by this weapon changes to fire damage. Another free action returns the damage to normal. </specific>
+               <specific name="Enhancement" > +2 attack rolls and damage rolls </specific>
+            </RulesElement>
+         </loot>
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
+            <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="221" legality="rules-legal" >
+               <specific name="Full Text" > Throwing hammerMilitary one-handed melee weaponCost: 5 gpDamage: 1d6Proficient: +2Range: 5/10Weight: 2 lb.Properties: Off-Hand (An off-hand weapon is light enough that you can hold it and attack effectively with it while holding a weapon in your main hand. You can&apos;t attack with both weapons in the same turn, unless you have a power that lets you do so, but you can attack with either weapon.).Heavy Thrown (You hurl a thrown weapon from your hand, rather than using it to loose a projectile. A basic attack with a heavy thrown weapon uses your Strength.).Group: Hammer (A hammer has a blunt, heavy head with one or more flat striking surfaces attached to a haft.). </specific>
+               <specific name="Weight" > 2 </specific>
+               <specific name="Gold" > 5 </specific>
+               <specific name="Range" > 5/10 </specific>
+               <specific name="Damage" > 1d6 </specific>
+               <specific name="Proficiency Bonus" > 2 </specific>
+               <specific name="Weapon Category" > Military Melee </specific>
+               <specific name="Hands Required" > One-Handed </specific>
+               <specific name="Item Slot" > Off-Hand </specific>
+               <specific name="Group" > Hammer </specific>
+               <specific name="Properties" > Off-Hand, Heavy Thrown </specific>
+            </RulesElement>
+            <RulesElement name="Rebounding Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6106" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6106&amp;ftype=1" charelem="222" legality="rules-legal" >
+               <specific name="Flavor" > You meant to do that. No, really. </specific>
+               <specific name="Level" > 7 </specific>
+               <specific name="Gold" > 2600 </specific>
+               <specific name="Magic Item Type" > Weapon </specific>
+               <specific name="Critical" > +1d6 damage per plus </specific>
+               <specific name="_Rarity" > Uncommon </specific>
+               <specific name="_Bonus" > +2 </specific>
+               <specific name="_Enhancement" > Attack rolls and damage rolls </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Weapon" > Any ranged </specific>
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_148507 </specific>
+               <specific name="Power" > Power * Encounter (Free Action)
+	Trigger: You attack an enemy with this weapon and miss.
+	Effect: You make a ranged basic attack against a different enemy within 5 squares of that enemy. </specific>
+               <specific name="Enhancement" > +2 attack rolls and damage rolls </specific>
+            </RulesElement>
+         </loot>
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
+            <RulesElement name="Potion of Healing" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="223" legality="rules-legal" >
+               <specific name="Flavor" > This simple potion draws on the body&apos;s natural healing ability to cure your wounds. </specific>
+               <specific name="Level" > 5 </specific>
+               <specific name="Gold" > 50 </specific>
+               <specific name="Magic Item Type" > Consumable </specific>
+               <specific name="Consumable" > Potion </specific>
+               <specific name="_Rarity" > Common </specific>
+               <specific name="_Bonus" > +0 </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="_Tags" > Essentials </specific>
+               <specific name="Power" > Power (Healing) * Consumable (Minor Action)
+Drink this potion and spend a healing surge. Instead of the hit points you would normally regain, you regain 10 hit points. </specific>
+            </RulesElement>
+         </loot>
       </LootTally>
 
       <!--
@@ -1845,46 +1924,51 @@ You regain hit points as if you had spent a healing surge. </specific>
             <specific name="Attack" > Strength vs. AC </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Strength modifier damage. </specific>
-            <Weapon name="Battleaxe" >
-               <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="203" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
-               <Damage> 1d10+7 </Damage>
+            <Weapon name="Flaming Battleaxe +2" >
+               <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="219" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="220" legality="rules-legal" />
+               <AttackBonus> 14 </AttackBonus>
+               <Damage> 1d10+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +5 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
++2 enhancement bonus.
 +1 bonus - One-handed Weapon Talent
 
                </HitComponents>
                <DamageComponents> +5 Strength modifier.
++2 enhancement bonus.
 +2 Feat bonus - Dwarven Weapon Training
 
                </DamageComponents>
-               <CritDamage> 17 </CritDamage>
+               <CritDamage> 19+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
-            <Weapon name="Distance Throwing hammer +1" >
-               <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="217" legality="rules-legal" />
-               <RulesElement name="Distance Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2051" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2051&amp;ftype=1" charelem="218" legality="rules-legal" />
-               <AttackBonus> 13 </AttackBonus>
-               <Damage> 1d6+8 </Damage>
+            <Weapon name="Rebounding Throwing hammer +2" >
+               <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="221" legality="rules-legal" />
+               <RulesElement name="Rebounding Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6106" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6106&amp;ftype=1" charelem="222" legality="rules-legal" />
+               <AttackBonus> 14 </AttackBonus>
+               <Damage> 1d6+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +5 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
-+1 enhancement bonus.
++2 enhancement bonus.
 +1 bonus - One-handed Weapon Talent
 
                </HitComponents>
                <DamageComponents> +5 Strength modifier.
-+1 enhancement bonus.
++2 enhancement bonus.
 +2 Feat bonus - Dwarven Weapon Training
 
                </DamageComponents>
-               <CritDamage> 14None </CritDamage>
-               <CritComponents> None weapon critical bonus.
+               <CritDamage> 15+2d6 </CritDamage>
+               <CritComponents> +2d6 weapon critical bonus.
                </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
@@ -1917,27 +2001,27 @@ You regain hit points as if you had spent a healing surge. </specific>
             <specific name="Attack" > Dexterity vs. AC </specific>
             <specific name="Hit" > 1[W] + Dexterity modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Dexterity modifier damage. </specific>
-            <Weapon name="Distance Throwing hammer +1" >
-               <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="217" legality="rules-legal" />
-               <RulesElement name="Distance Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2051" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2051&amp;ftype=1" charelem="218" legality="rules-legal" />
-               <AttackBonus> 13 </AttackBonus>
-               <Damage> 1d6+8 </Damage>
+            <Weapon name="Rebounding Throwing hammer +2" >
+               <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="221" legality="rules-legal" />
+               <RulesElement name="Rebounding Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6106" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6106&amp;ftype=1" charelem="222" legality="rules-legal" />
+               <AttackBonus> 14 </AttackBonus>
+               <Damage> 1d6+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +5 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
-+1 enhancement bonus.
++2 enhancement bonus.
 +1 bonus - One-handed Weapon Talent
 
                </HitComponents>
                <DamageComponents> +5 Strength modifier.
-+1 enhancement bonus.
++2 enhancement bonus.
 +2 Feat bonus - Dwarven Weapon Training
 
                </DamageComponents>
-               <CritDamage> 14None </CritDamage>
-               <CritComponents> None weapon critical bonus.
+               <CritDamage> 15+2d6 </CritDamage>
+               <CritComponents> +2d6 weapon critical bonus.
                </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
@@ -2011,46 +2095,51 @@ You regain hit points as if you had spent a healing surge. </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
             <specific name="_Associated Feats" > ID_FMP_FEAT_977, ID_FMP_FEAT_987, ID_FMP_FEAT_993, ID_FMP_FEAT_2356, ID_FMP_FEAT_2714, ID_FMP_FEAT_3188 </specific>
-            <Weapon name="Battleaxe" >
-               <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="203" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
-               <Damage> 1d10+7 </Damage>
+            <Weapon name="Flaming Battleaxe +2" >
+               <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="219" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="220" legality="rules-legal" />
+               <AttackBonus> 14 </AttackBonus>
+               <Damage> 1d10+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +5 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
++2 enhancement bonus.
 +1 bonus - One-handed Weapon Talent
 
                </HitComponents>
                <DamageComponents> +5 Strength modifier.
++2 enhancement bonus.
 +2 Feat bonus - Dwarven Weapon Training
 
                </DamageComponents>
-               <CritDamage> 17 </CritDamage>
+               <CritDamage> 19+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
-            <Weapon name="Distance Throwing hammer +1" >
-               <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="217" legality="rules-legal" />
-               <RulesElement name="Distance Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2051" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2051&amp;ftype=1" charelem="218" legality="rules-legal" />
-               <AttackBonus> 13 </AttackBonus>
-               <Damage> 1d6+8 </Damage>
+            <Weapon name="Rebounding Throwing hammer +2" >
+               <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="221" legality="rules-legal" />
+               <RulesElement name="Rebounding Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6106" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6106&amp;ftype=1" charelem="222" legality="rules-legal" />
+               <AttackBonus> 14 </AttackBonus>
+               <Damage> 1d6+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +5 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
-+1 enhancement bonus.
++2 enhancement bonus.
 +1 bonus - One-handed Weapon Talent
 
                </HitComponents>
                <DamageComponents> +5 Strength modifier.
-+1 enhancement bonus.
++2 enhancement bonus.
 +2 Feat bonus - Dwarven Weapon Training
 
                </DamageComponents>
-               <CritDamage> 14None </CritDamage>
-               <CritComponents> None weapon critical bonus.
+               <CritDamage> 15+2d6 </CritDamage>
+               <CritComponents> +2d6 weapon critical bonus.
                </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
@@ -2085,46 +2174,51 @@ You regain hit points as if you had spent a healing surge. </specific>
             <specific name="Class" > ID_FMP_CLASS_3 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-            <Weapon name="Battleaxe" >
-               <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="203" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
-               <Damage> 3d10+7 </Damage>
+            <Weapon name="Flaming Battleaxe +2" >
+               <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="219" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="220" legality="rules-legal" />
+               <AttackBonus> 14 </AttackBonus>
+               <Damage> 3d10+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +5 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
++2 enhancement bonus.
 +1 bonus - One-handed Weapon Talent
 
                </HitComponents>
                <DamageComponents> +5 Strength modifier.
++2 enhancement bonus.
 +2 Feat bonus - Dwarven Weapon Training
 
                </DamageComponents>
-               <CritDamage> 37 </CritDamage>
+               <CritDamage> 39+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
-            <Weapon name="Distance Throwing hammer +1" >
-               <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="217" legality="rules-legal" />
-               <RulesElement name="Distance Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2051" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2051&amp;ftype=1" charelem="218" legality="rules-legal" />
-               <AttackBonus> 13 </AttackBonus>
-               <Damage> 3d6+8 </Damage>
+            <Weapon name="Rebounding Throwing hammer +2" >
+               <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="221" legality="rules-legal" />
+               <RulesElement name="Rebounding Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6106" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6106&amp;ftype=1" charelem="222" legality="rules-legal" />
+               <AttackBonus> 14 </AttackBonus>
+               <Damage> 3d6+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +5 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
-+1 enhancement bonus.
++2 enhancement bonus.
 +1 bonus - One-handed Weapon Talent
 
                </HitComponents>
                <DamageComponents> +5 Strength modifier.
-+1 enhancement bonus.
++2 enhancement bonus.
 +2 Feat bonus - Dwarven Weapon Training
 
                </DamageComponents>
-               <CritDamage> 26None </CritDamage>
-               <CritComponents> None weapon critical bonus.
+               <CritDamage> 27+2d6 </CritDamage>
+               <CritComponents> +2d6 weapon critical bonus.
                </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
@@ -2186,46 +2280,51 @@ You regain hit points as if you had spent a healing surge. </specific>
             <specific name="Class" > ID_FMP_CLASS_3 </specific>
             <specific name="Level" > 3 </specific>
             <specific name="Power Type" > Attack </specific>
-            <Weapon name="Battleaxe" >
-               <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="203" legality="rules-legal" />
-               <AttackBonus> 14 </AttackBonus>
-               <Damage> 1d10+7 </Damage>
+            <Weapon name="Flaming Battleaxe +2" >
+               <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="219" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="220" legality="rules-legal" />
+               <AttackBonus> 16 </AttackBonus>
+               <Damage> 1d10+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +5 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
++2 enhancement bonus.
 +1 bonus - One-handed Weapon Talent
 +2 for using an axe, a flail, a heavy blade, or a pick
                </HitComponents>
                <DamageComponents> +5 Strength modifier.
++2 enhancement bonus.
 +2 Feat bonus - Dwarven Weapon Training
 
                </DamageComponents>
-               <CritDamage> 17 </CritDamage>
+               <CritDamage> 19+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
-            <Weapon name="Distance Throwing hammer +1" >
-               <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="217" legality="rules-legal" />
-               <RulesElement name="Distance Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2051" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2051&amp;ftype=1" charelem="218" legality="rules-legal" />
-               <AttackBonus> 13 </AttackBonus>
-               <Damage> 1d6+8 </Damage>
+            <Weapon name="Rebounding Throwing hammer +2" >
+               <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="221" legality="rules-legal" />
+               <RulesElement name="Rebounding Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6106" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6106&amp;ftype=1" charelem="222" legality="rules-legal" />
+               <AttackBonus> 14 </AttackBonus>
+               <Damage> 1d6+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +5 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
-+1 enhancement bonus.
++2 enhancement bonus.
 +1 bonus - One-handed Weapon Talent
 
                </HitComponents>
                <DamageComponents> +5 Strength modifier.
-+1 enhancement bonus.
++2 enhancement bonus.
 +2 Feat bonus - Dwarven Weapon Training
 
                </DamageComponents>
-               <CritDamage> 14None </CritDamage>
-               <CritComponents> None weapon critical bonus.
+               <CritDamage> 15+2d6 </CritDamage>
+               <CritComponents> +2d6 weapon critical bonus.
                </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
@@ -2316,41 +2415,45 @@ You regain hit points as if you had spent a healing surge. </specific>
             <specific name="Class" > ID_FMP_CLASS_3 </specific>
             <specific name="Level" > 7 </specific>
             <specific name="Power Type" > Attack </specific>
-            <Weapon name="Battleaxe" >
-               <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="203" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
+            <Weapon name="Flaming Battleaxe +2" >
+               <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="219" legality="rules-legal" />
+               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="220" legality="rules-legal" />
+               <AttackBonus> 14 </AttackBonus>
                <Damage>  </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> Will </Defense>
                <HitComponents> +5 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
++2 enhancement bonus.
 +1 bonus - One-handed Weapon Talent
 
                </HitComponents>
                <DamageComponents> 
                </DamageComponents>
-               <CritDamage> 0 </CritDamage>
+               <CritDamage> 0+1d6 fire damage per plus </CritDamage>
+               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
-            <Weapon name="Distance Throwing hammer +1" >
-               <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="217" legality="rules-legal" />
-               <RulesElement name="Distance Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2051" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2051&amp;ftype=1" charelem="218" legality="rules-legal" />
-               <AttackBonus> 13 </AttackBonus>
+            <Weapon name="Rebounding Throwing hammer +2" >
+               <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="221" legality="rules-legal" />
+               <RulesElement name="Rebounding Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6106" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6106&amp;ftype=1" charelem="222" legality="rules-legal" />
+               <AttackBonus> 14 </AttackBonus>
                <Damage>  </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> Will </Defense>
                <HitComponents> +5 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
-+1 enhancement bonus.
++2 enhancement bonus.
 +1 bonus - One-handed Weapon Talent
 
                </HitComponents>
                <DamageComponents> 
                </DamageComponents>
-               <CritDamage> 0None </CritDamage>
-               <CritComponents> None weapon critical bonus.
+               <CritDamage> 0+2d6 </CritDamage>
+               <CritComponents> +2d6 weapon critical bonus.
                </CritComponents>
                <CritRange> 20 </CritRange>
             </Weapon>
@@ -2432,11 +2535,11 @@ You regain hit points as if you had spent a healing surge. </specific>
             <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="70" legality="rules-legal" >
                <RulesElement name="+2 to Athletics" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_+2_TO_ATHLETICS" charelem="29" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="" type="" charelem="219" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="220" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="221" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="222" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="223" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="224" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="225" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="226" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="227" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="228" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="71" legality="rules-legal" >
             <RulesElement name="Ironwrought" type="Theme" internal-id="ID_FMP_THEME_947" charelem="72" legality="rules-legal" >
@@ -2446,7 +2549,7 @@ You regain hit points as if you had spent a healing surge. </specific>
                   <RulesElement name="Inevitable Strike" type="Power" internal-id="ID_FMP_POWER_16081" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=16081" charelem="74" legality="rules-legal" />
                </RulesElement>
                <RulesElement name="Ironwrought Level 5 Feature" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_4296" charelem="195" legality="rules-legal" />
-               <RulesElement name="Ironwrought Level 10 Feature" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_4297" charelem="224" legality="rules-legal" />
+               <RulesElement name="Ironwrought Level 10 Feature" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_4297" charelem="229" legality="rules-legal" />
             </RulesElement>
          </RulesElement>
          <RulesElement name="Expansion3" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION3" charelem="75" legality="rules-legal" />
@@ -2489,7 +2592,7 @@ You regain hit points as if you had spent a healing surge. </specific>
                <RulesElement name="Armor Proficiency (Chainmail)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_ARMOR_PROFICIENCY_(CHAINMAIL)" charelem="96" legality="rules-legal" />
                <RulesElement name="Armor Proficiency (Scale)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_ARMOR_PROFICIENCY_(SCALE)" charelem="97" legality="rules-legal" />
                <RulesElement name="Shield Proficiency (Heavy)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SHIELD_PROFICIENCY_(HEAVY)" charelem="98" legality="rules-legal" />
-               <RulesElement name="Shield Proficiency (Light)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SHIELD_PROFICIENCY_(LIGHT)" charelem="225" legality="rules-legal" />
+               <RulesElement name="Shield Proficiency (Light)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SHIELD_PROFICIENCY_(LIGHT)" charelem="230" legality="rules-legal" />
                <RulesElement name="Simple Melee" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_SIMPLE_MELEE" charelem="99" legality="rules-legal" >
                   <RulesElement name="Weapon Proficiency (Club)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CLUB)" charelem="100" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Dagger)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DAGGER)" charelem="101" legality="rules-legal" />
@@ -2520,8 +2623,8 @@ You regain hit points as if you had spent a healing surge. </specific>
                   <RulesElement name="Weapon Proficiency (Battleaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BATTLEAXE)" charelem="125" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Handaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HANDAXE)" charelem="126" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Flail)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(FLAIL)" charelem="127" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Throwing hammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(THROWING_HAMMER)" charelem="226" legality="rules-legal" />
-                  <RulesElement name="Weapon Proficiency (Warhammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WARHAMMER)" charelem="227" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Throwing hammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(THROWING_HAMMER)" charelem="231" legality="rules-legal" />
+                  <RulesElement name="Weapon Proficiency (Warhammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WARHAMMER)" charelem="232" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (War Pick)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WAR_PICK)" charelem="128" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Scimitar)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SCIMITAR)" charelem="129" legality="rules-legal" />
                   <RulesElement name="Weapon Proficiency (Longsword)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(LONGSWORD)" charelem="130" legality="rules-legal" />
@@ -2576,14 +2679,14 @@ You regain hit points as if you had spent a healing surge. </specific>
                <RulesElement name="Fighter Implements" type="Grants" internal-id="ID_INTERNAL_GRANTS_FIGHTER_IMPLEMENTS" charelem="172" legality="rules-legal" />
             </RulesElement>
             <RulesElement name="Cleave" type="Power" internal-id="ID_FMP_POWER_992" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=992" charelem="173" legality="rules-legal" />
-            <RulesElement name="Tide of Iron" type="Power" internal-id="ID_FMP_POWER_1000" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1000" charelem="228" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="229" legality="rules-legal" />
+            <RulesElement name="Tide of Iron" type="Power" internal-id="ID_FMP_POWER_1000" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1000" charelem="233" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="234" legality="rules-legal" />
             <RulesElement name="Athletics" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ATHLETICS" charelem="28" legality="rules-legal" />
-            <RulesElement name="Intimidate" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_INTIMIDATE" charelem="230" legality="rules-legal" />
+            <RulesElement name="Intimidate" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_INTIMIDATE" charelem="235" legality="rules-legal" />
             <RulesElement name="Endurance" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ENDURANCE" charelem="24" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Implement Expertise (Axe)" type="Feat" internal-id="ID_INTERNAL_FEAT_IMPLEMENT_EXPERTISE_(AXE)" charelem="38" legality="rules-legal" />
-         <RulesElement name="Covering Attack" type="Power" internal-id="ID_FMP_POWER_1427" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1427" charelem="231" legality="rules-legal" />
+         <RulesElement name="Covering Attack" type="Power" internal-id="ID_FMP_POWER_1427" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1427" charelem="236" legality="rules-legal" />
          <RulesElement name="Brute Strike" type="Power" internal-id="ID_FMP_POWER_1524" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1524" charelem="174" legality="rules-legal" />
          <RulesElement name="Moradin" type="Deity" internal-id="ID_FMP_DEITY_8" charelem="175" legality="rules-legal" >
             <RulesElement name="Creation" type="Domain" internal-id="ID_FMP_DOMAIN_4" charelem="176" legality="rules-legal" />
@@ -2592,76 +2695,76 @@ You regain hit points as if you had spent a healing surge. </specific>
          </RulesElement>
       </RulesElement>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Backpack (empty)" type="Gear" internal-id="ID_FMP_GEAR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=4" charelem="232" legality="rules-legal" />
+         <RulesElement name="Backpack (empty)" type="Gear" internal-id="ID_FMP_GEAR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=4" charelem="237" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="233" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="238" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Hammer" type="Gear" internal-id="ID_FMP_GEAR_22" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=22&amp;ftype=4" charelem="234" legality="rules-legal" />
+         <RulesElement name="Hammer" type="Gear" internal-id="ID_FMP_GEAR_22" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=22&amp;ftype=4" charelem="239" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="235" legality="rules-legal" />
+         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="240" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="236" legality="rules-legal" />
+         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="241" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="237" legality="rules-legal" />
+         <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="242" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="238" legality="rules-legal" />
-         <RulesElement name="Dwarven Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_569" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=569&amp;ftype=1" charelem="239" legality="rules-legal" />
+         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="243" legality="rules-legal" />
+         <RulesElement name="Dwarven Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_569" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=569&amp;ftype=1" charelem="244" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="240" legality="rules-legal" />
+         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="245" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="2" type="Level" internal-id="ID_INTERNAL_LEVEL_2" charelem="14" legality="rules-legal" >
          <RulesElement name="Dwarven Weapon Training" type="Feat" internal-id="ID_FMP_FEAT_69" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=69" charelem="39" legality="rules-legal" >
             <RulesElement name="Weapon Group (Axe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_GROUP_(AXE)" charelem="179" legality="rules-legal" >
-               <RulesElement name="Weapon Proficiency (Battleaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BATTLEAXE)" charelem="241" legality="rules-legal" />
-               <RulesElement name="Weapon Proficiency (Handaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HANDAXE)" charelem="242" legality="rules-legal" />
-               <RulesElement name="Weapon Proficiency (Greataxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GREATAXE)" charelem="243" legality="rules-legal" />
-               <RulesElement name="Weapon Proficiency (Halberd)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HALBERD)" charelem="244" legality="rules-legal" />
-               <RulesElement name="Weapon Proficiency (Khopesh)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(KHOPESH)" charelem="245" legality="rules-legal" />
+               <RulesElement name="Weapon Proficiency (Battleaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(BATTLEAXE)" charelem="246" legality="rules-legal" />
+               <RulesElement name="Weapon Proficiency (Handaxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HANDAXE)" charelem="247" legality="rules-legal" />
+               <RulesElement name="Weapon Proficiency (Greataxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GREATAXE)" charelem="248" legality="rules-legal" />
+               <RulesElement name="Weapon Proficiency (Halberd)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(HALBERD)" charelem="249" legality="rules-legal" />
+               <RulesElement name="Weapon Proficiency (Khopesh)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(KHOPESH)" charelem="250" legality="rules-legal" />
                <RulesElement name="Weapon Proficiency (Waraxe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WARAXE)" charelem="180" legality="rules-legal" />
                <RulesElement name="Weapon Proficiency (Execution axe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(EXECUTION_AXE)" charelem="181" legality="rules-legal" />
                <RulesElement name="Weapon Proficiency (Double axe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(DOUBLE_AXE)" charelem="182" legality="rules-legal" />
                <RulesElement name="Weapon Proficiency (Urgrosh)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(URGROSH)" charelem="183" legality="rules-legal" />
-               <RulesElement name="Weapon Proficiency (Carrikal)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CARRIKAL)" charelem="246" legality="rules-legal" />
+               <RulesElement name="Weapon Proficiency (Carrikal)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CARRIKAL)" charelem="251" legality="rules-legal" />
                <RulesElement name="Weapon Proficiency (Gauntlet axe)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GAUNTLET_AXE)" charelem="184" legality="rules-legal" />
                <RulesElement name="Weapon Proficiency (Gouge)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(GOUGE)" charelem="185" legality="rules-legal" />
-               <RulesElement name="Weapon Proficiency (Trikal)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TRIKAL)" charelem="247" legality="rules-legal" />
-               <RulesElement name="Weapon Proficiency (Soul Shield (Paragon Tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SOUL_SHIELD_(PARAGON_TIER))" charelem="248" legality="rules-legal" />
+               <RulesElement name="Weapon Proficiency (Trikal)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(TRIKAL)" charelem="252" legality="rules-legal" />
+               <RulesElement name="Weapon Proficiency (Soul Shield (Paragon Tier))" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(SOUL_SHIELD_(PARAGON_TIER))" charelem="253" legality="rules-legal" />
             </RulesElement>
             <RulesElement name="Weapon Group (Hammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_GROUP_(HAMMER)" charelem="186" legality="rules-legal" >
-               <RulesElement name="Weapon Proficiency (Throwing hammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(THROWING_HAMMER)" charelem="249" legality="rules-legal" />
-               <RulesElement name="Weapon Proficiency (Warhammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WARHAMMER)" charelem="250" legality="rules-legal" />
-               <RulesElement name="Weapon Proficiency (Maul)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(MAUL)" charelem="251" legality="rules-legal" />
+               <RulesElement name="Weapon Proficiency (Throwing hammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(THROWING_HAMMER)" charelem="254" legality="rules-legal" />
+               <RulesElement name="Weapon Proficiency (Warhammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(WARHAMMER)" charelem="255" legality="rules-legal" />
+               <RulesElement name="Weapon Proficiency (Maul)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(MAUL)" charelem="256" legality="rules-legal" />
                <RulesElement name="Weapon Proficiency (Craghammer)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(CRAGHAMMER)" charelem="187" legality="rules-legal" />
                <RulesElement name="Weapon Proficiency (Mordenkrad)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_WEAPON_PROFICIENCY_(MORDENKRAD)" charelem="188" legality="rules-legal" />
             </RulesElement>
          </RulesElement>
          <RulesElement name="Boundless Endurance" type="Power" internal-id="ID_FMP_POWER_1522" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1522" charelem="189" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="252" replaces="230" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="257" replaces="235" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="15" legality="rules-legal" >
          <RulesElement name="Sweeping Blow" type="Power" internal-id="ID_FMP_POWER_291" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=291" charelem="190" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="253" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="258" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Heavy Shield" type="Armor" internal-id="ID_FMP_ARMOR_8" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8&amp;ftype=2" charelem="254" legality="rules-legal" />
-         <RulesElement name="Shield of Protection (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_980" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=980&amp;ftype=1" charelem="255" legality="rules-legal" />
+         <RulesElement name="Heavy Shield" type="Armor" internal-id="ID_FMP_ARMOR_8" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8&amp;ftype=2" charelem="259" legality="rules-legal" />
+         <RulesElement name="Shield of Protection (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_980" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=980&amp;ftype=1" charelem="260" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="256" legality="rules-legal" />
+         <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="261" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="257" legality="rules-legal" />
+         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="262" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
@@ -2674,79 +2777,79 @@ You regain hit points as if you had spent a healing surge. </specific>
          </RulesElement>
          <RulesElement name="Strength" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_STRENGTH" charelem="2" legality="rules-legal" />
          <RulesElement name="Constitution" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CONSTITUTION" charelem="5" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="258" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="263" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="5" type="Level" internal-id="ID_INTERNAL_LEVEL_5" charelem="17" legality="rules-legal" >
          <RulesElement name="Rain of Steel" type="Power" internal-id="ID_FMP_POWER_1436" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1436" charelem="194" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="259" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="264" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="6" type="Level" internal-id="ID_INTERNAL_LEVEL_6" charelem="18" legality="rules-legal" >
          <RulesElement name="Lightning Reflexes" type="Feat" internal-id="ID_FMP_FEAT_149" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=149" charelem="13" legality="rules-legal" />
          <RulesElement name="Mighty Sprint" type="Power" internal-id="ID_FMP_POWER_9303" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=9303" charelem="196" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="260" replaces="228" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="265" replaces="233" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Belt of Sacrifice (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1106" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1106&amp;ftype=1" charelem="261" legality="rules-legal" />
+         <RulesElement name="Belt of Sacrifice (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1106" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1106&amp;ftype=1" charelem="266" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Crossbow" type="Weapon" internal-id="ID_FMP_WEAPON_38" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=38&amp;ftype=3" charelem="262" legality="rules-legal" />
+         <RulesElement name="Crossbow" type="Weapon" internal-id="ID_FMP_WEAPON_38" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=38&amp;ftype=3" charelem="267" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Bag of Holding" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1119" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1119&amp;ftype=1" charelem="263" legality="rules-legal" />
+         <RulesElement name="Bag of Holding" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1119" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1119&amp;ftype=1" charelem="268" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Bracers of Defense (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_961" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=961&amp;ftype=1" charelem="264" legality="rules-legal" />
+         <RulesElement name="Bracers of Defense (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_961" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=961&amp;ftype=1" charelem="269" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Bracers of the Perfect Shot (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_967" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=967&amp;ftype=1" charelem="265" legality="rules-legal" />
+         <RulesElement name="Bracers of the Perfect Shot (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_967" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=967&amp;ftype=1" charelem="270" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="7" type="Level" internal-id="ID_INTERNAL_LEVEL_7" charelem="19" legality="rules-legal" >
          <RulesElement name="Come and Get It" type="Power" internal-id="ID_FMP_POWER_2177" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=2177" charelem="197" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="266" replaces="231" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="271" replaces="236" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Javelin" type="Weapon" internal-id="ID_FMP_WEAPON_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=3" charelem="267" legality="rules-legal" />
+         <RulesElement name="Javelin" type="Weapon" internal-id="ID_FMP_WEAPON_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=3" charelem="272" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="268" legality="rules-legal" />
+         <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="273" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Bola" type="Weapon" internal-id="ID_FMP_WEAPON_76" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=76&amp;ftype=3" charelem="269" legality="rules-legal" />
+         <RulesElement name="Bola" type="Weapon" internal-id="ID_FMP_WEAPON_76" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=76&amp;ftype=3" charelem="274" legality="rules-legal" />
       </loot>
       <loot count="3" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="270" legality="rules-legal" />
+         <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="275" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Handaxe" type="Weapon" internal-id="ID_FMP_WEAPON_13" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=13&amp;ftype=3" charelem="271" legality="rules-legal" />
+         <RulesElement name="Handaxe" type="Weapon" internal-id="ID_FMP_WEAPON_13" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=13&amp;ftype=3" charelem="276" legality="rules-legal" />
       </loot>
       <loot count="-1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Crossbow" type="Weapon" internal-id="ID_FMP_WEAPON_38" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=38&amp;ftype=3" charelem="272" legality="rules-legal" />
+         <RulesElement name="Crossbow" type="Weapon" internal-id="ID_FMP_WEAPON_38" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=38&amp;ftype=3" charelem="277" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Amulet of Protection +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1048" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1048&amp;ftype=1" charelem="273" legality="rules-legal" />
+         <RulesElement name="Amulet of Protection +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1048" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1048&amp;ftype=1" charelem="278" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="274" legality="rules-legal" />
-         <RulesElement name="Dwarven Armor +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_570" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=570&amp;ftype=1" charelem="275" legality="rules-legal" />
+         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="279" legality="rules-legal" />
+         <RulesElement name="Dwarven Armor +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_570" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=570&amp;ftype=1" charelem="280" legality="rules-legal" />
       </loot>
       <loot count="-1" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="276" legality="rules-legal" />
-         <RulesElement name="Dwarven Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_569" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=569&amp;ftype=1" charelem="277" legality="rules-legal" />
+         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="281" legality="rules-legal" />
+         <RulesElement name="Dwarven Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_569" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=569&amp;ftype=1" charelem="282" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Bracers of Defense (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_961" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=961&amp;ftype=1" charelem="278" legality="rules-legal" />
+         <RulesElement name="Bracers of Defense (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_961" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=961&amp;ftype=1" charelem="283" legality="rules-legal" />
       </loot>
       <loot count="-1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="279" legality="rules-legal" />
+         <RulesElement name="Chainmail" type="Armor" internal-id="ID_FMP_ARMOR_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=2" charelem="284" legality="rules-legal" />
       </loot>
       <loot count="-1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="280" legality="rules-legal" />
+         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="285" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
@@ -2754,21 +2857,38 @@ You regain hit points as if you had spent a healing surge. </specific>
          <RulesElement name="Dodge Giants" type="Feat" internal-id="ID_FMP_FEAT_193" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=193" charelem="8" legality="rules-legal" />
          <RulesElement name="Strength" type="Ability Increase (Level 8)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_8)_STRENGTH" charelem="3" legality="rules-legal" />
          <RulesElement name="Constitution" type="Ability Increase (Level 8)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_8)_CONSTITUTION" charelem="6" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="281" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="286" legality="rules-legal" />
       </RulesElement>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Dejada" type="Weapon" internal-id="ID_FMP_WEAPON_132" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=132&amp;ftype=3" charelem="282" legality="rules-legal" />
-         <RulesElement name="Distance Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2051" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2051&amp;ftype=1" charelem="283" legality="rules-legal" />
+         <RulesElement name="Dejada" type="Weapon" internal-id="ID_FMP_WEAPON_132" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=132&amp;ftype=3" charelem="287" legality="rules-legal" />
+         <RulesElement name="Distance Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2051" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2051&amp;ftype=1" charelem="288" legality="rules-legal" />
       </loot>
-      <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="284" legality="rules-legal" />
-         <RulesElement name="Distance Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2051" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2051&amp;ftype=1" charelem="285" legality="rules-legal" />
+      <loot count="0" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="289" legality="rules-legal" />
+         <RulesElement name="Distance Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2051" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2051&amp;ftype=1" charelem="290" legality="rules-legal" />
       </loot>
       <loot count="-3" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="286" legality="rules-legal" />
+         <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="291" legality="rules-legal" />
       </loot>
       <loot count="-1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Javelin" type="Weapon" internal-id="ID_FMP_WEAPON_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=3" charelem="287" legality="rules-legal" />
+         <RulesElement name="Javelin" type="Weapon" internal-id="ID_FMP_WEAPON_4" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=4&amp;ftype=3" charelem="292" legality="rules-legal" />
+      </loot>
+      <loot count="1" equip-count="1" ShowPowerCard="1" >
+         <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="293" legality="rules-legal" />
+         <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="294" legality="rules-legal" />
+      </loot>
+      <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Throwing hammer" type="Weapon" internal-id="ID_FMP_WEAPON_15" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=15&amp;ftype=3" charelem="295" legality="rules-legal" />
+         <RulesElement name="Rebounding Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6106" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6106&amp;ftype=1" charelem="296" legality="rules-legal" />
+      </loot>
+      <loot count="-1" equip-count="-1" ShowPowerCard="1" >
+         <RulesElement name="Battleaxe" type="Weapon" internal-id="ID_FMP_WEAPON_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=3" charelem="297" legality="rules-legal" />
+      </loot>
+      <loot count="-1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Hammer" type="Gear" internal-id="ID_FMP_GEAR_22" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=22&amp;ftype=4" charelem="298" legality="rules-legal" />
+      </loot>
+      <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Potion of Healing" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="299" legality="rules-legal" />
       </loot>
    </Level>
 
@@ -2802,7 +2922,7 @@ You regain hit points as if you had spent a healing surge. </specific>
       Tom
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp4C94.tmp
+      C:\Windows\TEMP\tmp20D6.tmp
    </textstring>
    <textstring name="_PER_LEVEL_2_Carried Money" >
       100 gp
@@ -3052,10 +3172,10 @@ You regain hit points as if you had spent a healing surge. </specific>
       Handaxe
    </textstring>
    <textstring name="_ItemsShowOnPowerCards_" >
-      Throwing hammer~Javelin
+      Throwing hammer~Javelin~Rebounding Throwing hammer +2
    </textstring>
    <textstring name="_PER_LEVEL_8_Carried Money" >
-      100 gp
+      2,285 gp
    </textstring>
    <textstring name="_PER_LEVEL_8_Stored Money" >
       0 gp

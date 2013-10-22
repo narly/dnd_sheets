@@ -19,7 +19,7 @@
          <Company>  </Company>
          <Portrait>  </Portrait>
          <Experience> 13000 </Experience>
-         <CarriedMoney> 39 pp; 20 gp </CarriedMoney>
+         <CarriedMoney> 2,299 gp </CarriedMoney>
          <StoredMoney> 0 gp </StoredMoney>
          <Traits>  </Traits>
          <Appearance>  </Appearance>
@@ -671,14 +671,19 @@
             <statadd type="resist" Level="8" value="1" statlink="Superior Fortitude resist" charelem="12" />
          </Stat>
 
-         <Stat value="139" >
+         <Stat value="90" >
             <alias name="Weight" />
-            <statadd value="139" />
+            <statadd value="90" />
          </Stat>
 
          <Stat value="0" >
             <alias name="melee basic:damage" />
             <statadd String="1d6 extra" Level="8" conditional="when charging" value="0" />
+         </Stat>
+
+         <Stat value="0" >
+            <alias name="Damage" />
+            <statadd String="+1d8" Level="8" conditional="on any successful charge" value="0" />
          </Stat>
 
          <Stat value="0" >
@@ -1424,7 +1429,7 @@ Play a Minotaur if you want ...
          The tally of the character&apos;s loot
       -->
       <LootTally>
-         <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <loot count="0" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="170" legality="rules-legal" >
                <specific name="Full Text" > GreataxeMilitary two-handed melee weaponCost: 30 gpDamage: 1d12Proficient: +2Weight: 12 lb.Properties: High Crit (A high crit weapon deals more damage when you score a critical hit with it. A critical hit deals maximum weapon damage and an extra 1[W] at 1st–10th levels, an extra 2[W] at 11th–20th levels, and an extra 3[W] at 21st–30th levels. This extra damage is in addition to any critical damage the weapon supplies if it is a magic weapon.).Group: Axe (Axes are weapons that have bladed, heavy heads and deal vicious cuts. An axe&apos;s weight makes it fine for delivering crushing blows.). </specific>
                <specific name="Weight" > 12 </specific>
@@ -1438,7 +1443,7 @@ Play a Minotaur if you want ...
                <specific name="Properties" > High Crit </specific>
             </RulesElement>
          </loot>
-         <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <loot count="0" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="171" legality="rules-legal" >
                <specific name="Full Text" > Hide ArmorDescription: Thicker and heavier than leather, hide armor is composed of skin from any creature that has a tough hide, such as a bear, a griffon, or a dragon. Hide armor can bind and slightly hinder your precision, but it&apos;s light enough that it doesn&apos;t affect your speed.	Magic appears at higher item levels, and grants higher armor bonuses than its mundane counterparts. Hide armor grants +4 AC at levels 16-25, and +5 AC at levels 26-30.AC Bonus: +3Check: -1Weight: 25 lb.Cost: 30 gp.Type: Hide </specific>
                <specific name="Weight" > 25 </specific>
@@ -1530,7 +1535,7 @@ Play a Minotaur if you want ...
             Wielding this metal pry bar gives you a +2 bonus to Strength checks to break open locked doors or containers.
             </RulesElement>
          </loot>
-         <loot count="2" equip-count="1" ShowPowerCard="1" >
+         <loot count="0" equip-count="0" ShowPowerCard="1" >
             <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="179" legality="rules-legal" >
                <specific name="Full Text" > MaulMilitary two-handed melee weaponCost: 30 gpDamage: 2d6Proficient: +2Weight: 12 lb.Group: Hammer (A hammer has a blunt, heavy head with one or more flat striking surfaces attached to a haft.). </specific>
                <specific name="Weight" > 12 </specific>
@@ -1657,7 +1662,7 @@ Gain a +2 power bonus to AC until the end of the encounter. Each time an attack 
                <specific name="Enhancement" > +1 Fortitude, Reflex, and Will </specific>
             </RulesElement>
          </loot>
-         <loot count="0" equip-count="0" ShowPowerCard="1" >
+         <loot count="1" equip-count="1" ShowPowerCard="1" >
             <RulesElement name="Gouge" type="Weapon" internal-id="ID_FMP_WEAPON_136" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=136&amp;ftype=3" charelem="187" legality="rules-legal" >
                <specific name="Full Text" > GougeSuperior two-handed melee weaponCost: 30 gpDamage: 2d6Proficient: +2Weight: 12 lb.This spadelike weapon has a long haft with a handle on the end. The head is a wide, double-edged blade with a stabbing point at the top. Some gouges are fitted with a strap or a harness, making the weapon easier to carry.Properties: Brutal 1 (A brutal weapon&apos;s minimum damage is higher than that of a normal weapon. When rolling the weapon&apos;s damage, reroll any die that displays a value equal to or lower than the brutal value given for the weapon. Reroll the die until the value shown exceeds the weapon&apos;s brutal value, and then use the new value.).Group: Axe (Axes are weapons that have bladed, heavy heads and deal vicious cuts. An axe&apos;s weight makes it fine for delivering crushing blows.).Spear (Consisting of a stabbing head on the end of a long shaft, a spear is great for lunging attacks.). </specific>
                <specific name="Weight" > 12 </specific>
@@ -1853,45 +1858,31 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
             <specific name="Attack" > Strength vs. AC </specific>
             <specific name="Hit" > 1[W] + Strength modifier damage. </specific>
             <specific name="	Level 21" > 2[W] + Strength modifier damage. </specific>
-            <Weapon name="Flaming Maul +2" >
-               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="179" legality="rules-legal" />
-               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="180" legality="rules-legal" />
-               <AttackBonus> 14 </AttackBonus>
-               <Damage> 2d6+8 </Damage>
+            <Weapon name="Vanguard Gouge +2" >
+               <RulesElement name="Gouge" type="Weapon" internal-id="ID_FMP_WEAPON_136" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=136&amp;ftype=3" charelem="187" legality="rules-legal" />
+               <RulesElement name="Vanguard Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2456" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2456&amp;ftype=1" charelem="188" legality="rules-legal" />
+               <AttackBonus> 15 </AttackBonus>
+               <Damage> 2d6+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +6 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
 +2 enhancement bonus.
++1 Feat bonus - Spear Expertise
 
                </HitComponents>
                <DamageComponents> +6 Strength modifier.
 +2 enhancement bonus.
++1 Feat bonus - Weapon Focus (Spear)
 
                </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 20+1d6 fire damage per plus </CritDamage>
-               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               <Conditions> +1 to damage rolls when charging - Spear Expertise.
++1 to damage rolls while raging - Deadly Rage.
++1d8 damage on any successful charge.               </Conditions>
+               <CritDamage> 21+2d8 </CritDamage>
+               <CritComponents> +2d8 weapon critical bonus.
                </CritComponents>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Greataxe" >
-               <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="170" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
-               <Damage> 1d12+6 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +6 Strength modifier.
-+4 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +6 Strength modifier.
-
-               </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 18+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
@@ -1906,7 +1897,8 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
                <DamageComponents> +6 Strength modifier.
 
                </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
+               <Conditions> +1 to damage rolls while raging - Deadly Rage.
++1d8 damage on any successful charge.               </Conditions>
                <CritDamage> 10 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
@@ -1935,7 +1927,8 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
                <DamageComponents> +2 Dexterity modifier.
 
                </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
+               <Conditions> +1 to damage rolls while raging - Deadly Rage.
++1d8 damage on any successful charge.               </Conditions>
                <CritDamage> 6 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
@@ -2019,45 +2012,30 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-            <Weapon name="Flaming Maul +2" >
-               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="179" legality="rules-legal" />
-               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="180" legality="rules-legal" />
-               <AttackBonus> 14 </AttackBonus>
-               <Damage> 2d6+1d6+8 </Damage>
+            <Weapon name="Vanguard Gouge +2" >
+               <RulesElement name="Gouge" type="Weapon" internal-id="ID_FMP_WEAPON_136" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=136&amp;ftype=3" charelem="187" legality="rules-legal" />
+               <RulesElement name="Vanguard Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2456" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2456&amp;ftype=1" charelem="188" legality="rules-legal" />
+               <AttackBonus> 15 </AttackBonus>
+               <Damage> 2d6+1d6+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +6 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
 +2 enhancement bonus.
++1 Feat bonus - Spear Expertise
 
                </HitComponents>
                <DamageComponents> +6 Strength modifier.
 +2 enhancement bonus.
++1 Feat bonus - Weapon Focus (Spear)
 
                </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 26+1d6 fire damage per plus </CritDamage>
-               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               <Conditions> +1 to damage rolls when charging - Spear Expertise.
++1 to damage rolls while raging - Deadly Rage.               </Conditions>
+               <CritDamage> 27+2d8 </CritDamage>
+               <CritComponents> +2d8 weapon critical bonus.
                </CritComponents>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Greataxe" >
-               <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="170" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
-               <Damage> 1d12+1d6+6 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +6 Strength modifier.
-+4 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +6 Strength modifier.
-
-               </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 24+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
          </Power>
@@ -2076,45 +2054,30 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-            <Weapon name="Flaming Maul +2" >
-               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="179" legality="rules-legal" />
-               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="180" legality="rules-legal" />
-               <AttackBonus> 14 </AttackBonus>
-               <Damage> 2d6+8 </Damage>
+            <Weapon name="Vanguard Gouge +2" >
+               <RulesElement name="Gouge" type="Weapon" internal-id="ID_FMP_WEAPON_136" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=136&amp;ftype=3" charelem="187" legality="rules-legal" />
+               <RulesElement name="Vanguard Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2456" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2456&amp;ftype=1" charelem="188" legality="rules-legal" />
+               <AttackBonus> 15 </AttackBonus>
+               <Damage> 2d6+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +6 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
 +2 enhancement bonus.
++1 Feat bonus - Spear Expertise
 
                </HitComponents>
                <DamageComponents> +6 Strength modifier.
 +2 enhancement bonus.
++1 Feat bonus - Weapon Focus (Spear)
 
                </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 20+1d6 fire damage per plus </CritDamage>
-               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               <Conditions> +1 to damage rolls when charging - Spear Expertise.
++1 to damage rolls while raging - Deadly Rage.               </Conditions>
+               <CritDamage> 21+2d8 </CritDamage>
+               <CritComponents> +2d8 weapon critical bonus.
                </CritComponents>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Greataxe" >
-               <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="170" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
-               <Damage> 1d12+6 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +6 Strength modifier.
-+4 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +6 Strength modifier.
-
-               </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 18+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
@@ -2150,47 +2113,31 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-            <Weapon name="Flaming Maul +2" >
-               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="179" legality="rules-legal" />
-               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="180" legality="rules-legal" />
-               <AttackBonus> 14 </AttackBonus>
-               <Damage> 4d6+11 </Damage>
+            <Weapon name="Vanguard Gouge +2" >
+               <RulesElement name="Gouge" type="Weapon" internal-id="ID_FMP_WEAPON_136" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=136&amp;ftype=3" charelem="187" legality="rules-legal" />
+               <RulesElement name="Vanguard Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2456" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2456&amp;ftype=1" charelem="188" legality="rules-legal" />
+               <AttackBonus> 15 </AttackBonus>
+               <Damage> 4d6+12 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +6 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
 +2 enhancement bonus.
++1 Feat bonus - Spear Expertise
 
                </HitComponents>
                <DamageComponents> +6 Strength modifier.
 +2 enhancement bonus.
++1 Feat bonus - Weapon Focus (Spear)
 +3 Constitution modifier.
 
                </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 35+1d6 fire damage per plus </CritDamage>
-               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               <Conditions> +1 to damage rolls when charging - Spear Expertise.
++1 to damage rolls while raging - Deadly Rage.               </Conditions>
+               <CritDamage> 36+2d8 </CritDamage>
+               <CritComponents> +2d8 weapon critical bonus.
                </CritComponents>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Greataxe" >
-               <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="170" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
-               <Damage> 2d12+9 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +6 Strength modifier.
-+4 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +6 Strength modifier.
-+3 Constitution modifier.
-
-               </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 33+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
@@ -2227,45 +2174,30 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 1 </specific>
             <specific name="Power Type" > Attack </specific>
-            <Weapon name="Flaming Maul +2" >
-               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="179" legality="rules-legal" />
-               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="180" legality="rules-legal" />
-               <AttackBonus> 14 </AttackBonus>
-               <Damage> 6d6+8 </Damage>
+            <Weapon name="Vanguard Gouge +2" >
+               <RulesElement name="Gouge" type="Weapon" internal-id="ID_FMP_WEAPON_136" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=136&amp;ftype=3" charelem="187" legality="rules-legal" />
+               <RulesElement name="Vanguard Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2456" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2456&amp;ftype=1" charelem="188" legality="rules-legal" />
+               <AttackBonus> 15 </AttackBonus>
+               <Damage> 6d6+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +6 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
 +2 enhancement bonus.
++1 Feat bonus - Spear Expertise
 
                </HitComponents>
                <DamageComponents> +6 Strength modifier.
 +2 enhancement bonus.
++1 Feat bonus - Weapon Focus (Spear)
 
                </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 44+1d6 fire damage per plus </CritDamage>
-               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               <Conditions> +1 to damage rolls when charging - Spear Expertise.
++1 to damage rolls while raging - Deadly Rage.               </Conditions>
+               <CritDamage> 45+2d8 </CritDamage>
+               <CritComponents> +2d8 weapon critical bonus.
                </CritComponents>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Greataxe" >
-               <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="170" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
-               <Damage> 3d12+6 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +6 Strength modifier.
-+4 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +6 Strength modifier.
-
-               </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 42+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
@@ -2313,45 +2245,30 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 3 </specific>
             <specific name="Power Type" > Attack </specific>
-            <Weapon name="Flaming Maul +2" >
-               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="179" legality="rules-legal" />
-               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="180" legality="rules-legal" />
-               <AttackBonus> 14 </AttackBonus>
-               <Damage> 4d6+8 </Damage>
+            <Weapon name="Vanguard Gouge +2" >
+               <RulesElement name="Gouge" type="Weapon" internal-id="ID_FMP_WEAPON_136" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=136&amp;ftype=3" charelem="187" legality="rules-legal" />
+               <RulesElement name="Vanguard Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2456" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2456&amp;ftype=1" charelem="188" legality="rules-legal" />
+               <AttackBonus> 15 </AttackBonus>
+               <Damage> 4d6+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> Fortitude </Defense>
                <HitComponents> +6 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
 +2 enhancement bonus.
++1 Feat bonus - Spear Expertise
 
                </HitComponents>
                <DamageComponents> +6 Strength modifier.
 +2 enhancement bonus.
++1 Feat bonus - Weapon Focus (Spear)
 
                </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 32+1d6 fire damage per plus </CritDamage>
-               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               <Conditions> +1 to damage rolls when charging - Spear Expertise.
++1 to damage rolls while raging - Deadly Rage.               </Conditions>
+               <CritDamage> 33+2d8 </CritDamage>
+               <CritComponents> +2d8 weapon critical bonus.
                </CritComponents>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Greataxe" >
-               <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="170" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
-               <Damage> 2d12+6 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> Fortitude </Defense>
-               <HitComponents> +6 Strength modifier.
-+4 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +6 Strength modifier.
-
-               </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 30+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
@@ -2386,45 +2303,30 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 5 </specific>
             <specific name="Power Type" > Attack </specific>
-            <Weapon name="Flaming Maul +2" >
-               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="179" legality="rules-legal" />
-               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="180" legality="rules-legal" />
-               <AttackBonus> 14 </AttackBonus>
-               <Damage> 2d6+8 </Damage>
+            <Weapon name="Vanguard Gouge +2" >
+               <RulesElement name="Gouge" type="Weapon" internal-id="ID_FMP_WEAPON_136" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=136&amp;ftype=3" charelem="187" legality="rules-legal" />
+               <RulesElement name="Vanguard Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2456" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2456&amp;ftype=1" charelem="188" legality="rules-legal" />
+               <AttackBonus> 15 </AttackBonus>
+               <Damage> 2d6+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +6 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
 +2 enhancement bonus.
++1 Feat bonus - Spear Expertise
 
                </HitComponents>
                <DamageComponents> +6 Strength modifier.
 +2 enhancement bonus.
++1 Feat bonus - Weapon Focus (Spear)
 
                </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 20+1d6 fire damage per plus </CritDamage>
-               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               <Conditions> +1 to damage rolls when charging - Spear Expertise.
++1 to damage rolls while raging - Deadly Rage.               </Conditions>
+               <CritDamage> 21+2d8 </CritDamage>
+               <CritComponents> +2d8 weapon critical bonus.
                </CritComponents>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Greataxe" >
-               <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="170" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
-               <Damage> 1d12+6 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +6 Strength modifier.
-+4 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +6 Strength modifier.
-
-               </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 18+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
@@ -2463,10 +2365,10 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
             <specific name="Power Type" > Feature </specific>
             <specific name="_ParentFeature" > ID_FMP_CLASS_FEATURE_1052 </specific>
             <specific name="_ADDITIONAL_USES" > 1 </specific>
-            <Weapon name="Flaming Maul +2" >
-               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="179" legality="rules-legal" />
-               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="180" legality="rules-legal" />
-               <AttackBonus> 14 </AttackBonus>
+            <Weapon name="Vanguard Gouge +2" >
+               <RulesElement name="Gouge" type="Weapon" internal-id="ID_FMP_WEAPON_136" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=136&amp;ftype=3" charelem="187" legality="rules-legal" />
+               <RulesElement name="Vanguard Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2456" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2456&amp;ftype=1" charelem="188" legality="rules-legal" />
+               <AttackBonus> 15 </AttackBonus>
                <Damage> As Above </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
@@ -2474,29 +2376,14 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
 +4 half your level.
 +2 proficiency bonus.
 +2 enhancement bonus.
++1 Feat bonus - Spear Expertise
 
                </HitComponents>
                <DamageComponents> 
                </DamageComponents>
-               <CritDamage> 0As Above+1d6 fire damage per plus </CritDamage>
-               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               <CritDamage> 0As Above+2d8 </CritDamage>
+               <CritComponents> +2d8 weapon critical bonus.
                </CritComponents>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Greataxe" >
-               <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="170" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
-               <Damage> As Above </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +6 Strength modifier.
-+4 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> 
-               </DamageComponents>
-               <CritDamage> 0As Above+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
@@ -2545,45 +2432,30 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
             <specific name="Class" > ID_FMP_CLASS_148 </specific>
             <specific name="Level" > 7 </specific>
             <specific name="Power Type" > Attack </specific>
-            <Weapon name="Flaming Maul +2" >
-               <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="179" legality="rules-legal" />
-               <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="180" legality="rules-legal" />
-               <AttackBonus> 14 </AttackBonus>
-               <Damage> 6d6+8 </Damage>
+            <Weapon name="Vanguard Gouge +2" >
+               <RulesElement name="Gouge" type="Weapon" internal-id="ID_FMP_WEAPON_136" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=136&amp;ftype=3" charelem="187" legality="rules-legal" />
+               <RulesElement name="Vanguard Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2456" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2456&amp;ftype=1" charelem="188" legality="rules-legal" />
+               <AttackBonus> 15 </AttackBonus>
+               <Damage> 6d6+9 </Damage>
                <AttackStat> Strength </AttackStat>
                <Defense> AC </Defense>
                <HitComponents> +6 Strength modifier.
 +4 half your level.
 +2 proficiency bonus.
 +2 enhancement bonus.
++1 Feat bonus - Spear Expertise
 
                </HitComponents>
                <DamageComponents> +6 Strength modifier.
 +2 enhancement bonus.
++1 Feat bonus - Weapon Focus (Spear)
 
                </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 44+1d6 fire damage per plus </CritDamage>
-               <CritComponents> +1d6 fire damage per plus weapon critical bonus.
+               <Conditions> +1 to damage rolls when charging - Spear Expertise.
++1 to damage rolls while raging - Deadly Rage.               </Conditions>
+               <CritDamage> 45+2d8 </CritDamage>
+               <CritComponents> +2d8 weapon critical bonus.
                </CritComponents>
-               <CritRange> 20 </CritRange>
-            </Weapon>
-            <Weapon name="Greataxe" >
-               <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="170" legality="rules-legal" />
-               <AttackBonus> 12 </AttackBonus>
-               <Damage> 3d12+6 </Damage>
-               <AttackStat> Strength </AttackStat>
-               <Defense> AC </Defense>
-               <HitComponents> +6 Strength modifier.
-+4 half your level.
-+2 proficiency bonus.
-
-               </HitComponents>
-               <DamageComponents> +6 Strength modifier.
-
-               </DamageComponents>
-               <Conditions> +1 to damage rolls while raging - Deadly Rage.               </Conditions>
-               <CritDamage> 42+1d12 </CritDamage>
                <CritRange> 20 </CritRange>
             </Weapon>
             <Weapon name="Unarmed" >
@@ -2963,6 +2835,20 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
       <loot count="1" equip-count="1" ShowPowerCard="1" >
          <RulesElement name="Bracers of Bold Maneuvering (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_3184" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3184&amp;ftype=1" charelem="249" legality="rules-legal" />
       </loot>
+      <loot count="-2" equip-count="-1" ShowPowerCard="1" >
+         <RulesElement name="Maul" type="Weapon" internal-id="ID_FMP_WEAPON_25" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=25&amp;ftype=3" charelem="250" legality="rules-legal" />
+         <RulesElement name="Flaming Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_688" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=688&amp;ftype=1" charelem="251" legality="rules-legal" />
+      </loot>
+      <loot count="1" equip-count="1" ShowPowerCard="1" >
+         <RulesElement name="Gouge" type="Weapon" internal-id="ID_FMP_WEAPON_136" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=136&amp;ftype=3" charelem="252" legality="rules-legal" />
+         <RulesElement name="Vanguard Weapon +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2456" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2456&amp;ftype=1" charelem="253" legality="rules-legal" />
+      </loot>
+      <loot count="-1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Greataxe" type="Weapon" internal-id="ID_FMP_WEAPON_21" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=21&amp;ftype=3" charelem="254" legality="rules-legal" />
+      </loot>
+      <loot count="-1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Hide Armor" type="Armor" internal-id="ID_FMP_ARMOR_3" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3&amp;ftype=2" charelem="255" legality="rules-legal" />
+      </loot>
    </Level>
 
 
@@ -3034,7 +2920,7 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
       Adrian
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmpBCB0.tmp
+      C:\Windows\TEMP\tmp88D6.tmp
    </textstring>
    <textstring name="_PER_LEVEL_5_Stored Money" >
       
@@ -3064,7 +2950,7 @@ Gain a +4 power bonus to AC against opportunity attacks until the end of your ne
       0 gp
    </textstring>
    <textstring name="_PER_LEVEL_8_Carried Money" >
-      39 pp; 20 gp
+      2,299 gp
    </textstring>
 
 

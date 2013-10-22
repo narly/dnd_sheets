@@ -19,7 +19,7 @@
          <Company>  </Company>
          <Portrait>  </Portrait>
          <Experience> 13000 </Experience>
-         <CarriedMoney> 6 pp; 60 gp </CarriedMoney>
+         <CarriedMoney> 2,300 gp </CarriedMoney>
          <StoredMoney> 0 gp </StoredMoney>
          <Traits>  </Traits>
          <Appearance>  </Appearance>
@@ -2915,7 +2915,7 @@ You can use this power when an enemy hits you with a melee attack. Deal 1d10 + C
       Rod of First Blood +2
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmp66F2.tmp
+      C:\Windows\TEMP\tmp7D4.tmp
    </textstring>
    <textstring name="Player Name" >
       Bryan
@@ -2978,7 +2978,7 @@ You can use this power when an enemy hits you with a melee attack. Deal 1d10 + C
       0 gp
    </textstring>
    <textstring name="_PER_LEVEL_8_Carried Money" >
-      6 pp; 60 gp
+      2,300 gp
    </textstring>
 
 
