@@ -1977,6 +1977,38 @@ The next necrotic or poison power you use through this rod deals radiant damage 
                <specific name="Enhancement" > +2 attack rolls and damage rolls </specific>
             </RulesElement>
          </loot>
+         <loot count="1" equip-count="0" ShowPowerCard="1" >
+            <RulesElement name="Antipathy Gloves" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_3359" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3359&amp;ftype=1" charelem="185" legality="rules-legal" >
+               <specific name="Flavor" > Use these gloves to keep your enemies at bay. </specific>
+               <specific name="Level" > 10 </specific>
+               <specific name="Gold" > 5000 </specific>
+               <specific name="Magic Item Type" > Hands Slot Item </specific>
+               <specific name="Item Slot" > Hands </specific>
+               <specific name="_Rarity" > Uncommon </specific>
+               <specific name="_Bonus" > +0 </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="Property" > An enemy must spend 1 extra square of movement to enter a square adjacent to you. An enemy that is pulled, pushed, or slid moves through those squares as normal. </specific>
+               <specific name="Power" > Power * Daily (Standard Action)
+	Make an attack: Ranged 10; +13 vs. Reflex; on a hit, the target is restrained (save ends). </specific>
+            </RulesElement>
+         </loot>
+         <loot count="1" equip-count="1" ShowPowerCard="1" >
+            <RulesElement name="Gloves of Eldritch Admixture (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_3387" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3387&amp;ftype=1" charelem="186" legality="rules-legal" >
+               <specific name="Flavor" > You funnel the energy granted by your pact through these gloves, amplifying your power. </specific>
+               <specific name="Level" > 8 </specific>
+               <specific name="Gold" > 3400 </specific>
+               <specific name="Magic Item Type" > Hands Slot Item </specific>
+               <specific name="Item Slot" > Hands </specific>
+               <specific name="Prerequisite" > Warlock </specific>
+               <specific name="_Rarity" > Uncommon </specific>
+               <specific name="_Bonus" > +0 </specific>
+               <specific name="_AssociatedMonsters" />
+               <specific name="_MagicItemTemplate" > ID_FMP_MAGIC_ITEM_TEMPLATE_147787 </specific>
+               <specific name="Property" > When you deal extra damage as a result of your Warlock&apos;s Curse, you can choose that damage to be acid, cold, or fire (or leave it untyped). </specific>
+               <specific name="Power" > Power (Acid, Cold, Fire) * Encounter, 5 Charges/Day (Free Action)
+The next attack you make this turn deals extra damage depending on how many charges you spend: 1 charge, 1d6 damage; 2 charges, 2d6 damage; 5 charges, 3d6 damage. This extra damage can be acid, cold, or fire damage. </specific>
+            </RulesElement>
+         </loot>
       </LootTally>
 
       <!--
@@ -3253,11 +3285,11 @@ The next necrotic or poison power you use through this rod deals radiant damage 
             <RulesElement name="Background Benefit" type="Internal" internal-id="ID_INTERNAL_INTERNAL_BACKGROUND_BENEFIT" charelem="68" legality="rules-legal" >
                <RulesElement name="Religion class skill" type="Background Choice" internal-id="ID_INTERNAL_BACKGROUND_CHOICE_RELIGION_CLASS_SKILL" charelem="69" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="" type="" charelem="185" legality="rules-legal" />
-            <RulesElement name="" type="" charelem="186" legality="rules-legal" />
             <RulesElement name="" type="" charelem="187" legality="rules-legal" />
             <RulesElement name="" type="" charelem="188" legality="rules-legal" />
             <RulesElement name="" type="" charelem="189" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="190" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="191" legality="rules-legal" />
          </RulesElement>
          <RulesElement name="Expansion2" type="Level1Rules" internal-id="ID_INTERNAL_LEVEL1RULES_EXPANSION2" charelem="70" legality="rules-legal" >
             <RulesElement name="Vile Scholar" type="Theme" internal-id="ID_FMP_THEME_927" charelem="71" legality="rules-legal" >
@@ -3278,7 +3310,7 @@ The next necrotic or poison power you use through this rod deals radiant damage 
                <RulesElement name="Normal" type="Vision" internal-id="ID_INTERNAL_VISION_NORMAL" charelem="78" legality="rules-legal" />
                <RulesElement name="Bonus Feat" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_29" charelem="79" legality="rules-legal" >
                   <RulesElement name="Arcane Familiar" type="Feat" internal-id="ID_FMP_FEAT_738" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=738" charelem="140" legality="rules-legal" >
-                     <RulesElement name="Serpent" type="Familiar" internal-id="ID_FMP_FAMILIAR_21" charelem="190" legality="rules-legal" />
+                     <RulesElement name="Serpent" type="Familiar" internal-id="ID_FMP_FAMILIAR_21" charelem="192" legality="rules-legal" />
                   </RulesElement>
                </RulesElement>
                <RulesElement name="Bonus Skill" type="Racial Trait" internal-id="ID_FMP_RACIAL_TRAIT_34" charelem="80" legality="rules-legal" >
@@ -3355,7 +3387,7 @@ The next necrotic or poison power you use through this rod deals radiant damage 
                   <RulesElement name="Implement Proficiency (Wand)" type="Proficiency" internal-id="ID_INTERNAL_PROFICIENCY_IMPLEMENT_PROFICIENCY_(WAND)" charelem="131" legality="rules-legal" />
                </RulesElement>
             </RulesElement>
-            <RulesElement name="" type="" charelem="191" legality="rules-legal" />
+            <RulesElement name="" type="" charelem="193" legality="rules-legal" />
             <RulesElement name="Arcana" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_ARCANA" charelem="25" legality="rules-legal" />
             <RulesElement name="Bluff" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_BLUFF" charelem="26" legality="rules-legal" />
             <RulesElement name="Intimidate" type="Skill Training" internal-id="ID_INTERNAL_SKILL_TRAINING_INTIMIDATE" charelem="29" legality="rules-legal" />
@@ -3379,51 +3411,51 @@ The next necrotic or poison power you use through this rod deals radiant damage 
          </RulesElement>
       </RulesElement>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Hexer&apos;s Rod +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6407" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6407&amp;ftype=1" charelem="192" legality="rules-legal" />
+         <RulesElement name="Hexer&apos;s Rod +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6407" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6407&amp;ftype=1" charelem="194" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="193" legality="rules-legal" />
-         <RulesElement name="Elusive Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_8556" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8556&amp;ftype=1" charelem="194" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="195" legality="rules-legal" />
+         <RulesElement name="Elusive Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_8556" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=8556&amp;ftype=1" charelem="196" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Amulet of Protection +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1047" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1047&amp;ftype=1" charelem="195" legality="rules-legal" />
+         <RulesElement name="Amulet of Protection +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1047" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1047&amp;ftype=1" charelem="197" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="196" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="198" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="197" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="199" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="198" legality="rules-legal" />
+         <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="200" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Cloth Armor (Basic Clothing)" type="Armor" internal-id="ID_FMP_ARMOR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=2" charelem="199" legality="rules-legal" />
+         <RulesElement name="Cloth Armor (Basic Clothing)" type="Armor" internal-id="ID_FMP_ARMOR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=2" charelem="201" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="200" legality="rules-legal" />
+         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="202" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="3" type="Level" internal-id="ID_INTERNAL_LEVEL_3" charelem="15" legality="rules-legal" >
          <RulesElement name="Hands of Ihbar" type="Power" internal-id="ID_FMP_POWER_4281" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=4281" charelem="141" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="201" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="203" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="202" legality="rules-legal" />
+         <RulesElement name="Adventurer&apos;s Kit" type="Gear" internal-id="ID_FMP_GEAR_1" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1&amp;ftype=4" charelem="204" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Backpack (empty)" type="Gear" internal-id="ID_FMP_GEAR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=4" charelem="203" legality="rules-legal" />
+         <RulesElement name="Backpack (empty)" type="Gear" internal-id="ID_FMP_GEAR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=4" charelem="205" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="204" legality="rules-legal" />
+         <RulesElement name="Everburning Torch" type="Gear" internal-id="ID_FMP_GEAR_24" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=24&amp;ftype=4" charelem="206" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="205" legality="rules-legal" />
-         <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="206" legality="rules-legal" />
+         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="207" legality="rules-legal" />
+         <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="208" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="207" legality="rules-legal" />
+         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="209" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
@@ -3431,88 +3463,88 @@ The next necrotic or poison power you use through this rod deals radiant damage 
          <RulesElement name="Killing Curse" type="Feat" internal-id="ID_FMP_FEAT_2764" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=2764" charelem="142" legality="rules-legal" />
          <RulesElement name="Dexterity" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_DEXTERITY" charelem="2" legality="rules-legal" />
          <RulesElement name="Charisma" type="Ability Increase (Level 4)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_4)_CHARISMA" charelem="5" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="208" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="210" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="209" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="211" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="210" legality="rules-legal" />
+         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="212" legality="rules-legal" />
       </loot>
       <loot count="-1" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="211" legality="rules-legal" />
-         <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="212" legality="rules-legal" />
+         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="213" legality="rules-legal" />
+         <RulesElement name="Vicious Weapon +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_781" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=781&amp;ftype=1" charelem="214" legality="rules-legal" />
       </loot>
       <loot count="3" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Potion of Healing" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="213" legality="rules-legal" />
+         <RulesElement name="Potion of Healing" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1138" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1138&amp;ftype=1" charelem="215" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Rod of Reaving +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_893" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=893&amp;ftype=1" charelem="214" legality="rules-legal" />
+         <RulesElement name="Rod of Reaving +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_893" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=893&amp;ftype=1" charelem="216" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="215" legality="rules-legal" />
-         <RulesElement name="Genasi Soul Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_7741" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7741&amp;ftype=1" charelem="216" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="217" legality="rules-legal" />
+         <RulesElement name="Genasi Soul Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_7741" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7741&amp;ftype=1" charelem="218" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Spidersilk Mantle +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_7392" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7392&amp;ftype=1" charelem="217" legality="rules-legal" />
+         <RulesElement name="Spidersilk Mantle +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_7392" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7392&amp;ftype=1" charelem="219" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="218" legality="rules-legal" />
+         <RulesElement name="Rod Implement" type="Gear" internal-id="ID_FMP_GEAR_12" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=12&amp;ftype=4" charelem="220" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="219" legality="rules-legal" />
+         <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="221" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="220" legality="rules-legal" />
+         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="222" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="5" type="Level" internal-id="ID_INTERNAL_LEVEL_5" charelem="17" legality="rules-legal" >
          <RulesElement name="Curse of the Bloody Fangs" type="Power" internal-id="ID_FMP_POWER_1472" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1472" charelem="143" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="221" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="223" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="222" legality="rules-legal" />
-         <RulesElement name="Deathcut Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_548" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=548&amp;ftype=1" charelem="223" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="224" legality="rules-legal" />
+         <RulesElement name="Deathcut Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_548" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=548&amp;ftype=1" charelem="225" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="224" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="226" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="6" type="Level" internal-id="ID_INTERNAL_LEVEL_6" charelem="18" legality="rules-legal" >
          <RulesElement name="Rod Expertise" type="Feat" internal-id="ID_FMP_FEAT_3522" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=3522" charelem="8" legality="rules-legal" />
          <RulesElement name="Shadowslip" type="Power" internal-id="ID_FMP_POWER_1924" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=1924" charelem="145" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="225" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="227" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="7" type="Level" internal-id="ID_INTERNAL_LEVEL_7" charelem="19" legality="rules-legal" >
          <RulesElement name="Pain to Pleasure" type="Power" internal-id="ID_FMP_POWER_12310" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=12310" charelem="146" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="226" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="228" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Amulet of Protection +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1048" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1048&amp;ftype=1" charelem="227" legality="rules-legal" />
+         <RulesElement name="Amulet of Protection +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_1048" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=1048&amp;ftype=1" charelem="229" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="228" legality="rules-legal" />
-         <RulesElement name="Deathcut Armor +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_552" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=552&amp;ftype=1" charelem="229" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="230" legality="rules-legal" />
+         <RulesElement name="Deathcut Armor +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_552" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=552&amp;ftype=1" charelem="231" legality="rules-legal" />
       </loot>
       <loot count="-1" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="230" legality="rules-legal" />
-         <RulesElement name="Deathcut Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_548" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=548&amp;ftype=1" charelem="231" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="232" legality="rules-legal" />
+         <RulesElement name="Deathcut Armor +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_548" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=548&amp;ftype=1" charelem="233" legality="rules-legal" />
       </loot>
       <loot count="0" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Spidersilk Mantle +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_7392" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7392&amp;ftype=1" charelem="232" legality="rules-legal" />
+         <RulesElement name="Spidersilk Mantle +1" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_7392" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7392&amp;ftype=1" charelem="234" legality="rules-legal" />
       </loot>
       <loot count="-1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="233" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="235" legality="rules-legal" />
       </loot>
       <loot count="-1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="234" legality="rules-legal" />
+         <RulesElement name="Light Shield" type="Armor" internal-id="ID_FMP_ARMOR_7" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=7&amp;ftype=2" charelem="236" legality="rules-legal" />
       </loot>
       <loot count="-1" equip-count="0" ShowPowerCard="1" >
-         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="235" legality="rules-legal" />
+         <RulesElement name="Short sword" type="Weapon" internal-id="ID_FMP_WEAPON_20" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=20&amp;ftype=3" charelem="237" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
@@ -3520,40 +3552,40 @@ The next necrotic or poison power you use through this rod deals radiant damage 
          <RulesElement name="Warlock&apos;s Sight" type="Feat" internal-id="ID_FMP_FEAT_2767" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=2767" charelem="147" legality="rules-legal" />
          <RulesElement name="Charisma" type="Ability Increase (Level 8)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_8)_CHARISMA" charelem="6" legality="rules-legal" />
          <RulesElement name="Intelligence" type="Ability Increase (Level 8)" internal-id="ID_INTERNAL_ABILITY_INCREASE_(LEVEL_8)_INTELLIGENCE" charelem="3" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="236" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="238" legality="rules-legal" />
       </RulesElement>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Mask of Fear" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_10180" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=10180&amp;ftype=1" charelem="237" legality="rules-legal" />
+         <RulesElement name="Mask of Fear" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_10180" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=10180&amp;ftype=1" charelem="239" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
       <RulesElement name="9" type="Level" internal-id="ID_INTERNAL_LEVEL_9" charelem="21" legality="rules-legal" >
          <RulesElement name="Consuming Ray" type="Power" internal-id="ID_FMP_POWER_6955" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=6955" charelem="148" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="238" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="240" legality="rules-legal" />
       </RulesElement>
    </Level>
    <Level>
       <RulesElement name="10" type="Level" internal-id="ID_INTERNAL_LEVEL_10" charelem="22" legality="rules-legal" >
          <RulesElement name="Dual Implement Spellcaster" type="Feat" internal-id="ID_FMP_FEAT_1127" url="http://www.wizards.com/dndinsider/compendium/feat.aspx?id=1127" charelem="149" legality="rules-legal" />
          <RulesElement name="Shade Dance" type="Power" internal-id="ID_FMP_POWER_13957" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=13957" charelem="150" legality="rules-legal" />
-         <RulesElement name="" type="" charelem="239" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="241" legality="rules-legal" />
       </RulesElement>
       <loot count="-1" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="240" legality="rules-legal" />
-         <RulesElement name="Deathcut Armor +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_552" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=552&amp;ftype=1" charelem="241" legality="rules-legal" />
-      </loot>
-      <loot count="1" equip-count="1" ShowPowerCard="1" >
          <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="242" legality="rules-legal" />
-         <RulesElement name="Shadow Warlock Armor +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_5832" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=5832&amp;ftype=1" charelem="243" legality="rules-legal" />
+         <RulesElement name="Deathcut Armor +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_552" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=552&amp;ftype=1" charelem="243" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Rod of Stolen Starlight +3" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6437" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6437&amp;ftype=1" charelem="244" legality="rules-legal" />
+         <RulesElement name="Leather Armor" type="Armor" internal-id="ID_FMP_ARMOR_2" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2&amp;ftype=2" charelem="244" legality="rules-legal" />
+         <RulesElement name="Shadow Warlock Armor +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_5832" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=5832&amp;ftype=1" charelem="245" legality="rules-legal" />
+      </loot>
+      <loot count="1" equip-count="1" ShowPowerCard="1" >
+         <RulesElement name="Rod of Stolen Starlight +3" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_6437" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=6437&amp;ftype=1" charelem="246" legality="rules-legal" />
       </loot>
       <loot count="-1" equip-count="-1" ShowPowerCard="1" >
-         <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="245" legality="rules-legal" />
+         <RulesElement name="Rod of First Blood +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_879" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=879&amp;ftype=1" charelem="247" legality="rules-legal" />
       </loot>
       <loot count="1" equip-count="1" ShowPowerCard="1" >
-         <RulesElement name="Rod of Brutality +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2821" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2821&amp;ftype=1" charelem="246" legality="rules-legal" />
+         <RulesElement name="Rod of Brutality +2" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_2821" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=2821&amp;ftype=1" charelem="248" legality="rules-legal" />
       </loot>
    </Level>
    <Level>
@@ -3564,15 +3596,21 @@ The next necrotic or poison power you use through this rod deals radiant damage 
             <RulesElement name="Shadowcursed" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3791" charelem="9" legality="rules-legal" />
             <RulesElement name="Shadow Feast" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3792" charelem="158" legality="rules-legal" />
             <RulesElement name="Harvest of Shadows" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3793" charelem="157" legality="rules-legal" />
-            <RulesElement name="Decisive Darkness" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3794" charelem="247" legality="rules-legal" />
+            <RulesElement name="Decisive Darkness" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3794" charelem="249" legality="rules-legal" />
             <RulesElement name="Shadow Lance" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3853" charelem="155" legality="rules-legal" >
                <RulesElement name="Shadow Lance" type="Power" internal-id="ID_FMP_POWER_14059" url="http://www.wizards.com/dndinsider/compendium/power.aspx?id=14059" charelem="156" legality="rules-legal" />
             </RulesElement>
-            <RulesElement name="Shadow Walk (Shadowthief)" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3854" charelem="248" legality="rules-legal" />
-            <RulesElement name="Shadowcurse Cataclysm" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3855" charelem="249" legality="rules-legal" />
+            <RulesElement name="Shadow Walk (Shadowthief)" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3854" charelem="250" legality="rules-legal" />
+            <RulesElement name="Shadowcurse Cataclysm" type="Class Feature" internal-id="ID_FMP_CLASS_FEATURE_3855" charelem="251" legality="rules-legal" />
          </RulesElement>
-         <RulesElement name="" type="" charelem="250" legality="rules-legal" />
+         <RulesElement name="" type="" charelem="252" legality="rules-legal" />
       </RulesElement>
+      <loot count="1" equip-count="0" ShowPowerCard="1" >
+         <RulesElement name="Antipathy Gloves" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_3359" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3359&amp;ftype=1" charelem="253" legality="rules-legal" />
+      </loot>
+      <loot count="1" equip-count="1" ShowPowerCard="1" >
+         <RulesElement name="Gloves of Eldritch Admixture (heroic tier)" type="Magic Item" internal-id="ID_FMP_MAGIC_ITEM_3387" url="http://www.wizards.com/dndinsider/compendium/item.aspx?fid=3387&amp;ftype=1" charelem="254" legality="rules-legal" />
+      </loot>
    </Level>
 
 
@@ -3626,7 +3664,7 @@ The next necrotic or poison power you use through this rod deals radiant damage 
       Rod of Stolen Starlight +3
    </textstring>
    <textstring name="Character Save File" >
-      C:\Windows\TEMP\tmpDB34.tmp
+      C:\Windows\TEMP\tmp4F6C.tmp
    </textstring>
    <textstring name="Player Name" >
       Bryan
