@@ -1,12 +1,6 @@
 ### This is a dump of the Characters taking part in the D&D campaign I'm playing in.
 
-* Adrik is a Dwarven Fighter (Weaponmaster)
-* Kriv is a Dragonborn Cleric (Templar)
-* Maros is a Half-Orc Ranger
-* NickNack is a Human Warlock
-* Oloril is a Minotaur Barbarian
-* Paela is a Halfling Ranger
-* Pellinor, an Elven Bard
+* Laqryss, a Tiefling Sorceror
 
 #### There are also a few archived characters, no longer being played
 
@@ -16,3 +10,10 @@
 * Cocytus, an Eladrin Rogue
 * Davrok, a Dragonborn Paladin
 * Ferath, a Human Wizard
+* Adrik is a Dwarven Fighter (Weaponmaster)
+* Kriv is a Dragonborn Cleric (Templar)
+* Maros is a Half-Orc Ranger
+* NickNack is a Human Warlock
+* Oloril is a Minotaur Barbarian
+* Paela is a Halfling Ranger
+* Pellinor, an Elven Bard
